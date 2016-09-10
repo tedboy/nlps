@@ -1,0 +1,6 @@
+simserver.SessionServer.debug_model
+===================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.debug_model

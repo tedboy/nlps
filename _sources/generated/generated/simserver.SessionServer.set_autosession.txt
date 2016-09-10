@@ -1,0 +1,6 @@
+simserver.SessionServer.set_autosession
+=======================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.set_autosession

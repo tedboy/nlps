@@ -1,0 +1,33 @@
+:class:`simserver.SimServer`
+============================
+.. currentmodule:: simserver
+.. autoclass:: SimServer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SimServer.__init__
+   ~SimServer.buffer
+   ~SimServer.close
+   ~SimServer.delete
+   ~SimServer.drop_index
+   ~SimServer.find_similar
+   ~SimServer.flush
+   ~SimServer.index
+   ~SimServer.is_locked
+   ~SimServer.keys
+   ~SimServer.location
+   ~SimServer.memdebug
+   ~SimServer.optimize
+   ~SimServer.status
+   ~SimServer.train
+
+
+
+
+

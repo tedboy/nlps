@@ -1,0 +1,6 @@
+simserver.SessionServer.find_similar
+====================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.find_similar

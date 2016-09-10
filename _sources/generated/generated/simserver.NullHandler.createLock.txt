@@ -1,0 +1,6 @@
+simserver.NullHandler.createLock
+================================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.createLock

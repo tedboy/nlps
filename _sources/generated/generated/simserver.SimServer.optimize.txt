@@ -1,0 +1,6 @@
+simserver.SimServer.optimize
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.optimize

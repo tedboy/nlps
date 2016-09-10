@@ -1,0 +1,6 @@
+simserver.NullHandler.get_name
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.get_name

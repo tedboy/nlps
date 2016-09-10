@@ -1,0 +1,6 @@
+simserver.NullHandler.format
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.format

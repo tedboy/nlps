@@ -1,0 +1,6 @@
+simserver.NullHandler.close
+===========================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.close

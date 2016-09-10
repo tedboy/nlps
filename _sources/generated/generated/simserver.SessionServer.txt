@@ -1,0 +1,49 @@
+:class:`simserver.SessionServer`
+================================
+.. currentmodule:: simserver
+.. autoclass:: SessionServer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SessionServer.__init__
+   ~SessionServer.buffer
+   ~SessionServer.check_session
+   ~SessionServer.close
+   ~SessionServer.commit
+   ~SessionServer.debug_model
+   ~SessionServer.delete
+   ~SessionServer.drop_index
+   ~SessionServer.find_similar
+   ~SessionServer.index
+   ~SessionServer.keys
+   ~SessionServer.load
+   ~SessionServer.location
+   ~SessionServer.open_session
+   ~SessionServer.optimize
+   ~SessionServer.rollback
+   ~SessionServer.save
+   ~SessionServer.set_autosession
+   ~SessionServer.status
+   ~SessionServer.terminate
+   ~SessionServer.train
+   ~SessionServer.write_istable
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SessionServer.loc_session
+   ~SessionServer.loc_stable
+

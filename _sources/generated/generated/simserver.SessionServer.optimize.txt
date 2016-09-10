@@ -1,0 +1,6 @@
+simserver.SessionServer.optimize
+================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.optimize

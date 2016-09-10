@@ -1,0 +1,6 @@
+simserver.NullHandler.flush
+===========================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.flush

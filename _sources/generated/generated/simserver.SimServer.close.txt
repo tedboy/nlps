@@ -1,0 +1,6 @@
+simserver.SimServer.close
+=========================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.close

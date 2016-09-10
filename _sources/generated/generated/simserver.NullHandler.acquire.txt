@@ -1,0 +1,6 @@
+simserver.NullHandler.acquire
+=============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.acquire

@@ -1,0 +1,6 @@
+simserver.SimServer.find_similar
+================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.find_similar

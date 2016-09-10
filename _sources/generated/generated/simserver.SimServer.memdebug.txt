@@ -1,0 +1,6 @@
+simserver.SimServer.memdebug
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.memdebug

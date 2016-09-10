@@ -1,0 +1,6 @@
+simserver.SessionServer.write_istable
+=====================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.write_istable

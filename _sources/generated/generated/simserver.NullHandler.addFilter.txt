@@ -1,0 +1,6 @@
+simserver.NullHandler.addFilter
+===============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.addFilter

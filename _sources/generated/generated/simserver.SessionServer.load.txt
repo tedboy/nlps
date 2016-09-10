@@ -1,0 +1,6 @@
+simserver.SessionServer.load
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.load

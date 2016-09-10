@@ -1,0 +1,6 @@
+simserver.SessionServer.check_session
+=====================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.check_session

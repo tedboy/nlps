@@ -1,0 +1,6 @@
+simserver.SessionServer.loc_session
+===================================
+
+.. currentmodule:: simserver
+
+.. autoattribute:: SessionServer.loc_session

@@ -1,0 +1,6 @@
+simserver.SessionServer.terminate
+=================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.terminate

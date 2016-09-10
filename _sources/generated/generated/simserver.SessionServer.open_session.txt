@@ -1,0 +1,6 @@
+simserver.SessionServer.open_session
+====================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.open_session

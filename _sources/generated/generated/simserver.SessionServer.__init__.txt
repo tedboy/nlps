@@ -1,0 +1,6 @@
+simserver.SessionServer.__init__
+================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.__init__

@@ -1,0 +1,6 @@
+simserver.SessionServer.delete
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.delete

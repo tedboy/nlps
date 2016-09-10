@@ -1,0 +1,6 @@
+simserver.SessionServer.save
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.save

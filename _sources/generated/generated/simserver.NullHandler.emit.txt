@@ -1,0 +1,6 @@
+simserver.NullHandler.emit
+==========================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.emit

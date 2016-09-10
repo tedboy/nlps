@@ -1,0 +1,6 @@
+simserver.NullHandler.__init__
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.__init__

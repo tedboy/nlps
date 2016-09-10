@@ -1,0 +1,6 @@
+simserver.NullHandler.handleError
+=================================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.handleError

@@ -1,0 +1,6 @@
+simserver.SimServer.buffer
+==========================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.buffer

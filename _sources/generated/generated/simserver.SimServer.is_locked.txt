@@ -1,0 +1,6 @@
+simserver.SimServer.is_locked
+=============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.is_locked

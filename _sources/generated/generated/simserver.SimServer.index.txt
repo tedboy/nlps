@@ -1,0 +1,6 @@
+simserver.SimServer.index
+=========================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.index

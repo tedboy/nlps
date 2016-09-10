@@ -1,0 +1,6 @@
+simserver.SessionServer.rollback
+================================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.rollback

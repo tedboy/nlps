@@ -1,0 +1,6 @@
+simserver.SessionServer.commit
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SessionServer.commit

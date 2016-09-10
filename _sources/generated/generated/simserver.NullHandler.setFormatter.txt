@@ -1,0 +1,6 @@
+simserver.NullHandler.setFormatter
+==================================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.setFormatter

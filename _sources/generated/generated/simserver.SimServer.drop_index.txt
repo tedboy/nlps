@@ -1,0 +1,6 @@
+simserver.SimServer.drop_index
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.drop_index

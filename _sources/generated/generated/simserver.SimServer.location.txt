@@ -1,0 +1,6 @@
+simserver.SimServer.location
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.location

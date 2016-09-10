@@ -1,0 +1,6 @@
+simserver.SimServer.status
+==========================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.status

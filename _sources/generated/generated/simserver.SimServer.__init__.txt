@@ -1,0 +1,6 @@
+simserver.SimServer.__init__
+============================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.__init__

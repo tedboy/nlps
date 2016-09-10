@@ -1,0 +1,6 @@
+simserver.SimServer.train
+=========================
+
+.. currentmodule:: simserver
+
+.. automethod:: SimServer.train

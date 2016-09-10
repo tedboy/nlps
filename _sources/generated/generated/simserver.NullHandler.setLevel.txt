@@ -1,0 +1,6 @@
+simserver.NullHandler.setLevel
+==============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.setLevel

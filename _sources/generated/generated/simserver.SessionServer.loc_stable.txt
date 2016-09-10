@@ -1,0 +1,6 @@
+simserver.SessionServer.loc_stable
+==================================
+
+.. currentmodule:: simserver
+
+.. autoattribute:: SessionServer.loc_stable

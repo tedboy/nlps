@@ -1,0 +1,6 @@
+simserver.NullHandler.name
+==========================
+
+.. currentmodule:: simserver
+
+.. autoattribute:: NullHandler.name

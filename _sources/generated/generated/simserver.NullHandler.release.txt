@@ -1,0 +1,6 @@
+simserver.NullHandler.release
+=============================
+
+.. currentmodule:: simserver
+
+.. automethod:: NullHandler.release
