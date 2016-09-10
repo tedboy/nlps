@@ -5,6 +5,7 @@
     generated/gensim.interfaces
     generated/gensim.matutils
     generated/gensim.utils
+    generated/simserver
     generated/word2vec
     generated/stop_words
     generated/nltk.classify
@@ -18,6 +19,7 @@
     gensim.interfaces
     gensim.matutils
     gensim.utils
+    simserver
     word2vec
     stop_words
     nltk.classify
