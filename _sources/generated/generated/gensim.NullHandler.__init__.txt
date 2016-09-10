@@ -1,0 +1,6 @@
+gensim.NullHandler.__init__
+===========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.__init__

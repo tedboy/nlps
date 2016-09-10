@@ -1,0 +1,6 @@
+:func:`gensim.utils.upload_chunked`
+===================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: upload_chunked

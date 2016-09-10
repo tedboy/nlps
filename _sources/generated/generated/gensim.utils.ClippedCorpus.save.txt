@@ -1,0 +1,6 @@
+gensim.utils.ClippedCorpus.save
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: ClippedCorpus.save

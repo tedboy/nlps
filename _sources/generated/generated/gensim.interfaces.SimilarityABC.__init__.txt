@@ -1,0 +1,6 @@
+gensim.interfaces.SimilarityABC.__init__
+========================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: SimilarityABC.__init__

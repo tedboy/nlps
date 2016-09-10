@@ -1,0 +1,6 @@
+:func:`word2vec.load`
+=====================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: load

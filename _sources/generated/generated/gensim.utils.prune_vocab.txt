@@ -1,0 +1,6 @@
+:func:`gensim.utils.prune_vocab`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: prune_vocab

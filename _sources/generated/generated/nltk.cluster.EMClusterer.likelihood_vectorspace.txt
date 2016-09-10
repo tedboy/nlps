@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.likelihood_vectorspace
+===============================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.likelihood_vectorspace

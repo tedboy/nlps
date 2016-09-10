@@ -1,0 +1,6 @@
+nltk.classify.WekaClassifier.parse_weka_output
+==============================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: WekaClassifier.parse_weka_output

@@ -1,0 +1,6 @@
+:func:`gensim.utils.deaccent`
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: deaccent

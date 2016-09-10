@@ -1,0 +1,20 @@
+:class:`gensim.utils.SaveLoad`
+==============================
+.. currentmodule:: gensim.utils
+.. autoclass:: SaveLoad
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SaveLoad.load
+   ~SaveLoad.save
+
+
+
+
+

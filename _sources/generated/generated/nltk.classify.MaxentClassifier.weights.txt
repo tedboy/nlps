@@ -1,0 +1,6 @@
+nltk.classify.MaxentClassifier.weights
+======================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: MaxentClassifier.weights

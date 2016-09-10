@@ -1,0 +1,6 @@
+nltk.classify.Senna.evaluate
+============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: Senna.evaluate

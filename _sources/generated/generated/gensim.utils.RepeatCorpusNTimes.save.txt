@@ -1,0 +1,6 @@
+gensim.utils.RepeatCorpusNTimes.save
+====================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: RepeatCorpusNTimes.save

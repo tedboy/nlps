@@ -1,0 +1,6 @@
+:func:`gensim.utils.any2unicode`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: any2unicode

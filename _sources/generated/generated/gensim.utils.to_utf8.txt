@@ -1,0 +1,6 @@
+:func:`gensim.utils.to_utf8`
+============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: to_utf8

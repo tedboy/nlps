@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.__init__
+=================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.__init__

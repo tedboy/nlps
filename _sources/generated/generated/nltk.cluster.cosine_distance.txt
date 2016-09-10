@@ -1,0 +1,6 @@
+:func:`nltk.cluster.cosine_distance`
+====================================
+
+.. currentmodule:: nltk.cluster
+
+.. autofunction:: cosine_distance

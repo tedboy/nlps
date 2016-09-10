@@ -1,0 +1,6 @@
+nltk.classify.WekaClassifier.classify_many
+==========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: WekaClassifier.classify_many

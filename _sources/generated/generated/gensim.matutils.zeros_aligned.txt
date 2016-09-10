@@ -1,0 +1,6 @@
+:func:`gensim.matutils.zeros_aligned`
+=====================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: zeros_aligned

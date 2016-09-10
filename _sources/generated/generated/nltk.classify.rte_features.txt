@@ -1,0 +1,6 @@
+:func:`nltk.classify.rte_features`
+==================================
+
+.. currentmodule:: nltk.classify
+
+.. autofunction:: rte_features

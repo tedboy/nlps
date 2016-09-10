@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.dendrogram
+====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.dendrogram

@@ -1,0 +1,6 @@
+:func:`word2vec.unitvec`
+========================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: unitvec

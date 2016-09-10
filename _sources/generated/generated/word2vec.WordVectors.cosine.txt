@@ -1,0 +1,6 @@
+word2vec.WordVectors.cosine
+===========================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.cosine

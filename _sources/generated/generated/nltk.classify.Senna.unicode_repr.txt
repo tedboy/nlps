@@ -1,0 +1,6 @@
+nltk.classify.Senna.unicode_repr
+================================
+
+.. currentmodule:: nltk.classify
+
+.. autoattribute:: Senna.unicode_repr

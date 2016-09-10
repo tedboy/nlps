@@ -1,0 +1,6 @@
+nltk.cluster.VectorSpaceClusterer.likelihood_vectorspace
+========================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: VectorSpaceClusterer.likelihood_vectorspace

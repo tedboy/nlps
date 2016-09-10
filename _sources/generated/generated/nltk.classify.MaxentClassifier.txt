@@ -1,0 +1,38 @@
+:class:`nltk.classify.MaxentClassifier`
+=======================================
+.. currentmodule:: nltk.classify
+.. autoclass:: MaxentClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MaxentClassifier.__init__
+   ~MaxentClassifier.classify
+   ~MaxentClassifier.classify_many
+   ~MaxentClassifier.explain
+   ~MaxentClassifier.labels
+   ~MaxentClassifier.prob_classify
+   ~MaxentClassifier.prob_classify_many
+   ~MaxentClassifier.set_weights
+   ~MaxentClassifier.show_most_informative_features
+   ~MaxentClassifier.train
+   ~MaxentClassifier.unicode_repr
+   ~MaxentClassifier.weights
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~MaxentClassifier.ALGORITHMS
+

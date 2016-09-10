@@ -1,0 +1,6 @@
+:func:`gensim.matutils.entropy`
+===============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: entropy

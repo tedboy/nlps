@@ -1,0 +1,6 @@
+nltk.cluster.Dendrogram.merge
+=============================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: Dendrogram.merge

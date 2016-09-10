@@ -1,0 +1,11 @@
+:class:`gensim.interfaces.xrange`
+=================================
+.. currentmodule:: gensim.interfaces
+.. autoclass:: xrange
+   :undoc-members:
+
+
+
+
+
+

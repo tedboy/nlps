@@ -1,0 +1,6 @@
+gensim.utils.FakeDict.get
+=========================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: FakeDict.get

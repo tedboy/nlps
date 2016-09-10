@@ -1,0 +1,6 @@
+:func:`gensim.utils.smart_open`
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: smart_open

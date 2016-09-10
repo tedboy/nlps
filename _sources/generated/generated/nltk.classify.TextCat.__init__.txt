@@ -1,0 +1,6 @@
+nltk.classify.TextCat.__init__
+==============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TextCat.__init__

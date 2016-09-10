@@ -1,0 +1,6 @@
+:func:`gensim.matutils.isbow`
+=============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: isbow

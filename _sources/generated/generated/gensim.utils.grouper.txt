@@ -1,0 +1,6 @@
+:func:`gensim.utils.grouper`
+============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: grouper

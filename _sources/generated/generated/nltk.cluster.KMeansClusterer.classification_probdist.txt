@@ -1,0 +1,6 @@
+nltk.cluster.KMeansClusterer.classification_probdist
+====================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: KMeansClusterer.classification_probdist

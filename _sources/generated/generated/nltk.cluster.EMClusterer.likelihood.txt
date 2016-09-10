@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.likelihood
+===================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.likelihood

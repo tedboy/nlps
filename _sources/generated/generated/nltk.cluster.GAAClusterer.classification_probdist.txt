@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.classification_probdist
+=================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.classification_probdist

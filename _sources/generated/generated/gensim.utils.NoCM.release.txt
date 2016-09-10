@@ -1,0 +1,6 @@
+gensim.utils.NoCM.release
+=========================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: NoCM.release

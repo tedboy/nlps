@@ -1,0 +1,6 @@
+:func:`gensim.utils.smart_extension`
+====================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: smart_extension

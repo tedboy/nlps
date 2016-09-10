@@ -1,0 +1,32 @@
+:class:`nltk.cluster.KMeansClusterer`
+=====================================
+.. currentmodule:: nltk.cluster
+.. autoclass:: KMeansClusterer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~KMeansClusterer.__init__
+   ~KMeansClusterer.classification_probdist
+   ~KMeansClusterer.classify
+   ~KMeansClusterer.classify_vectorspace
+   ~KMeansClusterer.cluster
+   ~KMeansClusterer.cluster_name
+   ~KMeansClusterer.cluster_names
+   ~KMeansClusterer.cluster_vectorspace
+   ~KMeansClusterer.likelihood
+   ~KMeansClusterer.likelihood_vectorspace
+   ~KMeansClusterer.means
+   ~KMeansClusterer.num_clusters
+   ~KMeansClusterer.unicode_repr
+   ~KMeansClusterer.vector
+
+
+
+
+

@@ -1,0 +1,6 @@
+:func:`gensim.matutils.jaccard`
+===============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: jaccard

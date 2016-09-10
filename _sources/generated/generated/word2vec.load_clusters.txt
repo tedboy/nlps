@@ -1,0 +1,6 @@
+:func:`word2vec.load_clusters`
+==============================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: load_clusters

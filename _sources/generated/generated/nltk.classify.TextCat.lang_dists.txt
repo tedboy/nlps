@@ -1,0 +1,6 @@
+nltk.classify.TextCat.lang_dists
+================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TextCat.lang_dists

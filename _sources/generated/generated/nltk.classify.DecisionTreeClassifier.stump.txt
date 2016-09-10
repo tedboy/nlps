@@ -1,0 +1,6 @@
+nltk.classify.DecisionTreeClassifier.stump
+==========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: DecisionTreeClassifier.stump

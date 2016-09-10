@@ -1,0 +1,6 @@
+nltk.classify.TextCat.remove_punctuation
+========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TextCat.remove_punctuation

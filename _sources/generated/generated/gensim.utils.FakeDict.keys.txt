@@ -1,0 +1,6 @@
+gensim.utils.FakeDict.keys
+==========================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: FakeDict.keys

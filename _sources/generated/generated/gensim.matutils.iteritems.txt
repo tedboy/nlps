@@ -1,0 +1,6 @@
+:func:`gensim.matutils.iteritems`
+=================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: iteritems

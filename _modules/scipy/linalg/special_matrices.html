@@ -1,0 +1,1987 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>scipy.linalg.special_matrices</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="" href="../../../index.html"/>
+        <link rel="up" title="Module code" href="../../index.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> NLP APIs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../gensim_tutorial/tutorial.html">Gensim Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/tut1.html">1. Corpora and Vector Spaces</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut1.html#from-strings-to-vectors">1.1. From Strings to Vectors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut1.html#corpus-streaming-one-document-at-a-time">1.2. Corpus Streaming &#8211; One Document at a Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut1.html#corpus-formats">1.3. Corpus Formats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut1.html#compatibility-with-numpy-and-scipy">1.4. Compatibility with NumPy and SciPy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/tut2.html">2. Topics and Transformations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut2.html#transformation-interface">2.1. Transformation interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../gensim_tutorial/tut2.html#creating-a-transformation">2.1.1. Creating a transformation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../gensim_tutorial/tut2.html#transforming-vectors">2.1.2. Transforming vectors</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut2.html#available-transformations">2.2. Available transformations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/tut3.html">3. Similarity Queries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut3.html#similarity-interface">3.1. Similarity interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../gensim_tutorial/tut3.html#initializing-query-structures">3.1.1. Initializing query structures</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../gensim_tutorial/tut3.html#performing-queries">3.1.2. Performing queries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/tut3.html#where-next">3.2. Where next?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/wiki.html">4. Experiments on the English Wikipedia</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/wiki.html#preparing-the-corpus">4.1. Preparing the corpus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/wiki.html#latent-semantic-analysis">4.2. Latent Semantic Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/wiki.html#latent-dirichlet-allocation">4.3. Latent Dirichlet Allocation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/distributed.html">5. Distributed Computing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/distributed.html#why-distributed-computing">5.1. Why distributed computing?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/distributed.html#prerequisites">5.2. Prerequisites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/distributed.html#core-concepts">5.3. Core concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gensim_tutorial/distributed.html#available-distributed-algorithms">5.4. Available distributed algorithms</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/tutorial.html#preliminaries">Preliminaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gensim_tutorial/tutorial.html#quick-example">Quick Example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../nltk_intro.html">Natural Language Toolkit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../nltk_intro.html#some-simple-things-you-can-do-with-nltk">Some simple things you can do with NLTK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../nltk_intro.html#next-steps">Next Steps</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Autogenerated API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/gensim.html"><code class="docutils literal"><span class="pre">gensim</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.html"><code class="docutils literal"><span class="pre">gensim.NullHandler</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.__init__.html">gensim.NullHandler.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.acquire.html">gensim.NullHandler.acquire</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.addFilter.html">gensim.NullHandler.addFilter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.close.html">gensim.NullHandler.close</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.createLock.html">gensim.NullHandler.createLock</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.emit.html">gensim.NullHandler.emit</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.filter.html">gensim.NullHandler.filter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.flush.html">gensim.NullHandler.flush</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.format.html">gensim.NullHandler.format</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.get_name.html">gensim.NullHandler.get_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.handle.html">gensim.NullHandler.handle</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.handleError.html">gensim.NullHandler.handleError</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.release.html">gensim.NullHandler.release</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.removeFilter.html">gensim.NullHandler.removeFilter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.setFormatter.html">gensim.NullHandler.setFormatter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.setLevel.html">gensim.NullHandler.setLevel</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.set_name.html">gensim.NullHandler.set_name</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.NullHandler.name.html">gensim.NullHandler.name</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/gensim.interfaces.html"><code class="docutils literal"><span class="pre">gensim.interfaces</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.CorpusABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.CorpusABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.CorpusABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.CorpusABC.load.html">gensim.interfaces.CorpusABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.CorpusABC.save.html">gensim.interfaces.CorpusABC.save</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.CorpusABC.save_corpus.html">gensim.interfaces.CorpusABC.save_corpus</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.SimilarityABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.__init__.html">gensim.interfaces.SimilarityABC.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.get_similarities.html">gensim.interfaces.SimilarityABC.get_similarities</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.load.html">gensim.interfaces.SimilarityABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.SimilarityABC.save.html">gensim.interfaces.SimilarityABC.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformationABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.TransformationABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformationABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformationABC.load.html">gensim.interfaces.TransformationABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformationABC.save.html">gensim.interfaces.TransformationABC.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.html"><code class="docutils literal"><span class="pre">gensim.interfaces.TransformedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.__init__.html">gensim.interfaces.TransformedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.load.html">gensim.interfaces.TransformedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.save.html">gensim.interfaces.TransformedCorpus.save</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.TransformedCorpus.save_corpus.html">gensim.interfaces.TransformedCorpus.save_corpus</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.interfaces.xrange.html"><code class="docutils literal"><span class="pre">gensim.interfaces.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/gensim.matutils.html"><code class="docutils literal"><span class="pre">gensim.matutils</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.matutils.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.any2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.any2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.argsort.html"><code class="docutils literal"><span class="pre">gensim.matutils.argsort()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.blas.html"><code class="docutils literal"><span class="pre">gensim.matutils.blas()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.corpus2csc.html"><code class="docutils literal"><span class="pre">gensim.matutils.corpus2csc()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.corpus2dense.html"><code class="docutils literal"><span class="pre">gensim.matutils.corpus2dense()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.cossim.html"><code class="docutils literal"><span class="pre">gensim.matutils.cossim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.dense2vec.html"><code class="docutils literal"><span class="pre">gensim.matutils.dense2vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.entropy.html"><code class="docutils literal"><span class="pre">gensim.matutils.entropy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.full2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.full2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.full2sparse_clipped.html"><code class="docutils literal"><span class="pre">gensim.matutils.full2sparse_clipped()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.get_lapack_funcs.html"><code class="docutils literal"><span class="pre">gensim.matutils.get_lapack_funcs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.hellinger.html"><code class="docutils literal"><span class="pre">gensim.matutils.hellinger()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.isbow.html"><code class="docutils literal"><span class="pre">gensim.matutils.isbow()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.ismatrix.html"><code class="docutils literal"><span class="pre">gensim.matutils.ismatrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.iteritems.html"><code class="docutils literal"><span class="pre">gensim.matutils.iteritems()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.itervalues.html"><code class="docutils literal"><span class="pre">gensim.matutils.itervalues()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.jaccard.html"><code class="docutils literal"><span class="pre">gensim.matutils.jaccard()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.kullback_leibler.html"><code class="docutils literal"><span class="pre">gensim.matutils.kullback_leibler()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.pad.html"><code class="docutils literal"><span class="pre">gensim.matutils.pad()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.qr_destroy.html"><code class="docutils literal"><span class="pre">gensim.matutils.qr_destroy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.ret_normalized_vec.html"><code class="docutils literal"><span class="pre">gensim.matutils.ret_normalized_vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.scipy2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.scipy2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.sparse2full.html"><code class="docutils literal"><span class="pre">gensim.matutils.sparse2full()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.triu.html"><code class="docutils literal"><span class="pre">gensim.matutils.triu()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.triu_indices.html"><code class="docutils literal"><span class="pre">gensim.matutils.triu_indices()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.unitvec.html"><code class="docutils literal"><span class="pre">gensim.matutils.unitvec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.veclen.html"><code class="docutils literal"><span class="pre">gensim.matutils.veclen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.zeros_aligned.html"><code class="docutils literal"><span class="pre">gensim.matutils.zeros_aligned()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.matutils.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Dense2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Dense2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Dense2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Dense2Corpus.__init__.html">gensim.matutils.Dense2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmReader.html"><code class="docutils literal"><span class="pre">gensim.matutils.MmReader</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmReader.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmReader.__init__.html">gensim.matutils.MmReader.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmReader.docbyoffset.html">gensim.matutils.MmReader.docbyoffset</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmReader.skip_headers.html">gensim.matutils.MmReader.skip_headers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.html"><code class="docutils literal"><span class="pre">gensim.matutils.MmWriter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.__init__.html">gensim.matutils.MmWriter.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.close.html">gensim.matutils.MmWriter.close</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.fake_headers.html">gensim.matutils.MmWriter.fake_headers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.write_corpus.html">gensim.matutils.MmWriter.write_corpus</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.write_headers.html">gensim.matutils.MmWriter.write_headers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.write_vector.html">gensim.matutils.MmWriter.write_vector</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.MmWriter.HEADER_LINE.html">gensim.matutils.MmWriter.HEADER_LINE</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Scipy2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Scipy2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Scipy2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Scipy2Corpus.__init__.html">gensim.matutils.Scipy2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Sparse2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Sparse2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Sparse2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.Sparse2Corpus.__init__.html">gensim.matutils.Sparse2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.izip.html"><code class="docutils literal"><span class="pre">gensim.matutils.izip</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.matutils.izip.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.matutils.izip.next.html">gensim.matutils.izip.next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.matutils.xrange.html"><code class="docutils literal"><span class="pre">gensim.matutils.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/gensim.utils.html"><code class="docutils literal"><span class="pre">gensim.utils</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.utils.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.any2unicode.html"><code class="docutils literal"><span class="pre">gensim.utils.any2unicode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.any2utf8.html"><code class="docutils literal"><span class="pre">gensim.utils.any2utf8()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.check_output.html"><code class="docutils literal"><span class="pre">gensim.utils.check_output()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.chunkize.html"><code class="docutils literal"><span class="pre">gensim.utils.chunkize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.chunkize_serial.html"><code class="docutils literal"><span class="pre">gensim.utils.chunkize_serial()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.contextmanager.html"><code class="docutils literal"><span class="pre">gensim.utils.contextmanager()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.copytree_hardlink.html"><code class="docutils literal"><span class="pre">gensim.utils.copytree_hardlink()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.deaccent.html"><code class="docutils literal"><span class="pre">gensim.utils.deaccent()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.decode_htmlentities.html"><code class="docutils literal"><span class="pre">gensim.utils.decode_htmlentities()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.dict_from_corpus.html"><code class="docutils literal"><span class="pre">gensim.utils.dict_from_corpus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.file_or_filename.html"><code class="docutils literal"><span class="pre">gensim.utils.file_or_filename()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.getNS.html"><code class="docutils literal"><span class="pre">gensim.utils.getNS()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.get_max_id.html"><code class="docutils literal"><span class="pre">gensim.utils.get_max_id()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.get_my_ip.html"><code class="docutils literal"><span class="pre">gensim.utils.get_my_ip()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.grouper.html"><code class="docutils literal"><span class="pre">gensim.utils.grouper()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.has_pattern.html"><code class="docutils literal"><span class="pre">gensim.utils.has_pattern()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.identity.html"><code class="docutils literal"><span class="pre">gensim.utils.identity()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.is_corpus.html"><code class="docutils literal"><span class="pre">gensim.utils.is_corpus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.iteritems.html"><code class="docutils literal"><span class="pre">gensim.utils.iteritems()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.keep_vocab_item.html"><code class="docutils literal"><span class="pre">gensim.utils.keep_vocab_item()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.lemmatize.html"><code class="docutils literal"><span class="pre">gensim.utils.lemmatize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.mock_data.html"><code class="docutils literal"><span class="pre">gensim.utils.mock_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.mock_data_row.html"><code class="docutils literal"><span class="pre">gensim.utils.mock_data_row()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.pickle.html"><code class="docutils literal"><span class="pre">gensim.utils.pickle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.prune_vocab.html"><code class="docutils literal"><span class="pre">gensim.utils.prune_vocab()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.pyro_daemon.html"><code class="docutils literal"><span class="pre">gensim.utils.pyro_daemon()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.qsize.html"><code class="docutils literal"><span class="pre">gensim.utils.qsize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.randfname.html"><code class="docutils literal"><span class="pre">gensim.utils.randfname()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.revdict.html"><code class="docutils literal"><span class="pre">gensim.utils.revdict()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.safe_unichr.html"><code class="docutils literal"><span class="pre">gensim.utils.safe_unichr()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.simple_preprocess.html"><code class="docutils literal"><span class="pre">gensim.utils.simple_preprocess()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.smart_extension.html"><code class="docutils literal"><span class="pre">gensim.utils.smart_extension()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.smart_open.html"><code class="docutils literal"><span class="pre">gensim.utils.smart_open()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.synchronous.html"><code class="docutils literal"><span class="pre">gensim.utils.synchronous()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.to_unicode.html"><code class="docutils literal"><span class="pre">gensim.utils.to_unicode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.to_utf8.html"><code class="docutils literal"><span class="pre">gensim.utils.to_utf8()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.tokenize.html"><code class="docutils literal"><span class="pre">gensim.utils.tokenize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.toptexts.html"><code class="docutils literal"><span class="pre">gensim.utils.toptexts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.u.html"><code class="docutils literal"><span class="pre">gensim.utils.u()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.unichr.html"><code class="docutils literal"><span class="pre">gensim.utils.unichr()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.unpickle.html"><code class="docutils literal"><span class="pre">gensim.utils.unpickle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.upload_chunked.html"><code class="docutils literal"><span class="pre">gensim.utils.upload_chunked()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.wraps.html"><code class="docutils literal"><span class="pre">gensim.utils.wraps()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/gensim.utils.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.ClippedCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.ClippedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.ClippedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.ClippedCorpus.__init__.html">gensim.utils.ClippedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.ClippedCorpus.load.html">gensim.utils.ClippedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.ClippedCorpus.save.html">gensim.utils.ClippedCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.html"><code class="docutils literal"><span class="pre">gensim.utils.FakeDict</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.__init__.html">gensim.utils.FakeDict.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.get.html">gensim.utils.FakeDict.get</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.iteritems.html">gensim.utils.FakeDict.iteritems</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.FakeDict.keys.html">gensim.utils.FakeDict.keys</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.html"><code class="docutils literal"><span class="pre">gensim.utils.InputQueue</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.__init__.html">gensim.utils.InputQueue.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.is_alive.html">gensim.utils.InputQueue.is_alive</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.join.html">gensim.utils.InputQueue.join</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.run.html">gensim.utils.InputQueue.run</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.start.html">gensim.utils.InputQueue.start</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.terminate.html">gensim.utils.InputQueue.terminate</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.authkey.html">gensim.utils.InputQueue.authkey</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.daemon.html">gensim.utils.InputQueue.daemon</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.exitcode.html">gensim.utils.InputQueue.exitcode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.ident.html">gensim.utils.InputQueue.ident</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.name.html">gensim.utils.InputQueue.name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.InputQueue.pid.html">gensim.utils.InputQueue.pid</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.NoCM.html"><code class="docutils literal"><span class="pre">gensim.utils.NoCM</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.NoCM.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.NoCM.acquire.html">gensim.utils.NoCM.acquire</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.NoCM.release.html">gensim.utils.NoCM.release</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.RepeatCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpus.__init__.html">gensim.utils.RepeatCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpus.load.html">gensim.utils.RepeatCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpus.save.html">gensim.utils.RepeatCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpusNTimes.html"><code class="docutils literal"><span class="pre">gensim.utils.RepeatCorpusNTimes</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpusNTimes.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpusNTimes.__init__.html">gensim.utils.RepeatCorpusNTimes.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpusNTimes.load.html">gensim.utils.RepeatCorpusNTimes.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.RepeatCorpusNTimes.save.html">gensim.utils.RepeatCorpusNTimes.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.SaveLoad.html"><code class="docutils literal"><span class="pre">gensim.utils.SaveLoad</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.SaveLoad.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.SaveLoad.load.html">gensim.utils.SaveLoad.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.SaveLoad.save.html">gensim.utils.SaveLoad.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.SlicedCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.SlicedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/gensim.utils.SlicedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.SlicedCorpus.__init__.html">gensim.utils.SlicedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.SlicedCorpus.load.html">gensim.utils.SlicedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/gensim.utils.SlicedCorpus.save.html">gensim.utils.SlicedCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/gensim.utils.xrange.html"><code class="docutils literal"><span class="pre">gensim.utils.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/word2vec.html"><code class="docutils literal"><span class="pre">word2vec</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/word2vec.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.doc2vec.html"><code class="docutils literal"><span class="pre">word2vec.doc2vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.load.html"><code class="docutils literal"><span class="pre">word2vec.load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.load_clusters.html"><code class="docutils literal"><span class="pre">word2vec.load_clusters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.run_cmd.html"><code class="docutils literal"><span class="pre">word2vec.run_cmd()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.unitvec.html"><code class="docutils literal"><span class="pre">word2vec.unitvec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.word2clusters.html"><code class="docutils literal"><span class="pre">word2vec.word2clusters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.word2phrase.html"><code class="docutils literal"><span class="pre">word2vec.word2phrase()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.word2vec.html"><code class="docutils literal"><span class="pre">word2vec.word2vec()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/word2vec.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.html"><code class="docutils literal"><span class="pre">word2vec.WordClusters</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.__init__.html">word2vec.WordClusters.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.from_text.html">word2vec.WordClusters.from_text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.get_cluster.html">word2vec.WordClusters.get_cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.get_words_on_cluster.html">word2vec.WordClusters.get_words_on_cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordClusters.ix.html">word2vec.WordClusters.ix</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.html"><code class="docutils literal"><span class="pre">word2vec.WordVectors</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.__init__.html">word2vec.WordVectors.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.analogy.html">word2vec.WordVectors.analogy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.cosine.html">word2vec.WordVectors.cosine</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.from_binary.html">word2vec.WordVectors.from_binary</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.from_mmap.html">word2vec.WordVectors.from_mmap</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.from_text.html">word2vec.WordVectors.from_text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.generate_response.html">word2vec.WordVectors.generate_response</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.get_vector.html">word2vec.WordVectors.get_vector</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.ix.html">word2vec.WordVectors.ix</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/word2vec.WordVectors.to_mmap.html">word2vec.WordVectors.to_mmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/stop_words.html"><code class="docutils literal"><span class="pre">stop_words</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/stop_words.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.add_filter.html"><code class="docutils literal"><span class="pre">stop_words.add_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.apply_filters.html"><code class="docutils literal"><span class="pre">stop_words.apply_filters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.get_stop_words.html"><code class="docutils literal"><span class="pre">stop_words.get_stop_words()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.get_version.html"><code class="docutils literal"><span class="pre">stop_words.get_version()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.remove_filter.html"><code class="docutils literal"><span class="pre">stop_words.remove_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/stop_words.safe_get_stop_words.html"><code class="docutils literal"><span class="pre">stop_words.safe_get_stop_words()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/stop_words.html#exceptions">Exceptions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/stop_words.StopWordError.html">stop_words.StopWordError</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/nltk.classify.html"><code class="docutils literal"><span class="pre">nltk.classify</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/nltk.classify.html#features">Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/nltk.classify.html#featuresets">Featuresets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/nltk.classify.html#training-classifiers">Training Classifiers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/nltk.classify.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.accuracy.html"><code class="docutils literal"><span class="pre">nltk.classify.accuracy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.apply_features.html"><code class="docutils literal"><span class="pre">nltk.classify.apply_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.call_megam.html"><code class="docutils literal"><span class="pre">nltk.classify.call_megam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.config_megam.html"><code class="docutils literal"><span class="pre">nltk.classify.config_megam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.config_weka.html"><code class="docutils literal"><span class="pre">nltk.classify.config_weka()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.log_likelihood.html"><code class="docutils literal"><span class="pre">nltk.classify.log_likelihood()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.rte_classifier.html"><code class="docutils literal"><span class="pre">nltk.classify.rte_classifier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.rte_features.html"><code class="docutils literal"><span class="pre">nltk.classify.rte_features()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/nltk.classify.html#classes">Classes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.html"><code class="docutils literal"><span class="pre">nltk.classify.BinaryMaxentFeatureEncoding</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.__init__.html">nltk.classify.BinaryMaxentFeatureEncoding.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.describe.html">nltk.classify.BinaryMaxentFeatureEncoding.describe</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.encode.html">nltk.classify.BinaryMaxentFeatureEncoding.encode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.labels.html">nltk.classify.BinaryMaxentFeatureEncoding.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.length.html">nltk.classify.BinaryMaxentFeatureEncoding.length</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.train.html">nltk.classify.BinaryMaxentFeatureEncoding.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.html"><code class="docutils literal"><span class="pre">nltk.classify.ClassifierI</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.classify.html">nltk.classify.ClassifierI.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.classify_many.html">nltk.classify.ClassifierI.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.labels.html">nltk.classify.ClassifierI.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.prob_classify.html">nltk.classify.ClassifierI.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ClassifierI.prob_classify_many.html">nltk.classify.ClassifierI.prob_classify_many</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.ConditionalExponentialClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.__init__.html">nltk.classify.ConditionalExponentialClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.classify.html">nltk.classify.ConditionalExponentialClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.classify_many.html">nltk.classify.ConditionalExponentialClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.explain.html">nltk.classify.ConditionalExponentialClassifier.explain</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.labels.html">nltk.classify.ConditionalExponentialClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.prob_classify.html">nltk.classify.ConditionalExponentialClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.prob_classify_many.html">nltk.classify.ConditionalExponentialClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.set_weights.html">nltk.classify.ConditionalExponentialClassifier.set_weights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.show_most_informative_features.html">nltk.classify.ConditionalExponentialClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.train.html">nltk.classify.ConditionalExponentialClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.unicode_repr.html">nltk.classify.ConditionalExponentialClassifier.unicode_repr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.weights.html">nltk.classify.ConditionalExponentialClassifier.weights</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.ConditionalExponentialClassifier.ALGORITHMS.html">nltk.classify.ConditionalExponentialClassifier.ALGORITHMS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.DecisionTreeClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.__init__.html">nltk.classify.DecisionTreeClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.best_binary_stump.html">nltk.classify.DecisionTreeClassifier.best_binary_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.best_stump.html">nltk.classify.DecisionTreeClassifier.best_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.binary_stump.html">nltk.classify.DecisionTreeClassifier.binary_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.classify.html">nltk.classify.DecisionTreeClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.classify_many.html">nltk.classify.DecisionTreeClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.error.html">nltk.classify.DecisionTreeClassifier.error</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.labels.html">nltk.classify.DecisionTreeClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.leaf.html">nltk.classify.DecisionTreeClassifier.leaf</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.pretty_format.html">nltk.classify.DecisionTreeClassifier.pretty_format</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.prob_classify.html">nltk.classify.DecisionTreeClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.prob_classify_many.html">nltk.classify.DecisionTreeClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.pseudocode.html">nltk.classify.DecisionTreeClassifier.pseudocode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.refine.html">nltk.classify.DecisionTreeClassifier.refine</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.stump.html">nltk.classify.DecisionTreeClassifier.stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.train.html">nltk.classify.DecisionTreeClassifier.train</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.DecisionTreeClassifier.unicode_repr.html">nltk.classify.DecisionTreeClassifier.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.MaxentClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.__init__.html">nltk.classify.MaxentClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.classify.html">nltk.classify.MaxentClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.classify_many.html">nltk.classify.MaxentClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.explain.html">nltk.classify.MaxentClassifier.explain</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.labels.html">nltk.classify.MaxentClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.prob_classify.html">nltk.classify.MaxentClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.prob_classify_many.html">nltk.classify.MaxentClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.set_weights.html">nltk.classify.MaxentClassifier.set_weights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.show_most_informative_features.html">nltk.classify.MaxentClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.train.html">nltk.classify.MaxentClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.unicode_repr.html">nltk.classify.MaxentClassifier.unicode_repr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.weights.html">nltk.classify.MaxentClassifier.weights</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MaxentClassifier.ALGORITHMS.html">nltk.classify.MaxentClassifier.ALGORITHMS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.html"><code class="docutils literal"><span class="pre">nltk.classify.MultiClassifierI</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.classify.html">nltk.classify.MultiClassifierI.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.classify_many.html">nltk.classify.MultiClassifierI.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.labels.html">nltk.classify.MultiClassifierI.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.prob_classify.html">nltk.classify.MultiClassifierI.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.MultiClassifierI.prob_classify_many.html">nltk.classify.MultiClassifierI.prob_classify_many</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.NaiveBayesClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.__init__.html">nltk.classify.NaiveBayesClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.classify.html">nltk.classify.NaiveBayesClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.classify_many.html">nltk.classify.NaiveBayesClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.labels.html">nltk.classify.NaiveBayesClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.most_informative_features.html">nltk.classify.NaiveBayesClassifier.most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.prob_classify.html">nltk.classify.NaiveBayesClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.prob_classify_many.html">nltk.classify.NaiveBayesClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.show_most_informative_features.html">nltk.classify.NaiveBayesClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.NaiveBayesClassifier.train.html">nltk.classify.NaiveBayesClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.PositiveNaiveBayesClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.__init__.html">nltk.classify.PositiveNaiveBayesClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.classify.html">nltk.classify.PositiveNaiveBayesClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.classify_many.html">nltk.classify.PositiveNaiveBayesClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.labels.html">nltk.classify.PositiveNaiveBayesClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.most_informative_features.html">nltk.classify.PositiveNaiveBayesClassifier.most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.prob_classify.html">nltk.classify.PositiveNaiveBayesClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.prob_classify_many.html">nltk.classify.PositiveNaiveBayesClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.show_most_informative_features.html">nltk.classify.PositiveNaiveBayesClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.train.html">nltk.classify.PositiveNaiveBayesClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.RTEFeatureExtractor.html"><code class="docutils literal"><span class="pre">nltk.classify.RTEFeatureExtractor</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.RTEFeatureExtractor.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.RTEFeatureExtractor.__init__.html">nltk.classify.RTEFeatureExtractor.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.RTEFeatureExtractor.hyp_extra.html">nltk.classify.RTEFeatureExtractor.hyp_extra</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.RTEFeatureExtractor.overlap.html">nltk.classify.RTEFeatureExtractor.overlap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.html"><code class="docutils literal"><span class="pre">nltk.classify.Senna</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.__init__.html">nltk.classify.Senna.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.evaluate.html">nltk.classify.Senna.evaluate</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.executable.html">nltk.classify.Senna.executable</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.tag.html">nltk.classify.Senna.tag</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.tag_sents.html">nltk.classify.Senna.tag_sents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.SUPPORTED_OPERATIONS.html">nltk.classify.Senna.SUPPORTED_OPERATIONS</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.Senna.unicode_repr.html">nltk.classify.Senna.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.SklearnClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.__init__.html">nltk.classify.SklearnClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.classify.html">nltk.classify.SklearnClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.classify_many.html">nltk.classify.SklearnClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.labels.html">nltk.classify.SklearnClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.prob_classify.html">nltk.classify.SklearnClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.prob_classify_many.html">nltk.classify.SklearnClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.train.html">nltk.classify.SklearnClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.SklearnClassifier.unicode_repr.html">nltk.classify.SklearnClassifier.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.html"><code class="docutils literal"><span class="pre">nltk.classify.TextCat</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.__init__.html">nltk.classify.TextCat.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.calc_dist.html">nltk.classify.TextCat.calc_dist</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.guess_language.html">nltk.classify.TextCat.guess_language</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.lang_dists.html">nltk.classify.TextCat.lang_dists</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.profile.html">nltk.classify.TextCat.profile</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.remove_punctuation.html">nltk.classify.TextCat.remove_punctuation</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.fingerprints.html">nltk.classify.TextCat.fingerprints</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TextCat.last_distances.html">nltk.classify.TextCat.last_distances</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.html"><code class="docutils literal"><span class="pre">nltk.classify.TypedMaxentFeatureEncoding</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.__init__.html">nltk.classify.TypedMaxentFeatureEncoding.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.describe.html">nltk.classify.TypedMaxentFeatureEncoding.describe</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.encode.html">nltk.classify.TypedMaxentFeatureEncoding.encode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.labels.html">nltk.classify.TypedMaxentFeatureEncoding.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.length.html">nltk.classify.TypedMaxentFeatureEncoding.length</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.train.html">nltk.classify.TypedMaxentFeatureEncoding.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.WekaClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.__init__.html">nltk.classify.WekaClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.classify.html">nltk.classify.WekaClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.classify_many.html">nltk.classify.WekaClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.labels.html">nltk.classify.WekaClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.parse_weka_distribution.html">nltk.classify.WekaClassifier.parse_weka_distribution</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.parse_weka_output.html">nltk.classify.WekaClassifier.parse_weka_output</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.prob_classify.html">nltk.classify.WekaClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.prob_classify_many.html">nltk.classify.WekaClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../generated/generated/nltk.classify.WekaClassifier.train.html">nltk.classify.WekaClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../generated/nltk.cluster.html"><code class="docutils literal"><span class="pre">nltk.cluster</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/nltk.cluster.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.cosine_distance.html"><code class="docutils literal"><span class="pre">nltk.cluster.cosine_distance()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.euclidean_distance.html"><code class="docutils literal"><span class="pre">nltk.cluster.euclidean_distance()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../generated/nltk.cluster.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.html"><code class="docutils literal"><span class="pre">nltk.cluster.Dendrogram</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.__init__.html">nltk.cluster.Dendrogram.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.groups.html">nltk.cluster.Dendrogram.groups</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.merge.html">nltk.cluster.Dendrogram.merge</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.show.html">nltk.cluster.Dendrogram.show</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.Dendrogram.unicode_repr.html">nltk.cluster.Dendrogram.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.EMClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.__init__.html">nltk.cluster.EMClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.classification_probdist.html">nltk.cluster.EMClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.classify.html">nltk.cluster.EMClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.classify_vectorspace.html">nltk.cluster.EMClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.cluster.html">nltk.cluster.EMClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.cluster_name.html">nltk.cluster.EMClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.cluster_names.html">nltk.cluster.EMClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.cluster_vectorspace.html">nltk.cluster.EMClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.likelihood.html">nltk.cluster.EMClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.likelihood_vectorspace.html">nltk.cluster.EMClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.num_clusters.html">nltk.cluster.EMClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.unicode_repr.html">nltk.cluster.EMClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.EMClusterer.vector.html">nltk.cluster.EMClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.GAAClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.__init__.html">nltk.cluster.GAAClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.classification_probdist.html">nltk.cluster.GAAClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.classify.html">nltk.cluster.GAAClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.classify_vectorspace.html">nltk.cluster.GAAClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.cluster.html">nltk.cluster.GAAClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.cluster_name.html">nltk.cluster.GAAClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.cluster_names.html">nltk.cluster.GAAClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.cluster_vectorspace.html">nltk.cluster.GAAClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.dendrogram.html">nltk.cluster.GAAClusterer.dendrogram</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.likelihood.html">nltk.cluster.GAAClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.likelihood_vectorspace.html">nltk.cluster.GAAClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.num_clusters.html">nltk.cluster.GAAClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.unicode_repr.html">nltk.cluster.GAAClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.update_clusters.html">nltk.cluster.GAAClusterer.update_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.GAAClusterer.vector.html">nltk.cluster.GAAClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.KMeansClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.__init__.html">nltk.cluster.KMeansClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.classification_probdist.html">nltk.cluster.KMeansClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.classify.html">nltk.cluster.KMeansClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.classify_vectorspace.html">nltk.cluster.KMeansClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.cluster.html">nltk.cluster.KMeansClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.cluster_name.html">nltk.cluster.KMeansClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.cluster_names.html">nltk.cluster.KMeansClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.cluster_vectorspace.html">nltk.cluster.KMeansClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.likelihood.html">nltk.cluster.KMeansClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.likelihood_vectorspace.html">nltk.cluster.KMeansClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.means.html">nltk.cluster.KMeansClusterer.means</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.num_clusters.html">nltk.cluster.KMeansClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.unicode_repr.html">nltk.cluster.KMeansClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.KMeansClusterer.vector.html">nltk.cluster.KMeansClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.VectorSpaceClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.__init__.html">nltk.cluster.VectorSpaceClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.classification_probdist.html">nltk.cluster.VectorSpaceClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.classify.html">nltk.cluster.VectorSpaceClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.classify_vectorspace.html">nltk.cluster.VectorSpaceClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster.html">nltk.cluster.VectorSpaceClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_name.html">nltk.cluster.VectorSpaceClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_names.html">nltk.cluster.VectorSpaceClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_vectorspace.html">nltk.cluster.VectorSpaceClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.likelihood.html">nltk.cluster.VectorSpaceClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.likelihood_vectorspace.html">nltk.cluster.VectorSpaceClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.num_clusters.html">nltk.cluster.VectorSpaceClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../generated/generated/nltk.cluster.VectorSpaceClusterer.vector.html">nltk.cluster.VectorSpaceClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">NLP APIs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>scipy.linalg.special_matrices</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for scipy.linalg.special_matrices</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">absolute_import</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">scipy._lib.six</span> <span class="kn">import</span> <span class="nb">xrange</span>
+<span class="kn">from</span> <span class="nn">scipy._lib.six</span> <span class="kn">import</span> <span class="n">string_types</span>
+
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tri&#39;</span><span class="p">,</span> <span class="s1">&#39;tril&#39;</span><span class="p">,</span> <span class="s1">&#39;triu&#39;</span><span class="p">,</span> <span class="s1">&#39;toeplitz&#39;</span><span class="p">,</span> <span class="s1">&#39;circulant&#39;</span><span class="p">,</span> <span class="s1">&#39;hankel&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;hadamard&#39;</span><span class="p">,</span> <span class="s1">&#39;leslie&#39;</span><span class="p">,</span> <span class="s1">&#39;kron&#39;</span><span class="p">,</span> <span class="s1">&#39;block_diag&#39;</span><span class="p">,</span> <span class="s1">&#39;companion&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;helmert&#39;</span><span class="p">,</span> <span class="s1">&#39;hilbert&#39;</span><span class="p">,</span> <span class="s1">&#39;invhilbert&#39;</span><span class="p">,</span> <span class="s1">&#39;pascal&#39;</span><span class="p">,</span> <span class="s1">&#39;invpascal&#39;</span><span class="p">,</span> <span class="s1">&#39;dft&#39;</span><span class="p">]</span>
+
+
+<span class="c1">#-----------------------------------------------------------------------------</span>
+<span class="c1"># matrix construction functions</span>
+<span class="c1">#-----------------------------------------------------------------------------</span>
+
+<span class="c1">#</span>
+<span class="c1"># *Note*: tri{,u,l} is implemented in numpy, but an important bug was fixed in</span>
+<span class="c1"># 2.0.0.dev-1af2f3, the following tri{,u,l} definitions are here for backwards</span>
+<span class="c1"># compatibility.</span>
+
+<span class="k">def</span> <span class="nf">tri</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">M</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Construct (N, M) matrix filled with ones at and below the k-th diagonal.</span>
+
+<span class="sd">    The matrix has A[i,j] == 1 for i &lt;= j + k</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    N : int</span>
+<span class="sd">        The size of the first dimension of the matrix.</span>
+<span class="sd">    M : int or None, optional</span>
+<span class="sd">        The size of the second dimension of the matrix. If `M` is None,</span>
+<span class="sd">        `M = N` is assumed.</span>
+<span class="sd">    k : int, optional</span>
+<span class="sd">        Number of subdiagonal below which matrix is filled with ones.</span>
+<span class="sd">        `k` = 0 is the main diagonal, `k` &lt; 0 subdiagonal and `k` &gt; 0</span>
+<span class="sd">        superdiagonal.</span>
+<span class="sd">    dtype : dtype, optional</span>
+<span class="sd">        Data type of the matrix.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    tri : (N, M) ndarray</span>
+<span class="sd">        Tri matrix.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import tri</span>
+<span class="sd">    &gt;&gt;&gt; tri(3, 5, 2, dtype=int)</span>
+<span class="sd">    array([[1, 1, 1, 0, 0],</span>
+<span class="sd">           [1, 1, 1, 1, 0],</span>
+<span class="sd">           [1, 1, 1, 1, 1]])</span>
+<span class="sd">    &gt;&gt;&gt; tri(3, 5, -1, dtype=int)</span>
+<span class="sd">    array([[0, 0, 0, 0, 0],</span>
+<span class="sd">           [1, 0, 0, 0, 0],</span>
+<span class="sd">           [1, 1, 0, 0, 0]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">M</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">M</span> <span class="o">=</span> <span class="n">N</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">string_types</span><span class="p">):</span>
+        <span class="c1">#pearu: any objections to remove this feature?</span>
+        <span class="c1">#       As tri(N,&#39;d&#39;) is equivalent to tri(N,dtype=&#39;d&#39;)</span>
+        <span class="n">dtype</span> <span class="o">=</span> <span class="n">M</span>
+        <span class="n">M</span> <span class="o">=</span> <span class="n">N</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">greater_equal</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="o">.</span><span class="n">outer</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">N</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">M</span><span class="p">)),</span> <span class="o">-</span><span class="n">k</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">dtype</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">m</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">m</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">dtype</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">tril</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Make a copy of a matrix with elements above the k-th diagonal zeroed.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    m : array_like</span>
+<span class="sd">        Matrix whose elements to return</span>
+<span class="sd">    k : int, optional</span>
+<span class="sd">        Diagonal above which to zero elements.</span>
+<span class="sd">        `k` == 0 is the main diagonal, `k` &lt; 0 subdiagonal and</span>
+<span class="sd">        `k` &gt; 0 superdiagonal.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    tril : ndarray</span>
+<span class="sd">        Return is the same shape and type as `m`.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import tril</span>
+<span class="sd">    &gt;&gt;&gt; tril([[1,2,3],[4,5,6],[7,8,9],[10,11,12]], -1)</span>
+<span class="sd">    array([[ 0,  0,  0],</span>
+<span class="sd">           [ 4,  0,  0],</span>
+<span class="sd">           [ 7,  8,  0],</span>
+<span class="sd">           [10, 11, 12]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="n">tri</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">m</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">k</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">m</span><span class="o">.</span><span class="n">dtype</span><span class="o">.</span><span class="n">char</span><span class="p">)</span> <span class="o">*</span> <span class="n">m</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+
+<div class="viewcode-block" id="triu"><a class="viewcode-back" href="../../../generated/generated/gensim.matutils.triu.html#gensim.matutils.triu">[docs]</a><span class="k">def</span> <span class="nf">triu</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Make a copy of a matrix with elements below the k-th diagonal zeroed.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    m : array_like</span>
+<span class="sd">        Matrix whose elements to return</span>
+<span class="sd">    k : int, optional</span>
+<span class="sd">        Diagonal below which to zero elements.</span>
+<span class="sd">        `k` == 0 is the main diagonal, `k` &lt; 0 subdiagonal and</span>
+<span class="sd">        `k` &gt; 0 superdiagonal.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    triu : ndarray</span>
+<span class="sd">        Return matrix with zeroed elements below the k-th diagonal and has</span>
+<span class="sd">        same shape and type as `m`.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import triu</span>
+<span class="sd">    &gt;&gt;&gt; triu([[1,2,3],[4,5,6],[7,8,9],[10,11,12]], -1)</span>
+<span class="sd">    array([[ 1,  2,  3],</span>
+<span class="sd">           [ 4,  5,  6],</span>
+<span class="sd">           [ 0,  8,  9],</span>
+<span class="sd">           [ 0,  0, 12]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">tri</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">m</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">k</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">dtype</span><span class="o">.</span><span class="n">char</span><span class="p">))</span> <span class="o">*</span> <span class="n">m</span>
+    <span class="k">return</span> <span class="n">out</span></div>
+
+
+<span class="k">def</span> <span class="nf">toeplitz</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Construct a Toeplitz matrix.</span>
+
+<span class="sd">    The Toeplitz matrix has constant diagonals, with c as its first column</span>
+<span class="sd">    and r as its first row.  If r is not given, ``r == conjugate(c)`` is</span>
+<span class="sd">    assumed.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    c : array_like</span>
+<span class="sd">        First column of the matrix.  Whatever the actual shape of `c`, it</span>
+<span class="sd">        will be converted to a 1-D array.</span>
+<span class="sd">    r : array_like, optional</span>
+<span class="sd">        First row of the matrix. If None, ``r = conjugate(c)`` is assumed;</span>
+<span class="sd">        in this case, if c[0] is real, the result is a Hermitian matrix.</span>
+<span class="sd">        r[0] is ignored; the first row of the returned matrix is</span>
+<span class="sd">        ``[c[0], r[1:]]``.  Whatever the actual shape of `r`, it will be</span>
+<span class="sd">        converted to a 1-D array.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    A : (len(c), len(r)) ndarray</span>
+<span class="sd">        The Toeplitz matrix. Dtype is the same as ``(c[0] + r[0]).dtype``.</span>
+
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    circulant : circulant matrix</span>
+<span class="sd">    hankel : Hankel matrix</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    The behavior when `c` or `r` is a scalar, or when `c` is complex and</span>
+<span class="sd">    `r` is None, was changed in version 0.8.0.  The behavior in previous</span>
+<span class="sd">    versions was undocumented and is no longer supported.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import toeplitz</span>
+<span class="sd">    &gt;&gt;&gt; toeplitz([1,2,3], [1,4,5,6])</span>
+<span class="sd">    array([[1, 4, 5, 6],</span>
+<span class="sd">           [2, 1, 4, 5],</span>
+<span class="sd">           [3, 2, 1, 4]])</span>
+<span class="sd">    &gt;&gt;&gt; toeplitz([1.0, 2+3j, 4-1j])</span>
+<span class="sd">    array([[ 1.+0.j,  2.-3.j,  4.+1.j],</span>
+<span class="sd">           [ 2.+3.j,  1.+0.j,  2.-3.j],</span>
+<span class="sd">           [ 4.-1.j,  2.+3.j,  1.+0.j]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">r</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">conjugate</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="c1"># Form a 1D array of values to be used in the matrix, containing a reversed</span>
+    <span class="c1"># copy of r[1:], followed by c.</span>
+    <span class="n">vals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">r</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">c</span><span class="p">))</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">c</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">indx</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+    <span class="c1"># `indx` is a 2D array of indices into the 1D array `vals`, arranged so</span>
+    <span class="c1"># that `vals[indx]` is the Toeplitz matrix.</span>
+    <span class="k">return</span> <span class="n">vals</span><span class="p">[</span><span class="n">indx</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">circulant</span><span class="p">(</span><span class="n">c</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Construct a circulant matrix.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    c : (N,) array_like</span>
+<span class="sd">        1-D array, the first column of the matrix.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    A : (N, N) ndarray</span>
+<span class="sd">        A circulant matrix whose first column is `c`.</span>
+
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    toeplitz : Toeplitz matrix</span>
+<span class="sd">    hankel : Hankel matrix</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.8.0</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import circulant</span>
+<span class="sd">    &gt;&gt;&gt; circulant([1, 2, 3])</span>
+<span class="sd">    array([[1, 3, 2],</span>
+<span class="sd">           [2, 1, 3],</span>
+<span class="sd">           [3, 2, 1]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">c</span><span class="p">),</span> <span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">c</span><span class="p">):</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">indx</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+    <span class="c1"># `indx` is a 2D array of indices into `c`, arranged so that `c[indx]` is</span>
+    <span class="c1"># the circulant matrix.</span>
+    <span class="k">return</span> <span class="n">c</span><span class="p">[</span><span class="n">indx</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">hankel</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Construct a Hankel matrix.</span>
+
+<span class="sd">    The Hankel matrix has constant anti-diagonals, with `c` as its</span>
+<span class="sd">    first column and `r` as its last row.  If `r` is not given, then</span>
+<span class="sd">    `r = zeros_like(c)` is assumed.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    c : array_like</span>
+<span class="sd">        First column of the matrix.  Whatever the actual shape of `c`, it</span>
+<span class="sd">        will be converted to a 1-D array.</span>
+<span class="sd">    r : array_like, optional</span>
+<span class="sd">        Last row of the matrix. If None, ``r = zeros_like(c)`` is assumed.</span>
+<span class="sd">        r[0] is ignored; the last row of the returned matrix is</span>
+<span class="sd">        ``[c[-1], r[1:]]``.  Whatever the actual shape of `r`, it will be</span>
+<span class="sd">        converted to a 1-D array.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    A : (len(c), len(r)) ndarray</span>
+<span class="sd">        The Hankel matrix. Dtype is the same as ``(c[0] + r[0]).dtype``.</span>
+
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    toeplitz : Toeplitz matrix</span>
+<span class="sd">    circulant : circulant matrix</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import hankel</span>
+<span class="sd">    &gt;&gt;&gt; hankel([1, 17, 99])</span>
+<span class="sd">    array([[ 1, 17, 99],</span>
+<span class="sd">           [17, 99,  0],</span>
+<span class="sd">           [99,  0,  0]])</span>
+<span class="sd">    &gt;&gt;&gt; hankel([1,2,3,4], [4,7,7,8,9])</span>
+<span class="sd">    array([[1, 2, 3, 4, 7],</span>
+<span class="sd">           [2, 3, 4, 7, 7],</span>
+<span class="sd">           [3, 4, 7, 7, 8],</span>
+<span class="sd">           [4, 7, 7, 8, 9]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">r</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+    <span class="c1"># Form a 1D array of values to be used in the matrix, containing `c`</span>
+    <span class="c1"># followed by r[1:].</span>
+    <span class="n">vals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">c</span><span class="p">,</span> <span class="n">r</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">c</span><span class="p">),</span> <span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="p">)]</span>
+    <span class="n">indx</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+    <span class="c1"># `indx` is a 2D array of indices into the 1D array `vals`, arranged so</span>
+    <span class="c1"># that `vals[indx]` is the Hankel matrix.</span>
+    <span class="k">return</span> <span class="n">vals</span><span class="p">[</span><span class="n">indx</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">hadamard</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Construct a Hadamard matrix.</span>
+
+<span class="sd">    Constructs an n-by-n Hadamard matrix, using Sylvester&#39;s</span>
+<span class="sd">    construction.  `n` must be a power of 2.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The order of the matrix.  `n` must be a power of 2.</span>
+<span class="sd">    dtype : dtype, optional</span>
+<span class="sd">        The data type of the array to be constructed.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    H : (n, n) ndarray</span>
+<span class="sd">        The Hadamard matrix.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.8.0</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import hadamard</span>
+<span class="sd">    &gt;&gt;&gt; hadamard(2, dtype=complex)</span>
+<span class="sd">    array([[ 1.+0.j,  1.+0.j],</span>
+<span class="sd">           [ 1.+0.j, -1.-0.j]])</span>
+<span class="sd">    &gt;&gt;&gt; hadamard(4)</span>
+<span class="sd">    array([[ 1,  1,  1,  1],</span>
+<span class="sd">           [ 1, -1,  1, -1],</span>
+<span class="sd">           [ 1,  1, -1, -1],</span>
+<span class="sd">           [ 1, -1, -1,  1]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># This function is a slightly modified version of the</span>
+    <span class="c1"># function contributed by Ivo in ticket #675.</span>
+
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">lg2</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">lg2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+    <span class="k">if</span> <span class="mi">2</span> <span class="o">**</span> <span class="n">lg2</span> <span class="o">!=</span> <span class="n">n</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;n must be an positive integer, and n must be &quot;</span>
+                         <span class="s2">&quot;a power of 2&quot;</span><span class="p">)</span>
+
+    <span class="n">H</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">]],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+
+    <span class="c1"># Sylvester&#39;s construction</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">lg2</span><span class="p">):</span>
+        <span class="n">H</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">H</span><span class="p">,</span> <span class="n">H</span><span class="p">)),</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">H</span><span class="p">,</span> <span class="o">-</span><span class="n">H</span><span class="p">))))</span>
+
+    <span class="k">return</span> <span class="n">H</span>
+
+
+<span class="k">def</span> <span class="nf">leslie</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a Leslie matrix.</span>
+
+<span class="sd">    Given the length n array of fecundity coefficients `f` and the length</span>
+<span class="sd">    n-1 array of survival coefficents `s`, return the associated Leslie matrix.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    f : (N,) array_like</span>
+<span class="sd">        The &quot;fecundity&quot; coefficients.</span>
+<span class="sd">    s : (N-1,) array_like</span>
+<span class="sd">        The &quot;survival&quot; coefficients, has to be 1-D.  The length of `s`</span>
+<span class="sd">        must be one less than the length of `f`, and it must be at least 1.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    L : (N, N) ndarray</span>
+<span class="sd">        The array is zero except for the first row,</span>
+<span class="sd">        which is `f`, and the first sub-diagonal, which is `s`.</span>
+<span class="sd">        The data-type of the array will be the data-type of ``f[0]+s[0]``.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.8.0</span>
+
+<span class="sd">    The Leslie matrix is used to model discrete-time, age-structured</span>
+<span class="sd">    population growth [1]_ [2]_. In a population with `n` age classes, two sets</span>
+<span class="sd">    of parameters define a Leslie matrix: the `n` &quot;fecundity coefficients&quot;,</span>
+<span class="sd">    which give the number of offspring per-capita produced by each age</span>
+<span class="sd">    class, and the `n` - 1 &quot;survival coefficients&quot;, which give the</span>
+<span class="sd">    per-capita survival rate of each age class.</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    .. [1] P. H. Leslie, On the use of matrices in certain population</span>
+<span class="sd">           mathematics, Biometrika, Vol. 33, No. 3, 183--212 (Nov. 1945)</span>
+<span class="sd">    .. [2] P. H. Leslie, Some further notes on the use of matrices in</span>
+<span class="sd">           population mathematics, Biometrika, Vol. 35, No. 3/4, 213--245</span>
+<span class="sd">           (Dec. 1948)</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import leslie</span>
+<span class="sd">    &gt;&gt;&gt; leslie([0.1, 2.0, 1.0, 0.1], [0.2, 0.8, 0.7])</span>
+<span class="sd">    array([[ 0.1,  2. ,  1. ,  0.1],</span>
+<span class="sd">           [ 0.2,  0. ,  0. ,  0. ],</span>
+<span class="sd">           [ 0. ,  0.8,  0. ,  0. ],</span>
+<span class="sd">           [ 0. ,  0. ,  0.7,  0. ]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">atleast_1d</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">atleast_1d</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">ndim</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Incorrect shape for f.  f must be one-dimensional&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">ndim</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Incorrect shape for s.  s must be one-dimensional&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">size</span> <span class="o">!=</span> <span class="n">s</span><span class="o">.</span><span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Incorrect lengths for f and s.  The length&quot;</span>
+                         <span class="s2">&quot; of s must be one less than the length of f.&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">size</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;The length of s must be at least 1.&quot;</span><span class="p">)</span>
+
+    <span class="n">tmp</span> <span class="o">=</span> <span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">size</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">tmp</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">f</span>
+    <span class="n">a</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">)),</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))]</span> <span class="o">=</span> <span class="n">s</span>
+    <span class="k">return</span> <span class="n">a</span>
+
+
+<span class="k">def</span> <span class="nf">kron</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Kronecker product.</span>
+
+<span class="sd">    The result is the block matrix::</span>
+
+<span class="sd">        a[0,0]*b    a[0,1]*b  ... a[0,-1]*b</span>
+<span class="sd">        a[1,0]*b    a[1,1]*b  ... a[1,-1]*b</span>
+<span class="sd">        ...</span>
+<span class="sd">        a[-1,0]*b   a[-1,1]*b ... a[-1,-1]*b</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    a : (M, N) ndarray</span>
+<span class="sd">        Input array</span>
+<span class="sd">    b : (P, Q) ndarray</span>
+<span class="sd">        Input array</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    A : (M*P, N*Q) ndarray</span>
+<span class="sd">        Kronecker product of `a` and `b`.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from numpy import array</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import kron</span>
+<span class="sd">    &gt;&gt;&gt; kron(array([[1,2],[3,4]]), array([[1,1,1]]))</span>
+<span class="sd">    array([[1, 1, 1, 2, 2, 2],</span>
+<span class="sd">           [3, 3, 3, 4, 4, 4]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">a</span><span class="o">.</span><span class="n">flags</span><span class="p">[</span><span class="s1">&#39;CONTIGUOUS&#39;</span><span class="p">]:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">b</span><span class="o">.</span><span class="n">flags</span><span class="p">[</span><span class="s1">&#39;CONTIGUOUS&#39;</span><span class="p">]:</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">b</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">o</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">outer</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="n">o</span> <span class="o">=</span> <span class="n">o</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">shape</span> <span class="o">+</span> <span class="n">b</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">block_diag</span><span class="p">(</span><span class="o">*</span><span class="n">arrs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a block diagonal matrix from provided arrays.</span>
+
+<span class="sd">    Given the inputs `A`, `B` and `C`, the output will have these</span>
+<span class="sd">    arrays arranged on the diagonal::</span>
+
+<span class="sd">        [[A, 0, 0],</span>
+<span class="sd">         [0, B, 0],</span>
+<span class="sd">         [0, 0, C]]</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    A, B, C, ... : array_like, up to 2-D</span>
+<span class="sd">        Input arrays.  A 1-D array or array_like sequence of length `n` is</span>
+<span class="sd">        treated as a 2-D array with shape ``(1,n)``.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    D : ndarray</span>
+<span class="sd">        Array with `A`, `B`, `C`, ... on the diagonal.  `D` has the</span>
+<span class="sd">        same dtype as `A`.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    If all the input arrays are square, the output is known as a</span>
+<span class="sd">    block diagonal matrix.</span>
+
+<span class="sd">    Empty sequences (i.e., array-likes of zero size) are ignored.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import block_diag</span>
+<span class="sd">    &gt;&gt;&gt; A = [[1, 0],</span>
+<span class="sd">    ...      [0, 1]]</span>
+<span class="sd">    &gt;&gt;&gt; B = [[3, 4, 5],</span>
+<span class="sd">    ...      [6, 7, 8]]</span>
+<span class="sd">    &gt;&gt;&gt; C = [[7]]</span>
+<span class="sd">    &gt;&gt;&gt; block_diag(A, B, C)</span>
+<span class="sd">    array([[1, 0, 0, 0, 0, 0],</span>
+<span class="sd">           [0, 1, 0, 0, 0, 0],</span>
+<span class="sd">           [0, 0, 3, 4, 5, 0],</span>
+<span class="sd">           [0, 0, 6, 7, 8, 0],</span>
+<span class="sd">           [0, 0, 0, 0, 0, 7]])</span>
+<span class="sd">    &gt;&gt;&gt; block_diag(1.0, [2, 3], [[4, 5], [6, 7]])</span>
+<span class="sd">    array([[ 1.,  0.,  0.,  0.,  0.],</span>
+<span class="sd">           [ 0.,  2.,  3.,  0.,  0.],</span>
+<span class="sd">           [ 0.,  0.,  0.,  4.,  5.],</span>
+<span class="sd">           [ 0.,  0.,  0.,  6.,  7.]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">arrs</span> <span class="o">==</span> <span class="p">():</span>
+        <span class="n">arrs</span> <span class="o">=</span> <span class="p">([],)</span>
+    <span class="n">arrs</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">atleast_2d</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">arrs</span><span class="p">]</span>
+
+    <span class="n">bad_args</span> <span class="o">=</span> <span class="p">[</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arrs</span><span class="p">))</span> <span class="k">if</span> <span class="n">arrs</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">ndim</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">bad_args</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;arguments in the following positions have dimension &quot;</span>
+                         <span class="s2">&quot;greater than 2: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">bad_args</span><span class="p">)</span>
+
+    <span class="n">shapes</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">a</span><span class="o">.</span><span class="n">shape</span> <span class="k">if</span> <span class="n">a</span><span class="o">.</span><span class="n">size</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">arrs</span><span class="p">])</span>
+    <span class="n">out_dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">find_common_type</span><span class="p">([</span><span class="n">arr</span><span class="o">.</span><span class="n">dtype</span> <span class="k">for</span> <span class="n">arr</span> <span class="ow">in</span> <span class="n">arrs</span><span class="p">],</span> <span class="p">[])</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">shapes</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">out_dtype</span><span class="p">)</span>
+
+    <span class="n">r</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">rr</span><span class="p">,</span> <span class="n">cc</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">shapes</span><span class="p">):</span>
+        <span class="n">out</span><span class="p">[</span><span class="n">r</span><span class="p">:</span><span class="n">r</span> <span class="o">+</span> <span class="n">rr</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span><span class="n">c</span> <span class="o">+</span> <span class="n">cc</span><span class="p">]</span> <span class="o">=</span> <span class="n">arrs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">r</span> <span class="o">+=</span> <span class="n">rr</span>
+        <span class="n">c</span> <span class="o">+=</span> <span class="n">cc</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+
+<span class="k">def</span> <span class="nf">companion</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a companion matrix.</span>
+
+<span class="sd">    Create the companion matrix [1]_ associated with the polynomial whose</span>
+<span class="sd">    coefficients are given in `a`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    a : (N,) array_like</span>
+<span class="sd">        1-D array of polynomial coefficients.  The length of `a` must be</span>
+<span class="sd">        at least two, and ``a[0]`` must not be zero.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    c : (N-1, N-1) ndarray</span>
+<span class="sd">        The first row of `c` is ``-a[1:]/a[0]``, and the first</span>
+<span class="sd">        sub-diagonal is all ones.  The data-type of the array is the same</span>
+<span class="sd">        as the data-type of ``1.0*a[0]``.</span>
+
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    ValueError</span>
+<span class="sd">        If any of the following are true: a) ``a.ndim != 1``;</span>
+<span class="sd">        b) ``a.size &lt; 2``; c) ``a[0] == 0``.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.8.0</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    .. [1] R. A. Horn &amp; C. R. Johnson, *Matrix Analysis*.  Cambridge, UK:</span>
+<span class="sd">        Cambridge University Press, 1999, pp. 146-7.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import companion</span>
+<span class="sd">    &gt;&gt;&gt; companion([1, -10, 31, -30])</span>
+<span class="sd">    array([[ 10., -31.,  30.],</span>
+<span class="sd">           [  1.,   0.,   0.],</span>
+<span class="sd">           [  0.,   1.,   0.]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">atleast_1d</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">a</span><span class="o">.</span><span class="n">ndim</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Incorrect shape for `a`.  `a` must be &quot;</span>
+                         <span class="s2">&quot;one-dimensional.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">a</span><span class="o">.</span><span class="n">size</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;The length of `a` must be at least 2.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;The first coefficient in `a` must not be zero.&quot;</span><span class="p">)</span>
+
+    <span class="n">first_row</span> <span class="o">=</span> <span class="o">-</span><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">/</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">*</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">size</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">first_row</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">first_row</span>
+    <span class="n">c</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)),</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">))]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">c</span>
+
+
+<span class="k">def</span> <span class="nf">helmert</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a Helmert matrix of order `n`.</span>
+
+<span class="sd">    This has applications in statistics, compositional or simplicial analysis,</span>
+<span class="sd">    and in Aitchison geometry.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The size of the array to create.</span>
+<span class="sd">    full : bool, optional</span>
+<span class="sd">        If True the (n, n) ndarray will be returned.</span>
+<span class="sd">        Otherwise the submatrix that does not include the first</span>
+<span class="sd">        row will be returned.</span>
+<span class="sd">        Default: False.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    M : ndarray</span>
+<span class="sd">        The Helmert matrix.</span>
+<span class="sd">        The shape is (n, n) or (n-1, n) depending on the `full` argument.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import helmert</span>
+<span class="sd">    &gt;&gt;&gt; helmert(5, full=True)</span>
+<span class="sd">    array([[ 0.4472136 ,  0.4472136 ,  0.4472136 ,  0.4472136 ,  0.4472136 ],</span>
+<span class="sd">           [ 0.70710678, -0.70710678,  0.        ,  0.        ,  0.        ],</span>
+<span class="sd">           [ 0.40824829,  0.40824829, -0.81649658,  0.        ,  0.        ],</span>
+<span class="sd">           [ 0.28867513,  0.28867513,  0.28867513, -0.8660254 ,  0.        ],</span>
+<span class="sd">           [ 0.2236068 ,  0.2236068 ,  0.2236068 ,  0.2236068 , -0.89442719]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">H</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">tril</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">)),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">H</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">d</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span>
+    <span class="n">H_full</span> <span class="o">=</span> <span class="n">H</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">d</span><span class="p">)[:,</span> <span class="n">np</span><span class="o">.</span><span class="n">newaxis</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">full</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">H_full</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">H_full</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+
+
+<span class="k">def</span> <span class="nf">hilbert</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a Hilbert matrix of order `n`.</span>
+
+<span class="sd">    Returns the `n` by `n` array with entries `h[i,j] = 1 / (i + j + 1)`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The size of the array to create.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    h : (n, n) ndarray</span>
+<span class="sd">        The Hilbert matrix.</span>
+
+<span class="sd">    See Also</span>
+<span class="sd">    --------</span>
+<span class="sd">    invhilbert : Compute the inverse of a Hilbert matrix.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.10.0</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import hilbert</span>
+<span class="sd">    &gt;&gt;&gt; hilbert(3)</span>
+<span class="sd">    array([[ 1.        ,  0.5       ,  0.33333333],</span>
+<span class="sd">           [ 0.5       ,  0.33333333,  0.25      ],</span>
+<span class="sd">           [ 0.33333333,  0.25      ,  0.2       ]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="n">hankel</span><span class="p">(</span><span class="n">values</span><span class="p">[:</span><span class="n">n</span><span class="p">],</span> <span class="n">r</span><span class="o">=</span><span class="n">values</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:])</span>
+    <span class="k">return</span> <span class="n">h</span>
+
+
+<span class="k">def</span> <span class="nf">invhilbert</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Compute the inverse of the Hilbert matrix of order `n`.</span>
+
+<span class="sd">    The entries in the inverse of a Hilbert matrix are integers.  When `n`</span>
+<span class="sd">    is greater than 14, some entries in the inverse exceed the upper limit</span>
+<span class="sd">    of 64 bit integers.  The `exact` argument provides two options for</span>
+<span class="sd">    dealing with these large integers.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The order of the Hilbert matrix.</span>
+<span class="sd">    exact : bool, optional</span>
+<span class="sd">        If False, the data type of the array that is returned is np.float64,</span>
+<span class="sd">        and the array is an approximation of the inverse.</span>
+<span class="sd">        If True, the array is the exact integer inverse array.  To represent</span>
+<span class="sd">        the exact inverse when n &gt; 14, the returned array is an object array</span>
+<span class="sd">        of long integers.  For n &lt;= 14, the exact inverse is returned as an</span>
+<span class="sd">        array with data type np.int64.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    invh : (n, n) ndarray</span>
+<span class="sd">        The data type of the array is np.float64 if `exact` is False.</span>
+<span class="sd">        If `exact` is True, the data type is either np.int64 (for n &lt;= 14)</span>
+<span class="sd">        or object (for n &gt; 14).  In the latter case, the objects in the</span>
+<span class="sd">        array will be long integers.</span>
+
+<span class="sd">    See Also</span>
+<span class="sd">    --------</span>
+<span class="sd">    hilbert : Create a Hilbert matrix.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    .. versionadded:: 0.10.0</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import invhilbert</span>
+<span class="sd">    &gt;&gt;&gt; invhilbert(4)</span>
+<span class="sd">    array([[   16.,  -120.,   240.,  -140.],</span>
+<span class="sd">           [ -120.,  1200., -2700.,  1680.],</span>
+<span class="sd">           [  240., -2700.,  6480., -4200.],</span>
+<span class="sd">           [ -140.,  1680., -4200.,  2800.]])</span>
+<span class="sd">    &gt;&gt;&gt; invhilbert(4, exact=True)</span>
+<span class="sd">    array([[   16,  -120,   240,  -140],</span>
+<span class="sd">           [ -120,  1200, -2700,  1680],</span>
+<span class="sd">           [  240, -2700,  6480, -4200],</span>
+<span class="sd">           [ -140,  1680, -4200,  2800]], dtype=int64)</span>
+<span class="sd">    &gt;&gt;&gt; invhilbert(16)[7,7]</span>
+<span class="sd">    4.2475099528537506e+19</span>
+<span class="sd">    &gt;&gt;&gt; invhilbert(16, exact=True)[7,7]</span>
+<span class="sd">    42475099528537378560L</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">scipy.special</span> <span class="kn">import</span> <span class="n">comb</span>
+    <span class="k">if</span> <span class="n">exact</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">14</span><span class="p">:</span>
+            <span class="n">dtype</span> <span class="o">=</span> <span class="nb">object</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">int64</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float64</span>
+    <span class="n">invh</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">j</span>
+            <span class="n">invh</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">((</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">**</span> <span class="n">s</span> <span class="o">*</span> <span class="p">(</span><span class="n">s</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                          <span class="n">comb</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">exact</span><span class="p">)</span> <span class="o">*</span>
+                          <span class="n">comb</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="n">j</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">exact</span><span class="p">)</span> <span class="o">*</span>
+                          <span class="n">comb</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">exact</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>
+                <span class="n">invh</span><span class="p">[</span><span class="n">j</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">invh</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">invh</span>
+
+
+<span class="k">def</span> <span class="nf">pascal</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;symmetric&#39;</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the n x n Pascal matrix.</span>
+
+<span class="sd">    The Pascal matrix is a matrix containing the binomial coefficients as</span>
+<span class="sd">    its elements.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The size of the matrix to create; that is, the result is an n x n</span>
+<span class="sd">        matrix.</span>
+<span class="sd">    kind : str, optional</span>
+<span class="sd">        Must be one of &#39;symmetric&#39;, &#39;lower&#39;, or &#39;upper&#39;.</span>
+<span class="sd">        Default is &#39;symmetric&#39;.</span>
+<span class="sd">    exact : bool, optional</span>
+<span class="sd">        If `exact` is True, the result is either an array of type</span>
+<span class="sd">        numpy.uint64 (if n &lt; 35) or an object array of Python long integers.</span>
+<span class="sd">        If `exact` is False, the coefficients in the matrix are computed using</span>
+<span class="sd">        `scipy.special.comb` with `exact=False`.  The result will be a floating</span>
+<span class="sd">        point array, and the values in the array will not be the exact</span>
+<span class="sd">        coefficients, but this version is much faster than `exact=True`.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    p : (n, n) ndarray</span>
+<span class="sd">        The Pascal matrix.</span>
+
+<span class="sd">    See Also</span>
+<span class="sd">    --------</span>
+<span class="sd">    invpascal</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    See http://en.wikipedia.org/wiki/Pascal_matrix for more information</span>
+<span class="sd">    about Pascal matrices.</span>
+
+<span class="sd">    .. versionadded:: 0.11.0</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import pascal</span>
+<span class="sd">    &gt;&gt;&gt; pascal(4)</span>
+<span class="sd">    array([[ 1,  1,  1,  1],</span>
+<span class="sd">           [ 1,  2,  3,  4],</span>
+<span class="sd">           [ 1,  3,  6, 10],</span>
+<span class="sd">           [ 1,  4, 10, 20]], dtype=uint64)</span>
+<span class="sd">    &gt;&gt;&gt; pascal(4, kind=&#39;lower&#39;)</span>
+<span class="sd">    array([[1, 0, 0, 0],</span>
+<span class="sd">           [1, 1, 0, 0],</span>
+<span class="sd">           [1, 2, 1, 0],</span>
+<span class="sd">           [1, 3, 3, 1]], dtype=uint64)</span>
+<span class="sd">    &gt;&gt;&gt; pascal(50)[-1, -1]</span>
+<span class="sd">    25477612258980856902730428600L</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.special import comb</span>
+<span class="sd">    &gt;&gt;&gt; comb(98, 49, exact=True)</span>
+<span class="sd">    25477612258980856902730428600L</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="kn">from</span> <span class="nn">scipy.special</span> <span class="kn">import</span> <span class="n">comb</span>
+    <span class="k">if</span> <span class="n">kind</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;symmetric&#39;</span><span class="p">,</span> <span class="s1">&#39;lower&#39;</span><span class="p">,</span> <span class="s1">&#39;upper&#39;</span><span class="p">]:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;kind must be &#39;symmetric&#39;, &#39;lower&#39;, or &#39;upper&#39;&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">exact</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;=</span> <span class="mi">35</span><span class="p">:</span>
+            <span class="n">L_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
+            <span class="n">L_n</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">L_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">uint64</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+                <span class="n">L_n</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">comb</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">L_n</span> <span class="o">=</span> <span class="n">comb</span><span class="p">(</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[:</span><span class="n">n</span><span class="p">,</span> <span class="p">:</span><span class="n">n</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="n">kind</span> <span class="ow">is</span> <span class="s1">&#39;lower&#39;</span><span class="p">:</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">L_n</span>
+    <span class="k">elif</span> <span class="n">kind</span> <span class="ow">is</span> <span class="s1">&#39;upper&#39;</span><span class="p">:</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">L_n</span><span class="o">.</span><span class="n">T</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">L_n</span><span class="p">,</span> <span class="n">L_n</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">p</span>
+
+
+<span class="k">def</span> <span class="nf">invpascal</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;symmetric&#39;</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the inverse of the n x n Pascal matrix.</span>
+
+<span class="sd">    The Pascal matrix is a matrix containing the binomial coefficients as</span>
+<span class="sd">    its elements.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        The size of the matrix to create; that is, the result is an n x n</span>
+<span class="sd">        matrix.</span>
+<span class="sd">    kind : str, optional</span>
+<span class="sd">        Must be one of &#39;symmetric&#39;, &#39;lower&#39;, or &#39;upper&#39;.</span>
+<span class="sd">        Default is &#39;symmetric&#39;.</span>
+<span class="sd">    exact : bool, optional</span>
+<span class="sd">        If `exact` is True, the result is either an array of type</span>
+<span class="sd">        `numpy.int64` (if `n` &lt;= 35) or an object array of Python integers.</span>
+<span class="sd">        If `exact` is False, the coefficients in the matrix are computed using</span>
+<span class="sd">        `scipy.special.comb` with `exact=False`.  The result will be a floating</span>
+<span class="sd">        point array, and for large `n`, the values in the array will not be the</span>
+<span class="sd">        exact coefficients.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    invp : (n, n) ndarray</span>
+<span class="sd">        The inverse of the Pascal matrix.</span>
+
+<span class="sd">    See Also</span>
+<span class="sd">    --------</span>
+<span class="sd">    pascal</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+
+<span class="sd">    .. versionadded:: 0.16.0</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    .. [1] &quot;Pascal matrix&quot;,  http://en.wikipedia.org/wiki/Pascal_matrix</span>
+<span class="sd">    .. [2] Cohen, A. M., &quot;The inverse of a Pascal matrix&quot;, Mathematical</span>
+<span class="sd">           Gazette, 59(408), pp. 111-112, 1975.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import invpascal, pascal</span>
+<span class="sd">    &gt;&gt;&gt; invp = invpascal(5)</span>
+<span class="sd">    &gt;&gt;&gt; invp</span>
+<span class="sd">    array([[  5, -10,  10,  -5,   1],</span>
+<span class="sd">           [-10,  30, -35,  19,  -4],</span>
+<span class="sd">           [ 10, -35,  46, -27,   6],</span>
+<span class="sd">           [ -5,  19, -27,  17,  -4],</span>
+<span class="sd">           [  1,  -4,   6,  -4,   1]])</span>
+
+<span class="sd">    &gt;&gt;&gt; p = pascal(5)</span>
+<span class="sd">    &gt;&gt;&gt; p.dot(invp)</span>
+<span class="sd">    array([[ 1.,  0.,  0.,  0.,  0.],</span>
+<span class="sd">           [ 0.,  1.,  0.,  0.,  0.],</span>
+<span class="sd">           [ 0.,  0.,  1.,  0.,  0.],</span>
+<span class="sd">           [ 0.,  0.,  0.,  1.,  0.],</span>
+<span class="sd">           [ 0.,  0.,  0.,  0.,  1.]])</span>
+
+<span class="sd">    An example of the use of `kind` and `exact`:</span>
+
+<span class="sd">    &gt;&gt;&gt; invpascal(5, kind=&#39;lower&#39;, exact=False)</span>
+<span class="sd">    array([[ 1., -0.,  0., -0.,  0.],</span>
+<span class="sd">           [-1.,  1., -0.,  0., -0.],</span>
+<span class="sd">           [ 1., -2.,  1., -0.,  0.],</span>
+<span class="sd">           [-1.,  3., -3.,  1., -0.],</span>
+<span class="sd">           [ 1., -4.,  6., -4.,  1.]])</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">scipy.special</span> <span class="kn">import</span> <span class="n">comb</span>
+
+    <span class="k">if</span> <span class="n">kind</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;symmetric&#39;</span><span class="p">,</span> <span class="s1">&#39;lower&#39;</span><span class="p">,</span> <span class="s1">&#39;upper&#39;</span><span class="p">]:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;&#39;kind&#39; must be &#39;symmetric&#39;, &#39;lower&#39; or &#39;upper&#39;.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">kind</span> <span class="o">==</span> <span class="s1">&#39;symmetric&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">exact</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">34</span><span class="p">:</span>
+                <span class="n">dt</span> <span class="o">=</span> <span class="nb">object</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">dt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">int64</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">dt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float64</span>
+        <span class="n">invp</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dt</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+                <span class="n">v</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="n">i</span><span class="p">):</span>
+                    <span class="n">v</span> <span class="o">+=</span> <span class="n">comb</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">k</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="n">exact</span><span class="p">)</span> <span class="o">*</span> <span class="n">comb</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">k</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="n">k</span> <span class="o">-</span> <span class="n">j</span><span class="p">,</span>
+                                                            <span class="n">exact</span><span class="o">=</span><span class="n">exact</span><span class="p">)</span>
+                <span class="n">invp</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">)</span> <span class="o">*</span> <span class="n">v</span>
+                <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>
+                    <span class="n">invp</span><span class="p">[</span><span class="n">j</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">invp</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># For the &#39;lower&#39; and &#39;upper&#39; cases, we computer the inverse by</span>
+        <span class="c1"># changing the sign of every other diagonal of the pascal matrix.</span>
+        <span class="n">invp</span> <span class="o">=</span> <span class="n">pascal</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="n">kind</span><span class="p">,</span> <span class="n">exact</span><span class="o">=</span><span class="n">exact</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">invp</span><span class="o">.</span><span class="n">dtype</span> <span class="o">==</span> <span class="n">np</span><span class="o">.</span><span class="n">uint64</span><span class="p">:</span>
+            <span class="c1"># This cast from np.uint64 to int64 OK, because if `kind` is not</span>
+            <span class="c1"># &quot;symmetric&quot;, the values in invp are all much less than 2**63.</span>
+            <span class="n">invp</span> <span class="o">=</span> <span class="n">invp</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">int64</span><span class="p">)</span>
+
+        <span class="c1"># The toeplitz matrix has alternating bands of 1 and -1.</span>
+        <span class="n">invp</span> <span class="o">*=</span> <span class="n">toeplitz</span><span class="p">((</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">invp</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">invp</span>
+
+
+<span class="k">def</span> <span class="nf">dft</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Discrete Fourier transform matrix.</span>
+
+<span class="sd">    Create the matrix that computes the discrete Fourier transform of a</span>
+<span class="sd">    sequence [1]_.  The n-th primitive root of unity used to generate the</span>
+<span class="sd">    matrix is exp(-2*pi*i/n), where i = sqrt(-1).</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    n : int</span>
+<span class="sd">        Size the matrix to create.</span>
+<span class="sd">    scale : str, optional</span>
+<span class="sd">        Must be None, &#39;sqrtn&#39;, or &#39;n&#39;.</span>
+<span class="sd">        If `scale` is &#39;sqrtn&#39;, the matrix is divided by `sqrt(n)`.</span>
+<span class="sd">        If `scale` is &#39;n&#39;, the matrix is divided by `n`.</span>
+<span class="sd">        If `scale` is None (the default), the matrix is not normalized, and the</span>
+<span class="sd">        return value is simply the Vandermonde matrix of the roots of unity.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    m : (n, n) ndarray</span>
+<span class="sd">        The DFT matrix.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    When `scale` is None, multiplying a vector by the matrix returned by</span>
+<span class="sd">    `dft` is mathematically equivalent to (but much less efficient than)</span>
+<span class="sd">    the calculation performed by `scipy.fftpack.fft`.</span>
+
+<span class="sd">    .. versionadded:: 0.14.0</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    .. [1] &quot;DFT matrix&quot;, http://en.wikipedia.org/wiki/DFT_matrix</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; from scipy.linalg import dft</span>
+<span class="sd">    &gt;&gt;&gt; np.set_printoptions(precision=5, suppress=True)</span>
+<span class="sd">    &gt;&gt;&gt; x = np.array([1, 2, 3, 0, 3, 2, 1, 0])</span>
+<span class="sd">    &gt;&gt;&gt; m = dft(8)</span>
+<span class="sd">    &gt;&gt;&gt; m.dot(x)   # Compute the DFT of x</span>
+<span class="sd">    array([ 12.+0.j,  -2.-2.j,   0.-4.j,  -2.+2.j,   4.+0.j,  -2.-2.j,</span>
+<span class="sd">            -0.+4.j,  -2.+2.j])</span>
+
+<span class="sd">    Verify that ``m.dot(x)`` is the same as ``fft(x)``.</span>
+
+<span class="sd">    &gt;&gt;&gt; from scipy.fftpack import fft</span>
+<span class="sd">    &gt;&gt;&gt; fft(x)     # Same result as m.dot(x)</span>
+<span class="sd">    array([ 12.+0.j,  -2.-2.j,   0.-4.j,  -2.+2.j,   4.+0.j,  -2.-2.j,</span>
+<span class="sd">             0.+4.j,  -2.+2.j])</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">scale</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="bp">None</span><span class="p">,</span> <span class="s1">&#39;sqrtn&#39;</span><span class="p">,</span> <span class="s1">&#39;n&#39;</span><span class="p">]:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;scale must be None, &#39;sqrtn&#39;, or &#39;n&#39;; &quot;</span>
+                         <span class="s2">&quot;</span><span class="si">%r</span><span class="s2"> is not valid.&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">scale</span><span class="p">,))</span>
+
+    <span class="n">omegas</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">2j</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="n">n</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">omegas</span> <span class="o">**</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">scale</span> <span class="o">==</span> <span class="s1">&#39;sqrtn&#39;</span><span class="p">:</span>
+        <span class="n">m</span> <span class="o">/=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">scale</span> <span class="o">==</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span>
+        <span class="n">m</span> <span class="o">/=</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="n">m</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../../_static/copybutton.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

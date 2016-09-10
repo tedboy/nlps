@@ -1,0 +1,6 @@
+:func:`word2vec.word2phrase`
+============================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: word2phrase

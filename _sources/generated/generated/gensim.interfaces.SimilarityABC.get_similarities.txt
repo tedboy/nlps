@@ -1,0 +1,6 @@
+gensim.interfaces.SimilarityABC.get_similarities
+================================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: SimilarityABC.get_similarities

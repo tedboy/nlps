@@ -1,0 +1,6 @@
+:func:`gensim.utils.get_my_ip`
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: get_my_ip

@@ -1,0 +1,6 @@
+:func:`gensim.matutils.ismatrix`
+================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: ismatrix

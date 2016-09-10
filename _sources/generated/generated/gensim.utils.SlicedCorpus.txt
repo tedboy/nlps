@@ -1,0 +1,21 @@
+:class:`gensim.utils.SlicedCorpus`
+==================================
+.. currentmodule:: gensim.utils
+.. autoclass:: SlicedCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SlicedCorpus.__init__
+   ~SlicedCorpus.load
+   ~SlicedCorpus.save
+
+
+
+
+

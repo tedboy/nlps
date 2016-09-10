@@ -1,0 +1,6 @@
+gensim.interfaces.CorpusABC.save_corpus
+=======================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: CorpusABC.save_corpus

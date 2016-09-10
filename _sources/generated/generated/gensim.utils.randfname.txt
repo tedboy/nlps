@@ -1,0 +1,6 @@
+:func:`gensim.utils.randfname`
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: randfname

@@ -1,0 +1,6 @@
+:func:`gensim.matutils.any2sparse`
+==================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: any2sparse

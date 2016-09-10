@@ -1,0 +1,6 @@
+nltk.classify.TypedMaxentFeatureEncoding.describe
+=================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TypedMaxentFeatureEncoding.describe

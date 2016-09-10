@@ -1,0 +1,6 @@
+:func:`stop_words.remove_filter`
+================================
+
+.. currentmodule:: stop_words
+
+.. autofunction:: remove_filter

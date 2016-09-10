@@ -1,0 +1,6 @@
+:func:`gensim.utils.dict_from_corpus`
+=====================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: dict_from_corpus

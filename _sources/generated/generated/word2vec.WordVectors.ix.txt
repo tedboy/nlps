@@ -1,0 +1,6 @@
+word2vec.WordVectors.ix
+=======================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.ix

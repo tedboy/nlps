@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.is_alive
+================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: InputQueue.is_alive

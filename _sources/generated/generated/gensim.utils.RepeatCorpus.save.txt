@@ -1,0 +1,6 @@
+gensim.utils.RepeatCorpus.save
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: RepeatCorpus.save

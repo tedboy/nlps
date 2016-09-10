@@ -1,0 +1,6 @@
+gensim.interfaces.SimilarityABC.load
+====================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: SimilarityABC.load

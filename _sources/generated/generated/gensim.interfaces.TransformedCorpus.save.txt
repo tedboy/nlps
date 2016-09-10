@@ -1,0 +1,6 @@
+gensim.interfaces.TransformedCorpus.save
+========================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: TransformedCorpus.save

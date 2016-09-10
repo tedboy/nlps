@@ -1,0 +1,6 @@
+:func:`gensim.utils.keep_vocab_item`
+====================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: keep_vocab_item

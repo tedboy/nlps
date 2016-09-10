@@ -1,0 +1,23 @@
+:class:`nltk.cluster.Dendrogram`
+================================
+.. currentmodule:: nltk.cluster
+.. autoclass:: Dendrogram
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Dendrogram.__init__
+   ~Dendrogram.groups
+   ~Dendrogram.merge
+   ~Dendrogram.show
+   ~Dendrogram.unicode_repr
+
+
+
+
+

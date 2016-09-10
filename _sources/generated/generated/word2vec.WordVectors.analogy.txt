@@ -1,0 +1,6 @@
+word2vec.WordVectors.analogy
+============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.analogy

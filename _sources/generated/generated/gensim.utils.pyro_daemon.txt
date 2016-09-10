@@ -1,0 +1,6 @@
+:func:`gensim.utils.pyro_daemon`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: pyro_daemon

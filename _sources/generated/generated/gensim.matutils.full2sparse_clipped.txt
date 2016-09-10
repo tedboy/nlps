@@ -1,0 +1,6 @@
+:func:`gensim.matutils.full2sparse_clipped`
+===========================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: full2sparse_clipped

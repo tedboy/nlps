@@ -1,0 +1,6 @@
+:func:`gensim.matutils.triu`
+============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: triu

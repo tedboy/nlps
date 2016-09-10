@@ -1,0 +1,6 @@
+nltk.cluster.KMeansClusterer.__init__
+=====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: KMeansClusterer.__init__

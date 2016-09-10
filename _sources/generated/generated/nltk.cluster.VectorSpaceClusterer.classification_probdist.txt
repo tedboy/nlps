@@ -1,0 +1,6 @@
+nltk.cluster.VectorSpaceClusterer.classification_probdist
+=========================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: VectorSpaceClusterer.classification_probdist

@@ -1,0 +1,51 @@
+:mod:`stop_words`
+=================
+
+.. automodule:: stop_words
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      add_filter
+      apply_filters
+      get_stop_words
+      get_version
+      remove_filter
+      safe_get_stop_words
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/stop_words.add_filter
+       generated/stop_words.apply_filters
+       generated/stop_words.get_stop_words
+       generated/stop_words.get_version
+       generated/stop_words.remove_filter
+       generated/stop_words.safe_get_stop_words
+      
+   
+   
+
+   
+   
+   
+
+   
+   
+   Exceptions
+   ----------
+   .. autosummary::
+      :toctree:
+
+   
+      StopWordError
+   
+   

@@ -1,0 +1,24 @@
+:class:`nltk.classify.BinaryMaxentFeatureEncoding`
+==================================================
+.. currentmodule:: nltk.classify
+.. autoclass:: BinaryMaxentFeatureEncoding
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BinaryMaxentFeatureEncoding.__init__
+   ~BinaryMaxentFeatureEncoding.describe
+   ~BinaryMaxentFeatureEncoding.encode
+   ~BinaryMaxentFeatureEncoding.labels
+   ~BinaryMaxentFeatureEncoding.length
+   ~BinaryMaxentFeatureEncoding.train
+
+
+
+
+

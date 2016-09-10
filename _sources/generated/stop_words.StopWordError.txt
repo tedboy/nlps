@@ -1,0 +1,6 @@
+stop_words.StopWordError
+========================
+
+.. currentmodule:: stop_words
+
+.. autoexception:: StopWordError

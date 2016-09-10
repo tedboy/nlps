@@ -1,0 +1,6 @@
+gensim.NullHandler.name
+=======================
+
+.. currentmodule:: gensim
+
+.. autoattribute:: NullHandler.name

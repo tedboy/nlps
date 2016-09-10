@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.cluster_names
+=======================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.cluster_names

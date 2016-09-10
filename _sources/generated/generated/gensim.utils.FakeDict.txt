@@ -1,0 +1,22 @@
+:class:`gensim.utils.FakeDict`
+==============================
+.. currentmodule:: gensim.utils
+.. autoclass:: FakeDict
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FakeDict.__init__
+   ~FakeDict.get
+   ~FakeDict.iteritems
+   ~FakeDict.keys
+
+
+
+
+

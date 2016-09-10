@@ -1,0 +1,6 @@
+gensim.NullHandler.emit
+=======================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.emit

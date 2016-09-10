@@ -1,0 +1,19 @@
+:class:`gensim.matutils.Scipy2Corpus`
+=====================================
+.. currentmodule:: gensim.matutils
+.. autoclass:: Scipy2Corpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Scipy2Corpus.__init__
+
+
+
+
+

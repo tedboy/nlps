@@ -1,0 +1,6 @@
+gensim.matutils.MmWriter.HEADER_LINE
+====================================
+
+.. currentmodule:: gensim.matutils
+
+.. autoattribute:: MmWriter.HEADER_LINE

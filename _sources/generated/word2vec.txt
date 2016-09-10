@@ -1,0 +1,66 @@
+:mod:`word2vec`
+===============
+
+.. automodule:: word2vec
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      doc2vec
+      load
+      load_clusters
+      run_cmd
+      unitvec
+      word2clusters
+      word2phrase
+      word2vec
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/word2vec.doc2vec
+       generated/word2vec.load
+       generated/word2vec.load_clusters
+       generated/word2vec.run_cmd
+       generated/word2vec.unitvec
+       generated/word2vec.word2clusters
+       generated/word2vec.word2phrase
+       generated/word2vec.word2vec
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      WordClusters
+      WordVectors
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/word2vec.WordClusters
+       generated/word2vec.WordVectors
+
+   
+   
+
+   
+   
+   

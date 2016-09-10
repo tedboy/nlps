@@ -1,0 +1,6 @@
+nltk.classify.Senna.tag
+=======================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: Senna.tag

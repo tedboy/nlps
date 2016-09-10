@@ -1,0 +1,6 @@
+:func:`gensim.utils.qsize`
+==========================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: qsize

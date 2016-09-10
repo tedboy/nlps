@@ -1,0 +1,6 @@
+:func:`gensim.matutils.pad`
+===========================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: pad

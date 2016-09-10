@@ -1,0 +1,24 @@
+:class:`nltk.classify.TypedMaxentFeatureEncoding`
+=================================================
+.. currentmodule:: nltk.classify
+.. autoclass:: TypedMaxentFeatureEncoding
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TypedMaxentFeatureEncoding.__init__
+   ~TypedMaxentFeatureEncoding.describe
+   ~TypedMaxentFeatureEncoding.encode
+   ~TypedMaxentFeatureEncoding.labels
+   ~TypedMaxentFeatureEncoding.length
+   ~TypedMaxentFeatureEncoding.train
+
+
+
+
+

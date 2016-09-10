@@ -1,0 +1,6 @@
+gensim.NullHandler.setFormatter
+===============================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.setFormatter

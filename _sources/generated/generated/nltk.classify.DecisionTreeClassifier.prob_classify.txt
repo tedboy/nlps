@@ -1,0 +1,6 @@
+nltk.classify.DecisionTreeClassifier.prob_classify
+==================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: DecisionTreeClassifier.prob_classify

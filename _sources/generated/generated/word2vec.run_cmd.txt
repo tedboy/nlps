@@ -1,0 +1,6 @@
+:func:`word2vec.run_cmd`
+========================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: run_cmd

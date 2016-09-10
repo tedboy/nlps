@@ -1,0 +1,6 @@
+:func:`gensim.utils.identity`
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: identity

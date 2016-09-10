@@ -1,0 +1,6 @@
+nltk.classify.ClassifierI.prob_classify_many
+============================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: ClassifierI.prob_classify_many

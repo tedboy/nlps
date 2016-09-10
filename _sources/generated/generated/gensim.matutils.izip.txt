@@ -1,0 +1,19 @@
+:class:`gensim.matutils.izip`
+=============================
+.. currentmodule:: gensim.matutils
+.. autoclass:: izip
+   :undoc-members:
+
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~izip.next
+

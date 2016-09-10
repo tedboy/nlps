@@ -1,0 +1,6 @@
+gensim.utils.FakeDict.__init__
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: FakeDict.__init__

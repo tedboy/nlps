@@ -1,0 +1,21 @@
+:class:`gensim.utils.ClippedCorpus`
+===================================
+.. currentmodule:: gensim.utils
+.. autoclass:: ClippedCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ClippedCorpus.__init__
+   ~ClippedCorpus.load
+   ~ClippedCorpus.save
+
+
+
+
+

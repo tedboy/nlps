@@ -1,0 +1,6 @@
+:func:`gensim.matutils.veclen`
+==============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: veclen

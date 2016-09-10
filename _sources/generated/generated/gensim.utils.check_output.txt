@@ -1,0 +1,6 @@
+:func:`gensim.utils.check_output`
+=================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: check_output

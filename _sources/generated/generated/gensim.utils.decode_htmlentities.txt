@@ -1,0 +1,6 @@
+:func:`gensim.utils.decode_htmlentities`
+========================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: decode_htmlentities

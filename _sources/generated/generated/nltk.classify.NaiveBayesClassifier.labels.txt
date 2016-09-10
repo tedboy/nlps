@@ -1,0 +1,6 @@
+nltk.classify.NaiveBayesClassifier.labels
+=========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: NaiveBayesClassifier.labels

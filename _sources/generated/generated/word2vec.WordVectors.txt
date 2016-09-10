@@ -1,0 +1,28 @@
+:class:`word2vec.WordVectors`
+=============================
+.. currentmodule:: word2vec
+.. autoclass:: WordVectors
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WordVectors.__init__
+   ~WordVectors.analogy
+   ~WordVectors.cosine
+   ~WordVectors.from_binary
+   ~WordVectors.from_mmap
+   ~WordVectors.from_text
+   ~WordVectors.generate_response
+   ~WordVectors.get_vector
+   ~WordVectors.ix
+   ~WordVectors.to_mmap
+
+
+
+
+

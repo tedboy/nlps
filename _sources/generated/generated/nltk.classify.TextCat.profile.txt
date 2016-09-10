@@ -1,0 +1,6 @@
+nltk.classify.TextCat.profile
+=============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TextCat.profile

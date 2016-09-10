@@ -1,0 +1,6 @@
+gensim.interfaces.TransformationABC.load
+========================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: TransformationABC.load

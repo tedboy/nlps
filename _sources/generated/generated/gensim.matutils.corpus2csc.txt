@@ -1,0 +1,6 @@
+:func:`gensim.matutils.corpus2csc`
+==================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: corpus2csc

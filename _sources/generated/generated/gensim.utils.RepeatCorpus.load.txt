@@ -1,0 +1,6 @@
+gensim.utils.RepeatCorpus.load
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: RepeatCorpus.load

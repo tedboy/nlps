@@ -1,0 +1,6 @@
+nltk.cluster.Dendrogram.groups
+==============================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: Dendrogram.groups

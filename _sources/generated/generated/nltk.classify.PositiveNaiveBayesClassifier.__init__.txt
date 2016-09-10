@@ -1,0 +1,6 @@
+nltk.classify.PositiveNaiveBayesClassifier.__init__
+===================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: PositiveNaiveBayesClassifier.__init__

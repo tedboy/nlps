@@ -1,0 +1,21 @@
+:class:`gensim.matutils.MmReader`
+=================================
+.. currentmodule:: gensim.matutils
+.. autoclass:: MmReader
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MmReader.__init__
+   ~MmReader.docbyoffset
+   ~MmReader.skip_headers
+
+
+
+
+

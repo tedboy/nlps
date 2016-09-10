@@ -1,0 +1,6 @@
+:func:`gensim.matutils.corpus2dense`
+====================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: corpus2dense

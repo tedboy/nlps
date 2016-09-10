@@ -1,0 +1,6 @@
+:func:`gensim.matutils.unitvec`
+===============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: unitvec

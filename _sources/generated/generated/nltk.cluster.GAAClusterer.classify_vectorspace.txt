@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.classify_vectorspace
+==============================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.classify_vectorspace

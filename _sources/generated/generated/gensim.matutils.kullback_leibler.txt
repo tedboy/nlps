@@ -1,0 +1,6 @@
+:func:`gensim.matutils.kullback_leibler`
+========================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: kullback_leibler

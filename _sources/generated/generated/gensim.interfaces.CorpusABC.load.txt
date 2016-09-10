@@ -1,0 +1,6 @@
+gensim.interfaces.CorpusABC.load
+================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: CorpusABC.load

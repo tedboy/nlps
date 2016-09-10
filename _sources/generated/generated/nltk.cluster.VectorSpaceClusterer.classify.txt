@@ -1,0 +1,6 @@
+nltk.cluster.VectorSpaceClusterer.classify
+==========================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: VectorSpaceClusterer.classify

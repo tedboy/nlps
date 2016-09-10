@@ -1,0 +1,32 @@
+:class:`nltk.classify.Senna`
+============================
+.. currentmodule:: nltk.classify
+.. autoclass:: Senna
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Senna.__init__
+   ~Senna.evaluate
+   ~Senna.executable
+   ~Senna.tag
+   ~Senna.tag_sents
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Senna.SUPPORTED_OPERATIONS
+   ~Senna.unicode_repr
+

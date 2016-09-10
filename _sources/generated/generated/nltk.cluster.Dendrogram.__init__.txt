@@ -1,0 +1,6 @@
+nltk.cluster.Dendrogram.__init__
+================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: Dendrogram.__init__

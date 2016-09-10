@@ -1,0 +1,6 @@
+:func:`gensim.matutils.dense2vec`
+=================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: dense2vec

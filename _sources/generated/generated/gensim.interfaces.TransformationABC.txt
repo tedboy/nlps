@@ -1,0 +1,20 @@
+:class:`gensim.interfaces.TransformationABC`
+============================================
+.. currentmodule:: gensim.interfaces
+.. autoclass:: TransformationABC
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TransformationABC.load
+   ~TransformationABC.save
+
+
+
+
+

@@ -1,0 +1,6 @@
+:func:`gensim.utils.safe_unichr`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: safe_unichr

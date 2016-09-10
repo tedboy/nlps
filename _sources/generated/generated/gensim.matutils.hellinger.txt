@@ -1,0 +1,6 @@
+:func:`gensim.matutils.hellinger`
+=================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: hellinger

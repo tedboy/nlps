@@ -1,0 +1,60 @@
+:mod:`nltk.cluster`
+===================
+
+.. automodule:: nltk.cluster
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      cosine_distance
+      euclidean_distance
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.cluster.cosine_distance
+       generated/nltk.cluster.euclidean_distance
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      Dendrogram
+      EMClusterer
+      GAAClusterer
+      KMeansClusterer
+      VectorSpaceClusterer
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.cluster.Dendrogram
+       generated/nltk.cluster.EMClusterer
+       generated/nltk.cluster.GAAClusterer
+       generated/nltk.cluster.KMeansClusterer
+       generated/nltk.cluster.VectorSpaceClusterer
+
+   
+   
+
+   
+   
+   

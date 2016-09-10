@@ -1,0 +1,6 @@
+nltk.classify.SklearnClassifier.labels
+======================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: SklearnClassifier.labels

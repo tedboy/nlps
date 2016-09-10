@@ -1,0 +1,6 @@
+:func:`gensim.utils.chunkize_serial`
+====================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: chunkize_serial

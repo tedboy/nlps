@@ -1,0 +1,6 @@
+nltk.classify.MultiClassifierI.labels
+=====================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: MultiClassifierI.labels

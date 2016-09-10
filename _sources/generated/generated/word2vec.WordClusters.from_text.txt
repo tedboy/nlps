@@ -1,0 +1,6 @@
+word2vec.WordClusters.from_text
+===============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordClusters.from_text

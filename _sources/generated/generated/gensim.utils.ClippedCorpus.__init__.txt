@@ -1,0 +1,6 @@
+gensim.utils.ClippedCorpus.__init__
+===================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: ClippedCorpus.__init__

@@ -1,0 +1,6 @@
+nltk.cluster.KMeansClusterer.unicode_repr
+=========================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: KMeansClusterer.unicode_repr

@@ -1,0 +1,30 @@
+:class:`nltk.cluster.VectorSpaceClusterer`
+==========================================
+.. currentmodule:: nltk.cluster
+.. autoclass:: VectorSpaceClusterer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~VectorSpaceClusterer.__init__
+   ~VectorSpaceClusterer.classification_probdist
+   ~VectorSpaceClusterer.classify
+   ~VectorSpaceClusterer.classify_vectorspace
+   ~VectorSpaceClusterer.cluster
+   ~VectorSpaceClusterer.cluster_name
+   ~VectorSpaceClusterer.cluster_names
+   ~VectorSpaceClusterer.cluster_vectorspace
+   ~VectorSpaceClusterer.likelihood
+   ~VectorSpaceClusterer.likelihood_vectorspace
+   ~VectorSpaceClusterer.num_clusters
+   ~VectorSpaceClusterer.vector
+
+
+
+
+

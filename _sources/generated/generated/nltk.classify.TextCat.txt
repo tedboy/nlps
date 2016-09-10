@@ -1,0 +1,33 @@
+:class:`nltk.classify.TextCat`
+==============================
+.. currentmodule:: nltk.classify
+.. autoclass:: TextCat
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TextCat.__init__
+   ~TextCat.calc_dist
+   ~TextCat.guess_language
+   ~TextCat.lang_dists
+   ~TextCat.profile
+   ~TextCat.remove_punctuation
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~TextCat.fingerprints
+   ~TextCat.last_distances
+

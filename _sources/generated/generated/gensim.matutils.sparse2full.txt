@@ -1,0 +1,6 @@
+:func:`gensim.matutils.sparse2full`
+===================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: sparse2full

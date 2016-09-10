@@ -1,0 +1,6 @@
+:func:`gensim.utils.simple_preprocess`
+======================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: simple_preprocess

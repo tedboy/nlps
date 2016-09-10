@@ -1,0 +1,6 @@
+gensim.NullHandler.acquire
+==========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.acquire

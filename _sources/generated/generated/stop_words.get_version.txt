@@ -1,0 +1,6 @@
+:func:`stop_words.get_version`
+==============================
+
+.. currentmodule:: stop_words
+
+.. autofunction:: get_version

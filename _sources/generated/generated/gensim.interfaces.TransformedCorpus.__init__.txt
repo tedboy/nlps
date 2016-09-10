@@ -1,0 +1,6 @@
+gensim.interfaces.TransformedCorpus.__init__
+============================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: TransformedCorpus.__init__

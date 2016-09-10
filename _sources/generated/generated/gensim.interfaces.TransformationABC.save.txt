@@ -1,0 +1,6 @@
+gensim.interfaces.TransformationABC.save
+========================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: TransformationABC.save

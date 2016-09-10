@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.likelihood
+====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.likelihood

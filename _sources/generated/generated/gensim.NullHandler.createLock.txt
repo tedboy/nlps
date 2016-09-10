@@ -1,0 +1,6 @@
+gensim.NullHandler.createLock
+=============================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.createLock

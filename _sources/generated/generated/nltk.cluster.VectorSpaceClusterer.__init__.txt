@@ -1,0 +1,6 @@
+nltk.cluster.VectorSpaceClusterer.__init__
+==========================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: VectorSpaceClusterer.__init__

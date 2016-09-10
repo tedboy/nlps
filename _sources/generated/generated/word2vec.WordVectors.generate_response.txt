@@ -1,0 +1,6 @@
+word2vec.WordVectors.generate_response
+======================================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.generate_response

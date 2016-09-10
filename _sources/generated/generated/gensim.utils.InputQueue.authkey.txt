@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.authkey
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. autoattribute:: InputQueue.authkey

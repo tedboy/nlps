@@ -1,0 +1,6 @@
+word2vec.WordVectors.to_mmap
+============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.to_mmap

@@ -1,0 +1,6 @@
+:func:`gensim.utils.mock_data_row`
+==================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: mock_data_row

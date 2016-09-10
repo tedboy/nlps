@@ -1,0 +1,6 @@
+:func:`word2vec.doc2vec`
+========================
+
+.. currentmodule:: word2vec
+
+.. autofunction:: doc2vec

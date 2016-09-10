@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.start
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: InputQueue.start

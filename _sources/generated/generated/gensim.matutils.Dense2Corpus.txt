@@ -1,0 +1,19 @@
+:class:`gensim.matutils.Dense2Corpus`
+=====================================
+.. currentmodule:: gensim.matutils
+.. autoclass:: Dense2Corpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Dense2Corpus.__init__
+
+
+
+
+

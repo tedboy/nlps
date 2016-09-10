@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.terminate
+=================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: InputQueue.terminate

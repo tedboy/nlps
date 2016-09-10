@@ -1,0 +1,21 @@
+:class:`gensim.interfaces.CorpusABC`
+====================================
+.. currentmodule:: gensim.interfaces
+.. autoclass:: CorpusABC
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CorpusABC.load
+   ~CorpusABC.save
+   ~CorpusABC.save_corpus
+
+
+
+
+

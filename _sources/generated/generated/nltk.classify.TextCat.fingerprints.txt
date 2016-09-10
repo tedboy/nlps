@@ -1,0 +1,6 @@
+nltk.classify.TextCat.fingerprints
+==================================
+
+.. currentmodule:: nltk.classify
+
+.. autoattribute:: TextCat.fingerprints

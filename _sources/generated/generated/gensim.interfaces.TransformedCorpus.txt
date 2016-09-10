@@ -1,0 +1,22 @@
+:class:`gensim.interfaces.TransformedCorpus`
+============================================
+.. currentmodule:: gensim.interfaces
+.. autoclass:: TransformedCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TransformedCorpus.__init__
+   ~TransformedCorpus.load
+   ~TransformedCorpus.save
+   ~TransformedCorpus.save_corpus
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.cluster.KMeansClusterer.num_clusters
+=========================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: KMeansClusterer.num_clusters

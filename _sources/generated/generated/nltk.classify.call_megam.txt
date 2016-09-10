@@ -1,0 +1,6 @@
+:func:`nltk.classify.call_megam`
+================================
+
+.. currentmodule:: nltk.classify
+
+.. autofunction:: call_megam

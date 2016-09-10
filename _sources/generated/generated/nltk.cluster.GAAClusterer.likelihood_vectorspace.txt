@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.likelihood_vectorspace
+================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.likelihood_vectorspace

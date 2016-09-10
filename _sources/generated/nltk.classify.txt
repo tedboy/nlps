@@ -1,0 +1,90 @@
+:mod:`nltk.classify`
+====================
+
+.. automodule:: nltk.classify
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      accuracy
+      apply_features
+      call_megam
+      config_megam
+      config_weka
+      log_likelihood
+      rte_classifier
+      rte_features
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.classify.accuracy
+       generated/nltk.classify.apply_features
+       generated/nltk.classify.call_megam
+       generated/nltk.classify.config_megam
+       generated/nltk.classify.config_weka
+       generated/nltk.classify.log_likelihood
+       generated/nltk.classify.rte_classifier
+       generated/nltk.classify.rte_features
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      BinaryMaxentFeatureEncoding
+      ClassifierI
+      ConditionalExponentialClassifier
+      DecisionTreeClassifier
+      MaxentClassifier
+      MultiClassifierI
+      NaiveBayesClassifier
+      PositiveNaiveBayesClassifier
+      RTEFeatureExtractor
+      Senna
+      SklearnClassifier
+      TextCat
+      TypedMaxentFeatureEncoding
+      WekaClassifier
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.classify.BinaryMaxentFeatureEncoding
+       generated/nltk.classify.ClassifierI
+       generated/nltk.classify.ConditionalExponentialClassifier
+       generated/nltk.classify.DecisionTreeClassifier
+       generated/nltk.classify.MaxentClassifier
+       generated/nltk.classify.MultiClassifierI
+       generated/nltk.classify.NaiveBayesClassifier
+       generated/nltk.classify.PositiveNaiveBayesClassifier
+       generated/nltk.classify.RTEFeatureExtractor
+       generated/nltk.classify.Senna
+       generated/nltk.classify.SklearnClassifier
+       generated/nltk.classify.TextCat
+       generated/nltk.classify.TypedMaxentFeatureEncoding
+       generated/nltk.classify.WekaClassifier
+
+   
+   
+
+   
+   
+   

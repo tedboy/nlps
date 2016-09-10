@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.classify
+=================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.classify

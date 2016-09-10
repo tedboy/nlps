@@ -1,0 +1,6 @@
+:func:`gensim.matutils.qr_destroy`
+==================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: qr_destroy

@@ -1,0 +1,23 @@
+:class:`word2vec.WordClusters`
+==============================
+.. currentmodule:: word2vec
+.. autoclass:: WordClusters
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WordClusters.__init__
+   ~WordClusters.from_text
+   ~WordClusters.get_cluster
+   ~WordClusters.get_words_on_cluster
+   ~WordClusters.ix
+
+
+
+
+

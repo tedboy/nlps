@@ -1,0 +1,6 @@
+word2vec.WordClusters.ix
+========================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordClusters.ix

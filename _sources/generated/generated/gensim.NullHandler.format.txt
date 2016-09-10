@@ -1,0 +1,6 @@
+gensim.NullHandler.format
+=========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.format

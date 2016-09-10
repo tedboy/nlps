@@ -1,0 +1,6 @@
+gensim.NullHandler.flush
+========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.flush

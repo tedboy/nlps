@@ -1,0 +1,6 @@
+nltk.classify.SklearnClassifier.prob_classify_many
+==================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: SklearnClassifier.prob_classify_many

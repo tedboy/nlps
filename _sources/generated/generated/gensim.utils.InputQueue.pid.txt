@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.pid
+===========================
+
+.. currentmodule:: gensim.utils
+
+.. autoattribute:: InputQueue.pid

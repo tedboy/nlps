@@ -1,0 +1,6 @@
+:func:`gensim.matutils.itervalues`
+==================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: itervalues

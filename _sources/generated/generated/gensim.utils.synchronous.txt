@@ -1,0 +1,6 @@
+:func:`gensim.utils.synchronous`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: synchronous

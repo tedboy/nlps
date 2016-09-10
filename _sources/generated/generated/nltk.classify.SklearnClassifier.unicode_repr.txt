@@ -1,0 +1,6 @@
+nltk.classify.SklearnClassifier.unicode_repr
+============================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: SklearnClassifier.unicode_repr

@@ -1,0 +1,41 @@
+:mod:`gensim.interfaces`
+========================
+
+.. automodule:: gensim.interfaces
+
+   
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      CorpusABC
+      SimilarityABC
+      TransformationABC
+      TransformedCorpus
+      xrange
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.interfaces.CorpusABC
+       generated/gensim.interfaces.SimilarityABC
+       generated/gensim.interfaces.TransformationABC
+       generated/gensim.interfaces.TransformedCorpus
+       generated/gensim.interfaces.xrange
+
+   
+   
+
+   
+   
+   

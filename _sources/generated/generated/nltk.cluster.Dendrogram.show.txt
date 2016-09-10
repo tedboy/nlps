@@ -1,0 +1,6 @@
+nltk.cluster.Dendrogram.show
+============================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: Dendrogram.show

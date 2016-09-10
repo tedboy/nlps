@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.classification_probdist
+================================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.classification_probdist

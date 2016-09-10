@@ -1,0 +1,6 @@
+word2vec.WordVectors.get_vector
+===============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.get_vector

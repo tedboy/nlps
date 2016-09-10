@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.classify_vectorspace
+=============================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.classify_vectorspace

@@ -1,0 +1,6 @@
+:func:`gensim.matutils.argsort`
+===============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: argsort

@@ -1,0 +1,31 @@
+:class:`nltk.cluster.EMClusterer`
+=================================
+.. currentmodule:: nltk.cluster
+.. autoclass:: EMClusterer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~EMClusterer.__init__
+   ~EMClusterer.classification_probdist
+   ~EMClusterer.classify
+   ~EMClusterer.classify_vectorspace
+   ~EMClusterer.cluster
+   ~EMClusterer.cluster_name
+   ~EMClusterer.cluster_names
+   ~EMClusterer.cluster_vectorspace
+   ~EMClusterer.likelihood
+   ~EMClusterer.likelihood_vectorspace
+   ~EMClusterer.num_clusters
+   ~EMClusterer.unicode_repr
+   ~EMClusterer.vector
+
+
+
+
+

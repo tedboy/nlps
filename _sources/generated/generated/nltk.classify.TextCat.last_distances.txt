@@ -1,0 +1,6 @@
+nltk.classify.TextCat.last_distances
+====================================
+
+.. currentmodule:: nltk.classify
+
+.. autoattribute:: TextCat.last_distances

@@ -1,0 +1,6 @@
+nltk.cluster.VectorSpaceClusterer.cluster_names
+===============================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: VectorSpaceClusterer.cluster_names

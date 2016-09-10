@@ -1,0 +1,38 @@
+:class:`nltk.classify.ConditionalExponentialClassifier`
+=======================================================
+.. currentmodule:: nltk.classify
+.. autoclass:: ConditionalExponentialClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ConditionalExponentialClassifier.__init__
+   ~ConditionalExponentialClassifier.classify
+   ~ConditionalExponentialClassifier.classify_many
+   ~ConditionalExponentialClassifier.explain
+   ~ConditionalExponentialClassifier.labels
+   ~ConditionalExponentialClassifier.prob_classify
+   ~ConditionalExponentialClassifier.prob_classify_many
+   ~ConditionalExponentialClassifier.set_weights
+   ~ConditionalExponentialClassifier.show_most_informative_features
+   ~ConditionalExponentialClassifier.train
+   ~ConditionalExponentialClassifier.unicode_repr
+   ~ConditionalExponentialClassifier.weights
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ConditionalExponentialClassifier.ALGORITHMS
+

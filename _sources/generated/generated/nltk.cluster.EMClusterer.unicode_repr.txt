@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.unicode_repr
+=====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.unicode_repr

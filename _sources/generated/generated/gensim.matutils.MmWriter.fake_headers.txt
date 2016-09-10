@@ -1,0 +1,6 @@
+gensim.matutils.MmWriter.fake_headers
+=====================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmWriter.fake_headers

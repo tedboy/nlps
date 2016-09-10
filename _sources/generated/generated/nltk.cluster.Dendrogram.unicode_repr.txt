@@ -1,0 +1,6 @@
+nltk.cluster.Dendrogram.unicode_repr
+====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: Dendrogram.unicode_repr

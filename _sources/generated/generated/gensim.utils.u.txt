@@ -1,0 +1,6 @@
+:func:`gensim.utils.u`
+======================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: u

@@ -1,0 +1,116 @@
+:mod:`gensim.matutils`
+======================
+
+.. automodule:: gensim.matutils
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      any2sparse
+      argsort
+      blas
+      corpus2csc
+      corpus2dense
+      cossim
+      dense2vec
+      entropy
+      full2sparse
+      full2sparse_clipped
+      get_lapack_funcs
+      hellinger
+      isbow
+      ismatrix
+      iteritems
+      itervalues
+      jaccard
+      kullback_leibler
+      pad
+      qr_destroy
+      ret_normalized_vec
+      scipy2sparse
+      sparse2full
+      triu
+      triu_indices
+      unitvec
+      veclen
+      zeros_aligned
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.matutils.any2sparse
+       generated/gensim.matutils.argsort
+       generated/gensim.matutils.blas
+       generated/gensim.matutils.corpus2csc
+       generated/gensim.matutils.corpus2dense
+       generated/gensim.matutils.cossim
+       generated/gensim.matutils.dense2vec
+       generated/gensim.matutils.entropy
+       generated/gensim.matutils.full2sparse
+       generated/gensim.matutils.full2sparse_clipped
+       generated/gensim.matutils.get_lapack_funcs
+       generated/gensim.matutils.hellinger
+       generated/gensim.matutils.isbow
+       generated/gensim.matutils.ismatrix
+       generated/gensim.matutils.iteritems
+       generated/gensim.matutils.itervalues
+       generated/gensim.matutils.jaccard
+       generated/gensim.matutils.kullback_leibler
+       generated/gensim.matutils.pad
+       generated/gensim.matutils.qr_destroy
+       generated/gensim.matutils.ret_normalized_vec
+       generated/gensim.matutils.scipy2sparse
+       generated/gensim.matutils.sparse2full
+       generated/gensim.matutils.triu
+       generated/gensim.matutils.triu_indices
+       generated/gensim.matutils.unitvec
+       generated/gensim.matutils.veclen
+       generated/gensim.matutils.zeros_aligned
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      Dense2Corpus
+      MmReader
+      MmWriter
+      Scipy2Corpus
+      Sparse2Corpus
+      izip
+      xrange
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.matutils.Dense2Corpus
+       generated/gensim.matutils.MmReader
+       generated/gensim.matutils.MmWriter
+       generated/gensim.matutils.Scipy2Corpus
+       generated/gensim.matutils.Sparse2Corpus
+       generated/gensim.matutils.izip
+       generated/gensim.matutils.xrange
+
+   
+   
+
+   
+   
+   

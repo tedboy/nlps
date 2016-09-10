@@ -1,0 +1,6 @@
+gensim.utils.ClippedCorpus.load
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: ClippedCorpus.load

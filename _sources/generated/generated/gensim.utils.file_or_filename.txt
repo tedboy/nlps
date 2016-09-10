@@ -1,0 +1,6 @@
+:func:`gensim.utils.file_or_filename`
+=====================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: file_or_filename

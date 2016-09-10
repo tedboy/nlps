@@ -1,0 +1,6 @@
+nltk.classify.Senna.SUPPORTED_OPERATIONS
+========================================
+
+.. currentmodule:: nltk.classify
+
+.. autoattribute:: Senna.SUPPORTED_OPERATIONS

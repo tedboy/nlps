@@ -1,0 +1,6 @@
+nltk.classify.TextCat.calc_dist
+===============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TextCat.calc_dist

@@ -1,0 +1,6 @@
+gensim.NullHandler.addFilter
+============================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.addFilter

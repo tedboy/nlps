@@ -1,0 +1,6 @@
+:func:`gensim.utils.get_max_id`
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: get_max_id

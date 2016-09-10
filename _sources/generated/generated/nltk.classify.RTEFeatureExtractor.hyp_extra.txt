@@ -1,0 +1,6 @@
+nltk.classify.RTEFeatureExtractor.hyp_extra
+===========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: RTEFeatureExtractor.hyp_extra

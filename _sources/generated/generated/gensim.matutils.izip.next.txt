@@ -1,0 +1,6 @@
+gensim.matutils.izip.next
+=========================
+
+.. currentmodule:: gensim.matutils
+
+.. autoattribute:: izip.next

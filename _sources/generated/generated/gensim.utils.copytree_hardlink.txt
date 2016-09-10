@@ -1,0 +1,6 @@
+:func:`gensim.utils.copytree_hardlink`
+======================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: copytree_hardlink

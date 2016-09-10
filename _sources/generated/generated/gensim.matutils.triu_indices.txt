@@ -1,0 +1,6 @@
+:func:`gensim.matutils.triu_indices`
+====================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: triu_indices

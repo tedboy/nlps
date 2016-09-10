@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.vector
+===============================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.vector

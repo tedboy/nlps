@@ -1,0 +1,6 @@
+:func:`gensim.utils.wraps`
+==========================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: wraps

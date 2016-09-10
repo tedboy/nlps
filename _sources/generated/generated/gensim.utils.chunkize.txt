@@ -1,0 +1,6 @@
+:func:`gensim.utils.chunkize`
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: chunkize

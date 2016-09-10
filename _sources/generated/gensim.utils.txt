@@ -1,0 +1,150 @@
+:mod:`gensim.utils`
+===================
+
+.. automodule:: gensim.utils
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      any2unicode
+      any2utf8
+      check_output
+      chunkize
+      chunkize_serial
+      contextmanager
+      copytree_hardlink
+      deaccent
+      decode_htmlentities
+      dict_from_corpus
+      file_or_filename
+      getNS
+      get_max_id
+      get_my_ip
+      grouper
+      has_pattern
+      identity
+      is_corpus
+      iteritems
+      keep_vocab_item
+      lemmatize
+      mock_data
+      mock_data_row
+      pickle
+      prune_vocab
+      pyro_daemon
+      qsize
+      randfname
+      revdict
+      safe_unichr
+      simple_preprocess
+      smart_extension
+      smart_open
+      synchronous
+      to_unicode
+      to_utf8
+      tokenize
+      toptexts
+      u
+      unichr
+      unpickle
+      upload_chunked
+      wraps
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.utils.any2unicode
+       generated/gensim.utils.any2utf8
+       generated/gensim.utils.check_output
+       generated/gensim.utils.chunkize
+       generated/gensim.utils.chunkize_serial
+       generated/gensim.utils.contextmanager
+       generated/gensim.utils.copytree_hardlink
+       generated/gensim.utils.deaccent
+       generated/gensim.utils.decode_htmlentities
+       generated/gensim.utils.dict_from_corpus
+       generated/gensim.utils.file_or_filename
+       generated/gensim.utils.getNS
+       generated/gensim.utils.get_max_id
+       generated/gensim.utils.get_my_ip
+       generated/gensim.utils.grouper
+       generated/gensim.utils.has_pattern
+       generated/gensim.utils.identity
+       generated/gensim.utils.is_corpus
+       generated/gensim.utils.iteritems
+       generated/gensim.utils.keep_vocab_item
+       generated/gensim.utils.lemmatize
+       generated/gensim.utils.mock_data
+       generated/gensim.utils.mock_data_row
+       generated/gensim.utils.pickle
+       generated/gensim.utils.prune_vocab
+       generated/gensim.utils.pyro_daemon
+       generated/gensim.utils.qsize
+       generated/gensim.utils.randfname
+       generated/gensim.utils.revdict
+       generated/gensim.utils.safe_unichr
+       generated/gensim.utils.simple_preprocess
+       generated/gensim.utils.smart_extension
+       generated/gensim.utils.smart_open
+       generated/gensim.utils.synchronous
+       generated/gensim.utils.to_unicode
+       generated/gensim.utils.to_utf8
+       generated/gensim.utils.tokenize
+       generated/gensim.utils.toptexts
+       generated/gensim.utils.u
+       generated/gensim.utils.unichr
+       generated/gensim.utils.unpickle
+       generated/gensim.utils.upload_chunked
+       generated/gensim.utils.wraps
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      ClippedCorpus
+      FakeDict
+      InputQueue
+      NoCM
+      RepeatCorpus
+      RepeatCorpusNTimes
+      SaveLoad
+      SlicedCorpus
+      xrange
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.utils.ClippedCorpus
+       generated/gensim.utils.FakeDict
+       generated/gensim.utils.InputQueue
+       generated/gensim.utils.NoCM
+       generated/gensim.utils.RepeatCorpus
+       generated/gensim.utils.RepeatCorpusNTimes
+       generated/gensim.utils.SaveLoad
+       generated/gensim.utils.SlicedCorpus
+       generated/gensim.utils.xrange
+
+   
+   
+
+   
+   
+   

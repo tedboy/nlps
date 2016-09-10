@@ -1,0 +1,1177 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>4. Experiments on the English Wikipedia</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="" href="../index.html"/>
+        <link rel="up" title="Gensim Tutorials" href="tutorial.html"/>
+        <link rel="next" title="5. Distributed Computing" href="distributed.html"/>
+        <link rel="prev" title="3. Similarity Queries" href="tut3.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> NLP APIs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="tutorial.html">Gensim Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tut1.html">1. Corpora and Vector Spaces</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tut1.html#from-strings-to-vectors">1.1. From Strings to Vectors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tut1.html#corpus-streaming-one-document-at-a-time">1.2. Corpus Streaming &#8211; One Document at a Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tut1.html#corpus-formats">1.3. Corpus Formats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tut1.html#compatibility-with-numpy-and-scipy">1.4. Compatibility with NumPy and SciPy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tut2.html">2. Topics and Transformations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tut2.html#transformation-interface">2.1. Transformation interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="tut2.html#creating-a-transformation">2.1.1. Creating a transformation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tut2.html#transforming-vectors">2.1.2. Transforming vectors</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="tut2.html#available-transformations">2.2. Available transformations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tut3.html">3. Similarity Queries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tut3.html#similarity-interface">3.1. Similarity interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="tut3.html#initializing-query-structures">3.1.1. Initializing query structures</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tut3.html#performing-queries">3.1.2. Performing queries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="tut3.html#where-next">3.2. Where next?</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">4. Experiments on the English Wikipedia</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preparing-the-corpus">4.1. Preparing the corpus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latent-semantic-analysis">4.2. Latent Semantic Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latent-dirichlet-allocation">4.3. Latent Dirichlet Allocation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="distributed.html">5. Distributed Computing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="distributed.html#why-distributed-computing">5.1. Why distributed computing?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="distributed.html#prerequisites">5.2. Prerequisites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="distributed.html#core-concepts">5.3. Core concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="distributed.html#available-distributed-algorithms">5.4. Available distributed algorithms</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html#preliminaries">Preliminaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html#quick-example">Quick Example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../nltk_intro.html">Natural Language Toolkit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../nltk_intro.html#some-simple-things-you-can-do-with-nltk">Some simple things you can do with NLTK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nltk_intro.html#next-steps">Next Steps</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Autogenerated API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../generated/gensim.html"><code class="docutils literal"><span class="pre">gensim</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.NullHandler.html"><code class="docutils literal"><span class="pre">gensim.NullHandler</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.NullHandler.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.__init__.html">gensim.NullHandler.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.acquire.html">gensim.NullHandler.acquire</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.addFilter.html">gensim.NullHandler.addFilter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.close.html">gensim.NullHandler.close</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.createLock.html">gensim.NullHandler.createLock</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.emit.html">gensim.NullHandler.emit</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.filter.html">gensim.NullHandler.filter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.flush.html">gensim.NullHandler.flush</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.format.html">gensim.NullHandler.format</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.get_name.html">gensim.NullHandler.get_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.handle.html">gensim.NullHandler.handle</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.handleError.html">gensim.NullHandler.handleError</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.release.html">gensim.NullHandler.release</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.removeFilter.html">gensim.NullHandler.removeFilter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.setFormatter.html">gensim.NullHandler.setFormatter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.setLevel.html">gensim.NullHandler.setLevel</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.set_name.html">gensim.NullHandler.set_name</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.NullHandler.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.NullHandler.name.html">gensim.NullHandler.name</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/gensim.interfaces.html"><code class="docutils literal"><span class="pre">gensim.interfaces</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.interfaces.CorpusABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.CorpusABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.interfaces.CorpusABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.CorpusABC.load.html">gensim.interfaces.CorpusABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.CorpusABC.save.html">gensim.interfaces.CorpusABC.save</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.CorpusABC.save_corpus.html">gensim.interfaces.CorpusABC.save_corpus</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.SimilarityABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.__init__.html">gensim.interfaces.SimilarityABC.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.get_similarities.html">gensim.interfaces.SimilarityABC.get_similarities</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.load.html">gensim.interfaces.SimilarityABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.SimilarityABC.save.html">gensim.interfaces.SimilarityABC.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformationABC.html"><code class="docutils literal"><span class="pre">gensim.interfaces.TransformationABC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformationABC.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformationABC.load.html">gensim.interfaces.TransformationABC.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformationABC.save.html">gensim.interfaces.TransformationABC.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.html"><code class="docutils literal"><span class="pre">gensim.interfaces.TransformedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.__init__.html">gensim.interfaces.TransformedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.load.html">gensim.interfaces.TransformedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.save.html">gensim.interfaces.TransformedCorpus.save</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.interfaces.TransformedCorpus.save_corpus.html">gensim.interfaces.TransformedCorpus.save_corpus</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.interfaces.xrange.html"><code class="docutils literal"><span class="pre">gensim.interfaces.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/gensim.matutils.html"><code class="docutils literal"><span class="pre">gensim.matutils</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.matutils.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.any2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.any2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.argsort.html"><code class="docutils literal"><span class="pre">gensim.matutils.argsort()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.blas.html"><code class="docutils literal"><span class="pre">gensim.matutils.blas()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.corpus2csc.html"><code class="docutils literal"><span class="pre">gensim.matutils.corpus2csc()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.corpus2dense.html"><code class="docutils literal"><span class="pre">gensim.matutils.corpus2dense()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.cossim.html"><code class="docutils literal"><span class="pre">gensim.matutils.cossim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.dense2vec.html"><code class="docutils literal"><span class="pre">gensim.matutils.dense2vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.entropy.html"><code class="docutils literal"><span class="pre">gensim.matutils.entropy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.full2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.full2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.full2sparse_clipped.html"><code class="docutils literal"><span class="pre">gensim.matutils.full2sparse_clipped()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.get_lapack_funcs.html"><code class="docutils literal"><span class="pre">gensim.matutils.get_lapack_funcs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.hellinger.html"><code class="docutils literal"><span class="pre">gensim.matutils.hellinger()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.isbow.html"><code class="docutils literal"><span class="pre">gensim.matutils.isbow()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.ismatrix.html"><code class="docutils literal"><span class="pre">gensim.matutils.ismatrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.iteritems.html"><code class="docutils literal"><span class="pre">gensim.matutils.iteritems()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.itervalues.html"><code class="docutils literal"><span class="pre">gensim.matutils.itervalues()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.jaccard.html"><code class="docutils literal"><span class="pre">gensim.matutils.jaccard()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.kullback_leibler.html"><code class="docutils literal"><span class="pre">gensim.matutils.kullback_leibler()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.pad.html"><code class="docutils literal"><span class="pre">gensim.matutils.pad()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.qr_destroy.html"><code class="docutils literal"><span class="pre">gensim.matutils.qr_destroy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.ret_normalized_vec.html"><code class="docutils literal"><span class="pre">gensim.matutils.ret_normalized_vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.scipy2sparse.html"><code class="docutils literal"><span class="pre">gensim.matutils.scipy2sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.sparse2full.html"><code class="docutils literal"><span class="pre">gensim.matutils.sparse2full()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.triu.html"><code class="docutils literal"><span class="pre">gensim.matutils.triu()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.triu_indices.html"><code class="docutils literal"><span class="pre">gensim.matutils.triu_indices()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.unitvec.html"><code class="docutils literal"><span class="pre">gensim.matutils.unitvec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.veclen.html"><code class="docutils literal"><span class="pre">gensim.matutils.veclen()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.zeros_aligned.html"><code class="docutils literal"><span class="pre">gensim.matutils.zeros_aligned()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.matutils.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.Dense2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Dense2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.Dense2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.Dense2Corpus.__init__.html">gensim.matutils.Dense2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.MmReader.html"><code class="docutils literal"><span class="pre">gensim.matutils.MmReader</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.MmReader.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmReader.__init__.html">gensim.matutils.MmReader.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmReader.docbyoffset.html">gensim.matutils.MmReader.docbyoffset</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmReader.skip_headers.html">gensim.matutils.MmReader.skip_headers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.html"><code class="docutils literal"><span class="pre">gensim.matutils.MmWriter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.__init__.html">gensim.matutils.MmWriter.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.close.html">gensim.matutils.MmWriter.close</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.fake_headers.html">gensim.matutils.MmWriter.fake_headers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.write_corpus.html">gensim.matutils.MmWriter.write_corpus</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.write_headers.html">gensim.matutils.MmWriter.write_headers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.write_vector.html">gensim.matutils.MmWriter.write_vector</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.MmWriter.HEADER_LINE.html">gensim.matutils.MmWriter.HEADER_LINE</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.Scipy2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Scipy2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.Scipy2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.Scipy2Corpus.__init__.html">gensim.matutils.Scipy2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.Sparse2Corpus.html"><code class="docutils literal"><span class="pre">gensim.matutils.Sparse2Corpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.Sparse2Corpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.Sparse2Corpus.__init__.html">gensim.matutils.Sparse2Corpus.__init__</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.izip.html"><code class="docutils literal"><span class="pre">gensim.matutils.izip</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.matutils.izip.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.matutils.izip.next.html">gensim.matutils.izip.next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.matutils.xrange.html"><code class="docutils literal"><span class="pre">gensim.matutils.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/gensim.utils.html"><code class="docutils literal"><span class="pre">gensim.utils</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.utils.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.any2unicode.html"><code class="docutils literal"><span class="pre">gensim.utils.any2unicode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.any2utf8.html"><code class="docutils literal"><span class="pre">gensim.utils.any2utf8()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.check_output.html"><code class="docutils literal"><span class="pre">gensim.utils.check_output()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.chunkize.html"><code class="docutils literal"><span class="pre">gensim.utils.chunkize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.chunkize_serial.html"><code class="docutils literal"><span class="pre">gensim.utils.chunkize_serial()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.contextmanager.html"><code class="docutils literal"><span class="pre">gensim.utils.contextmanager()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.copytree_hardlink.html"><code class="docutils literal"><span class="pre">gensim.utils.copytree_hardlink()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.deaccent.html"><code class="docutils literal"><span class="pre">gensim.utils.deaccent()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.decode_htmlentities.html"><code class="docutils literal"><span class="pre">gensim.utils.decode_htmlentities()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.dict_from_corpus.html"><code class="docutils literal"><span class="pre">gensim.utils.dict_from_corpus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.file_or_filename.html"><code class="docutils literal"><span class="pre">gensim.utils.file_or_filename()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.getNS.html"><code class="docutils literal"><span class="pre">gensim.utils.getNS()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.get_max_id.html"><code class="docutils literal"><span class="pre">gensim.utils.get_max_id()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.get_my_ip.html"><code class="docutils literal"><span class="pre">gensim.utils.get_my_ip()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.grouper.html"><code class="docutils literal"><span class="pre">gensim.utils.grouper()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.has_pattern.html"><code class="docutils literal"><span class="pre">gensim.utils.has_pattern()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.identity.html"><code class="docutils literal"><span class="pre">gensim.utils.identity()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.is_corpus.html"><code class="docutils literal"><span class="pre">gensim.utils.is_corpus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.iteritems.html"><code class="docutils literal"><span class="pre">gensim.utils.iteritems()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.keep_vocab_item.html"><code class="docutils literal"><span class="pre">gensim.utils.keep_vocab_item()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.lemmatize.html"><code class="docutils literal"><span class="pre">gensim.utils.lemmatize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.mock_data.html"><code class="docutils literal"><span class="pre">gensim.utils.mock_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.mock_data_row.html"><code class="docutils literal"><span class="pre">gensim.utils.mock_data_row()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.pickle.html"><code class="docutils literal"><span class="pre">gensim.utils.pickle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.prune_vocab.html"><code class="docutils literal"><span class="pre">gensim.utils.prune_vocab()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.pyro_daemon.html"><code class="docutils literal"><span class="pre">gensim.utils.pyro_daemon()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.qsize.html"><code class="docutils literal"><span class="pre">gensim.utils.qsize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.randfname.html"><code class="docutils literal"><span class="pre">gensim.utils.randfname()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.revdict.html"><code class="docutils literal"><span class="pre">gensim.utils.revdict()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.safe_unichr.html"><code class="docutils literal"><span class="pre">gensim.utils.safe_unichr()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.simple_preprocess.html"><code class="docutils literal"><span class="pre">gensim.utils.simple_preprocess()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.smart_extension.html"><code class="docutils literal"><span class="pre">gensim.utils.smart_extension()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.smart_open.html"><code class="docutils literal"><span class="pre">gensim.utils.smart_open()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.synchronous.html"><code class="docutils literal"><span class="pre">gensim.utils.synchronous()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.to_unicode.html"><code class="docutils literal"><span class="pre">gensim.utils.to_unicode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.to_utf8.html"><code class="docutils literal"><span class="pre">gensim.utils.to_utf8()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.tokenize.html"><code class="docutils literal"><span class="pre">gensim.utils.tokenize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.toptexts.html"><code class="docutils literal"><span class="pre">gensim.utils.toptexts()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.u.html"><code class="docutils literal"><span class="pre">gensim.utils.u()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.unichr.html"><code class="docutils literal"><span class="pre">gensim.utils.unichr()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.unpickle.html"><code class="docutils literal"><span class="pre">gensim.utils.unpickle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.upload_chunked.html"><code class="docutils literal"><span class="pre">gensim.utils.upload_chunked()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.wraps.html"><code class="docutils literal"><span class="pre">gensim.utils.wraps()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/gensim.utils.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.ClippedCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.ClippedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.ClippedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.ClippedCorpus.__init__.html">gensim.utils.ClippedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.ClippedCorpus.load.html">gensim.utils.ClippedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.ClippedCorpus.save.html">gensim.utils.ClippedCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.html"><code class="docutils literal"><span class="pre">gensim.utils.FakeDict</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.__init__.html">gensim.utils.FakeDict.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.get.html">gensim.utils.FakeDict.get</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.iteritems.html">gensim.utils.FakeDict.iteritems</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.FakeDict.keys.html">gensim.utils.FakeDict.keys</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.html"><code class="docutils literal"><span class="pre">gensim.utils.InputQueue</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.__init__.html">gensim.utils.InputQueue.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.is_alive.html">gensim.utils.InputQueue.is_alive</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.join.html">gensim.utils.InputQueue.join</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.run.html">gensim.utils.InputQueue.run</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.start.html">gensim.utils.InputQueue.start</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.terminate.html">gensim.utils.InputQueue.terminate</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.html#attributes">Attributes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.authkey.html">gensim.utils.InputQueue.authkey</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.daemon.html">gensim.utils.InputQueue.daemon</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.exitcode.html">gensim.utils.InputQueue.exitcode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.ident.html">gensim.utils.InputQueue.ident</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.name.html">gensim.utils.InputQueue.name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.InputQueue.pid.html">gensim.utils.InputQueue.pid</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.NoCM.html"><code class="docutils literal"><span class="pre">gensim.utils.NoCM</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.NoCM.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.NoCM.acquire.html">gensim.utils.NoCM.acquire</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.NoCM.release.html">gensim.utils.NoCM.release</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.RepeatCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpus.__init__.html">gensim.utils.RepeatCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpus.load.html">gensim.utils.RepeatCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpus.save.html">gensim.utils.RepeatCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpusNTimes.html"><code class="docutils literal"><span class="pre">gensim.utils.RepeatCorpusNTimes</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpusNTimes.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpusNTimes.__init__.html">gensim.utils.RepeatCorpusNTimes.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpusNTimes.load.html">gensim.utils.RepeatCorpusNTimes.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.RepeatCorpusNTimes.save.html">gensim.utils.RepeatCorpusNTimes.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.SaveLoad.html"><code class="docutils literal"><span class="pre">gensim.utils.SaveLoad</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.SaveLoad.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.SaveLoad.load.html">gensim.utils.SaveLoad.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.SaveLoad.save.html">gensim.utils.SaveLoad.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.SlicedCorpus.html"><code class="docutils literal"><span class="pre">gensim.utils.SlicedCorpus</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/gensim.utils.SlicedCorpus.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.SlicedCorpus.__init__.html">gensim.utils.SlicedCorpus.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.SlicedCorpus.load.html">gensim.utils.SlicedCorpus.load</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/gensim.utils.SlicedCorpus.save.html">gensim.utils.SlicedCorpus.save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/gensim.utils.xrange.html"><code class="docutils literal"><span class="pre">gensim.utils.xrange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/word2vec.html"><code class="docutils literal"><span class="pre">word2vec</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/word2vec.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.doc2vec.html"><code class="docutils literal"><span class="pre">word2vec.doc2vec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.load.html"><code class="docutils literal"><span class="pre">word2vec.load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.load_clusters.html"><code class="docutils literal"><span class="pre">word2vec.load_clusters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.run_cmd.html"><code class="docutils literal"><span class="pre">word2vec.run_cmd()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.unitvec.html"><code class="docutils literal"><span class="pre">word2vec.unitvec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.word2clusters.html"><code class="docutils literal"><span class="pre">word2vec.word2clusters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.word2phrase.html"><code class="docutils literal"><span class="pre">word2vec.word2phrase()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.word2vec.html"><code class="docutils literal"><span class="pre">word2vec.word2vec()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/word2vec.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.html"><code class="docutils literal"><span class="pre">word2vec.WordClusters</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.__init__.html">word2vec.WordClusters.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.from_text.html">word2vec.WordClusters.from_text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.get_cluster.html">word2vec.WordClusters.get_cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.get_words_on_cluster.html">word2vec.WordClusters.get_words_on_cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordClusters.ix.html">word2vec.WordClusters.ix</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.html"><code class="docutils literal"><span class="pre">word2vec.WordVectors</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.__init__.html">word2vec.WordVectors.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.analogy.html">word2vec.WordVectors.analogy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.cosine.html">word2vec.WordVectors.cosine</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.from_binary.html">word2vec.WordVectors.from_binary</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.from_mmap.html">word2vec.WordVectors.from_mmap</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.from_text.html">word2vec.WordVectors.from_text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.generate_response.html">word2vec.WordVectors.generate_response</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.get_vector.html">word2vec.WordVectors.get_vector</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.ix.html">word2vec.WordVectors.ix</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/word2vec.WordVectors.to_mmap.html">word2vec.WordVectors.to_mmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/stop_words.html"><code class="docutils literal"><span class="pre">stop_words</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/stop_words.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.add_filter.html"><code class="docutils literal"><span class="pre">stop_words.add_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.apply_filters.html"><code class="docutils literal"><span class="pre">stop_words.apply_filters()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.get_stop_words.html"><code class="docutils literal"><span class="pre">stop_words.get_stop_words()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.get_version.html"><code class="docutils literal"><span class="pre">stop_words.get_version()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.remove_filter.html"><code class="docutils literal"><span class="pre">stop_words.remove_filter()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/stop_words.safe_get_stop_words.html"><code class="docutils literal"><span class="pre">stop_words.safe_get_stop_words()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/stop_words.html#exceptions">Exceptions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/stop_words.StopWordError.html">stop_words.StopWordError</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/nltk.classify.html"><code class="docutils literal"><span class="pre">nltk.classify</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/nltk.classify.html#features">Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/nltk.classify.html#featuresets">Featuresets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/nltk.classify.html#training-classifiers">Training Classifiers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/nltk.classify.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.accuracy.html"><code class="docutils literal"><span class="pre">nltk.classify.accuracy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.apply_features.html"><code class="docutils literal"><span class="pre">nltk.classify.apply_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.call_megam.html"><code class="docutils literal"><span class="pre">nltk.classify.call_megam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.config_megam.html"><code class="docutils literal"><span class="pre">nltk.classify.config_megam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.config_weka.html"><code class="docutils literal"><span class="pre">nltk.classify.config_weka()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.log_likelihood.html"><code class="docutils literal"><span class="pre">nltk.classify.log_likelihood()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.rte_classifier.html"><code class="docutils literal"><span class="pre">nltk.classify.rte_classifier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.rte_features.html"><code class="docutils literal"><span class="pre">nltk.classify.rte_features()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/nltk.classify.html#classes">Classes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.html"><code class="docutils literal"><span class="pre">nltk.classify.BinaryMaxentFeatureEncoding</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.__init__.html">nltk.classify.BinaryMaxentFeatureEncoding.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.describe.html">nltk.classify.BinaryMaxentFeatureEncoding.describe</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.encode.html">nltk.classify.BinaryMaxentFeatureEncoding.encode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.labels.html">nltk.classify.BinaryMaxentFeatureEncoding.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.length.html">nltk.classify.BinaryMaxentFeatureEncoding.length</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.BinaryMaxentFeatureEncoding.train.html">nltk.classify.BinaryMaxentFeatureEncoding.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.html"><code class="docutils literal"><span class="pre">nltk.classify.ClassifierI</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.classify.html">nltk.classify.ClassifierI.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.classify_many.html">nltk.classify.ClassifierI.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.labels.html">nltk.classify.ClassifierI.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.prob_classify.html">nltk.classify.ClassifierI.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ClassifierI.prob_classify_many.html">nltk.classify.ClassifierI.prob_classify_many</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.ConditionalExponentialClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.__init__.html">nltk.classify.ConditionalExponentialClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.classify.html">nltk.classify.ConditionalExponentialClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.classify_many.html">nltk.classify.ConditionalExponentialClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.explain.html">nltk.classify.ConditionalExponentialClassifier.explain</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.labels.html">nltk.classify.ConditionalExponentialClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.prob_classify.html">nltk.classify.ConditionalExponentialClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.prob_classify_many.html">nltk.classify.ConditionalExponentialClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.set_weights.html">nltk.classify.ConditionalExponentialClassifier.set_weights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.show_most_informative_features.html">nltk.classify.ConditionalExponentialClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.train.html">nltk.classify.ConditionalExponentialClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.unicode_repr.html">nltk.classify.ConditionalExponentialClassifier.unicode_repr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.weights.html">nltk.classify.ConditionalExponentialClassifier.weights</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.ConditionalExponentialClassifier.ALGORITHMS.html">nltk.classify.ConditionalExponentialClassifier.ALGORITHMS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.DecisionTreeClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.__init__.html">nltk.classify.DecisionTreeClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.best_binary_stump.html">nltk.classify.DecisionTreeClassifier.best_binary_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.best_stump.html">nltk.classify.DecisionTreeClassifier.best_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.binary_stump.html">nltk.classify.DecisionTreeClassifier.binary_stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.classify.html">nltk.classify.DecisionTreeClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.classify_many.html">nltk.classify.DecisionTreeClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.error.html">nltk.classify.DecisionTreeClassifier.error</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.labels.html">nltk.classify.DecisionTreeClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.leaf.html">nltk.classify.DecisionTreeClassifier.leaf</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.pretty_format.html">nltk.classify.DecisionTreeClassifier.pretty_format</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.prob_classify.html">nltk.classify.DecisionTreeClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.prob_classify_many.html">nltk.classify.DecisionTreeClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.pseudocode.html">nltk.classify.DecisionTreeClassifier.pseudocode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.refine.html">nltk.classify.DecisionTreeClassifier.refine</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.stump.html">nltk.classify.DecisionTreeClassifier.stump</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.train.html">nltk.classify.DecisionTreeClassifier.train</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.DecisionTreeClassifier.unicode_repr.html">nltk.classify.DecisionTreeClassifier.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.MaxentClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.__init__.html">nltk.classify.MaxentClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.classify.html">nltk.classify.MaxentClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.classify_many.html">nltk.classify.MaxentClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.explain.html">nltk.classify.MaxentClassifier.explain</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.labels.html">nltk.classify.MaxentClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.prob_classify.html">nltk.classify.MaxentClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.prob_classify_many.html">nltk.classify.MaxentClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.set_weights.html">nltk.classify.MaxentClassifier.set_weights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.show_most_informative_features.html">nltk.classify.MaxentClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.train.html">nltk.classify.MaxentClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.unicode_repr.html">nltk.classify.MaxentClassifier.unicode_repr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.weights.html">nltk.classify.MaxentClassifier.weights</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MaxentClassifier.ALGORITHMS.html">nltk.classify.MaxentClassifier.ALGORITHMS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.html"><code class="docutils literal"><span class="pre">nltk.classify.MultiClassifierI</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.classify.html">nltk.classify.MultiClassifierI.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.classify_many.html">nltk.classify.MultiClassifierI.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.labels.html">nltk.classify.MultiClassifierI.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.prob_classify.html">nltk.classify.MultiClassifierI.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.MultiClassifierI.prob_classify_many.html">nltk.classify.MultiClassifierI.prob_classify_many</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.NaiveBayesClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.__init__.html">nltk.classify.NaiveBayesClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.classify.html">nltk.classify.NaiveBayesClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.classify_many.html">nltk.classify.NaiveBayesClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.labels.html">nltk.classify.NaiveBayesClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.most_informative_features.html">nltk.classify.NaiveBayesClassifier.most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.prob_classify.html">nltk.classify.NaiveBayesClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.prob_classify_many.html">nltk.classify.NaiveBayesClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.show_most_informative_features.html">nltk.classify.NaiveBayesClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.NaiveBayesClassifier.train.html">nltk.classify.NaiveBayesClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.PositiveNaiveBayesClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.__init__.html">nltk.classify.PositiveNaiveBayesClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.classify.html">nltk.classify.PositiveNaiveBayesClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.classify_many.html">nltk.classify.PositiveNaiveBayesClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.labels.html">nltk.classify.PositiveNaiveBayesClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.most_informative_features.html">nltk.classify.PositiveNaiveBayesClassifier.most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.prob_classify.html">nltk.classify.PositiveNaiveBayesClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.prob_classify_many.html">nltk.classify.PositiveNaiveBayesClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.show_most_informative_features.html">nltk.classify.PositiveNaiveBayesClassifier.show_most_informative_features</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.PositiveNaiveBayesClassifier.train.html">nltk.classify.PositiveNaiveBayesClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.RTEFeatureExtractor.html"><code class="docutils literal"><span class="pre">nltk.classify.RTEFeatureExtractor</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.RTEFeatureExtractor.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.RTEFeatureExtractor.__init__.html">nltk.classify.RTEFeatureExtractor.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.RTEFeatureExtractor.hyp_extra.html">nltk.classify.RTEFeatureExtractor.hyp_extra</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.RTEFeatureExtractor.overlap.html">nltk.classify.RTEFeatureExtractor.overlap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.html"><code class="docutils literal"><span class="pre">nltk.classify.Senna</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.__init__.html">nltk.classify.Senna.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.evaluate.html">nltk.classify.Senna.evaluate</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.executable.html">nltk.classify.Senna.executable</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.tag.html">nltk.classify.Senna.tag</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.tag_sents.html">nltk.classify.Senna.tag_sents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.SUPPORTED_OPERATIONS.html">nltk.classify.Senna.SUPPORTED_OPERATIONS</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.Senna.unicode_repr.html">nltk.classify.Senna.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.SklearnClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.__init__.html">nltk.classify.SklearnClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.classify.html">nltk.classify.SklearnClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.classify_many.html">nltk.classify.SklearnClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.labels.html">nltk.classify.SklearnClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.prob_classify.html">nltk.classify.SklearnClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.prob_classify_many.html">nltk.classify.SklearnClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.train.html">nltk.classify.SklearnClassifier.train</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.SklearnClassifier.unicode_repr.html">nltk.classify.SklearnClassifier.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.html"><code class="docutils literal"><span class="pre">nltk.classify.TextCat</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.__init__.html">nltk.classify.TextCat.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.calc_dist.html">nltk.classify.TextCat.calc_dist</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.guess_language.html">nltk.classify.TextCat.guess_language</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.lang_dists.html">nltk.classify.TextCat.lang_dists</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.profile.html">nltk.classify.TextCat.profile</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.remove_punctuation.html">nltk.classify.TextCat.remove_punctuation</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.html#attributes">Attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.fingerprints.html">nltk.classify.TextCat.fingerprints</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TextCat.last_distances.html">nltk.classify.TextCat.last_distances</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.html"><code class="docutils literal"><span class="pre">nltk.classify.TypedMaxentFeatureEncoding</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.__init__.html">nltk.classify.TypedMaxentFeatureEncoding.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.describe.html">nltk.classify.TypedMaxentFeatureEncoding.describe</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.encode.html">nltk.classify.TypedMaxentFeatureEncoding.encode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.labels.html">nltk.classify.TypedMaxentFeatureEncoding.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.length.html">nltk.classify.TypedMaxentFeatureEncoding.length</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.TypedMaxentFeatureEncoding.train.html">nltk.classify.TypedMaxentFeatureEncoding.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.html"><code class="docutils literal"><span class="pre">nltk.classify.WekaClassifier</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.html#methods">Methods</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.__init__.html">nltk.classify.WekaClassifier.__init__</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.classify.html">nltk.classify.WekaClassifier.classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.classify_many.html">nltk.classify.WekaClassifier.classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.labels.html">nltk.classify.WekaClassifier.labels</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.parse_weka_distribution.html">nltk.classify.WekaClassifier.parse_weka_distribution</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.parse_weka_output.html">nltk.classify.WekaClassifier.parse_weka_output</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.prob_classify.html">nltk.classify.WekaClassifier.prob_classify</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.prob_classify_many.html">nltk.classify.WekaClassifier.prob_classify_many</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../generated/generated/nltk.classify.WekaClassifier.train.html">nltk.classify.WekaClassifier.train</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/nltk.cluster.html"><code class="docutils literal"><span class="pre">nltk.cluster</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../generated/nltk.cluster.html#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.cosine_distance.html"><code class="docutils literal"><span class="pre">nltk.cluster.cosine_distance()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.euclidean_distance.html"><code class="docutils literal"><span class="pre">nltk.cluster.euclidean_distance()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../generated/nltk.cluster.html#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.html"><code class="docutils literal"><span class="pre">nltk.cluster.Dendrogram</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.__init__.html">nltk.cluster.Dendrogram.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.groups.html">nltk.cluster.Dendrogram.groups</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.merge.html">nltk.cluster.Dendrogram.merge</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.show.html">nltk.cluster.Dendrogram.show</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.Dendrogram.unicode_repr.html">nltk.cluster.Dendrogram.unicode_repr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.EMClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.__init__.html">nltk.cluster.EMClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.classification_probdist.html">nltk.cluster.EMClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.classify.html">nltk.cluster.EMClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.classify_vectorspace.html">nltk.cluster.EMClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.cluster.html">nltk.cluster.EMClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.cluster_name.html">nltk.cluster.EMClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.cluster_names.html">nltk.cluster.EMClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.cluster_vectorspace.html">nltk.cluster.EMClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.likelihood.html">nltk.cluster.EMClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.likelihood_vectorspace.html">nltk.cluster.EMClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.num_clusters.html">nltk.cluster.EMClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.unicode_repr.html">nltk.cluster.EMClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.EMClusterer.vector.html">nltk.cluster.EMClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.GAAClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.__init__.html">nltk.cluster.GAAClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.classification_probdist.html">nltk.cluster.GAAClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.classify.html">nltk.cluster.GAAClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.classify_vectorspace.html">nltk.cluster.GAAClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.cluster.html">nltk.cluster.GAAClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.cluster_name.html">nltk.cluster.GAAClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.cluster_names.html">nltk.cluster.GAAClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.cluster_vectorspace.html">nltk.cluster.GAAClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.dendrogram.html">nltk.cluster.GAAClusterer.dendrogram</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.likelihood.html">nltk.cluster.GAAClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.likelihood_vectorspace.html">nltk.cluster.GAAClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.num_clusters.html">nltk.cluster.GAAClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.unicode_repr.html">nltk.cluster.GAAClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.update_clusters.html">nltk.cluster.GAAClusterer.update_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.GAAClusterer.vector.html">nltk.cluster.GAAClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.KMeansClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.__init__.html">nltk.cluster.KMeansClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.classification_probdist.html">nltk.cluster.KMeansClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.classify.html">nltk.cluster.KMeansClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.classify_vectorspace.html">nltk.cluster.KMeansClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.cluster.html">nltk.cluster.KMeansClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.cluster_name.html">nltk.cluster.KMeansClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.cluster_names.html">nltk.cluster.KMeansClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.cluster_vectorspace.html">nltk.cluster.KMeansClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.likelihood.html">nltk.cluster.KMeansClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.likelihood_vectorspace.html">nltk.cluster.KMeansClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.means.html">nltk.cluster.KMeansClusterer.means</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.num_clusters.html">nltk.cluster.KMeansClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.unicode_repr.html">nltk.cluster.KMeansClusterer.unicode_repr</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.KMeansClusterer.vector.html">nltk.cluster.KMeansClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.html"><code class="docutils literal"><span class="pre">nltk.cluster.VectorSpaceClusterer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.html#methods">Methods</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.__init__.html">nltk.cluster.VectorSpaceClusterer.__init__</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.classification_probdist.html">nltk.cluster.VectorSpaceClusterer.classification_probdist</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.classify.html">nltk.cluster.VectorSpaceClusterer.classify</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.classify_vectorspace.html">nltk.cluster.VectorSpaceClusterer.classify_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster.html">nltk.cluster.VectorSpaceClusterer.cluster</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_name.html">nltk.cluster.VectorSpaceClusterer.cluster_name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_names.html">nltk.cluster.VectorSpaceClusterer.cluster_names</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.cluster_vectorspace.html">nltk.cluster.VectorSpaceClusterer.cluster_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.likelihood.html">nltk.cluster.VectorSpaceClusterer.likelihood</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.likelihood_vectorspace.html">nltk.cluster.VectorSpaceClusterer.likelihood_vectorspace</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.num_clusters.html">nltk.cluster.VectorSpaceClusterer.num_clusters</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../generated/generated/nltk.cluster.VectorSpaceClusterer.vector.html">nltk.cluster.VectorSpaceClusterer.vector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NLP APIs</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="tutorial.html">Gensim Tutorials</a> &raquo;</li>
+        
+      <li>4. Experiments on the English Wikipedia</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/gensim_tutorial/wiki.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="experiments-on-the-english-wikipedia">
+<span id="wiki"></span><h1>4. Experiments on the English Wikipedia<a class="headerlink" href="#experiments-on-the-english-wikipedia" title="Permalink to this headline">¶</a></h1>
+<p>To test <cite>gensim</cite> performance, we run it against the English version of Wikipedia.</p>
+<p>This page describes the process of obtaining and processing Wikipedia, so that
+anyone can reproduce the results. It is assumed you have <cite>gensim</cite> properly <code class="xref doc docutils literal"><span class="pre">installed</span></code>.</p>
+<div class="section" id="preparing-the-corpus">
+<h2>4.1. Preparing the corpus<a class="headerlink" href="#preparing-the-corpus" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">First, download the dump of all Wikipedia articles from <a class="reference external" href="http://download.wikimedia.org/enwiki/">http://download.wikimedia.org/enwiki/</a>
+(you want the file <cite>enwiki-latest-pages-articles.xml.bz2</cite>, or <cite>enwiki-YYYYMMDD-pages-articles.xml.bz2</cite> for date-specific dumps). This file is about 8GB in size
+and contains (a compressed version of) all articles from the English Wikipedia.</p>
+</li>
+<li><p class="first">Convert the articles to plain text (process Wiki markup) and store the result as
+sparse TF-IDF vectors. In Python, this is easy to do on-the-fly and we don&#8217;t
+even need to uncompress the whole archive to disk. There is a script included in
+<cite>gensim</cite> that does just that, run:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ python -m gensim.scripts.make_wiki
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>This pre-processing step makes two passes over the 8.2GB compressed wiki dump (one to extract
+the dictionary, one to create and store the sparse vectors) and takes about
+9 hours on my laptop, so you may want to go have a coffee or two.</p>
+<p class="last">Also, you will need about 35GB of free disk space to store the sparse output vectors.
+I recommend compressing these files immediately, e.g. with bzip2 (down to ~13GB). Gensim
+can work with compressed files directly, so this lets you save disk space.</p>
+</div>
+</div>
+<div class="section" id="latent-semantic-analysis">
+<h2>4.2. Latent Semantic Analysis<a class="headerlink" href="#latent-semantic-analysis" title="Permalink to this headline">¶</a></h2>
+<p>First let&#8217;s load the corpus iterator and dictionary, created in the second step above:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">logging</span><span class="o">,</span> <span class="nn">gensim</span><span class="o">,</span> <span class="nn">bz2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> : </span><span class="si">%(levelname)s</span><span class="s1"> : </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># load id-&gt;word mapping (the dictionary), one of the results of step 2 above</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">id2word</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="o">.</span><span class="n">load_from_text</span><span class="p">(</span><span class="s1">&#39;wiki_en_wordids.txt&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># load corpus iterator</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mm</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">corpora</span><span class="o">.</span><span class="n">MmCorpus</span><span class="p">(</span><span class="s1">&#39;wiki_en_tfidf.mm&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># mm = gensim.corpora.MmCorpus(bz2.BZ2File(&#39;wiki_en_tfidf.mm.bz2&#39;)) # use this if you compressed the TFIDF output (recommended)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">mm</span><span class="p">)</span>
+<span class="go">MmCorpus(3931787 documents, 100000 features, 756379027 non-zero entries)</span>
+</pre></div>
+</div>
+<p>We see that our corpus contains 3.9M documents, 100K features (distinct
+tokens) and 0.76G non-zero entries in the sparse TF-IDF matrix. The Wikipedia corpus
+contains about 2.24 billion tokens in total.</p>
+<p>Now we&#8217;re ready to compute LSA of the English Wikipedia:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># extract 400 LSI topics; use the default one-pass algorithm</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lsi</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">lsimodel</span><span class="o">.</span><span class="n">LsiModel</span><span class="p">(</span><span class="n">corpus</span><span class="o">=</span><span class="n">mm</span><span class="p">,</span> <span class="n">id2word</span><span class="o">=</span><span class="n">id2word</span><span class="p">,</span> <span class="n">num_topics</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># print the most contributing words (both positively and negatively) for each of the first ten topics</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lsi</span><span class="o">.</span><span class="n">print_topics</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="go">topic #0(332.762): 0.425*&quot;utc&quot; + 0.299*&quot;talk&quot; + 0.293*&quot;page&quot; + 0.226*&quot;article&quot; + 0.224*&quot;delete&quot; + 0.216*&quot;discussion&quot; + 0.205*&quot;deletion&quot; + 0.198*&quot;should&quot; + 0.146*&quot;debate&quot; + 0.132*&quot;be&quot;</span>
+<span class="go">topic #1(201.852): 0.282*&quot;link&quot; + 0.209*&quot;he&quot; + 0.145*&quot;com&quot; + 0.139*&quot;his&quot; + -0.137*&quot;page&quot; + -0.118*&quot;delete&quot; + 0.114*&quot;blacklist&quot; + -0.108*&quot;deletion&quot; + -0.105*&quot;discussion&quot; + 0.100*&quot;diff&quot;</span>
+<span class="go">topic #2(191.991): -0.565*&quot;link&quot; + -0.241*&quot;com&quot; + -0.238*&quot;blacklist&quot; + -0.202*&quot;diff&quot; + -0.193*&quot;additions&quot; + -0.182*&quot;users&quot; + -0.158*&quot;coibot&quot; + -0.136*&quot;user&quot; + 0.133*&quot;he&quot; + -0.130*&quot;resolves&quot;</span>
+<span class="go">topic #3(141.284): -0.476*&quot;image&quot; + -0.255*&quot;copyright&quot; + -0.245*&quot;fair&quot; + -0.225*&quot;use&quot; + -0.173*&quot;album&quot; + -0.163*&quot;cover&quot; + -0.155*&quot;resolution&quot; + -0.141*&quot;licensing&quot; + 0.137*&quot;he&quot; + -0.121*&quot;copies&quot;</span>
+<span class="go">topic #4(130.909): 0.264*&quot;population&quot; + 0.246*&quot;age&quot; + 0.243*&quot;median&quot; + 0.213*&quot;income&quot; + 0.195*&quot;census&quot; + -0.189*&quot;he&quot; + 0.184*&quot;households&quot; + 0.175*&quot;were&quot; + 0.167*&quot;females&quot; + 0.166*&quot;males&quot;</span>
+<span class="go">topic #5(120.397): 0.304*&quot;diff&quot; + 0.278*&quot;utc&quot; + 0.213*&quot;you&quot; + -0.171*&quot;additions&quot; + 0.165*&quot;talk&quot; + -0.159*&quot;image&quot; + 0.159*&quot;undo&quot; + 0.155*&quot;www&quot; + -0.152*&quot;page&quot; + 0.148*&quot;contribs&quot;</span>
+<span class="go">topic #6(115.414): -0.362*&quot;diff&quot; + -0.203*&quot;www&quot; + 0.197*&quot;you&quot; + -0.180*&quot;undo&quot; + -0.180*&quot;kategori&quot; + 0.164*&quot;users&quot; + 0.157*&quot;additions&quot; + -0.150*&quot;contribs&quot; + -0.139*&quot;he&quot; + -0.136*&quot;image&quot;</span>
+<span class="go">topic #7(111.440): 0.429*&quot;kategori&quot; + 0.276*&quot;categoria&quot; + 0.251*&quot;category&quot; + 0.207*&quot;kategorija&quot; + 0.198*&quot;kategorie&quot; + -0.188*&quot;diff&quot; + 0.163*&quot;категория&quot; + 0.153*&quot;categoría&quot; + 0.139*&quot;kategoria&quot; + 0.133*&quot;categorie&quot;</span>
+<span class="go">topic #8(109.907): 0.385*&quot;album&quot; + 0.224*&quot;song&quot; + 0.209*&quot;chart&quot; + 0.204*&quot;band&quot; + 0.169*&quot;released&quot; + 0.151*&quot;music&quot; + 0.142*&quot;diff&quot; + 0.141*&quot;vocals&quot; + 0.138*&quot;she&quot; + 0.132*&quot;guitar&quot;</span>
+<span class="go">topic #9(102.599): -0.237*&quot;league&quot; + -0.214*&quot;he&quot; + -0.180*&quot;season&quot; + -0.174*&quot;football&quot; + -0.166*&quot;team&quot; + 0.159*&quot;station&quot; + -0.137*&quot;played&quot; + -0.131*&quot;cup&quot; + 0.131*&quot;she&quot; + -0.128*&quot;utc&quot;</span>
+</pre></div>
+</div>
+<p>Creating the LSI model of Wikipedia takes about 4 hours and 9 minutes on my laptop <a class="footnote-reference" href="#id6" id="id1">[1]</a>.
+That&#8217;s about <strong>16,000 documents per minute, including all I/O</strong>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you need your results even faster, see the tutorial on <a class="reference internal" href="distributed.html"><em>Distributed Computing</em></a>. Note
+that the BLAS libraries inside <cite>gensim</cite> make use of multiple cores transparently, so the same data
+will be processed faster on a multicore machine &#8220;for free&#8221;, without any distributed setup.</p>
+</div>
+<p>We see that the total processing time is dominated by the preprocessing step of
+preparing the TF-IDF corpus from a raw Wikipedia XML dump, which took 9h. <a class="footnote-reference" href="#id7" id="id2">[2]</a></p>
+<p>The algorithm used in <cite>gensim</cite> only needs to see each input document once, so it
+is suitable for environments where the documents come as a non-repeatable stream,
+or where the cost of storing/iterating over the corpus multiple times is too high.</p>
+</div>
+<div class="section" id="latent-dirichlet-allocation">
+<h2>4.3. Latent Dirichlet Allocation<a class="headerlink" href="#latent-dirichlet-allocation" title="Permalink to this headline">¶</a></h2>
+<p>As with Latent Semantic Analysis above, first load the corpus iterator and dictionary:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">logging</span><span class="o">,</span> <span class="nn">gensim</span><span class="o">,</span> <span class="nn">bz2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> : </span><span class="si">%(levelname)s</span><span class="s1"> : </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># load id-&gt;word mapping (the dictionary), one of the results of step 2 above</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">id2word</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="o">.</span><span class="n">load_from_text</span><span class="p">(</span><span class="s1">&#39;wiki_en_wordids.txt&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># load corpus iterator</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mm</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">corpora</span><span class="o">.</span><span class="n">MmCorpus</span><span class="p">(</span><span class="s1">&#39;wiki_en_tfidf.mm&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># mm = gensim.corpora.MmCorpus(bz2.BZ2File(&#39;wiki_en_tfidf.mm.bz2&#39;)) # use this if you compressed the TFIDF output</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">mm</span><span class="p">)</span>
+<span class="go">MmCorpus(3931787 documents, 100000 features, 756379027 non-zero entries)</span>
+</pre></div>
+</div>
+<p>We will run online LDA (see Hoffman et al. <a class="footnote-reference" href="#id8" id="id3">[3]</a>), which is an algorithm that takes a chunk of documents,
+updates the LDA model, takes another chunk, updates the model etc. Online LDA can be contrasted
+with batch LDA, which processes the whole corpus (one full pass), then updates
+the model, then another pass, another update... The difference is that given a
+reasonably stationary document stream (not much topic drift), the online updates
+over the smaller chunks (subcorpora) are pretty good in themselves, so that the
+model estimation converges faster. As a result, we will perhaps only need a single full
+pass over the corpus: if the corpus has 3 million articles, and we update once after
+every 10,000 articles, this means we will have done 300 updates in one pass, quite likely
+enough to have a very accurate topics estimate:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># extract 100 LDA topics, using 1 pass and updating once every 1 chunk (10,000 documents)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lda</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">ldamodel</span><span class="o">.</span><span class="n">LdaModel</span><span class="p">(</span><span class="n">corpus</span><span class="o">=</span><span class="n">mm</span><span class="p">,</span> <span class="n">id2word</span><span class="o">=</span><span class="n">id2word</span><span class="p">,</span> <span class="n">num_topics</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">update_every</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">passes</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">using serial LDA version on this node</span>
+<span class="go">running online LDA training, 100 topics, 1 passes over the supplied corpus of 3931787 documents, updating model once every 10000 documents</span>
+<span class="gp">...</span>
+</pre></div>
+</div>
+<p>Unlike LSA, the topics coming from LDA are easier to interpret:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># print the most contributing words for 20 randomly selected topics</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lda</span><span class="o">.</span><span class="n">print_topics</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="go">topic #0: 0.009*river + 0.008*lake + 0.006*island + 0.005*mountain + 0.004*area + 0.004*park + 0.004*antarctic + 0.004*south + 0.004*mountains + 0.004*dam</span>
+<span class="go">topic #1: 0.026*relay + 0.026*athletics + 0.025*metres + 0.023*freestyle + 0.022*hurdles + 0.020*ret + 0.017*divisão + 0.017*athletes + 0.016*bundesliga + 0.014*medals</span>
+<span class="go">topic #2: 0.002*were + 0.002*he + 0.002*court + 0.002*his + 0.002*had + 0.002*law + 0.002*government + 0.002*police + 0.002*patrolling + 0.002*their</span>
+<span class="go">topic #3: 0.040*courcelles + 0.035*centimeters + 0.023*mattythewhite + 0.021*wine + 0.019*stamps + 0.018*oko + 0.017*perennial + 0.014*stubs + 0.012*ovate + 0.011*greyish</span>
+<span class="go">topic #4: 0.039*al + 0.029*sysop + 0.019*iran + 0.015*pakistan + 0.014*ali + 0.013*arab + 0.010*islamic + 0.010*arabic + 0.010*saudi + 0.010*muhammad</span>
+<span class="go">topic #5: 0.020*copyrighted + 0.020*northamerica + 0.014*uncopyrighted + 0.007*rihanna + 0.005*cloudz + 0.005*knowles + 0.004*gaga + 0.004*zombie + 0.004*wigan + 0.003*maccabi</span>
+<span class="go">topic #6: 0.061*israel + 0.056*israeli + 0.030*sockpuppet + 0.025*jerusalem + 0.025*tel + 0.023*aviv + 0.022*palestinian + 0.019*ifk + 0.016*palestine + 0.014*hebrew</span>
+<span class="go">topic #7: 0.015*melbourne + 0.014*rovers + 0.013*vfl + 0.012*australian + 0.012*wanderers + 0.011*afl + 0.008*dinamo + 0.008*queensland + 0.008*tracklist + 0.008*brisbane</span>
+<span class="go">topic #8: 0.011*film + 0.007*her + 0.007*she + 0.004*he + 0.004*series + 0.004*his + 0.004*episode + 0.003*films + 0.003*television + 0.003*best</span>
+<span class="go">topic #9: 0.019*wrestling + 0.013*château + 0.013*ligue + 0.012*discus + 0.012*estonian + 0.009*uci + 0.008*hockeyarchives + 0.008*wwe + 0.008*estonia + 0.007*reign</span>
+<span class="go">topic #10: 0.078*edits + 0.059*notability + 0.035*archived + 0.025*clearer + 0.022*speedy + 0.021*deleted + 0.016*hook + 0.015*checkuser + 0.014*ron + 0.011*nominator</span>
+<span class="go">topic #11: 0.013*admins + 0.009*acid + 0.009*molniya + 0.009*chemical + 0.007*ch + 0.007*chemistry + 0.007*compound + 0.007*anemone + 0.006*mg + 0.006*reaction</span>
+<span class="go">topic #12: 0.018*india + 0.013*indian + 0.010*tamil + 0.009*singh + 0.008*film + 0.008*temple + 0.006*kumar + 0.006*hindi + 0.006*delhi + 0.005*bengal</span>
+<span class="go">topic #13: 0.047*bwebs + 0.024*malta + 0.020*hobart + 0.019*basa + 0.019*columella + 0.019*huon + 0.018*tasmania + 0.016*popups + 0.014*tasmanian + 0.014*modèle</span>
+<span class="go">topic #14: 0.014*jewish + 0.011*rabbi + 0.008*bgwhite + 0.008*lebanese + 0.007*lebanon + 0.006*homs + 0.005*beirut + 0.004*jews + 0.004*hebrew + 0.004*caligari</span>
+<span class="go">topic #15: 0.025*german + 0.020*der + 0.017*von + 0.015*und + 0.014*berlin + 0.012*germany + 0.012*die + 0.010*des + 0.008*kategorie + 0.007*cross</span>
+<span class="go">topic #16: 0.003*can + 0.003*system + 0.003*power + 0.003*are + 0.003*energy + 0.002*data + 0.002*be + 0.002*used + 0.002*or + 0.002*using</span>
+<span class="go">topic #17: 0.049*indonesia + 0.042*indonesian + 0.031*malaysia + 0.024*singapore + 0.022*greek + 0.021*jakarta + 0.016*greece + 0.015*dord + 0.014*athens + 0.011*malaysian</span>
+<span class="go">topic #18: 0.031*stakes + 0.029*webs + 0.018*futsal + 0.014*whitish + 0.013*hyun + 0.012*thoroughbred + 0.012*dnf + 0.012*jockey + 0.011*medalists + 0.011*racehorse</span>
+<span class="go">topic #19: 0.119*oblast + 0.034*uploaded + 0.034*uploads + 0.033*nordland + 0.025*selsoviet + 0.023*raion + 0.022*krai + 0.018*okrug + 0.015*hålogaland + 0.015*russiae + 0.020*manga + 0.017*dragon + 0.012*theme + 0.011*dvd + 0.011*super + 0.011*hunter + 0.009*ash + 0.009*dream + 0.009*angel</span>
+</pre></div>
+</div>
+<p>Creating this LDA model of Wikipedia takes about 6 hours and 20 minutes on my laptop <a class="footnote-reference" href="#id6" id="id4">[1]</a>.
+If you need your results faster, consider running <code class="xref doc docutils literal"><span class="pre">dist_lda</span></code> on a cluster of
+computers.</p>
+<p>Note two differences between the LDA and LSA runs: we asked LSA
+to extract 400 topics, LDA only 100 topics (so the difference in speed is in fact
+even greater). Secondly, the LSA implementation in <cite>gensim</cite> is truly online: if the nature of the input
+stream changes in time, LSA will re-orient itself to reflect these changes, in a reasonably
+small amount of updates. In contrast, LDA is not truly online (the name of the <a class="footnote-reference" href="#id8" id="id5">[3]</a>
+article notwithstanding), as the impact of later updates on the model gradually
+diminishes. If there is topic drift in the input document stream, LDA will get
+confused and be increasingly slower at adjusting itself to the new state of affairs.</p>
+<p>In short, be careful if using LDA to incrementally add new documents to the model
+over time. <strong>Batch usage of LDA</strong>, where the entire training corpus is either known beforehand or does
+not exhibit topic drift, <strong>is ok and not affected</strong>.</p>
+<p>To run batch LDA (not online), train <cite>LdaModel</cite> with:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># extract 100 LDA topics, using 20 full passes, no online updates</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lda</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">ldamodel</span><span class="o">.</span><span class="n">LdaModel</span><span class="p">(</span><span class="n">corpus</span><span class="o">=</span><span class="n">mm</span><span class="p">,</span> <span class="n">id2word</span><span class="o">=</span><span class="n">id2word</span><span class="p">,</span> <span class="n">num_topics</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">update_every</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">passes</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>As usual, a trained model can used be to transform new, unseen documents (plain bag-of-words count vectors)
+into LDA topic distributions:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">doc_lda</span> <span class="o">=</span> <span class="n">lda</span><span class="p">[</span><span class="n">doc_bow</span><span class="p">]</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<table class="docutils footnote" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id4">2</a>)</em> My laptop = MacBook Pro, Intel Core i7 2.3GHz, 16GB DDR3 RAM, OS X with <cite>libVec</cite>.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td><p class="first">Here we&#8217;re mostly interested in performance, but it is interesting to look at the
+retrieved LSA concepts, too. I am no Wikipedia expert and don&#8217;t see into Wiki&#8217;s bowels,
+but Brian Mingus had this to say about the result:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>There appears to be a lot of noise in your dataset. The first three topics
+in your list appear to be meta topics, concerning the administration and
+cleanup of Wikipedia. These show up because you didn&#39;t exclude templates
+such as these, some of which are included in most articles for quality
+control: http://en.wikipedia.org/wiki/Wikipedia:Template_messages/Cleanup
+
+The fourth and fifth topics clearly shows the influence of bots that import
+massive databases of cities, countries, etc. and their statistics such as
+population, capita, etc.
+
+The sixth shows the influence of sports bots, and the seventh of music bots.
+</pre></div>
+</div>
+<p class="last">So the top ten concepts are apparently dominated by Wikipedia robots and expanded
+templates; this is a good reminder that LSA is a powerful tool for data analysis,
+but no silver bullet. As always, it&#8217;s <a class="reference external" href="http://en.wikipedia.org/wiki/Garbage_In,_Garbage_Out">garbage in, garbage out</a>...
+By the way, improvements to the Wiki markup parsing code are welcome :-)</p>
+</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id8" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[3]</td><td><em>(<a class="fn-backref" href="#id3">1</a>, <a class="fn-backref" href="#id5">2</a>)</em> Hoffman, Blei, Bach. 2010. Online learning for Latent Dirichlet Allocation
+[<a class="reference external" href="http://www.cs.princeton.edu/~blei/papers/HoffmanBleiBach2010b.pdf">pdf</a>] [<a class="reference external" href="http://www.cs.princeton.edu/~mdhoffma/">code</a>]</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="distributed.html" class="btn btn-neutral float-right" title="5. Distributed Computing" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tut3.html" class="btn btn-neutral" title="3. Similarity Queries" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/copybutton.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

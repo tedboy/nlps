@@ -1,0 +1,6 @@
+gensim.NullHandler.release
+==========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.release

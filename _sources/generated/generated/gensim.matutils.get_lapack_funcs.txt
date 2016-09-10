@@ -1,0 +1,6 @@
+:func:`gensim.matutils.get_lapack_funcs`
+========================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: get_lapack_funcs

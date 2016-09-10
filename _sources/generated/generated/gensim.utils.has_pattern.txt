@@ -1,0 +1,6 @@
+:func:`gensim.utils.has_pattern`
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: has_pattern

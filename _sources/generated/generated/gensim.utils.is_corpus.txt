@@ -1,0 +1,6 @@
+:func:`gensim.utils.is_corpus`
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: is_corpus

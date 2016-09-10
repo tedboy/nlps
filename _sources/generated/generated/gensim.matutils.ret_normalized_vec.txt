@@ -1,0 +1,6 @@
+:func:`gensim.matutils.ret_normalized_vec`
+==========================================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: ret_normalized_vec

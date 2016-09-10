@@ -1,0 +1,6 @@
+nltk.classify.BinaryMaxentFeatureEncoding.describe
+==================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: BinaryMaxentFeatureEncoding.describe

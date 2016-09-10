@@ -1,0 +1,6 @@
+:func:`gensim.matutils.blas`
+============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: blas

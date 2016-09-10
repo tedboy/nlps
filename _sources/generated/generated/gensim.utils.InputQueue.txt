@@ -1,0 +1,37 @@
+:class:`gensim.utils.InputQueue`
+================================
+.. currentmodule:: gensim.utils
+.. autoclass:: InputQueue
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~InputQueue.__init__
+   ~InputQueue.is_alive
+   ~InputQueue.join
+   ~InputQueue.run
+   ~InputQueue.start
+   ~InputQueue.terminate
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~InputQueue.authkey
+   ~InputQueue.daemon
+   ~InputQueue.exitcode
+   ~InputQueue.ident
+   ~InputQueue.name
+   ~InputQueue.pid
+

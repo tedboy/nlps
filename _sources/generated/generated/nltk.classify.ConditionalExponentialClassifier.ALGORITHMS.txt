@@ -1,0 +1,6 @@
+nltk.classify.ConditionalExponentialClassifier.ALGORITHMS
+=========================================================
+
+.. currentmodule:: nltk.classify
+
+.. autoattribute:: ConditionalExponentialClassifier.ALGORITHMS

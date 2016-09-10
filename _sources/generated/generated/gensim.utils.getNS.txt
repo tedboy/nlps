@@ -1,0 +1,6 @@
+:func:`gensim.utils.getNS`
+==========================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: getNS

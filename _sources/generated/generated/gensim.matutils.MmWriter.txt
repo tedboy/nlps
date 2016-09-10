@@ -1,0 +1,32 @@
+:class:`gensim.matutils.MmWriter`
+=================================
+.. currentmodule:: gensim.matutils
+.. autoclass:: MmWriter
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MmWriter.__init__
+   ~MmWriter.close
+   ~MmWriter.fake_headers
+   ~MmWriter.write_corpus
+   ~MmWriter.write_headers
+   ~MmWriter.write_vector
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~MmWriter.HEADER_LINE
+

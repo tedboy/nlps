@@ -1,0 +1,6 @@
+gensim.matutils.MmReader.skip_headers
+=====================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmReader.skip_headers

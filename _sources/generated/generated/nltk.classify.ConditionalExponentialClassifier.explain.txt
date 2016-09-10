@@ -1,0 +1,6 @@
+nltk.classify.ConditionalExponentialClassifier.explain
+======================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: ConditionalExponentialClassifier.explain

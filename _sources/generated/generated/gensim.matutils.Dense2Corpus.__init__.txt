@@ -1,0 +1,6 @@
+gensim.matutils.Dense2Corpus.__init__
+=====================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: Dense2Corpus.__init__

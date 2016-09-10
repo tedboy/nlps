@@ -1,0 +1,6 @@
+nltk.classify.TypedMaxentFeatureEncoding.__init__
+=================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: TypedMaxentFeatureEncoding.__init__

@@ -1,0 +1,6 @@
+gensim.utils.FakeDict.iteritems
+===============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: FakeDict.iteritems

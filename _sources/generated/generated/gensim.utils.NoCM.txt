@@ -1,0 +1,20 @@
+:class:`gensim.utils.NoCM`
+==========================
+.. currentmodule:: gensim.utils
+.. autoclass:: NoCM
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NoCM.acquire
+   ~NoCM.release
+
+
+
+
+

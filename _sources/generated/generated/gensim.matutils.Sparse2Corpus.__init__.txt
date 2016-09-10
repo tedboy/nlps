@@ -1,0 +1,6 @@
+gensim.matutils.Sparse2Corpus.__init__
+======================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: Sparse2Corpus.__init__

@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.join
+============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: InputQueue.join

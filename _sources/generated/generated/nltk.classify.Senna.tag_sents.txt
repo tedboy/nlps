@@ -1,0 +1,6 @@
+nltk.classify.Senna.tag_sents
+=============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: Senna.tag_sents

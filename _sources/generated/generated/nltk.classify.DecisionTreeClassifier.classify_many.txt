@@ -1,0 +1,6 @@
+nltk.classify.DecisionTreeClassifier.classify_many
+==================================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: DecisionTreeClassifier.classify_many

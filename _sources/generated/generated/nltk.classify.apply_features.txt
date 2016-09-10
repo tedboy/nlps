@@ -1,0 +1,6 @@
+:func:`nltk.classify.apply_features`
+====================================
+
+.. currentmodule:: nltk.classify
+
+.. autofunction:: apply_features

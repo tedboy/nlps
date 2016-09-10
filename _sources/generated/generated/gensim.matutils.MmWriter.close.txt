@@ -1,0 +1,6 @@
+gensim.matutils.MmWriter.close
+==============================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmWriter.close

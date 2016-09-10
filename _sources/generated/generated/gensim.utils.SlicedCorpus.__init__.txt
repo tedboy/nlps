@@ -1,0 +1,6 @@
+gensim.utils.SlicedCorpus.__init__
+==================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: SlicedCorpus.__init__

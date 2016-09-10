@@ -1,0 +1,6 @@
+gensim.NullHandler.set_name
+===========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.set_name

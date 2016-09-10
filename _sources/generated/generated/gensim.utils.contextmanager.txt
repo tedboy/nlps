@@ -1,0 +1,6 @@
+:func:`gensim.utils.contextmanager`
+===================================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: contextmanager

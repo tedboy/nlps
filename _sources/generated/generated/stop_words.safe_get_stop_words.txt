@@ -1,0 +1,6 @@
+:func:`stop_words.safe_get_stop_words`
+======================================
+
+.. currentmodule:: stop_words
+
+.. autofunction:: safe_get_stop_words

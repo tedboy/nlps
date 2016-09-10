@@ -1,0 +1,6 @@
+:func:`gensim.utils.revdict`
+============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: revdict

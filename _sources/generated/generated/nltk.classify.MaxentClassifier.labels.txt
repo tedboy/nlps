@@ -1,0 +1,6 @@
+nltk.classify.MaxentClassifier.labels
+=====================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: MaxentClassifier.labels

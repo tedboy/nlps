@@ -1,0 +1,6 @@
+word2vec.WordVectors.__init__
+=============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordVectors.__init__

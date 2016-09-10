@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.exitcode
+================================
+
+.. currentmodule:: gensim.utils
+
+.. autoattribute:: InputQueue.exitcode

@@ -1,0 +1,6 @@
+gensim.interfaces.SimilarityABC.save
+====================================
+
+.. currentmodule:: gensim.interfaces
+
+.. automethod:: SimilarityABC.save

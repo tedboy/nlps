@@ -1,0 +1,6 @@
+gensim.matutils.MmReader.docbyoffset
+====================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmReader.docbyoffset

@@ -1,0 +1,6 @@
+gensim.utils.SlicedCorpus.load
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: SlicedCorpus.load

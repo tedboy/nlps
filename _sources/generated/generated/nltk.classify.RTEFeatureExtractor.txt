@@ -1,0 +1,21 @@
+:class:`nltk.classify.RTEFeatureExtractor`
+==========================================
+.. currentmodule:: nltk.classify
+.. autoclass:: RTEFeatureExtractor
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RTEFeatureExtractor.__init__
+   ~RTEFeatureExtractor.hyp_extra
+   ~RTEFeatureExtractor.overlap
+
+
+
+
+

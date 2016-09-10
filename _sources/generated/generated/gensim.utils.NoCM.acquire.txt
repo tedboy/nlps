@@ -1,0 +1,6 @@
+gensim.utils.NoCM.acquire
+=========================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: NoCM.acquire

@@ -1,0 +1,11 @@
+:class:`gensim.matutils.xrange`
+===============================
+.. currentmodule:: gensim.matutils
+.. autoclass:: xrange
+   :undoc-members:
+
+
+
+
+
+

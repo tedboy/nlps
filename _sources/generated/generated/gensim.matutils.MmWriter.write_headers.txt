@@ -1,0 +1,6 @@
+gensim.matutils.MmWriter.write_headers
+======================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmWriter.write_headers

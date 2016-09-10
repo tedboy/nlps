@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.name
+============================
+
+.. currentmodule:: gensim.utils
+
+.. autoattribute:: InputQueue.name

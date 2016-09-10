@@ -1,0 +1,19 @@
+:class:`gensim.matutils.Sparse2Corpus`
+======================================
+.. currentmodule:: gensim.matutils
+.. autoclass:: Sparse2Corpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Sparse2Corpus.__init__
+
+
+
+
+

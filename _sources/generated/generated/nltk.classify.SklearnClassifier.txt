@@ -1,0 +1,26 @@
+:class:`nltk.classify.SklearnClassifier`
+========================================
+.. currentmodule:: nltk.classify
+.. autoclass:: SklearnClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SklearnClassifier.__init__
+   ~SklearnClassifier.classify
+   ~SklearnClassifier.classify_many
+   ~SklearnClassifier.labels
+   ~SklearnClassifier.prob_classify
+   ~SklearnClassifier.prob_classify_many
+   ~SklearnClassifier.train
+   ~SklearnClassifier.unicode_repr
+
+
+
+
+

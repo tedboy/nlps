@@ -1,0 +1,6 @@
+:func:`stop_words.get_stop_words`
+=================================
+
+.. currentmodule:: stop_words
+
+.. autofunction:: get_stop_words

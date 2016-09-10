@@ -1,0 +1,22 @@
+:class:`gensim.interfaces.SimilarityABC`
+========================================
+.. currentmodule:: gensim.interfaces
+.. autoclass:: SimilarityABC
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SimilarityABC.__init__
+   ~SimilarityABC.get_similarities
+   ~SimilarityABC.load
+   ~SimilarityABC.save
+
+
+
+
+

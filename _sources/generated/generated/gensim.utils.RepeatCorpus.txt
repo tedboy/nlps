@@ -1,0 +1,21 @@
+:class:`gensim.utils.RepeatCorpus`
+==================================
+.. currentmodule:: gensim.utils
+.. autoclass:: RepeatCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RepeatCorpus.__init__
+   ~RepeatCorpus.load
+   ~RepeatCorpus.save
+
+
+
+
+

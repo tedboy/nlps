@@ -1,0 +1,6 @@
+gensim.utils.InputQueue.daemon
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. autoattribute:: InputQueue.daemon

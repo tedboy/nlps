@@ -1,0 +1,6 @@
+nltk.cluster.GAAClusterer.__init__
+==================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: GAAClusterer.__init__

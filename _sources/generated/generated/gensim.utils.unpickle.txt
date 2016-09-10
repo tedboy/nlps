@@ -1,0 +1,6 @@
+:func:`gensim.utils.unpickle`
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: unpickle

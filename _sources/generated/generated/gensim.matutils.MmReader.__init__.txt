@@ -1,0 +1,6 @@
+gensim.matutils.MmReader.__init__
+=================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmReader.__init__

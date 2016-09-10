@@ -1,0 +1,6 @@
+gensim.NullHandler.setLevel
+===========================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.setLevel

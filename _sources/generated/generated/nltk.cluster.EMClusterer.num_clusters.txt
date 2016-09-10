@@ -1,0 +1,6 @@
+nltk.cluster.EMClusterer.num_clusters
+=====================================
+
+.. currentmodule:: nltk.cluster
+
+.. automethod:: EMClusterer.num_clusters

@@ -1,0 +1,6 @@
+word2vec.WordClusters.__init__
+==============================
+
+.. currentmodule:: word2vec
+
+.. automethod:: WordClusters.__init__

@@ -1,0 +1,6 @@
+gensim.matutils.MmWriter.__init__
+=================================
+
+.. currentmodule:: gensim.matutils
+
+.. automethod:: MmWriter.__init__

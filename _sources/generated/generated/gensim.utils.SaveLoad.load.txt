@@ -1,0 +1,6 @@
+gensim.utils.SaveLoad.load
+==========================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: SaveLoad.load

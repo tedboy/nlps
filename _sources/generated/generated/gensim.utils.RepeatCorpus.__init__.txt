@@ -1,0 +1,6 @@
+gensim.utils.RepeatCorpus.__init__
+==================================
+
+.. currentmodule:: gensim.utils
+
+.. automethod:: RepeatCorpus.__init__

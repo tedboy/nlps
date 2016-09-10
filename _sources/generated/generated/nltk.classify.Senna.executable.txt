@@ -1,0 +1,6 @@
+nltk.classify.Senna.executable
+==============================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: Senna.executable

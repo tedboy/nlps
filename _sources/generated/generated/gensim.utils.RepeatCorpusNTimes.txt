@@ -1,0 +1,21 @@
+:class:`gensim.utils.RepeatCorpusNTimes`
+========================================
+.. currentmodule:: gensim.utils
+.. autoclass:: RepeatCorpusNTimes
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RepeatCorpusNTimes.__init__
+   ~RepeatCorpusNTimes.load
+   ~RepeatCorpusNTimes.save
+
+
+
+
+

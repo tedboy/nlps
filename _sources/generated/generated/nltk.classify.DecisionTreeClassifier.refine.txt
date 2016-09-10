@@ -1,0 +1,6 @@
+nltk.classify.DecisionTreeClassifier.refine
+===========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: DecisionTreeClassifier.refine

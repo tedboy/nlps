@@ -1,0 +1,6 @@
+:func:`gensim.matutils.cossim`
+==============================
+
+.. currentmodule:: gensim.matutils
+
+.. autofunction:: cossim

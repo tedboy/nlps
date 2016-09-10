@@ -1,0 +1,6 @@
+:func:`gensim.utils.toptexts`
+=============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: toptexts

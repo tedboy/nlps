@@ -1,0 +1,6 @@
+nltk.classify.MaxentClassifier.unicode_repr
+===========================================
+
+.. currentmodule:: nltk.classify
+
+.. automethod:: MaxentClassifier.unicode_repr

@@ -1,0 +1,6 @@
+gensim.NullHandler.handleError
+==============================
+
+.. currentmodule:: gensim
+
+.. automethod:: NullHandler.handleError

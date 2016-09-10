@@ -1,0 +1,6 @@
+:func:`gensim.utils.iteritems`
+==============================
+
+.. currentmodule:: gensim.utils
+
+.. autofunction:: iteritems
