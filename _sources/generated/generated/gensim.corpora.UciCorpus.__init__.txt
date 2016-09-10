@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.__init__
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.__init__

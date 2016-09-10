@@ -1,0 +1,25 @@
+:class:`nltk.ChartParser`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: ChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ChartParser.__init__
+   ~ChartParser.chart_parse
+   ~ChartParser.grammar
+   ~ChartParser.parse
+   ~ChartParser.parse_all
+   ~ChartParser.parse_one
+   ~ChartParser.parse_sents
+
+
+
+
+

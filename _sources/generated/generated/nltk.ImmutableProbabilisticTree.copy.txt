@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.copy
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.copy

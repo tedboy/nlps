@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.wmdistance
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.wmdistance

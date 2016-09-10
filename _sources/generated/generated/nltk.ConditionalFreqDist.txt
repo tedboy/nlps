@@ -1,0 +1,50 @@
+:class:`nltk.ConditionalFreqDist`
+=================================
+.. currentmodule:: nltk
+.. autoclass:: ConditionalFreqDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ConditionalFreqDist.N
+   ~ConditionalFreqDist.__init__
+   ~ConditionalFreqDist.clear
+   ~ConditionalFreqDist.conditions
+   ~ConditionalFreqDist.copy
+   ~ConditionalFreqDist.fromkeys
+   ~ConditionalFreqDist.get
+   ~ConditionalFreqDist.has_key
+   ~ConditionalFreqDist.items
+   ~ConditionalFreqDist.iteritems
+   ~ConditionalFreqDist.iterkeys
+   ~ConditionalFreqDist.itervalues
+   ~ConditionalFreqDist.keys
+   ~ConditionalFreqDist.plot
+   ~ConditionalFreqDist.pop
+   ~ConditionalFreqDist.popitem
+   ~ConditionalFreqDist.setdefault
+   ~ConditionalFreqDist.tabulate
+   ~ConditionalFreqDist.unicode_repr
+   ~ConditionalFreqDist.update
+   ~ConditionalFreqDist.values
+   ~ConditionalFreqDist.viewitems
+   ~ConditionalFreqDist.viewkeys
+   ~ConditionalFreqDist.viewvalues
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ConditionalFreqDist.default_factory
+

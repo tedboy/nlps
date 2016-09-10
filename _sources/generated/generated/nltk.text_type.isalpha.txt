@@ -1,0 +1,6 @@
+nltk.text_type.isalpha
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.isalpha

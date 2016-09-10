@@ -1,0 +1,6 @@
+nltk.Tree.pformat_latex_qtree
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.pformat_latex_qtree

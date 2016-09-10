@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.__init__
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.__init__

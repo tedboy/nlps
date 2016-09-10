@@ -1,0 +1,6 @@
+nltk.HunposTagger.close
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: HunposTagger.close

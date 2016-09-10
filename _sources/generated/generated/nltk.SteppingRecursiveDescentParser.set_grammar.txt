@@ -1,0 +1,6 @@
+nltk.SteppingRecursiveDescentParser.set_grammar
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SteppingRecursiveDescentParser.set_grammar

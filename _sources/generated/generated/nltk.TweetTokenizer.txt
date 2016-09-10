@@ -1,0 +1,20 @@
+:class:`nltk.TweetTokenizer`
+============================
+.. currentmodule:: nltk
+.. autoclass:: TweetTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TweetTokenizer.__init__
+   ~TweetTokenizer.tokenize
+
+
+
+
+

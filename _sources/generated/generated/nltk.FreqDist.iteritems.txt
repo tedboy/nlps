@@ -1,0 +1,6 @@
+nltk.FreqDist.iteritems
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.iteritems

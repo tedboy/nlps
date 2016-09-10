@@ -1,0 +1,6 @@
+nltk.Production.rhs
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Production.rhs

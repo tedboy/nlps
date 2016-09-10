@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.type
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ApplicationExpression.type

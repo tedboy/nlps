@@ -1,0 +1,6 @@
+nltk.OrderedDict.clear
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.clear

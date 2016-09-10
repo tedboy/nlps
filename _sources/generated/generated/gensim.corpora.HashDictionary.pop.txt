@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.pop
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.pop

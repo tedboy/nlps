@@ -1,0 +1,6 @@
+gensim.corpora.WikiCorpus.__init__
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: WikiCorpus.__init__

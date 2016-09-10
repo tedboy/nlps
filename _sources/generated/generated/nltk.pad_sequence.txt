@@ -1,0 +1,6 @@
+:func:`nltk.pad_sequence`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: pad_sequence

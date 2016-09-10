@@ -1,0 +1,6 @@
+nltk.ELEProbDist.freqdist
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.freqdist

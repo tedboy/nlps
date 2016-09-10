@@ -1,0 +1,6 @@
+:func:`nltk.interval_distance`
+==============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: interval_distance

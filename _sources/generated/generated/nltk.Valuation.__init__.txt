@@ -1,0 +1,6 @@
+nltk.Valuation.__init__
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.__init__

@@ -1,0 +1,6 @@
+nltk.ConditionalProbDist.pop
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDist.pop

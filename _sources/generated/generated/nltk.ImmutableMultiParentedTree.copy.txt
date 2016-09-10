@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.copy
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.copy

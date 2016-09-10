@@ -1,0 +1,6 @@
+nltk.TextCat.remove_punctuation
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCat.remove_punctuation

@@ -1,0 +1,6 @@
+nltk.ISRIStemmer.stem
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ISRIStemmer.stem

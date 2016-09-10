@@ -1,0 +1,6 @@
+nltk.ProbabilisticProjectiveDependencyParser.__init__
+=====================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProjectiveDependencyParser.__init__

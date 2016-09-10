@@ -1,0 +1,6 @@
+nltk.ParentedTree.freeze
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.freeze

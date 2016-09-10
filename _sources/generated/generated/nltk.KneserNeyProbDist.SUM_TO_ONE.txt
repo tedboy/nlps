@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.SUM_TO_ONE
+=================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: KneserNeyProbDist.SUM_TO_ONE

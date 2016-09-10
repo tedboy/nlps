@@ -1,0 +1,6 @@
+nltk.LazyMap.count
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyMap.count

@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.filter_n_most_frequent
+================================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.filter_n_most_frequent

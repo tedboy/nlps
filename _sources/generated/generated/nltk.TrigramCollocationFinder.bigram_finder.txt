@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.bigram_finder
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.bigram_finder

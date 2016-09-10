@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.above_score
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.above_score

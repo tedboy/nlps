@@ -1,0 +1,6 @@
+nltk.FeatList.index
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.index

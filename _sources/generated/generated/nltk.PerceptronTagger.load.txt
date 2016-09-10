@@ -1,0 +1,6 @@
+nltk.PerceptronTagger.load
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: PerceptronTagger.load

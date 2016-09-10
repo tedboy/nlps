@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTagger.best_path_simple
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTagger.best_path_simple

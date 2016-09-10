@@ -1,0 +1,6 @@
+nltk.Tree.freeze
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.freeze

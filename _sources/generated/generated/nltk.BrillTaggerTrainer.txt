@@ -1,0 +1,20 @@
+:class:`nltk.BrillTaggerTrainer`
+================================
+.. currentmodule:: nltk
+.. autoclass:: BrillTaggerTrainer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BrillTaggerTrainer.__init__
+   ~BrillTaggerTrainer.train
+
+
+
+
+

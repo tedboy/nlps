@@ -1,0 +1,23 @@
+:class:`nltk.ParserI`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: ParserI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ParserI.grammar
+   ~ParserI.parse
+   ~ParserI.parse_all
+   ~ParserI.parse_one
+   ~ParserI.parse_sents
+
+
+
+
+

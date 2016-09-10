@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.prob
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: WittenBellProbDist.prob

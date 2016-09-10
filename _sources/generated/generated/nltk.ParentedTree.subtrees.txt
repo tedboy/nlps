@@ -1,0 +1,6 @@
+nltk.ParentedTree.subtrees
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.subtrees

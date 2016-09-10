@@ -1,0 +1,6 @@
+nltk.TextCollection.idf
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.idf

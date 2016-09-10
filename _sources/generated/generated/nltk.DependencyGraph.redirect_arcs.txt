@@ -1,0 +1,6 @@
+nltk.DependencyGraph.redirect_arcs
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.redirect_arcs

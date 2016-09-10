@@ -1,0 +1,6 @@
+nltk.FeatList.sort
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.sort

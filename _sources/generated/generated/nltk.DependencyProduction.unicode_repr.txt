@@ -1,0 +1,6 @@
+nltk.DependencyProduction.unicode_repr
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyProduction.unicode_repr

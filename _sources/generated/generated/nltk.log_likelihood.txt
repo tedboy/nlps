@@ -1,0 +1,6 @@
+:func:`nltk.log_likelihood`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: log_likelihood

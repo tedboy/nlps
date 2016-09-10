@@ -1,0 +1,29 @@
+:class:`nltk.DiscourseTester`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: DiscourseTester
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DiscourseTester.__init__
+   ~DiscourseTester.add_background
+   ~DiscourseTester.add_sentence
+   ~DiscourseTester.background
+   ~DiscourseTester.expand_threads
+   ~DiscourseTester.grammar
+   ~DiscourseTester.models
+   ~DiscourseTester.multiply
+   ~DiscourseTester.readings
+   ~DiscourseTester.retract_sentence
+   ~DiscourseTester.sentences
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.unicode_repr
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.unicode_repr

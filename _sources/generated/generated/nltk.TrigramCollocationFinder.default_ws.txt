@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.default_ws
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: TrigramCollocationFinder.default_ws

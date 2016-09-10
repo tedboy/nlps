@@ -1,0 +1,6 @@
+nltk.ProbDistI.SUM_TO_ONE
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProbDistI.SUM_TO_ONE

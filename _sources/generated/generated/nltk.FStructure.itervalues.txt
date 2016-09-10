@@ -1,0 +1,6 @@
+nltk.FStructure.itervalues
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.itervalues

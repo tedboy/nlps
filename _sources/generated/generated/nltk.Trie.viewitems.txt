@@ -1,0 +1,6 @@
+nltk.Trie.viewitems
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.viewitems

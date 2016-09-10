@@ -1,0 +1,6 @@
+:func:`nltk.tree2conlltags`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: tree2conlltags

@@ -1,0 +1,6 @@
+nltk.MLEProbDist.SUM_TO_ONE
+===========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: MLEProbDist.SUM_TO_ONE

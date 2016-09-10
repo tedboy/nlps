@@ -1,0 +1,6 @@
+nltk.AffixTagger.evaluate
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AffixTagger.evaluate

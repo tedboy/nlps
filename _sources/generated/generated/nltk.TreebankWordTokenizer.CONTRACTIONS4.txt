@@ -1,0 +1,6 @@
+nltk.TreebankWordTokenizer.CONTRACTIONS4
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: TreebankWordTokenizer.CONTRACTIONS4

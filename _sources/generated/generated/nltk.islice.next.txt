@@ -1,0 +1,6 @@
+nltk.islice.next
+================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: islice.next

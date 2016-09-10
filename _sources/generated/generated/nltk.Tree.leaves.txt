@@ -1,0 +1,6 @@
+nltk.Tree.leaves
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.leaves

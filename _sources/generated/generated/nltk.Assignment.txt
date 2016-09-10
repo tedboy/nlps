@@ -1,0 +1,47 @@
+:class:`nltk.Assignment`
+========================
+.. currentmodule:: nltk
+.. autoclass:: Assignment
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Assignment.__init__
+   ~Assignment.add
+   ~Assignment.clear
+   ~Assignment.copy
+   ~Assignment.fromkeys
+   ~Assignment.get
+   ~Assignment.has_key
+   ~Assignment.items
+   ~Assignment.iteritems
+   ~Assignment.iterkeys
+   ~Assignment.itervalues
+   ~Assignment.keys
+   ~Assignment.pop
+   ~Assignment.popitem
+   ~Assignment.purge
+   ~Assignment.setdefault
+   ~Assignment.update
+   ~Assignment.values
+   ~Assignment.viewitems
+   ~Assignment.viewkeys
+   ~Assignment.viewvalues
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Assignment.unicode_repr
+

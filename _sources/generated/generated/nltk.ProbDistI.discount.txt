@@ -1,0 +1,6 @@
+nltk.ProbDistI.discount
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.discount

@@ -1,0 +1,6 @@
+nltk.InsideChartParser.grammar
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: InsideChartParser.grammar

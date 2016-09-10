@@ -1,0 +1,6 @@
+nltk.RangeFeature.unicode_repr
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RangeFeature.unicode_repr

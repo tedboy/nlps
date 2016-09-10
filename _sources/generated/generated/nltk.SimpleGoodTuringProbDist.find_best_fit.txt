@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.find_best_fit
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.find_best_fit

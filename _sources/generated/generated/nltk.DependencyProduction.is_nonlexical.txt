@@ -1,0 +1,6 @@
+nltk.DependencyProduction.is_nonlexical
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyProduction.is_nonlexical

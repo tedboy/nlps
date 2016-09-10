@@ -1,0 +1,6 @@
+nltk.ParentedTree.productions
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.productions

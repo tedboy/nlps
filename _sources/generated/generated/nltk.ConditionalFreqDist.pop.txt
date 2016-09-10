@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.pop
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.pop

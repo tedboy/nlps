@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.max
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.max

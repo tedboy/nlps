@@ -1,0 +1,6 @@
+nltk.LazySubsequence.count
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazySubsequence.count

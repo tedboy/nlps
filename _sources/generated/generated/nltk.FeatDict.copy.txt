@@ -1,0 +1,6 @@
+nltk.FeatDict.copy
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.copy

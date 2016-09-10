@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.binary_stump
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.binary_stump

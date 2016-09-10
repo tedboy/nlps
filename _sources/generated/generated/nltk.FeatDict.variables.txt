@@ -1,0 +1,6 @@
+nltk.FeatDict.variables
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.variables

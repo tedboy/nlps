@@ -1,0 +1,6 @@
+nltk.LazyZip.__init__
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyZip.__init__

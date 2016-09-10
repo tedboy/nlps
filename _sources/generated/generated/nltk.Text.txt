@@ -1,0 +1,31 @@
+:class:`nltk.Text`
+==================
+.. currentmodule:: nltk
+.. autoclass:: Text
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Text.__init__
+   ~Text.collocations
+   ~Text.common_contexts
+   ~Text.concordance
+   ~Text.count
+   ~Text.dispersion_plot
+   ~Text.findall
+   ~Text.index
+   ~Text.plot
+   ~Text.readability
+   ~Text.similar
+   ~Text.unicode_repr
+   ~Text.vocab
+
+
+
+
+

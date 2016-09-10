@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.doc2bow
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.doc2bow

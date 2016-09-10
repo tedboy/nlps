@@ -1,0 +1,6 @@
+nltk.FreqDist.viewvalues
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.viewvalues

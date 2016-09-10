@@ -1,0 +1,6 @@
+nltk.DrtExpression.make_VariableExpression
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.make_VariableExpression

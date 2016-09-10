@@ -1,0 +1,6 @@
+nltk.DiscourseTester.__init__
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.__init__

@@ -1,0 +1,6 @@
+nltk.TransitionParser.train
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TransitionParser.train

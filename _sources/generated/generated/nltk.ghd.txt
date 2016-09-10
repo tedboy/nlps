@@ -1,0 +1,6 @@
+:func:`nltk.ghd`
+================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ghd

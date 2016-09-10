@@ -1,0 +1,6 @@
+nltk.FeatStruct.freeze
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.freeze

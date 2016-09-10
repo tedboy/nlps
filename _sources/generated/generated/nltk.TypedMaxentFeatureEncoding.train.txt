@@ -1,0 +1,6 @@
+nltk.TypedMaxentFeatureEncoding.train
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TypedMaxentFeatureEncoding.train

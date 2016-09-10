@@ -1,0 +1,6 @@
+nltk.Variable.__init__
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Variable.__init__

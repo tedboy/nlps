@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.load
+=============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.load

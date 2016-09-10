@@ -1,0 +1,6 @@
+nltk.AnnotationTask.load_array
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.load_array

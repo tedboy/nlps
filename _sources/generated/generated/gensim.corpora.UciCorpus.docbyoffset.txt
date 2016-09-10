@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.docbyoffset
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.docbyoffset

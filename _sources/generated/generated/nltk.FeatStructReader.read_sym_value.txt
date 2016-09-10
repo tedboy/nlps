@@ -1,0 +1,6 @@
+nltk.FeatStructReader.read_sym_value
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.read_sym_value

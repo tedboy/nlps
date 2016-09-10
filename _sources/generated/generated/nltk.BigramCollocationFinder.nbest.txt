@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.nbest
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.nbest

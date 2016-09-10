@@ -1,0 +1,6 @@
+nltk.DRS.draw
+=============
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.draw

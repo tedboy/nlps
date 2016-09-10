@@ -1,0 +1,6 @@
+nltk.ContextIndex.similar_words
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextIndex.similar_words

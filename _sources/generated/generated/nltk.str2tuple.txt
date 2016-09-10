@@ -1,0 +1,6 @@
+:func:`nltk.str2tuple`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: str2tuple

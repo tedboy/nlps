@@ -1,0 +1,6 @@
+nltk.JSONTaggedEncoder.item_separator
+=====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: JSONTaggedEncoder.item_separator

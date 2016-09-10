@@ -1,0 +1,6 @@
+nltk.LazySubsequence.iterate_from
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazySubsequence.iterate_from

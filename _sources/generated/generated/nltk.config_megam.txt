@@ -1,0 +1,6 @@
+:func:`nltk.config_megam`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: config_megam

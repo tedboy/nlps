@@ -1,0 +1,6 @@
+nltk.TreebankWordTokenizer.tokenize
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TreebankWordTokenizer.tokenize

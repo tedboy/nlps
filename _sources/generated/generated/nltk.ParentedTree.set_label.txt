@@ -1,0 +1,6 @@
+nltk.ParentedTree.set_label
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.set_label

@@ -1,0 +1,6 @@
+gensim.models.Phrases.learn_vocab
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.learn_vocab

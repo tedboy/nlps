@@ -1,0 +1,31 @@
+:class:`nltk.FeatStruct`
+========================
+.. currentmodule:: nltk
+.. autoclass:: FeatStruct
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatStruct.copy
+   ~FeatStruct.cyclic
+   ~FeatStruct.equal_values
+   ~FeatStruct.freeze
+   ~FeatStruct.frozen
+   ~FeatStruct.remove_variables
+   ~FeatStruct.rename_variables
+   ~FeatStruct.retract_bindings
+   ~FeatStruct.substitute_bindings
+   ~FeatStruct.subsumes
+   ~FeatStruct.unify
+   ~FeatStruct.variables
+   ~FeatStruct.walk
+
+
+
+
+

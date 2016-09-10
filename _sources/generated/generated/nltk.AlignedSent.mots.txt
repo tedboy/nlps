@@ -1,0 +1,6 @@
+nltk.AlignedSent.mots
+=====================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AlignedSent.mots

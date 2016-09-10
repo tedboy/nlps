@@ -1,0 +1,6 @@
+nltk.ImmutableTree.insert
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.insert

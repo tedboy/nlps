@@ -1,0 +1,6 @@
+nltk.TextCollection.tf
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.tf

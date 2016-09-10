@@ -1,0 +1,20 @@
+:class:`nltk.TableauProver`
+===========================
+.. currentmodule:: nltk
+.. autoclass:: TableauProver
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TableauProver.is_atom
+   ~TableauProver.prove
+
+
+
+
+

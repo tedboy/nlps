@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.pos
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.pos

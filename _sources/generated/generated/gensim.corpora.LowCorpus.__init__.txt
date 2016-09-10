@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.__init__
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.__init__

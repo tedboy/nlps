@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.from_documents
+============================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.from_documents

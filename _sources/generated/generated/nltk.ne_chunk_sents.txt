@@ -1,0 +1,6 @@
+:func:`nltk.ne_chunk_sents`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ne_chunk_sents

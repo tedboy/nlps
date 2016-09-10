@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.iterkeys
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.iterkeys

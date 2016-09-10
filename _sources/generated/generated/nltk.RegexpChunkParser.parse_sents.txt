@@ -1,0 +1,6 @@
+nltk.RegexpChunkParser.parse_sents
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpChunkParser.parse_sents

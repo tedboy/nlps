@@ -1,0 +1,6 @@
+:func:`nltk.demo`
+=================
+
+.. currentmodule:: nltk
+
+.. autofunction:: demo

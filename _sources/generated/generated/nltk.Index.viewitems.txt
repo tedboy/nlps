@@ -1,0 +1,6 @@
+nltk.Index.viewitems
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.viewitems

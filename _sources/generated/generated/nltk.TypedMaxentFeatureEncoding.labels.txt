@@ -1,0 +1,6 @@
+nltk.TypedMaxentFeatureEncoding.labels
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TypedMaxentFeatureEncoding.labels

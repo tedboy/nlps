@@ -1,0 +1,34 @@
+:class:`nltk.UniformProbDist`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: UniformProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~UniformProbDist.__init__
+   ~UniformProbDist.discount
+   ~UniformProbDist.generate
+   ~UniformProbDist.logprob
+   ~UniformProbDist.max
+   ~UniformProbDist.prob
+   ~UniformProbDist.samples
+   ~UniformProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~UniformProbDist.SUM_TO_ONE
+

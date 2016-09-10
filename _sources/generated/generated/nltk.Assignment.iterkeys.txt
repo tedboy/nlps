@@ -1,0 +1,6 @@
+nltk.Assignment.iterkeys
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.iterkeys

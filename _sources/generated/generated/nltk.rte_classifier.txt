@@ -1,0 +1,6 @@
+:func:`nltk.rte_classifier`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: rte_classifier

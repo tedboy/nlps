@@ -1,0 +1,6 @@
+nltk.TextCat.lang_dists
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCat.lang_dists

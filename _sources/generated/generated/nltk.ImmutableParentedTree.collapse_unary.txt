@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.collapse_unary
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.collapse_unary

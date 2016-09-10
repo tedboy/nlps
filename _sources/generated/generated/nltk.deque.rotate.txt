@@ -1,0 +1,6 @@
+nltk.deque.rotate
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.rotate

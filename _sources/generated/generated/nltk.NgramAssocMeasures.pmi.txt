@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.pmi
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.pmi

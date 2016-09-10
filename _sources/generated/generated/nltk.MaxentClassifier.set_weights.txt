@@ -1,0 +1,6 @@
+nltk.MaxentClassifier.set_weights
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaxentClassifier.set_weights

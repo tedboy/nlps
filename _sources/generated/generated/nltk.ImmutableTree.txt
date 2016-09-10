@@ -1,0 +1,60 @@
+:class:`nltk.ImmutableTree`
+===========================
+.. currentmodule:: nltk
+.. autoclass:: ImmutableTree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ImmutableTree.__init__
+   ~ImmutableTree.append
+   ~ImmutableTree.chomsky_normal_form
+   ~ImmutableTree.collapse_unary
+   ~ImmutableTree.convert
+   ~ImmutableTree.copy
+   ~ImmutableTree.count
+   ~ImmutableTree.draw
+   ~ImmutableTree.extend
+   ~ImmutableTree.flatten
+   ~ImmutableTree.freeze
+   ~ImmutableTree.fromstring
+   ~ImmutableTree.height
+   ~ImmutableTree.index
+   ~ImmutableTree.insert
+   ~ImmutableTree.label
+   ~ImmutableTree.leaf_treeposition
+   ~ImmutableTree.leaves
+   ~ImmutableTree.pformat
+   ~ImmutableTree.pformat_latex_qtree
+   ~ImmutableTree.pop
+   ~ImmutableTree.pos
+   ~ImmutableTree.pprint
+   ~ImmutableTree.pretty_print
+   ~ImmutableTree.productions
+   ~ImmutableTree.remove
+   ~ImmutableTree.reverse
+   ~ImmutableTree.set_label
+   ~ImmutableTree.sort
+   ~ImmutableTree.subtrees
+   ~ImmutableTree.treeposition_spanning_leaves
+   ~ImmutableTree.treepositions
+   ~ImmutableTree.un_chomsky_normal_form
+   ~ImmutableTree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ImmutableTree.node
+

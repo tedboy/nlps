@@ -1,0 +1,34 @@
+:class:`nltk.DictionaryProbDist`
+================================
+.. currentmodule:: nltk
+.. autoclass:: DictionaryProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DictionaryProbDist.__init__
+   ~DictionaryProbDist.discount
+   ~DictionaryProbDist.generate
+   ~DictionaryProbDist.logprob
+   ~DictionaryProbDist.max
+   ~DictionaryProbDist.prob
+   ~DictionaryProbDist.samples
+   ~DictionaryProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~DictionaryProbDist.SUM_TO_ONE
+

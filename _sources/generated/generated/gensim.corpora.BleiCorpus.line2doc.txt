@@ -1,0 +1,6 @@
+gensim.corpora.BleiCorpus.line2doc
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: BleiCorpus.line2doc

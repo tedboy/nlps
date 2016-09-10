@@ -1,0 +1,28 @@
+:class:`nltk.ProbabilisticProduction`
+=====================================
+.. currentmodule:: nltk
+.. autoclass:: ProbabilisticProduction
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbabilisticProduction.__init__
+   ~ProbabilisticProduction.is_lexical
+   ~ProbabilisticProduction.is_nonlexical
+   ~ProbabilisticProduction.lhs
+   ~ProbabilisticProduction.logprob
+   ~ProbabilisticProduction.prob
+   ~ProbabilisticProduction.rhs
+   ~ProbabilisticProduction.set_logprob
+   ~ProbabilisticProduction.set_prob
+   ~ProbabilisticProduction.unicode_repr
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.freqdist
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WittenBellProbDist.freqdist

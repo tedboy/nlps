@@ -1,0 +1,6 @@
+nltk.CfgReadingCommand.process_thread
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CfgReadingCommand.process_thread

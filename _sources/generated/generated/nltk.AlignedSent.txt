@@ -1,0 +1,31 @@
+:class:`nltk.AlignedSent`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: AlignedSent
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~AlignedSent.__init__
+   ~AlignedSent.invert
+   ~AlignedSent.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~AlignedSent.alignment
+   ~AlignedSent.mots
+   ~AlignedSent.words
+

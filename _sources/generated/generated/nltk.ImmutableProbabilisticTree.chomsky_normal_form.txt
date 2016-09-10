@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.chomsky_normal_form
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.chomsky_normal_form

@@ -1,0 +1,6 @@
+nltk.PorterStemmer.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: PorterStemmer.__init__

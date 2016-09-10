@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilder.build_model
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilder.build_model

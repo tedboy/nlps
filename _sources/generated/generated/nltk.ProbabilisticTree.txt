@@ -1,0 +1,64 @@
+:class:`nltk.ProbabilisticTree`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: ProbabilisticTree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbabilisticTree.__init__
+   ~ProbabilisticTree.append
+   ~ProbabilisticTree.chomsky_normal_form
+   ~ProbabilisticTree.collapse_unary
+   ~ProbabilisticTree.convert
+   ~ProbabilisticTree.copy
+   ~ProbabilisticTree.count
+   ~ProbabilisticTree.draw
+   ~ProbabilisticTree.extend
+   ~ProbabilisticTree.flatten
+   ~ProbabilisticTree.freeze
+   ~ProbabilisticTree.fromstring
+   ~ProbabilisticTree.height
+   ~ProbabilisticTree.index
+   ~ProbabilisticTree.insert
+   ~ProbabilisticTree.label
+   ~ProbabilisticTree.leaf_treeposition
+   ~ProbabilisticTree.leaves
+   ~ProbabilisticTree.logprob
+   ~ProbabilisticTree.pformat
+   ~ProbabilisticTree.pformat_latex_qtree
+   ~ProbabilisticTree.pop
+   ~ProbabilisticTree.pos
+   ~ProbabilisticTree.pprint
+   ~ProbabilisticTree.pretty_print
+   ~ProbabilisticTree.prob
+   ~ProbabilisticTree.productions
+   ~ProbabilisticTree.remove
+   ~ProbabilisticTree.reverse
+   ~ProbabilisticTree.set_label
+   ~ProbabilisticTree.set_logprob
+   ~ProbabilisticTree.set_prob
+   ~ProbabilisticTree.sort
+   ~ProbabilisticTree.subtrees
+   ~ProbabilisticTree.treeposition_spanning_leaves
+   ~ProbabilisticTree.treepositions
+   ~ProbabilisticTree.un_chomsky_normal_form
+   ~ProbabilisticTree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ProbabilisticTree.node
+

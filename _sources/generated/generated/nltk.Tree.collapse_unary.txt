@@ -1,0 +1,6 @@
+nltk.Tree.collapse_unary
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.collapse_unary

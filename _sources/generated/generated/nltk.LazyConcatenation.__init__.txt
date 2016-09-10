@@ -1,0 +1,6 @@
+nltk.LazyConcatenation.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyConcatenation.__init__

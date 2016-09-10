@@ -1,0 +1,41 @@
+:class:`nltk.FeatList`
+======================
+.. currentmodule:: nltk
+.. autoclass:: FeatList
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatList.__init__
+   ~FeatList.append
+   ~FeatList.copy
+   ~FeatList.count
+   ~FeatList.cyclic
+   ~FeatList.equal_values
+   ~FeatList.extend
+   ~FeatList.freeze
+   ~FeatList.frozen
+   ~FeatList.index
+   ~FeatList.insert
+   ~FeatList.pop
+   ~FeatList.remove
+   ~FeatList.remove_variables
+   ~FeatList.rename_variables
+   ~FeatList.retract_bindings
+   ~FeatList.reverse
+   ~FeatList.sort
+   ~FeatList.substitute_bindings
+   ~FeatList.subsumes
+   ~FeatList.unify
+   ~FeatList.variables
+   ~FeatList.walk
+
+
+
+
+

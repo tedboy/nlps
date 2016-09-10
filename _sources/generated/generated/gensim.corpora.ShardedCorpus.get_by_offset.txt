@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.get_by_offset
+==========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.get_by_offset

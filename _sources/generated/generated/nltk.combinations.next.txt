@@ -1,0 +1,6 @@
+nltk.combinations.next
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: combinations.next

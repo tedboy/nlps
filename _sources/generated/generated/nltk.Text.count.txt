@@ -1,0 +1,6 @@
+nltk.Text.count
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.count

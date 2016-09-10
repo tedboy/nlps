@@ -1,0 +1,49 @@
+:class:`gensim.models.Word2Vec`
+===============================
+.. currentmodule:: gensim.models
+.. autoclass:: Word2Vec
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Word2Vec.__init__
+   ~Word2Vec.accuracy
+   ~Word2Vec.build_vocab
+   ~Word2Vec.clear_sims
+   ~Word2Vec.create_binary_tree
+   ~Word2Vec.doesnt_match
+   ~Word2Vec.estimate_memory
+   ~Word2Vec.finalize_vocab
+   ~Word2Vec.init_sims
+   ~Word2Vec.intersect_word2vec_format
+   ~Word2Vec.load
+   ~Word2Vec.load_word2vec_format
+   ~Word2Vec.log_accuracy
+   ~Word2Vec.make_cum_table
+   ~Word2Vec.most_similar
+   ~Word2Vec.most_similar_cosmul
+   ~Word2Vec.n_similarity
+   ~Word2Vec.reset_from
+   ~Word2Vec.reset_weights
+   ~Word2Vec.save
+   ~Word2Vec.save_word2vec_format
+   ~Word2Vec.scale_vocab
+   ~Word2Vec.scan_vocab
+   ~Word2Vec.score
+   ~Word2Vec.seeded_vector
+   ~Word2Vec.similar_by_vector
+   ~Word2Vec.similar_by_word
+   ~Word2Vec.similarity
+   ~Word2Vec.sort_vocab
+   ~Word2Vec.train
+   ~Word2Vec.wmdistance
+
+
+
+
+

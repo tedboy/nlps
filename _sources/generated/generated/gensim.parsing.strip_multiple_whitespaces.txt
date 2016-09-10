@@ -1,0 +1,6 @@
+:func:`gensim.parsing.strip_multiple_whitespaces`
+=================================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: strip_multiple_whitespaces

@@ -1,0 +1,6 @@
+nltk.ProbabilisticDependencyGrammar.unicode_repr
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticDependencyGrammar.unicode_repr

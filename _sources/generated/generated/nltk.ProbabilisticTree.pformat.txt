@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.pformat
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.pformat

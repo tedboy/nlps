@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.convert
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.convert

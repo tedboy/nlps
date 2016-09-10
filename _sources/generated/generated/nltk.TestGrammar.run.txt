@@ -1,0 +1,6 @@
+nltk.TestGrammar.run
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: TestGrammar.run

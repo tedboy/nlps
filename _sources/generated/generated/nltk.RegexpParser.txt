@@ -1,0 +1,26 @@
+:class:`nltk.RegexpParser`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: RegexpParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RegexpParser.__init__
+   ~RegexpParser.evaluate
+   ~RegexpParser.grammar
+   ~RegexpParser.parse
+   ~RegexpParser.parse_all
+   ~RegexpParser.parse_one
+   ~RegexpParser.parse_sents
+   ~RegexpParser.unicode_repr
+
+
+
+
+

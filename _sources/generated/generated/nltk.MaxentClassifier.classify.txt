@@ -1,0 +1,6 @@
+nltk.MaxentClassifier.classify
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaxentClassifier.classify

@@ -1,0 +1,6 @@
+nltk.UnigramTagger.decode_json_obj
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: UnigramTagger.decode_json_obj

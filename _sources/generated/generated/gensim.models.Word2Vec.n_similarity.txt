@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.n_similarity
+===================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.n_similarity

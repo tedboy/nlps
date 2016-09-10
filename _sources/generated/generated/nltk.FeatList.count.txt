@@ -1,0 +1,6 @@
+nltk.FeatList.count
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.count

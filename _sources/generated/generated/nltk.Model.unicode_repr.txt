@@ -1,0 +1,6 @@
+nltk.Model.unicode_repr
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Model.unicode_repr

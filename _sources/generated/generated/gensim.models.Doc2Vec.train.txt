@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.train
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.train

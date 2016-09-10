@@ -1,0 +1,6 @@
+nltk.DRS.equiv
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.equiv

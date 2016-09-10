@@ -1,0 +1,6 @@
+nltk.Index.fromkeys
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.fromkeys

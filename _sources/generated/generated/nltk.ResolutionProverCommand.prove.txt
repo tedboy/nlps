@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.prove
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.prove

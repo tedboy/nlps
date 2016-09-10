@@ -1,0 +1,6 @@
+nltk.defaultdict.default_factory
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: defaultdict.default_factory

@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.logprob
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.logprob

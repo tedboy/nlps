@@ -1,0 +1,6 @@
+nltk.IBMModel5.__init__
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel5.__init__

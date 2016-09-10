@@ -1,0 +1,33 @@
+:class:`gensim.corpora.ShardedCorpus`
+=====================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: ShardedCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ShardedCorpus.__init__
+   ~ShardedCorpus.get_by_offset
+   ~ShardedCorpus.in_current
+   ~ShardedCorpus.in_next
+   ~ShardedCorpus.init_by_clone
+   ~ShardedCorpus.init_shards
+   ~ShardedCorpus.load
+   ~ShardedCorpus.load_shard
+   ~ShardedCorpus.reset
+   ~ShardedCorpus.resize_shards
+   ~ShardedCorpus.save
+   ~ShardedCorpus.save_corpus
+   ~ShardedCorpus.save_shard
+   ~ShardedCorpus.serialize
+   ~ShardedCorpus.shard_by_offset
+
+
+
+
+

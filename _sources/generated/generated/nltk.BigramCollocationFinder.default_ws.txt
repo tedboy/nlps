@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.default_ws
+=======================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: BigramCollocationFinder.default_ws

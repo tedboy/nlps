@@ -1,0 +1,6 @@
+gensim.corpora.WikiCorpus.load
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: WikiCorpus.load

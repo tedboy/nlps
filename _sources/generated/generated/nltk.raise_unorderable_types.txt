@@ -1,0 +1,6 @@
+:func:`nltk.raise_unorderable_types`
+====================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: raise_unorderable_types

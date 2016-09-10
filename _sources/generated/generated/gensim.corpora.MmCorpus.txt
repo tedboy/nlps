@@ -1,0 +1,25 @@
+:class:`gensim.corpora.MmCorpus`
+================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: MmCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MmCorpus.__init__
+   ~MmCorpus.docbyoffset
+   ~MmCorpus.load
+   ~MmCorpus.save
+   ~MmCorpus.save_corpus
+   ~MmCorpus.serialize
+   ~MmCorpus.skip_headers
+
+
+
+
+

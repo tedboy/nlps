@@ -1,0 +1,19 @@
+:class:`nltk.ContingencyMeasures`
+=================================
+.. currentmodule:: nltk
+.. autoclass:: ContingencyMeasures
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ContingencyMeasures.__init__
+
+
+
+
+

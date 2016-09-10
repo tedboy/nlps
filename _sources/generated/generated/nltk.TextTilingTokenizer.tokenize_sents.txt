@@ -1,0 +1,6 @@
+nltk.TextTilingTokenizer.tokenize_sents
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextTilingTokenizer.tokenize_sents

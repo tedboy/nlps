@@ -1,0 +1,6 @@
+nltk.DrtExpression.fromstring
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.fromstring

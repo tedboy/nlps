@@ -1,0 +1,6 @@
+nltk.SklearnClassifier.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: SklearnClassifier.__init__

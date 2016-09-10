@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.discount
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.discount

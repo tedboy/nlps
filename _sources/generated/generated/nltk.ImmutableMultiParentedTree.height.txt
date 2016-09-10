@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.height
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.height

@@ -1,0 +1,6 @@
+:func:`nltk.py27`
+=================
+
+.. currentmodule:: nltk
+
+.. autofunction:: py27

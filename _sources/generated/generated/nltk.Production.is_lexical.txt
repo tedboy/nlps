@@ -1,0 +1,6 @@
+nltk.Production.is_lexical
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Production.is_lexical

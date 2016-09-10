@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTrainer.__init__
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTrainer.__init__

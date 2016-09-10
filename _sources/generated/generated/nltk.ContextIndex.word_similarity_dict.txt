@@ -1,0 +1,6 @@
+nltk.ContextIndex.word_similarity_dict
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextIndex.word_similarity_dict

@@ -1,0 +1,6 @@
+nltk.ConditionalProbDist.viewkeys
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDist.viewkeys

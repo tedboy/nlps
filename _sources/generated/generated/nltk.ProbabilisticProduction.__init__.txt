@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.__init__

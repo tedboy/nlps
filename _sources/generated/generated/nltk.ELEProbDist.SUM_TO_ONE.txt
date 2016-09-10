@@ -1,0 +1,6 @@
+nltk.ELEProbDist.SUM_TO_ONE
+===========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ELEProbDist.SUM_TO_ONE

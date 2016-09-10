@@ -1,0 +1,6 @@
+nltk.Variable.substitute_bindings
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: Variable.substitute_bindings

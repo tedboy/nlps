@@ -1,0 +1,6 @@
+:func:`gensim.parsing.split_alphanum`
+=====================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: split_alphanum

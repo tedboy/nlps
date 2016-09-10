@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticMixIn.logprob
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticMixIn.logprob

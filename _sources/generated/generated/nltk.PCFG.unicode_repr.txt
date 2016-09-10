@@ -1,0 +1,6 @@
+nltk.PCFG.unicode_repr
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.unicode_repr

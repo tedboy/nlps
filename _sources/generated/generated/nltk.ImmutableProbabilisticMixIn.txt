@@ -1,0 +1,23 @@
+:class:`nltk.ImmutableProbabilisticMixIn`
+=========================================
+.. currentmodule:: nltk
+.. autoclass:: ImmutableProbabilisticMixIn
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ImmutableProbabilisticMixIn.__init__
+   ~ImmutableProbabilisticMixIn.logprob
+   ~ImmutableProbabilisticMixIn.prob
+   ~ImmutableProbabilisticMixIn.set_logprob
+   ~ImmutableProbabilisticMixIn.set_prob
+
+
+
+
+

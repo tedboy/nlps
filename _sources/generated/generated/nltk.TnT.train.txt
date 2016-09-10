@@ -1,0 +1,6 @@
+nltk.TnT.train
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: TnT.train

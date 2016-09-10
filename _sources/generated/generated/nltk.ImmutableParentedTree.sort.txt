@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.sort
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.sort

@@ -1,0 +1,6 @@
+nltk.LancasterStemmer.rule_tuple
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: LancasterStemmer.rule_tuple

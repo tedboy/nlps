@@ -1,0 +1,6 @@
+nltk.DRS.replace
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.replace

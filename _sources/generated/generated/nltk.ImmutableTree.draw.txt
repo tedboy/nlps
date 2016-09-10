@@ -1,0 +1,6 @@
+nltk.ImmutableTree.draw
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.draw

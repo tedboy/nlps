@@ -1,0 +1,6 @@
+nltk.QuadgramCollocationFinder.__init__
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: QuadgramCollocationFinder.__init__

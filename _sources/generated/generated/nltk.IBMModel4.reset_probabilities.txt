@@ -1,0 +1,6 @@
+nltk.IBMModel4.reset_probabilities
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel4.reset_probabilities

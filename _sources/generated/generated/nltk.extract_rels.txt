@@ -1,0 +1,6 @@
+:func:`nltk.extract_rels`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: extract_rels

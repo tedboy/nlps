@@ -1,0 +1,6 @@
+gensim.models.Phrases.export_phrases
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.export_phrases

@@ -1,0 +1,6 @@
+nltk.ELEProbDist.discount
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.discount

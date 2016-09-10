@@ -1,0 +1,6 @@
+gensim.corpora.SvmLightCorpus.docbyoffset
+=========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: SvmLightCorpus.docbyoffset

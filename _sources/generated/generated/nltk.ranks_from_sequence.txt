@@ -1,0 +1,6 @@
+:func:`nltk.ranks_from_sequence`
+================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ranks_from_sequence

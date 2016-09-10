@@ -1,0 +1,6 @@
+nltk.Tree.count
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.count

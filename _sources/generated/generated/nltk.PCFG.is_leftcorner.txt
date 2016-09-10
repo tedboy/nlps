@@ -1,0 +1,6 @@
+nltk.PCFG.is_leftcorner
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.is_leftcorner

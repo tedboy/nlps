@@ -1,0 +1,45 @@
+:class:`nltk.Index`
+===================
+.. currentmodule:: nltk
+.. autoclass:: Index
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Index.__init__
+   ~Index.clear
+   ~Index.copy
+   ~Index.fromkeys
+   ~Index.get
+   ~Index.has_key
+   ~Index.items
+   ~Index.iteritems
+   ~Index.iterkeys
+   ~Index.itervalues
+   ~Index.keys
+   ~Index.pop
+   ~Index.popitem
+   ~Index.setdefault
+   ~Index.update
+   ~Index.values
+   ~Index.viewitems
+   ~Index.viewkeys
+   ~Index.viewvalues
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Index.default_factory
+

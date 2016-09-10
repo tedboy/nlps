@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.id2word
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. autoattribute:: MalletCorpus.id2word

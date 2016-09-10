@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.build_vocab
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.build_vocab

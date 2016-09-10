@@ -1,0 +1,6 @@
+nltk.SteppingRecursiveDescentParser.untried_expandable_productions
+==================================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SteppingRecursiveDescentParser.untried_expandable_productions

@@ -1,0 +1,29 @@
+:class:`nltk.BigramAssocMeasures`
+=================================
+.. currentmodule:: nltk
+.. autoclass:: BigramAssocMeasures
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BigramAssocMeasures.chi_sq
+   ~BigramAssocMeasures.dice
+   ~BigramAssocMeasures.fisher
+   ~BigramAssocMeasures.jaccard
+   ~BigramAssocMeasures.likelihood_ratio
+   ~BigramAssocMeasures.mi_like
+   ~BigramAssocMeasures.phi_sq
+   ~BigramAssocMeasures.pmi
+   ~BigramAssocMeasures.poisson_stirling
+   ~BigramAssocMeasures.raw_freq
+   ~BigramAssocMeasures.student_t
+
+
+
+
+

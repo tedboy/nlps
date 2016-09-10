@@ -1,0 +1,25 @@
+:class:`gensim.corpora.BleiCorpus`
+==================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: BleiCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BleiCorpus.__init__
+   ~BleiCorpus.docbyoffset
+   ~BleiCorpus.line2doc
+   ~BleiCorpus.load
+   ~BleiCorpus.save
+   ~BleiCorpus.save_corpus
+   ~BleiCorpus.serialize
+
+
+
+
+

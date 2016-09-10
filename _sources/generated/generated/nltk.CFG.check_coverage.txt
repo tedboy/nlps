@@ -1,0 +1,6 @@
+nltk.CFG.check_coverage
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.check_coverage

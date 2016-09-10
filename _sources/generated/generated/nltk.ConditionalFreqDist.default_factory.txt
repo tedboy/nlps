@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.default_factory
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ConditionalFreqDist.default_factory

@@ -1,0 +1,6 @@
+nltk.Tree.subtrees
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.subtrees

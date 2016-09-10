@@ -1,0 +1,35 @@
+:class:`nltk.WittenBellProbDist`
+================================
+.. currentmodule:: nltk
+.. autoclass:: WittenBellProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WittenBellProbDist.__init__
+   ~WittenBellProbDist.discount
+   ~WittenBellProbDist.freqdist
+   ~WittenBellProbDist.generate
+   ~WittenBellProbDist.logprob
+   ~WittenBellProbDist.max
+   ~WittenBellProbDist.prob
+   ~WittenBellProbDist.samples
+   ~WittenBellProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~WittenBellProbDist.SUM_TO_ONE
+

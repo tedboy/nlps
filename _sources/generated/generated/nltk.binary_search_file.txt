@@ -1,0 +1,6 @@
+:func:`nltk.binary_search_file`
+===============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: binary_search_file

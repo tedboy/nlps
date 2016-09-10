@@ -1,0 +1,6 @@
+gensim.models.LdaModel.__init__
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.__init__

@@ -1,0 +1,6 @@
+nltk.ParentedTree.left_sibling
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.left_sibling

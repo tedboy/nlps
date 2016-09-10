@@ -1,0 +1,6 @@
+nltk.LazyEnumerate.count
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyEnumerate.count

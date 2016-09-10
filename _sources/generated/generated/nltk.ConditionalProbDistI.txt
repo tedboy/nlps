@@ -1,0 +1,39 @@
+:class:`nltk.ConditionalProbDistI`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: ConditionalProbDistI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ConditionalProbDistI.__init__
+   ~ConditionalProbDistI.clear
+   ~ConditionalProbDistI.conditions
+   ~ConditionalProbDistI.copy
+   ~ConditionalProbDistI.fromkeys
+   ~ConditionalProbDistI.get
+   ~ConditionalProbDistI.has_key
+   ~ConditionalProbDistI.items
+   ~ConditionalProbDistI.iteritems
+   ~ConditionalProbDistI.iterkeys
+   ~ConditionalProbDistI.itervalues
+   ~ConditionalProbDistI.keys
+   ~ConditionalProbDistI.pop
+   ~ConditionalProbDistI.popitem
+   ~ConditionalProbDistI.setdefault
+   ~ConditionalProbDistI.unicode_repr
+   ~ConditionalProbDistI.update
+   ~ConditionalProbDistI.values
+   ~ConditionalProbDistI.viewitems
+   ~ConditionalProbDistI.viewkeys
+   ~ConditionalProbDistI.viewvalues
+
+
+
+
+

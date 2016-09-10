@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.unicode_repr
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WittenBellProbDist.unicode_repr

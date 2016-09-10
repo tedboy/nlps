@@ -1,0 +1,6 @@
+gensim.models.LdaModel.save
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.save

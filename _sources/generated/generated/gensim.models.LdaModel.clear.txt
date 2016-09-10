@@ -1,0 +1,6 @@
+gensim.models.LdaModel.clear
+============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.clear

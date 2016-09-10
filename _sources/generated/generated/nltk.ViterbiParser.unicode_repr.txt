@@ -1,0 +1,6 @@
+nltk.ViterbiParser.unicode_repr
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ViterbiParser.unicode_repr

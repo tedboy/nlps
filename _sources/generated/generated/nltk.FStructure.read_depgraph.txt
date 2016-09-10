@@ -1,0 +1,6 @@
+nltk.FStructure.read_depgraph
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.read_depgraph

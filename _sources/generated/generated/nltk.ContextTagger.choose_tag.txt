@@ -1,0 +1,6 @@
+nltk.ContextTagger.choose_tag
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextTagger.choose_tag

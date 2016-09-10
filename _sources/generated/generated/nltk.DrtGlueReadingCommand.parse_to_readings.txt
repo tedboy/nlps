@@ -1,0 +1,6 @@
+nltk.DrtGlueReadingCommand.parse_to_readings
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtGlueReadingCommand.parse_to_readings

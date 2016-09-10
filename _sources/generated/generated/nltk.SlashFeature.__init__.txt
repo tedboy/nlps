@@ -1,0 +1,6 @@
+nltk.SlashFeature.__init__
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: SlashFeature.__init__

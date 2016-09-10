@@ -1,0 +1,6 @@
+:func:`nltk.download_gui`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: download_gui

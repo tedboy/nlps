@@ -1,0 +1,6 @@
+nltk.LancasterStemmer.stem
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LancasterStemmer.stem

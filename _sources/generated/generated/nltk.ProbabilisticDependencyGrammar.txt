@@ -1,0 +1,21 @@
+:class:`nltk.ProbabilisticDependencyGrammar`
+============================================
+.. currentmodule:: nltk
+.. autoclass:: ProbabilisticDependencyGrammar
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbabilisticDependencyGrammar.__init__
+   ~ProbabilisticDependencyGrammar.contains
+   ~ProbabilisticDependencyGrammar.unicode_repr
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.Feature.__init__
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Feature.__init__

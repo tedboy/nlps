@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.prob
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.prob

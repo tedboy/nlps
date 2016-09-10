@@ -1,0 +1,6 @@
+nltk.text_type.isspace
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.isspace

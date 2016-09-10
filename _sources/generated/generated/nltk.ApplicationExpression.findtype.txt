@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.findtype
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.findtype

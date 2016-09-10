@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.freqdist
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.freqdist

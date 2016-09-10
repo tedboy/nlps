@@ -1,0 +1,6 @@
+nltk.Index.default_factory
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Index.default_factory

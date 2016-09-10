@@ -1,0 +1,6 @@
+:func:`nltk.usage`
+==================
+
+.. currentmodule:: nltk
+
+.. autofunction:: usage

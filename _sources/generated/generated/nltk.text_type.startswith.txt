@@ -1,0 +1,6 @@
+nltk.text_type.startswith
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.startswith

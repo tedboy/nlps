@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.treeposition_spanning_leaves
+============================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.treeposition_spanning_leaves

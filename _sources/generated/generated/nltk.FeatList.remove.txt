@@ -1,0 +1,6 @@
+nltk.FeatList.remove
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.remove

@@ -1,0 +1,6 @@
+nltk.DependencyEvaluator.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyEvaluator.__init__

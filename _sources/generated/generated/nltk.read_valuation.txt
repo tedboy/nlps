@@ -1,0 +1,6 @@
+:func:`nltk.read_valuation`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: read_valuation

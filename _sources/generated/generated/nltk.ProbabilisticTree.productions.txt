@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.productions
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.productions

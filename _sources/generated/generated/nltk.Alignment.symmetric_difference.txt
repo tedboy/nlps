@@ -1,0 +1,6 @@
+nltk.Alignment.symmetric_difference
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.symmetric_difference

@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.generate
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.generate

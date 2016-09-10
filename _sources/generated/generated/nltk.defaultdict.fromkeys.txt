@@ -1,0 +1,6 @@
+nltk.defaultdict.fromkeys
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.fromkeys

@@ -1,0 +1,6 @@
+nltk.MaceCommand.retract_assumptions
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaceCommand.retract_assumptions

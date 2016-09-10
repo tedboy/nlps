@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticMixIn.set_prob
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticMixIn.set_prob

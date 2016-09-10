@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.retract_assumptions
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.retract_assumptions

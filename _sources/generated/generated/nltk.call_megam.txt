@@ -1,0 +1,6 @@
+:func:`nltk.call_megam`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: call_megam

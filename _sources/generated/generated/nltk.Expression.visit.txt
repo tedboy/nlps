@@ -1,0 +1,6 @@
+nltk.Expression.visit
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Expression.visit

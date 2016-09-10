@@ -1,0 +1,6 @@
+:func:`nltk.ieerstr2tree`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ieerstr2tree

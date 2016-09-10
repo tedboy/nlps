@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.__init__
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.__init__

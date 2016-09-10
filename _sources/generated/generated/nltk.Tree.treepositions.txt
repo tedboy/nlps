@@ -1,0 +1,6 @@
+nltk.Tree.treepositions
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.treepositions

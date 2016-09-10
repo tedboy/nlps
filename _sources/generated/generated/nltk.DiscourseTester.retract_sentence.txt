@@ -1,0 +1,6 @@
+nltk.DiscourseTester.retract_sentence
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.retract_sentence

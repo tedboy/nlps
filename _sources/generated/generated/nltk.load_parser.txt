@@ -1,0 +1,6 @@
+:func:`nltk.load_parser`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: load_parser

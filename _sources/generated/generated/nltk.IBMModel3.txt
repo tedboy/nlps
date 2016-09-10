@@ -1,0 +1,41 @@
+:class:`nltk.IBMModel3`
+=======================
+.. currentmodule:: nltk
+.. autoclass:: IBMModel3
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~IBMModel3.__init__
+   ~IBMModel3.best_model2_alignment
+   ~IBMModel3.hillclimb
+   ~IBMModel3.init_vocab
+   ~IBMModel3.maximize_distortion_probabilities
+   ~IBMModel3.maximize_fertility_probabilities
+   ~IBMModel3.maximize_lexical_translation_probabilities
+   ~IBMModel3.maximize_null_generation_probabilities
+   ~IBMModel3.neighboring
+   ~IBMModel3.prob_of_alignments
+   ~IBMModel3.prob_t_a_given_s
+   ~IBMModel3.reset_probabilities
+   ~IBMModel3.sample
+   ~IBMModel3.set_uniform_probabilities
+   ~IBMModel3.train
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~IBMModel3.MIN_PROB
+

@@ -1,0 +1,6 @@
+nltk.RTEFeatureExtractor.overlap
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RTEFeatureExtractor.overlap

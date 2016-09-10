@@ -1,0 +1,6 @@
+nltk.Valuation.copy
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.copy

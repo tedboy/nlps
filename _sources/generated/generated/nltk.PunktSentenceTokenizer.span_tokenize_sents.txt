@@ -1,0 +1,6 @@
+nltk.PunktSentenceTokenizer.span_tokenize_sents
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PunktSentenceTokenizer.span_tokenize_sents

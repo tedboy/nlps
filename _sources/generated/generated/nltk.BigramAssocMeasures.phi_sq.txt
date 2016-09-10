@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.phi_sq
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.phi_sq

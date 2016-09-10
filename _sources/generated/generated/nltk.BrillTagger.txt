@@ -1,0 +1,36 @@
+:class:`nltk.BrillTagger`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: BrillTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BrillTagger.__init__
+   ~BrillTagger.batch_tag_incremental
+   ~BrillTagger.decode_json_obj
+   ~BrillTagger.encode_json_obj
+   ~BrillTagger.evaluate
+   ~BrillTagger.print_template_statistics
+   ~BrillTagger.rules
+   ~BrillTagger.tag
+   ~BrillTagger.tag_sents
+   ~BrillTagger.train_stats
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~BrillTagger.json_tag
+

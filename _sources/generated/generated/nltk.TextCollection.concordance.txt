@@ -1,0 +1,6 @@
+nltk.TextCollection.concordance
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.concordance

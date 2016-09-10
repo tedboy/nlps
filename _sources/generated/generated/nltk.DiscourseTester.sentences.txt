@@ -1,0 +1,6 @@
+nltk.DiscourseTester.sentences
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.sentences

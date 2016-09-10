@@ -1,0 +1,6 @@
+nltk.Trie.as_dict
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.as_dict

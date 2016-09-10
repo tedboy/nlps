@@ -1,0 +1,6 @@
+nltk.defaultdict.update
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.update

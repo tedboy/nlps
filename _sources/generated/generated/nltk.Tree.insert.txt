@@ -1,0 +1,6 @@
+nltk.Tree.insert
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.insert

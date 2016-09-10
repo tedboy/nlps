@@ -1,0 +1,6 @@
+nltk.LineTokenizer.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LineTokenizer.__init__

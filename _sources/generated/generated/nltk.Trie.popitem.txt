@@ -1,0 +1,6 @@
+nltk.Trie.popitem
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.popitem

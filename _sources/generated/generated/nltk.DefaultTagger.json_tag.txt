@@ -1,0 +1,6 @@
+nltk.DefaultTagger.json_tag
+===========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: DefaultTagger.json_tag

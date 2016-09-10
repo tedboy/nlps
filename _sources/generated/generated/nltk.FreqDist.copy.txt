@@ -1,0 +1,6 @@
+nltk.FreqDist.copy
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.copy

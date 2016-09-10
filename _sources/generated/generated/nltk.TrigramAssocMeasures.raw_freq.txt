@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.raw_freq
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.raw_freq

@@ -1,0 +1,6 @@
+nltk.LazyZip.index
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyZip.index

@@ -1,0 +1,6 @@
+nltk.ParserI.grammar
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParserI.grammar

@@ -1,0 +1,6 @@
+nltk.ProbabilisticProjectiveDependencyParser.train
+==================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProjectiveDependencyParser.train

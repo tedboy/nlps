@@ -1,0 +1,6 @@
+nltk.TableauProver.is_atom
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProver.is_atom

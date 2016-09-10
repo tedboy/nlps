@@ -1,0 +1,6 @@
+nltk.Index.iterkeys
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.iterkeys

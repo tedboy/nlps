@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.visit_structured
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.visit_structured

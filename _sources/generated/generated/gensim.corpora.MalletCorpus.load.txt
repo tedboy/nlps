@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.load
+================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.load

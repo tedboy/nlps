@@ -1,0 +1,6 @@
+nltk.BrillTagger.rules
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.rules

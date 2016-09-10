@@ -1,0 +1,6 @@
+:func:`nltk.decorator`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: decorator

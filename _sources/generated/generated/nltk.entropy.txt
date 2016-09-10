@@ -1,0 +1,6 @@
+:func:`nltk.entropy`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: entropy

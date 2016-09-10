@@ -1,0 +1,6 @@
+nltk.CRFTagger.tag_sents
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: CRFTagger.tag_sents

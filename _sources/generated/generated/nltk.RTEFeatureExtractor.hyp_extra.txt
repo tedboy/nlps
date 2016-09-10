@@ -1,0 +1,6 @@
+nltk.RTEFeatureExtractor.hyp_extra
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RTEFeatureExtractor.hyp_extra

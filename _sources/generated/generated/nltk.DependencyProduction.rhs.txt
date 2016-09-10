@@ -1,0 +1,6 @@
+nltk.DependencyProduction.rhs
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyProduction.rhs

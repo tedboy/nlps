@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.add_parent
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.add_parent

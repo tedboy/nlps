@@ -1,0 +1,6 @@
+nltk.ResolutionProver.ANSWER_KEY
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ResolutionProver.ANSWER_KEY

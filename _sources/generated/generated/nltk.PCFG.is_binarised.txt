@@ -1,0 +1,6 @@
+nltk.PCFG.is_binarised
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.is_binarised

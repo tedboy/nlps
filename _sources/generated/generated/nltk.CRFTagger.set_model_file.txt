@@ -1,0 +1,6 @@
+nltk.CRFTagger.set_model_file
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: CRFTagger.set_model_file

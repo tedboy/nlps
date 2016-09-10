@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.mi_like
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.mi_like

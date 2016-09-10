@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.line2doc
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.line2doc

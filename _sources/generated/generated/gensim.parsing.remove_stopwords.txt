@@ -1,0 +1,6 @@
+:func:`gensim.parsing.remove_stopwords`
+=======================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: remove_stopwords

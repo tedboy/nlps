@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.copy
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.copy

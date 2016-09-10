@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.get_cnonce
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.get_cnonce

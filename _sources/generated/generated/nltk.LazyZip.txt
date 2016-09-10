@@ -1,0 +1,23 @@
+:class:`nltk.LazyZip`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: LazyZip
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LazyZip.__init__
+   ~LazyZip.count
+   ~LazyZip.index
+   ~LazyZip.iterate_from
+   ~LazyZip.unicode_repr
+
+
+
+
+

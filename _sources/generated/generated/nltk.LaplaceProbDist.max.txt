@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.max
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.max

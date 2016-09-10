@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.uncurry
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.uncurry

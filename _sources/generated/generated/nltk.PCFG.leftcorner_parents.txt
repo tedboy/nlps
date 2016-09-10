@@ -1,0 +1,6 @@
+nltk.PCFG.leftcorner_parents
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.leftcorner_parents

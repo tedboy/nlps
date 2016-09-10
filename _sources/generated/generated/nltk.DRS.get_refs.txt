@@ -1,0 +1,6 @@
+nltk.DRS.get_refs
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.get_refs

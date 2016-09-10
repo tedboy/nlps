@@ -1,0 +1,34 @@
+:class:`nltk.StackDecoder`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: StackDecoder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StackDecoder.__init__
+   ~StackDecoder.compute_future_scores
+   ~StackDecoder.distortion_score
+   ~StackDecoder.expansion_score
+   ~StackDecoder.find_all_src_phrases
+   ~StackDecoder.future_score
+   ~StackDecoder.translate
+   ~StackDecoder.valid_phrases
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~StackDecoder.distortion_factor
+

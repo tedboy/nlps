@@ -1,0 +1,19 @@
+:class:`nltk.combinations`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: combinations
+   :undoc-members:
+
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~combinations.next
+

@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.iter_chunks
+==========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.iter_chunks

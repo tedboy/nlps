@@ -1,0 +1,6 @@
+nltk.AnnotationTask.weighted_kappa_pairwise
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.weighted_kappa_pairwise

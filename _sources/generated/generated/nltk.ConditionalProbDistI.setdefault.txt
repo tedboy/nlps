@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.setdefault
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.setdefault

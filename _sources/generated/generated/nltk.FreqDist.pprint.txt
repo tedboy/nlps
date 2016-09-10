@@ -1,0 +1,6 @@
+nltk.FreqDist.pprint
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.pprint

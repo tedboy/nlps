@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.pop
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.pop

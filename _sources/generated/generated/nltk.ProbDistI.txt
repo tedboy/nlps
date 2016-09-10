@@ -1,0 +1,33 @@
+:class:`nltk.ProbDistI`
+=======================
+.. currentmodule:: nltk
+.. autoclass:: ProbDistI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbDistI.__init__
+   ~ProbDistI.discount
+   ~ProbDistI.generate
+   ~ProbDistI.logprob
+   ~ProbDistI.max
+   ~ProbDistI.prob
+   ~ProbDistI.samples
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ProbDistI.SUM_TO_ONE
+

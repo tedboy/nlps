@@ -1,0 +1,6 @@
+nltk.StackDecoder.distortion_score
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.distortion_score

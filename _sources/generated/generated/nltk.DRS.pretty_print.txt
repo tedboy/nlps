@@ -1,0 +1,6 @@
+nltk.DRS.pretty_print
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.pretty_print

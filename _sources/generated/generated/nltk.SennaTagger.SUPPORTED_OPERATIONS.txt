@@ -1,0 +1,6 @@
+nltk.SennaTagger.SUPPORTED_OPERATIONS
+=====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SennaTagger.SUPPORTED_OPERATIONS

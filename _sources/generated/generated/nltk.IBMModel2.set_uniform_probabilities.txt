@@ -1,0 +1,6 @@
+nltk.IBMModel2.set_uniform_probabilities
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel2.set_uniform_probabilities

@@ -1,0 +1,6 @@
+nltk.MutableProbDist.update
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MutableProbDist.update

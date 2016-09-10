@@ -1,0 +1,35 @@
+:class:`nltk.ELEProbDist`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: ELEProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ELEProbDist.__init__
+   ~ELEProbDist.discount
+   ~ELEProbDist.freqdist
+   ~ELEProbDist.generate
+   ~ELEProbDist.logprob
+   ~ELEProbDist.max
+   ~ELEProbDist.prob
+   ~ELEProbDist.samples
+   ~ELEProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ELEProbDist.SUM_TO_ONE
+

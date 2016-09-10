@@ -1,0 +1,6 @@
+gensim.models.HdpModel.save
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.save

@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.similarity_by_id
+===============================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.similarity_by_id

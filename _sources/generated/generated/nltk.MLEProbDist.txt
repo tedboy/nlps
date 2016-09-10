@@ -1,0 +1,35 @@
+:class:`nltk.MLEProbDist`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: MLEProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MLEProbDist.__init__
+   ~MLEProbDist.discount
+   ~MLEProbDist.freqdist
+   ~MLEProbDist.generate
+   ~MLEProbDist.logprob
+   ~MLEProbDist.max
+   ~MLEProbDist.prob
+   ~MLEProbDist.samples
+   ~MLEProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~MLEProbDist.SUM_TO_ONE
+

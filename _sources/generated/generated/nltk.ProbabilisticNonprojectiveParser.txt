@@ -1,0 +1,28 @@
+:class:`nltk.ProbabilisticNonprojectiveParser`
+==============================================
+.. currentmodule:: nltk
+.. autoclass:: ProbabilisticNonprojectiveParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbabilisticNonprojectiveParser.__init__
+   ~ProbabilisticNonprojectiveParser.best_incoming_arc
+   ~ProbabilisticNonprojectiveParser.collapse_nodes
+   ~ProbabilisticNonprojectiveParser.compute_max_subtract_score
+   ~ProbabilisticNonprojectiveParser.compute_original_indexes
+   ~ProbabilisticNonprojectiveParser.initialize_edge_scores
+   ~ProbabilisticNonprojectiveParser.original_best_arc
+   ~ProbabilisticNonprojectiveParser.parse
+   ~ProbabilisticNonprojectiveParser.train
+   ~ProbabilisticNonprojectiveParser.update_edge_scores
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.FeatList.variables
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.variables

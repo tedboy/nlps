@@ -1,0 +1,6 @@
+nltk.TrigramTagger.backoff
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: TrigramTagger.backoff

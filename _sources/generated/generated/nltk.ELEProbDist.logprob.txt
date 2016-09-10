@@ -1,0 +1,6 @@
+nltk.ELEProbDist.logprob
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.logprob

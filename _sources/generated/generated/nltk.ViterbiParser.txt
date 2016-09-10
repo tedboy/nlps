@@ -1,0 +1,26 @@
+:class:`nltk.ViterbiParser`
+===========================
+.. currentmodule:: nltk
+.. autoclass:: ViterbiParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ViterbiParser.__init__
+   ~ViterbiParser.grammar
+   ~ViterbiParser.parse
+   ~ViterbiParser.parse_all
+   ~ViterbiParser.parse_one
+   ~ViterbiParser.parse_sents
+   ~ViterbiParser.trace
+   ~ViterbiParser.unicode_repr
+
+
+
+
+

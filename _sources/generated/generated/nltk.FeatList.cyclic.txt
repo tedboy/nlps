@@ -1,0 +1,6 @@
+nltk.FeatList.cyclic
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.cyclic

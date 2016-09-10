@@ -1,0 +1,6 @@
+:func:`nltk.precision`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: precision

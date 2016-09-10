@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.treepositions
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.treepositions

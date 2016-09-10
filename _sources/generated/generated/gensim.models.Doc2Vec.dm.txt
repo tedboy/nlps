@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.dm
+========================
+
+.. currentmodule:: gensim.models
+
+.. autoattribute:: Doc2Vec.dm

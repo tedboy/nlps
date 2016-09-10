@@ -1,0 +1,6 @@
+nltk.WordNetLemmatizer.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: WordNetLemmatizer.__init__

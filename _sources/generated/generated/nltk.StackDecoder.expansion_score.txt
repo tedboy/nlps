@@ -1,0 +1,6 @@
+nltk.StackDecoder.expansion_score
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.expansion_score

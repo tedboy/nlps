@@ -1,0 +1,6 @@
+nltk.CrossValidationProbDist.unicode_repr
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CrossValidationProbDist.unicode_repr

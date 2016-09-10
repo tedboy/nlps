@@ -1,0 +1,6 @@
+nltk.Index.clear
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.clear

@@ -1,0 +1,6 @@
+gensim.corpora.SvmLightCorpus.save_corpus
+=========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: SvmLightCorpus.save_corpus

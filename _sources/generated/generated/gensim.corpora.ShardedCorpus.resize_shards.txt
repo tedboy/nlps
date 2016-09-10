@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.resize_shards
+==========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.resize_shards

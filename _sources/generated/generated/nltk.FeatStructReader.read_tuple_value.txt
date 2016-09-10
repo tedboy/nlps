@@ -1,0 +1,6 @@
+nltk.FeatStructReader.read_tuple_value
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.read_tuple_value

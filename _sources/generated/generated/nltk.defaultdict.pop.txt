@@ -1,0 +1,6 @@
+nltk.defaultdict.pop
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.pop

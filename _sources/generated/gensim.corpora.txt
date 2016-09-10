@@ -1,0 +1,55 @@
+:mod:`gensim.corpora`
+=====================
+
+.. automodule:: gensim.corpora
+
+   
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      BleiCorpus
+      Dictionary
+      HashDictionary
+      IndexedCorpus
+      LowCorpus
+      MalletCorpus
+      MmCorpus
+      ShardedCorpus
+      SvmLightCorpus
+      TextCorpus
+      UciCorpus
+      WikiCorpus
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.corpora.BleiCorpus
+       generated/gensim.corpora.Dictionary
+       generated/gensim.corpora.HashDictionary
+       generated/gensim.corpora.IndexedCorpus
+       generated/gensim.corpora.LowCorpus
+       generated/gensim.corpora.MalletCorpus
+       generated/gensim.corpora.MmCorpus
+       generated/gensim.corpora.ShardedCorpus
+       generated/gensim.corpora.SvmLightCorpus
+       generated/gensim.corpora.TextCorpus
+       generated/gensim.corpora.UciCorpus
+       generated/gensim.corpora.WikiCorpus
+
+   
+   
+
+   
+   
+   

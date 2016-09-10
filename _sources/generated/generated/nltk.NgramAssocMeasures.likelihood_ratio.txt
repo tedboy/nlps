@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.likelihood_ratio
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.likelihood_ratio

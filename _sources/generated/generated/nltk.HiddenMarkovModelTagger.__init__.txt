@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTagger.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTagger.__init__

@@ -1,0 +1,27 @@
+:class:`nltk.ResolutionProver`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: ResolutionProver
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ResolutionProver.prove
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ResolutionProver.ANSWER_KEY
+

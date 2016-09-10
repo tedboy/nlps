@@ -1,0 +1,6 @@
+nltk.defaultdict.copy
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.copy

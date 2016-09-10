@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.set_label
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.set_label

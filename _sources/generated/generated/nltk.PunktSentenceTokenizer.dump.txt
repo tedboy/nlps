@@ -1,0 +1,6 @@
+nltk.PunktSentenceTokenizer.dump
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PunktSentenceTokenizer.dump

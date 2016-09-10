@@ -1,0 +1,6 @@
+gensim.models.HdpModel.doc_e_step
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.doc_e_step

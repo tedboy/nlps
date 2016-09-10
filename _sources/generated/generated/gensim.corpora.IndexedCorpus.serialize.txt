@@ -1,0 +1,6 @@
+gensim.corpora.IndexedCorpus.serialize
+======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: IndexedCorpus.serialize

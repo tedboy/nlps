@@ -1,0 +1,6 @@
+nltk.ProxyHandler.proxy_open
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyHandler.proxy_open

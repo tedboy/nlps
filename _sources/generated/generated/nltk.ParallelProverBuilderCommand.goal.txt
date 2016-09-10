@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilderCommand.goal
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilderCommand.goal

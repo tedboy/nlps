@@ -1,0 +1,6 @@
+nltk.LongestChartParser.parse_sents
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LongestChartParser.parse_sents

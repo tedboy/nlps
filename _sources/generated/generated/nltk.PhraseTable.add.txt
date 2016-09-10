@@ -1,0 +1,6 @@
+nltk.PhraseTable.add
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PhraseTable.add

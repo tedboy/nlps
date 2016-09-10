@@ -1,0 +1,31 @@
+:class:`nltk.JSONTaggedEncoder`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: JSONTaggedEncoder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~JSONTaggedEncoder.__init__
+   ~JSONTaggedEncoder.default
+   ~JSONTaggedEncoder.encode
+   ~JSONTaggedEncoder.iterencode
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~JSONTaggedEncoder.item_separator
+   ~JSONTaggedEncoder.key_separator
+

@@ -1,0 +1,6 @@
+:func:`nltk.skolemize`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: skolemize

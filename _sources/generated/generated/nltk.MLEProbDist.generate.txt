@@ -1,0 +1,6 @@
+nltk.MLEProbDist.generate
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.generate

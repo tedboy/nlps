@@ -1,0 +1,6 @@
+:func:`nltk.rtuple`
+===================
+
+.. currentmodule:: nltk
+
+.. autofunction:: rtuple

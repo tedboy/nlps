@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.poisson_stirling
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.poisson_stirling

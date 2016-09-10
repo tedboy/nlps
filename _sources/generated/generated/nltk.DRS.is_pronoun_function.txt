@@ -1,0 +1,6 @@
+nltk.DRS.is_pronoun_function
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.is_pronoun_function

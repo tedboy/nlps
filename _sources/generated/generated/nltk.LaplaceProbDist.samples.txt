@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.samples
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.samples

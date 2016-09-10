@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.from_documents
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.from_documents

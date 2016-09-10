@@ -1,0 +1,6 @@
+:func:`nltk.bigrams`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: bigrams

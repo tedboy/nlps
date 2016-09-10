@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.index
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.index

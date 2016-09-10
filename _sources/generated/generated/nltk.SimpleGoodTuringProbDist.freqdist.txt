@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.freqdist
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.freqdist

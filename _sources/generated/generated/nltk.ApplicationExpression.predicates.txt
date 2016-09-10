@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.predicates
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.predicates

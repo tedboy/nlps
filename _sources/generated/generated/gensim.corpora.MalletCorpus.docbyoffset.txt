@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.docbyoffset
+=======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.docbyoffset

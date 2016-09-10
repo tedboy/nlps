@@ -1,0 +1,6 @@
+:func:`nltk.config_java`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: config_java

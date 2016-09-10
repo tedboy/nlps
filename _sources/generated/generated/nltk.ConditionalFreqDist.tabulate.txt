@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.tabulate
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.tabulate

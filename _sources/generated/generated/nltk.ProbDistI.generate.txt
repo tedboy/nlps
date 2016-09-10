@@ -1,0 +1,6 @@
+nltk.ProbDistI.generate
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.generate

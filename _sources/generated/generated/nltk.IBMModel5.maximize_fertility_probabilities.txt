@@ -1,0 +1,6 @@
+nltk.IBMModel5.maximize_fertility_probabilities
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel5.maximize_fertility_probabilities

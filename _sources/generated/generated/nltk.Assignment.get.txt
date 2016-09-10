@@ -1,0 +1,6 @@
+nltk.Assignment.get
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.get

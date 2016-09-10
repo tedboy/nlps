@@ -1,0 +1,6 @@
+nltk.Valuation.popitem
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.popitem

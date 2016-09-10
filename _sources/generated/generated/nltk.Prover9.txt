@@ -1,0 +1,23 @@
+:class:`nltk.Prover9`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: Prover9
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Prover9.__init__
+   ~Prover9.binary_locations
+   ~Prover9.config_prover9
+   ~Prover9.prove
+   ~Prover9.prover9_input
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.Tree.remove
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.remove

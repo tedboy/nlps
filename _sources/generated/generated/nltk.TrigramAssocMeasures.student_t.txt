@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.student_t
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.student_t

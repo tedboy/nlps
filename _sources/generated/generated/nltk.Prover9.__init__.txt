@@ -1,0 +1,6 @@
+nltk.Prover9.__init__
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9.__init__

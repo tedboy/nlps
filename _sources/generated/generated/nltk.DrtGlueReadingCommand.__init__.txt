@@ -1,0 +1,6 @@
+nltk.DrtGlueReadingCommand.__init__
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtGlueReadingCommand.__init__

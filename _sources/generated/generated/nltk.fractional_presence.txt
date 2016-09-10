@@ -1,0 +1,6 @@
+:func:`nltk.fractional_presence`
+================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: fractional_presence

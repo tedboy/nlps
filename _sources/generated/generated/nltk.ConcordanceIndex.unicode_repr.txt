@@ -1,0 +1,6 @@
+nltk.ConcordanceIndex.unicode_repr
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConcordanceIndex.unicode_repr

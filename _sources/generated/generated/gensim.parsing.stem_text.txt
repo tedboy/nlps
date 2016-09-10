@@ -1,0 +1,6 @@
+:func:`gensim.parsing.stem_text`
+================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: stem_text

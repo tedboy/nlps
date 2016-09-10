@@ -1,0 +1,6 @@
+nltk.Alignment.invert
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.invert

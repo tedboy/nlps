@@ -1,0 +1,6 @@
+nltk.FreqDist.setdefault
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.setdefault

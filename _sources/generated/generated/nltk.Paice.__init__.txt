@@ -1,0 +1,6 @@
+nltk.Paice.__init__
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Paice.__init__

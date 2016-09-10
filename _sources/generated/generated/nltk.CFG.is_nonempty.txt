@@ -1,0 +1,6 @@
+nltk.CFG.is_nonempty
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.is_nonempty

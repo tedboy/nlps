@@ -1,0 +1,6 @@
+nltk.Tree.convert
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.convert

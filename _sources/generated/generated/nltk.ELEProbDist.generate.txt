@@ -1,0 +1,6 @@
+nltk.ELEProbDist.generate
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.generate

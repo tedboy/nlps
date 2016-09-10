@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.mi_like
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.mi_like

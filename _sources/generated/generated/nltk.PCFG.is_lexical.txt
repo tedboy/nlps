@@ -1,0 +1,6 @@
+nltk.PCFG.is_lexical
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.is_lexical

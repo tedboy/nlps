@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.keys
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.keys

@@ -1,0 +1,6 @@
+nltk.IBMModel.prob_t_a_given_s
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel.prob_t_a_given_s

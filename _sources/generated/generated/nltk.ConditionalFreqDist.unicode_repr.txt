@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.unicode_repr
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.unicode_repr

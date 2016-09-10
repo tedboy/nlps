@@ -1,0 +1,6 @@
+:func:`nltk.slice_bounds`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: slice_bounds

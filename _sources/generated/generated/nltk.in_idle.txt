@@ -1,0 +1,6 @@
+:func:`nltk.in_idle`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: in_idle

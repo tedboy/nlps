@@ -1,0 +1,6 @@
+nltk.TnT.__init__
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: TnT.__init__

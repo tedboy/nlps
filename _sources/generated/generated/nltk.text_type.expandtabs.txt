@@ -1,0 +1,6 @@
+nltk.text_type.expandtabs
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.expandtabs

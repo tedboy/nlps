@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.__init__
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.__init__

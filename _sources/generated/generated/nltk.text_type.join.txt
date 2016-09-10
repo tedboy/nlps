@@ -1,0 +1,6 @@
+nltk.text_type.join
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.join

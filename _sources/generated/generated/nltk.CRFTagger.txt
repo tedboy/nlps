@@ -1,0 +1,24 @@
+:class:`nltk.CRFTagger`
+=======================
+.. currentmodule:: nltk
+.. autoclass:: CRFTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CRFTagger.__init__
+   ~CRFTagger.evaluate
+   ~CRFTagger.set_model_file
+   ~CRFTagger.tag
+   ~CRFTagger.tag_sents
+   ~CRFTagger.train
+
+
+
+
+

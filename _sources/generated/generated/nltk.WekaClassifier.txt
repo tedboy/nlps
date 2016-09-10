@@ -1,0 +1,27 @@
+:class:`nltk.WekaClassifier`
+============================
+.. currentmodule:: nltk
+.. autoclass:: WekaClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WekaClassifier.__init__
+   ~WekaClassifier.classify
+   ~WekaClassifier.classify_many
+   ~WekaClassifier.labels
+   ~WekaClassifier.parse_weka_distribution
+   ~WekaClassifier.parse_weka_output
+   ~WekaClassifier.prob_classify
+   ~WekaClassifier.prob_classify_many
+   ~WekaClassifier.train
+
+
+
+
+

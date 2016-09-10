@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.clear
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.clear

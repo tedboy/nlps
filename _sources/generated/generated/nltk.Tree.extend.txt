@@ -1,0 +1,6 @@
+nltk.Tree.extend
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.extend

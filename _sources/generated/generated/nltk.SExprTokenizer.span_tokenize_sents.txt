@@ -1,0 +1,6 @@
+nltk.SExprTokenizer.span_tokenize_sents
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SExprTokenizer.span_tokenize_sents

@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.count
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.count

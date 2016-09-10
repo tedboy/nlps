@@ -1,0 +1,6 @@
+gensim.models.CoherenceModel.__init__
+=====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: CoherenceModel.__init__

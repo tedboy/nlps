@@ -1,0 +1,6 @@
+nltk.MWETokenizer.add_mwe
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MWETokenizer.add_mwe

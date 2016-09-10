@@ -1,0 +1,6 @@
+nltk.ELEProbDist.max
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.max

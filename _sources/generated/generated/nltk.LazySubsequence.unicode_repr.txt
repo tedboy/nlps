@@ -1,0 +1,6 @@
+nltk.LazySubsequence.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazySubsequence.unicode_repr

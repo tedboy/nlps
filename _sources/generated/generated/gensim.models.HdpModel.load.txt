@@ -1,0 +1,6 @@
+gensim.models.HdpModel.load
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.load

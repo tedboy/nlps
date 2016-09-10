@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.pmi
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.pmi

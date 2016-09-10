@@ -1,0 +1,6 @@
+nltk.DependencyGrammar.contains
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGrammar.contains

@@ -1,0 +1,6 @@
+nltk.text_type.rsplit
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.rsplit

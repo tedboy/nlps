@@ -1,0 +1,6 @@
+nltk.TextCollection.common_contexts
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.common_contexts

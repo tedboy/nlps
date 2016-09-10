@@ -1,0 +1,6 @@
+gensim.models.LsiModel.add_documents
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.add_documents

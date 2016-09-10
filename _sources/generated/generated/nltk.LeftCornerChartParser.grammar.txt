@@ -1,0 +1,6 @@
+nltk.LeftCornerChartParser.grammar
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LeftCornerChartParser.grammar

@@ -1,0 +1,6 @@
+:func:`nltk.set2rel`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: set2rel

@@ -1,0 +1,6 @@
+:func:`nltk.invert_graph`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: invert_graph

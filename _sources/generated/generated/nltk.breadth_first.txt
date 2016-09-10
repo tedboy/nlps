@@ -1,0 +1,6 @@
+:func:`nltk.breadth_first`
+==========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: breadth_first

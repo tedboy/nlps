@@ -1,0 +1,6 @@
+nltk.PCFG.__init__
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.__init__

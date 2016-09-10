@@ -1,0 +1,22 @@
+:class:`nltk.RSLPStemmer`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: RSLPStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RSLPStemmer.__init__
+   ~RSLPStemmer.apply_rule
+   ~RSLPStemmer.read_rule
+   ~RSLPStemmer.stem
+
+
+
+
+

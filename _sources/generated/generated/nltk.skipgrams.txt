@@ -1,0 +1,6 @@
+:func:`nltk.skipgrams`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: skipgrams

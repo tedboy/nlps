@@ -1,0 +1,6 @@
+nltk.RegexpTagger.evaluate
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpTagger.evaluate

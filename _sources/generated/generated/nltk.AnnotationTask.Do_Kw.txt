@@ -1,0 +1,6 @@
+nltk.AnnotationTask.Do_Kw
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.Do_Kw

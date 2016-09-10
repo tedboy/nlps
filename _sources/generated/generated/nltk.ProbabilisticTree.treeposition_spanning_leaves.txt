@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.treeposition_spanning_leaves
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.treeposition_spanning_leaves

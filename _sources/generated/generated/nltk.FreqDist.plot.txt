@@ -1,0 +1,6 @@
+nltk.FreqDist.plot
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.plot

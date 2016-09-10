@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.most_similar
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.most_similar

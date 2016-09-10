@@ -1,0 +1,6 @@
+nltk.text_type.isupper
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.isupper

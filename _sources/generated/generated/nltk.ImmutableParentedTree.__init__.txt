@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.__init__
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.__init__

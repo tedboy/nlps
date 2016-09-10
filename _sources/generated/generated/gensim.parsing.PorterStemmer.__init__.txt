@@ -1,0 +1,6 @@
+gensim.parsing.PorterStemmer.__init__
+=====================================
+
+.. currentmodule:: gensim.parsing
+
+.. automethod:: PorterStemmer.__init__

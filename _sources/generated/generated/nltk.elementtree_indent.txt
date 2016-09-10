@@ -1,0 +1,6 @@
+:func:`nltk.elementtree_indent`
+===============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: elementtree_indent

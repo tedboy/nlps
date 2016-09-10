@@ -1,0 +1,6 @@
+nltk.AffixTagger.backoff
+========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AffixTagger.backoff

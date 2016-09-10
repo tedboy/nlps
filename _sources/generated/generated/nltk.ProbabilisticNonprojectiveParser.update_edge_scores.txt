@@ -1,0 +1,6 @@
+nltk.ProbabilisticNonprojectiveParser.update_edge_scores
+========================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticNonprojectiveParser.update_edge_scores

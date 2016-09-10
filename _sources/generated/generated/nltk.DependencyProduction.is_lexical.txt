@@ -1,0 +1,6 @@
+nltk.DependencyProduction.is_lexical
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyProduction.is_lexical

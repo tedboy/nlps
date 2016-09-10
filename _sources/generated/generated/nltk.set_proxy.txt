@@ -1,0 +1,6 @@
+:func:`nltk.set_proxy`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: set_proxy

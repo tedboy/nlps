@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.auth_header
+=======================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProxyDigestAuthHandler.auth_header

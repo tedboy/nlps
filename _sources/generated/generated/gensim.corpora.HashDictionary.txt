@@ -1,0 +1,45 @@
+:class:`gensim.corpora.HashDictionary`
+======================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: HashDictionary
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HashDictionary.__init__
+   ~HashDictionary.add_documents
+   ~HashDictionary.clear
+   ~HashDictionary.copy
+   ~HashDictionary.doc2bow
+   ~HashDictionary.filter_extremes
+   ~HashDictionary.from_documents
+   ~HashDictionary.fromkeys
+   ~HashDictionary.get
+   ~HashDictionary.has_key
+   ~HashDictionary.items
+   ~HashDictionary.iteritems
+   ~HashDictionary.iterkeys
+   ~HashDictionary.itervalues
+   ~HashDictionary.keys
+   ~HashDictionary.load
+   ~HashDictionary.pop
+   ~HashDictionary.popitem
+   ~HashDictionary.restricted_hash
+   ~HashDictionary.save
+   ~HashDictionary.save_as_text
+   ~HashDictionary.setdefault
+   ~HashDictionary.update
+   ~HashDictionary.values
+   ~HashDictionary.viewitems
+   ~HashDictionary.viewkeys
+   ~HashDictionary.viewvalues
+
+
+
+
+

@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.reopen_shard
+===========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.reopen_shard

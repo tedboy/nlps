@@ -1,0 +1,6 @@
+nltk.MLEProbDist.discount
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.discount

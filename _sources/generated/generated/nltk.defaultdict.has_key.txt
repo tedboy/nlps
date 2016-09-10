@@ -1,0 +1,6 @@
+nltk.defaultdict.has_key
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.has_key

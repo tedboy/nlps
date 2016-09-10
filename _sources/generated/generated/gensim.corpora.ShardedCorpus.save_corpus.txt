@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.save_corpus
+========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.save_corpus

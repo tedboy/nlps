@@ -1,0 +1,6 @@
+:func:`gensim.parsing.strip_punctuation2`
+=========================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: strip_punctuation2

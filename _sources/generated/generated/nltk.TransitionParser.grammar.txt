@@ -1,0 +1,6 @@
+nltk.TransitionParser.grammar
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TransitionParser.grammar

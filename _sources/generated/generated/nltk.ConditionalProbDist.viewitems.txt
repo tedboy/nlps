@@ -1,0 +1,6 @@
+nltk.ConditionalProbDist.viewitems
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDist.viewitems

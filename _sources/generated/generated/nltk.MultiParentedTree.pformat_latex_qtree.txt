@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.pformat_latex_qtree
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.pformat_latex_qtree

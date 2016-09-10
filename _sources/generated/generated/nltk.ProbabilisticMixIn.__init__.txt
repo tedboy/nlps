@@ -1,0 +1,6 @@
+nltk.ProbabilisticMixIn.__init__
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticMixIn.__init__

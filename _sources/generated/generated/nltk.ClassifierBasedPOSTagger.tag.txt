@@ -1,0 +1,6 @@
+nltk.ClassifierBasedPOSTagger.tag
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ClassifierBasedPOSTagger.tag

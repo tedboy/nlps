@@ -1,0 +1,6 @@
+nltk.StanfordTokenizer.span_tokenize
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StanfordTokenizer.span_tokenize

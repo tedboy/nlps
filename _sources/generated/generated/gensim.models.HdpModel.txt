@@ -1,0 +1,35 @@
+:class:`gensim.models.HdpModel`
+===============================
+.. currentmodule:: gensim.models
+.. autoclass:: HdpModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HdpModel.__init__
+   ~HdpModel.doc_e_step
+   ~HdpModel.evaluate_test_corpus
+   ~HdpModel.hdp_to_lda
+   ~HdpModel.inference
+   ~HdpModel.load
+   ~HdpModel.optimal_ordering
+   ~HdpModel.print_topics
+   ~HdpModel.save
+   ~HdpModel.save_options
+   ~HdpModel.save_topics
+   ~HdpModel.show_topics
+   ~HdpModel.update
+   ~HdpModel.update_chunk
+   ~HdpModel.update_expectations
+   ~HdpModel.update_finished
+   ~HdpModel.update_lambda
+
+
+
+
+

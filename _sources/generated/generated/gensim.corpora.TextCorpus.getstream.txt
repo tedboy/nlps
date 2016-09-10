@@ -1,0 +1,6 @@
+gensim.corpora.TextCorpus.getstream
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: TextCorpus.getstream

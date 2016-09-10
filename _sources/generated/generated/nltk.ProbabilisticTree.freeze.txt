@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.freeze
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.freeze

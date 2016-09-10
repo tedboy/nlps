@@ -1,0 +1,6 @@
+:func:`gensim.summarization.summarize_corpus`
+=============================================
+
+.. currentmodule:: gensim.summarization
+
+.. autofunction:: summarize_corpus

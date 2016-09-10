@@ -1,0 +1,6 @@
+gensim.models.LdaModel.update_alpha
+===================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.update_alpha

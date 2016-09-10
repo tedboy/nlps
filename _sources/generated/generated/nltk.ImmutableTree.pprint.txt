@@ -1,0 +1,6 @@
+nltk.ImmutableTree.pprint
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.pprint

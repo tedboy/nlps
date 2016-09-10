@@ -1,0 +1,35 @@
+:class:`nltk.CFG`
+=================
+.. currentmodule:: nltk
+.. autoclass:: CFG
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CFG.__init__
+   ~CFG.check_coverage
+   ~CFG.fromstring
+   ~CFG.is_binarised
+   ~CFG.is_chomsky_normal_form
+   ~CFG.is_flexible_chomsky_normal_form
+   ~CFG.is_leftcorner
+   ~CFG.is_lexical
+   ~CFG.is_nonempty
+   ~CFG.is_nonlexical
+   ~CFG.leftcorner_parents
+   ~CFG.leftcorners
+   ~CFG.max_len
+   ~CFG.min_len
+   ~CFG.productions
+   ~CFG.start
+   ~CFG.unicode_repr
+
+
+
+
+

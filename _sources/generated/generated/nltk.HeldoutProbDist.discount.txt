@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.discount
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.discount

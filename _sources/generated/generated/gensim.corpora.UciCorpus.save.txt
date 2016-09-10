@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.save
+=============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.save

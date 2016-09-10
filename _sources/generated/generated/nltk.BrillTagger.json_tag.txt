@@ -1,0 +1,6 @@
+nltk.BrillTagger.json_tag
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: BrillTagger.json_tag

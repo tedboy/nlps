@@ -1,0 +1,6 @@
+gensim.corpora.BleiCorpus.save_corpus
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: BleiCorpus.save_corpus

@@ -1,0 +1,6 @@
+nltk.MLEProbDist.prob
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.prob

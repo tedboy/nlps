@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.unicode_repr
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.unicode_repr

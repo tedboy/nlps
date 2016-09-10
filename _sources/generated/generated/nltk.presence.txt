@@ -1,0 +1,6 @@
+:func:`nltk.presence`
+=====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: presence

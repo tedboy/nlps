@@ -1,0 +1,6 @@
+nltk.Valuation.pop
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.pop

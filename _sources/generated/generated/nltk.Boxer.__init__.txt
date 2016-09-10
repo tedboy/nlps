@@ -1,0 +1,6 @@
+nltk.Boxer.__init__
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Boxer.__init__

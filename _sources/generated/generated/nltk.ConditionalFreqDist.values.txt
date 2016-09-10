@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.values
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.values

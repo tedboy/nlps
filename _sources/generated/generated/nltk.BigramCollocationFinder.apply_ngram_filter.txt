@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.apply_ngram_filter
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.apply_ngram_filter

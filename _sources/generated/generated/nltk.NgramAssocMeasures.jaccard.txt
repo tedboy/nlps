@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.jaccard
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.jaccard

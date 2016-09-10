@@ -1,0 +1,6 @@
+nltk.Index.get
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.get

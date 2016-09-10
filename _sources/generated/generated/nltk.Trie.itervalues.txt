@@ -1,0 +1,6 @@
+nltk.Trie.itervalues
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.itervalues

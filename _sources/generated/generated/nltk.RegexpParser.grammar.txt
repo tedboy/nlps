@@ -1,0 +1,6 @@
+nltk.RegexpParser.grammar
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpParser.grammar

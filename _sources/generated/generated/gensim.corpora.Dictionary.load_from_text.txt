@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.load_from_text
+========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.load_from_text

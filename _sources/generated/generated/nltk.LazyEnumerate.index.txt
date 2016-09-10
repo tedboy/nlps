@@ -1,0 +1,6 @@
+nltk.LazyEnumerate.index
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyEnumerate.index

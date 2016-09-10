@@ -1,0 +1,6 @@
+nltk.DependencyGraph.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.unicode_repr

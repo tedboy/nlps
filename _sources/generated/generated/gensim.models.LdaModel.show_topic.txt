@@ -1,0 +1,6 @@
+gensim.models.LdaModel.show_topic
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.show_topic

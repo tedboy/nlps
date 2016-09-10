@@ -1,0 +1,6 @@
+nltk.Trie.pop
+=============
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.pop

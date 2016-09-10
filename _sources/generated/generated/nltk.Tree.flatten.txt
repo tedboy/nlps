@@ -1,0 +1,6 @@
+nltk.Tree.flatten
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.flatten

@@ -1,0 +1,6 @@
+nltk.ContextTagger.evaluate
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextTagger.evaluate

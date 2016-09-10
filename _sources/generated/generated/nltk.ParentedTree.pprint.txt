@@ -1,0 +1,6 @@
+nltk.ParentedTree.pprint
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.pprint

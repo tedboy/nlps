@@ -1,0 +1,6 @@
+:func:`nltk.transitive_closure`
+===============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: transitive_closure

@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.flatten
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.flatten

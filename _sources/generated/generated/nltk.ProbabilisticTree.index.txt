@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.index
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.index

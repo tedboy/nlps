@@ -1,0 +1,6 @@
+nltk.FStructure.popitem
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.popitem

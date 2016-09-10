@@ -1,0 +1,6 @@
+nltk.ImmutableTree.count
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.count

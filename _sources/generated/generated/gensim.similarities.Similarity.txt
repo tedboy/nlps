@@ -1,0 +1,32 @@
+:class:`gensim.similarities.Similarity`
+=======================================
+.. currentmodule:: gensim.similarities
+.. autoclass:: Similarity
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Similarity.__init__
+   ~Similarity.add_documents
+   ~Similarity.check_moved
+   ~Similarity.close_shard
+   ~Similarity.destroy
+   ~Similarity.get_similarities
+   ~Similarity.iter_chunks
+   ~Similarity.load
+   ~Similarity.query_shards
+   ~Similarity.reopen_shard
+   ~Similarity.save
+   ~Similarity.shardid2filename
+   ~Similarity.similarity_by_id
+   ~Similarity.vector_by_id
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.SequentialBackoffTagger.tag_sents
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SequentialBackoffTagger.tag_sents

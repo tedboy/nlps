@@ -1,0 +1,6 @@
+nltk.Alignment.range
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.range

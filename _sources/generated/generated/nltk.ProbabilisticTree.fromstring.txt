@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.fromstring
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.fromstring

@@ -1,0 +1,6 @@
+nltk.TopDownChartParser.parse_sents
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TopDownChartParser.parse_sents

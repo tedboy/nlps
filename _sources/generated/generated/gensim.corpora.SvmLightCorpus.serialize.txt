@@ -1,0 +1,6 @@
+gensim.corpora.SvmLightCorpus.serialize
+=======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: SvmLightCorpus.serialize

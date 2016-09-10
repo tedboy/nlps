@@ -1,0 +1,24 @@
+:class:`nltk.DependencyProduction`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: DependencyProduction
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DependencyProduction.__init__
+   ~DependencyProduction.is_lexical
+   ~DependencyProduction.is_nonlexical
+   ~DependencyProduction.lhs
+   ~DependencyProduction.rhs
+   ~DependencyProduction.unicode_repr
+
+
+
+
+

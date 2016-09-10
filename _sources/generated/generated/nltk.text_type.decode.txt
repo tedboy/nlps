@@ -1,0 +1,6 @@
+nltk.text_type.decode
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.decode

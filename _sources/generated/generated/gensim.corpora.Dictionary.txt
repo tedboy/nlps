@@ -1,0 +1,39 @@
+:class:`gensim.corpora.Dictionary`
+==================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: Dictionary
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Dictionary.__init__
+   ~Dictionary.add_documents
+   ~Dictionary.compactify
+   ~Dictionary.doc2bow
+   ~Dictionary.filter_extremes
+   ~Dictionary.filter_n_most_frequent
+   ~Dictionary.filter_tokens
+   ~Dictionary.from_corpus
+   ~Dictionary.from_documents
+   ~Dictionary.get
+   ~Dictionary.items
+   ~Dictionary.iteritems
+   ~Dictionary.iterkeys
+   ~Dictionary.itervalues
+   ~Dictionary.keys
+   ~Dictionary.load
+   ~Dictionary.load_from_text
+   ~Dictionary.merge_with
+   ~Dictionary.save
+   ~Dictionary.save_as_text
+   ~Dictionary.values
+
+
+
+
+

@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.log_perplexity
+=========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.log_perplexity

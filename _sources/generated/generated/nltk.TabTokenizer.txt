@@ -1,0 +1,22 @@
+:class:`nltk.TabTokenizer`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: TabTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TabTokenizer.span_tokenize
+   ~TabTokenizer.span_tokenize_sents
+   ~TabTokenizer.tokenize
+   ~TabTokenizer.tokenize_sents
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.PCFG.productions
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.productions

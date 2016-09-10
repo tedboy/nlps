@@ -1,0 +1,6 @@
+gensim.models.CoherenceModel.load
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: CoherenceModel.load

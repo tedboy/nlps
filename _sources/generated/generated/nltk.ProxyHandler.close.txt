@@ -1,0 +1,6 @@
+nltk.ProxyHandler.close
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyHandler.close

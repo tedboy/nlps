@@ -1,0 +1,6 @@
+nltk.PCFG.leftcorners
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.leftcorners

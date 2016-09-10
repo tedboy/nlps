@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.handler_order
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProxyBasicAuthHandler.handler_order

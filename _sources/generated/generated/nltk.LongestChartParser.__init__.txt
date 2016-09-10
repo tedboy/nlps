@@ -1,0 +1,6 @@
+nltk.LongestChartParser.__init__
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LongestChartParser.__init__

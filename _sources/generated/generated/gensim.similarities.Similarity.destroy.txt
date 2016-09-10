@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.destroy
+======================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.destroy

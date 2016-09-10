@@ -1,0 +1,6 @@
+nltk.CFG.is_lexical
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.is_lexical

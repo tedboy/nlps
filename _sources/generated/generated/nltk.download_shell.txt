@@ -1,0 +1,6 @@
+:func:`nltk.download_shell`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: download_shell

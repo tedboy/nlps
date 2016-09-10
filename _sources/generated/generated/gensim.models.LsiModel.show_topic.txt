@@ -1,0 +1,6 @@
+gensim.models.LsiModel.show_topic
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.show_topic

@@ -1,0 +1,21 @@
+:class:`nltk.ParallelProverBuilder`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: ParallelProverBuilder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ParallelProverBuilder.__init__
+   ~ParallelProverBuilder.build_model
+   ~ParallelProverBuilder.prove
+
+
+
+
+

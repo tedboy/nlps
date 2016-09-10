@@ -1,0 +1,6 @@
+nltk.CFG.unicode_repr
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.unicode_repr

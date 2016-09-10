@@ -1,0 +1,28 @@
+:class:`nltk.Prover9Command`
+============================
+.. currentmodule:: nltk
+.. autoclass:: Prover9Command
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Prover9Command.__init__
+   ~Prover9Command.add_assumptions
+   ~Prover9Command.assumptions
+   ~Prover9Command.decorate_proof
+   ~Prover9Command.get_prover
+   ~Prover9Command.goal
+   ~Prover9Command.print_assumptions
+   ~Prover9Command.proof
+   ~Prover9Command.prove
+   ~Prover9Command.retract_assumptions
+
+
+
+
+

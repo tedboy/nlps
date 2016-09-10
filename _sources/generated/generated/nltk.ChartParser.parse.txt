@@ -1,0 +1,6 @@
+nltk.ChartParser.parse
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChartParser.parse

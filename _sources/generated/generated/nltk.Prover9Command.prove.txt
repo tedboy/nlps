@@ -1,0 +1,6 @@
+nltk.Prover9Command.prove
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9Command.prove

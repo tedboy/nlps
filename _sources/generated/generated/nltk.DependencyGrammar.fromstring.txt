@@ -1,0 +1,6 @@
+nltk.DependencyGrammar.fromstring
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGrammar.fromstring

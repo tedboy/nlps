@@ -1,0 +1,6 @@
+nltk.OrderedDict.setdefault
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.setdefault

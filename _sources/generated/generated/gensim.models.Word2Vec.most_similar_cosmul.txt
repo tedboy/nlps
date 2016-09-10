@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.most_similar_cosmul
+==========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.most_similar_cosmul

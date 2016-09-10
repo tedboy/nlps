@@ -1,0 +1,6 @@
+nltk.Text.collocations
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.collocations

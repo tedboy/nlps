@@ -1,0 +1,6 @@
+nltk.Valuation.fromstring
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.fromstring

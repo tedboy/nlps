@@ -1,0 +1,6 @@
+nltk.AnnotationTask.avg_Ao
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.avg_Ao

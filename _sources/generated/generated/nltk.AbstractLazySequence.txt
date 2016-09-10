@@ -1,0 +1,22 @@
+:class:`nltk.AbstractLazySequence`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: AbstractLazySequence
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~AbstractLazySequence.count
+   ~AbstractLazySequence.index
+   ~AbstractLazySequence.iterate_from
+   ~AbstractLazySequence.unicode_repr
+
+
+
+
+

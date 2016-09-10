@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.samples
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.samples

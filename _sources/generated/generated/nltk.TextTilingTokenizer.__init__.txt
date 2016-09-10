@@ -1,0 +1,6 @@
+nltk.TextTilingTokenizer.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextTilingTokenizer.__init__

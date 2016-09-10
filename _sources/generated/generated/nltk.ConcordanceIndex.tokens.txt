@@ -1,0 +1,6 @@
+nltk.ConcordanceIndex.tokens
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConcordanceIndex.tokens

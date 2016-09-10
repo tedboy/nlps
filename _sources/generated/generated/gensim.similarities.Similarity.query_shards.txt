@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.query_shards
+===========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.query_shards

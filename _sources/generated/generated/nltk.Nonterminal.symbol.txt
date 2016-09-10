@@ -1,0 +1,6 @@
+nltk.Nonterminal.symbol
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Nonterminal.symbol

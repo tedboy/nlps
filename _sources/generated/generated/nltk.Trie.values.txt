@@ -1,0 +1,6 @@
+nltk.Trie.values
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.values

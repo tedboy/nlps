@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.setdefault
+========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.setdefault

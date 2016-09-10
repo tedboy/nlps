@@ -1,0 +1,6 @@
+nltk.TextCat.fingerprints
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: TextCat.fingerprints

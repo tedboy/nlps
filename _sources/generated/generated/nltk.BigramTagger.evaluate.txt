@@ -1,0 +1,6 @@
+nltk.BigramTagger.evaluate
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramTagger.evaluate

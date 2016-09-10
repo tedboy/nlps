@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.pretty_format
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.pretty_format

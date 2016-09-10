@@ -1,0 +1,6 @@
+gensim.models.LogEntropyModel.__init__
+======================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LogEntropyModel.__init__

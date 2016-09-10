@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.likelihood_ratio
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.likelihood_ratio

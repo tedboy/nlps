@@ -1,0 +1,26 @@
+:class:`nltk.LongestChartParser`
+================================
+.. currentmodule:: nltk
+.. autoclass:: LongestChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LongestChartParser.__init__
+   ~LongestChartParser.grammar
+   ~LongestChartParser.parse
+   ~LongestChartParser.parse_all
+   ~LongestChartParser.parse_one
+   ~LongestChartParser.parse_sents
+   ~LongestChartParser.sort_queue
+   ~LongestChartParser.trace
+
+
+
+
+

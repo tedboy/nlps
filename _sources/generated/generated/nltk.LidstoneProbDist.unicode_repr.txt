@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.unicode_repr
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.unicode_repr

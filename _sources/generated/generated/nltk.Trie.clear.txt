@@ -1,0 +1,6 @@
+nltk.Trie.clear
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.clear

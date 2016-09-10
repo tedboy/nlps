@@ -1,0 +1,6 @@
+nltk.text_type.find
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.find

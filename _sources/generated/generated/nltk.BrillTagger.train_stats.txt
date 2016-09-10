@@ -1,0 +1,6 @@
+nltk.BrillTagger.train_stats
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.train_stats

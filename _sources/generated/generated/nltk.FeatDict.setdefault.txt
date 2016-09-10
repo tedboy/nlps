@@ -1,0 +1,6 @@
+nltk.FeatDict.setdefault
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.setdefault

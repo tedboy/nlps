@@ -1,0 +1,6 @@
+gensim.models.LsiModel.__init__
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.__init__

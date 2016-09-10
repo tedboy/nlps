@@ -1,0 +1,6 @@
+nltk.DrtExpression.make_EqualityExpression
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.make_EqualityExpression

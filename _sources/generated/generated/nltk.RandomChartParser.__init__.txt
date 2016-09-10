@@ -1,0 +1,6 @@
+nltk.RandomChartParser.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RandomChartParser.__init__

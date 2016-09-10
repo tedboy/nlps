@@ -1,0 +1,6 @@
+nltk.ImmutableTree.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.__init__

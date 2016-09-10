@@ -1,0 +1,6 @@
+:func:`nltk.clean_url`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: clean_url

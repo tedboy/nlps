@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.create_dictionary
+==========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.create_dictionary

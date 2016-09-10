@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.draw
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.draw

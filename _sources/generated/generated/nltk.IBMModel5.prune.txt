@@ -1,0 +1,6 @@
+nltk.IBMModel5.prune
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel5.prune

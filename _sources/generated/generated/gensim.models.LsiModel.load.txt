@@ -1,0 +1,6 @@
+gensim.models.LsiModel.load
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.load

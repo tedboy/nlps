@@ -1,0 +1,6 @@
+gensim.models.LdaModel.sync_state
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.sync_state

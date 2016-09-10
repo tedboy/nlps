@@ -1,0 +1,6 @@
+nltk.AnnotationTask.N
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.N

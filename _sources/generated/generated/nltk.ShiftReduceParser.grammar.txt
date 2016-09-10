@@ -1,0 +1,6 @@
+nltk.ShiftReduceParser.grammar
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ShiftReduceParser.grammar

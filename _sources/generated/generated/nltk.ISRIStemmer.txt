@@ -1,0 +1,33 @@
+:class:`nltk.ISRIStemmer`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: ISRIStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ISRIStemmer.__init__
+   ~ISRIStemmer.end_w5
+   ~ISRIStemmer.end_w6
+   ~ISRIStemmer.norm
+   ~ISRIStemmer.pre1
+   ~ISRIStemmer.pre32
+   ~ISRIStemmer.pro_w4
+   ~ISRIStemmer.pro_w53
+   ~ISRIStemmer.pro_w54
+   ~ISRIStemmer.pro_w6
+   ~ISRIStemmer.pro_w64
+   ~ISRIStemmer.stem
+   ~ISRIStemmer.suf1
+   ~ISRIStemmer.suf32
+   ~ISRIStemmer.waw
+
+
+
+
+

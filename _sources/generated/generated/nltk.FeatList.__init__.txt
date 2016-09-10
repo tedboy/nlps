@@ -1,0 +1,6 @@
+nltk.FeatList.__init__
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.__init__

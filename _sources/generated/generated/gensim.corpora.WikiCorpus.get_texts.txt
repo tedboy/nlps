@@ -1,0 +1,6 @@
+gensim.corpora.WikiCorpus.get_texts
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: WikiCorpus.get_texts

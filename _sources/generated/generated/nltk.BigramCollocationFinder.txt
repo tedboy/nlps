@@ -1,0 +1,36 @@
+:class:`nltk.BigramCollocationFinder`
+=====================================
+.. currentmodule:: nltk
+.. autoclass:: BigramCollocationFinder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BigramCollocationFinder.__init__
+   ~BigramCollocationFinder.above_score
+   ~BigramCollocationFinder.apply_freq_filter
+   ~BigramCollocationFinder.apply_ngram_filter
+   ~BigramCollocationFinder.apply_word_filter
+   ~BigramCollocationFinder.from_documents
+   ~BigramCollocationFinder.from_words
+   ~BigramCollocationFinder.nbest
+   ~BigramCollocationFinder.score_ngram
+   ~BigramCollocationFinder.score_ngrams
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~BigramCollocationFinder.default_ws
+

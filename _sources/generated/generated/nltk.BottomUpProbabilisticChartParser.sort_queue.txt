@@ -1,0 +1,6 @@
+nltk.BottomUpProbabilisticChartParser.sort_queue
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BottomUpProbabilisticChartParser.sort_queue

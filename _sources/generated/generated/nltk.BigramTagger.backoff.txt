@@ -1,0 +1,6 @@
+nltk.BigramTagger.backoff
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: BigramTagger.backoff

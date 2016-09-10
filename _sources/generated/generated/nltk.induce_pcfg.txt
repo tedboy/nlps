@@ -1,0 +1,6 @@
+:func:`nltk.induce_pcfg`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: induce_pcfg

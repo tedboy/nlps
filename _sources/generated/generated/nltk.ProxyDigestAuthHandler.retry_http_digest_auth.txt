@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.retry_http_digest_auth
+==================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.retry_http_digest_auth

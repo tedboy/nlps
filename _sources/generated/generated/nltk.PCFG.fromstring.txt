@@ -1,0 +1,6 @@
+nltk.PCFG.fromstring
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.fromstring

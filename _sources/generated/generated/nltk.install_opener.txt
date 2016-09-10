@@ -1,0 +1,6 @@
+:func:`nltk.install_opener`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: install_opener

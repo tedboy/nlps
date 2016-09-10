@@ -1,0 +1,6 @@
+nltk.RecursiveDescentParser.parse_sents
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RecursiveDescentParser.parse_sents

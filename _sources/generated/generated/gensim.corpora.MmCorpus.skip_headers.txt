@@ -1,0 +1,6 @@
+gensim.corpora.MmCorpus.skip_headers
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MmCorpus.skip_headers

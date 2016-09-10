@@ -1,0 +1,6 @@
+nltk.OrderedDict.popitem
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.popitem

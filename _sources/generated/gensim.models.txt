@@ -1,0 +1,57 @@
+:mod:`gensim.models`
+====================
+
+.. automodule:: gensim.models
+
+   
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      CoherenceModel
+      Doc2Vec
+      HdpModel
+      LdaModel
+      LdaMulticore
+      LogEntropyModel
+      LsiModel
+      NormModel
+      Phrases
+      RpModel
+      TfidfModel
+      VocabTransform
+      Word2Vec
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.models.CoherenceModel
+       generated/gensim.models.Doc2Vec
+       generated/gensim.models.HdpModel
+       generated/gensim.models.LdaModel
+       generated/gensim.models.LdaMulticore
+       generated/gensim.models.LogEntropyModel
+       generated/gensim.models.LsiModel
+       generated/gensim.models.NormModel
+       generated/gensim.models.Phrases
+       generated/gensim.models.RpModel
+       generated/gensim.models.TfidfModel
+       generated/gensim.models.VocabTransform
+       generated/gensim.models.Word2Vec
+
+   
+   
+
+   
+   
+   

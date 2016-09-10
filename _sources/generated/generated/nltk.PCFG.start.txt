@@ -1,0 +1,6 @@
+nltk.PCFG.start
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.start

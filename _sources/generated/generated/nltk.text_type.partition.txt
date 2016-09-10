@@ -1,0 +1,6 @@
+nltk.text_type.partition
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.partition

@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.add_documents
+============================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.add_documents

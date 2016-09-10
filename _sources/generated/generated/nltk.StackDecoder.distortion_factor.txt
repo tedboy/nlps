@@ -1,0 +1,6 @@
+nltk.StackDecoder.distortion_factor
+===================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: StackDecoder.distortion_factor

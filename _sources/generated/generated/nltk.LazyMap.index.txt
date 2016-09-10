@@ -1,0 +1,6 @@
+nltk.LazyMap.index
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyMap.index

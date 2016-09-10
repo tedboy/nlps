@@ -1,0 +1,6 @@
+:func:`nltk.apply_features`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: apply_features

@@ -1,0 +1,6 @@
+nltk.IBMModel1.neighboring
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel1.neighboring

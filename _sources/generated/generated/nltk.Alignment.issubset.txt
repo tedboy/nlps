@@ -1,0 +1,6 @@
+nltk.Alignment.issubset
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.issubset

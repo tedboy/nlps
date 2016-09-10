@@ -1,0 +1,6 @@
+nltk.text_type.rindex
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.rindex

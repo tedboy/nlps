@@ -1,0 +1,6 @@
+:func:`gensim.summarization.summarize`
+======================================
+
+.. currentmodule:: gensim.summarization
+
+.. autofunction:: summarize

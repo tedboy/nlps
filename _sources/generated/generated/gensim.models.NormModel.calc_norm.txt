@@ -1,0 +1,6 @@
+gensim.models.NormModel.calc_norm
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: NormModel.calc_norm

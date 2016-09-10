@@ -1,0 +1,6 @@
+:func:`nltk.windowdiff`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: windowdiff

@@ -1,0 +1,6 @@
+nltk.IBMModel1.maximize_null_generation_probabilities
+=====================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel1.maximize_null_generation_probabilities

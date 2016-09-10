@@ -1,0 +1,6 @@
+nltk.PerceptronTagger.tag_sents
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: PerceptronTagger.tag_sents

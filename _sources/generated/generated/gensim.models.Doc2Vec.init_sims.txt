@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.init_sims
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.init_sims

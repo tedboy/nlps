@@ -1,0 +1,6 @@
+nltk.UniformProbDist.SUM_TO_ONE
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: UniformProbDist.SUM_TO_ONE

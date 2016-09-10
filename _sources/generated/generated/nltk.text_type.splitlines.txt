@@ -1,0 +1,6 @@
+nltk.text_type.splitlines
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.splitlines

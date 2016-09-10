@@ -1,0 +1,6 @@
+nltk.RTEFeatureExtractor.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RTEFeatureExtractor.__init__

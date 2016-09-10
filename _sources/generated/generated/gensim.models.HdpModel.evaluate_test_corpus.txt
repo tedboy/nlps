@@ -1,0 +1,6 @@
+gensim.models.HdpModel.evaluate_test_corpus
+===========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.evaluate_test_corpus

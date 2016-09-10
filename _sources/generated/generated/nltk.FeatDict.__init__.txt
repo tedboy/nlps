@@ -1,0 +1,6 @@
+nltk.FeatDict.__init__
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.__init__

@@ -1,0 +1,6 @@
+nltk.ConcordanceIndex.__init__
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConcordanceIndex.__init__

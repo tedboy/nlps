@@ -1,0 +1,6 @@
+nltk.StanfordPOSTagger.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: StanfordPOSTagger.__init__

@@ -1,0 +1,6 @@
+nltk.ImmutableTree.height
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.height

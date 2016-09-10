@@ -1,0 +1,6 @@
+nltk.ChunkScore.incorrect
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChunkScore.incorrect

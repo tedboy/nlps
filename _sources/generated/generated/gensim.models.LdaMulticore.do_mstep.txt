@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.do_mstep
+===================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.do_mstep

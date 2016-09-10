@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.freqdist
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.freqdist

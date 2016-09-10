@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilderCommand.get_model_builder
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilderCommand.get_model_builder

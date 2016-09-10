@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.treepositions
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.treepositions

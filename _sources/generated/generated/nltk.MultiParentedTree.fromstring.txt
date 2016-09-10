@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.fromstring
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.fromstring

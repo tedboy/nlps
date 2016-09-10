@@ -1,0 +1,6 @@
+nltk.Trie.iteritems
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.iteritems

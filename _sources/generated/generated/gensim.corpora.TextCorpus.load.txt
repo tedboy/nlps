@@ -1,0 +1,6 @@
+gensim.corpora.TextCorpus.load
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: TextCorpus.load

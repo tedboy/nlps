@@ -1,0 +1,6 @@
+nltk.FeatStructReader.VALUE_HANDLERS
+====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: FeatStructReader.VALUE_HANDLERS

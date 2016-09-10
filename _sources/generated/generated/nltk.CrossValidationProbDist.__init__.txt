@@ -1,0 +1,6 @@
+nltk.CrossValidationProbDist.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CrossValidationProbDist.__init__

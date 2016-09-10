@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.pformat
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.pformat

@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.plot
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.plot

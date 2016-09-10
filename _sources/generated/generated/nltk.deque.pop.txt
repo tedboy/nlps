@@ -1,0 +1,6 @@
+nltk.deque.pop
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.pop

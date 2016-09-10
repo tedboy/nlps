@@ -1,0 +1,6 @@
+nltk.LazyConcatenation.index
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyConcatenation.index

@@ -1,0 +1,6 @@
+gensim.models.Phrases.save
+==========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.save

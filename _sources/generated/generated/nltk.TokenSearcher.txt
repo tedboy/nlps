@@ -1,0 +1,20 @@
+:class:`nltk.TokenSearcher`
+===========================
+.. currentmodule:: nltk
+.. autoclass:: TokenSearcher
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TokenSearcher.__init__
+   ~TokenSearcher.findall
+
+
+
+
+

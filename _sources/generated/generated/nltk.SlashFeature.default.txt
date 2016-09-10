@@ -1,0 +1,6 @@
+nltk.SlashFeature.default
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SlashFeature.default

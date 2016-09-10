@@ -1,0 +1,24 @@
+:class:`nltk.Boxer`
+===================
+.. currentmodule:: nltk
+.. autoclass:: Boxer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Boxer.__init__
+   ~Boxer.interpret
+   ~Boxer.interpret_multi
+   ~Boxer.interpret_multi_sents
+   ~Boxer.interpret_sents
+   ~Boxer.set_bin_dir
+
+
+
+
+

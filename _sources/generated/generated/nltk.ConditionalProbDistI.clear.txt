@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.clear
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.clear

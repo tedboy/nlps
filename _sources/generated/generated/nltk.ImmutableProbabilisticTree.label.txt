@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.label
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.label

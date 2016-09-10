@@ -1,0 +1,6 @@
+nltk.Trie.copy
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.copy

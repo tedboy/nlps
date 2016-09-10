@@ -1,0 +1,6 @@
+nltk.DRS.typecheck
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.typecheck

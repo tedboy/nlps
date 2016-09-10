@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.pretty_print
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.pretty_print

@@ -1,0 +1,6 @@
+nltk.FeatStruct.copy
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.copy

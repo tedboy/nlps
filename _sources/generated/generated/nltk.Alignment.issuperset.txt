@@ -1,0 +1,6 @@
+nltk.Alignment.issuperset
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.issuperset

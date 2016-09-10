@@ -1,0 +1,6 @@
+nltk.Feature.display
+====================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Feature.display

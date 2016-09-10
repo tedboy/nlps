@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.pformat
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.pformat

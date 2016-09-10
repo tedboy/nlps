@@ -1,0 +1,6 @@
+gensim.models.NormModel.__init__
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: NormModel.__init__

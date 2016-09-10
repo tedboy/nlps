@@ -1,0 +1,6 @@
+nltk.BrillTagger.tag_sents
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.tag_sents

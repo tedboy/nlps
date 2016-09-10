@@ -1,0 +1,6 @@
+nltk.LazyEnumerate.unicode_repr
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyEnumerate.unicode_repr

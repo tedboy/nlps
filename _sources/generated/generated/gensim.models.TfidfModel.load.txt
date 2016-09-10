@@ -1,0 +1,6 @@
+gensim.models.TfidfModel.load
+=============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: TfidfModel.load

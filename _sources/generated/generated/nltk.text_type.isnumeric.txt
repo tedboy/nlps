@@ -1,0 +1,6 @@
+nltk.text_type.isnumeric
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.isnumeric

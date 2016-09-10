@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.simplify
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.simplify

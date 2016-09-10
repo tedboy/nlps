@@ -1,0 +1,6 @@
+nltk.RangeFeature.read_value
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RangeFeature.read_value

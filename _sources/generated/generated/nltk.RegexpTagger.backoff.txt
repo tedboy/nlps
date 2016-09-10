@@ -1,0 +1,6 @@
+nltk.RegexpTagger.backoff
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: RegexpTagger.backoff

@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.__init__

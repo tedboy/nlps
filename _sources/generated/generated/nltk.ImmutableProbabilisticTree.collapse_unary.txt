@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.collapse_unary
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.collapse_unary

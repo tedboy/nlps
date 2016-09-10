@@ -1,0 +1,6 @@
+nltk.MaceCommand.get_model_builder
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaceCommand.get_model_builder

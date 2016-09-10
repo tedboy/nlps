@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.serialize
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.serialize

@@ -1,0 +1,6 @@
+nltk.text_type.format
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.format

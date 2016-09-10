@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.discount
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.discount

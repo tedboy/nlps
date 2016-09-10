@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.copy
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.copy

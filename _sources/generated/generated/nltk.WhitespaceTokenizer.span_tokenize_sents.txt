@@ -1,0 +1,6 @@
+nltk.WhitespaceTokenizer.span_tokenize_sents
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WhitespaceTokenizer.span_tokenize_sents

@@ -1,0 +1,6 @@
+nltk.Assignment.has_key
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.has_key

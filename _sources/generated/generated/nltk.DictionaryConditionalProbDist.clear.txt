@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.clear
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.clear

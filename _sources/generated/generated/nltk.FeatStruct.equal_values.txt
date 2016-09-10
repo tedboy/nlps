@@ -1,0 +1,6 @@
+nltk.FeatStruct.equal_values
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.equal_values

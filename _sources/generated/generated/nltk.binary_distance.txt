@@ -1,0 +1,6 @@
+:func:`nltk.binary_distance`
+============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: binary_distance

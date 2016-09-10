@@ -1,0 +1,6 @@
+nltk.Feature.read_value
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Feature.read_value

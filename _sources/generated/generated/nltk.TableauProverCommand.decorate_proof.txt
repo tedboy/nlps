@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.decorate_proof
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.decorate_proof

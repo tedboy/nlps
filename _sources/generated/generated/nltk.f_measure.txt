@@ -1,0 +1,6 @@
+:func:`nltk.f_measure`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: f_measure

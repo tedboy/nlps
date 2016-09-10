@@ -1,0 +1,37 @@
+:class:`nltk.DependencyGraph`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: DependencyGraph
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DependencyGraph.__init__
+   ~DependencyGraph.add_arc
+   ~DependencyGraph.add_node
+   ~DependencyGraph.connect_graph
+   ~DependencyGraph.contains_address
+   ~DependencyGraph.contains_cycle
+   ~DependencyGraph.get_by_address
+   ~DependencyGraph.get_cycle_path
+   ~DependencyGraph.left_children
+   ~DependencyGraph.load
+   ~DependencyGraph.nx_graph
+   ~DependencyGraph.redirect_arcs
+   ~DependencyGraph.remove_by_address
+   ~DependencyGraph.right_children
+   ~DependencyGraph.to_conll
+   ~DependencyGraph.to_dot
+   ~DependencyGraph.tree
+   ~DependencyGraph.triples
+   ~DependencyGraph.unicode_repr
+
+
+
+
+

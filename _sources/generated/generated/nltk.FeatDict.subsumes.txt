@@ -1,0 +1,6 @@
+nltk.FeatDict.subsumes
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.subsumes

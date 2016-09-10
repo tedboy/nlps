@@ -1,0 +1,6 @@
+nltk.Expression.free
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Expression.free

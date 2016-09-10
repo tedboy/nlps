@@ -1,0 +1,6 @@
+nltk.LazyZip.iterate_from
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyZip.iterate_from

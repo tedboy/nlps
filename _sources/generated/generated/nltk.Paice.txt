@@ -1,0 +1,20 @@
+:class:`nltk.Paice`
+===================
+.. currentmodule:: nltk
+.. autoclass:: Paice
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Paice.__init__
+   ~Paice.update
+
+
+
+
+

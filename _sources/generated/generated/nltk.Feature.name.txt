@@ -1,0 +1,6 @@
+nltk.Feature.name
+=================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Feature.name

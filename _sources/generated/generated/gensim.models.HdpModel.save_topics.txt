@@ -1,0 +1,6 @@
+gensim.models.HdpModel.save_topics
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.save_topics

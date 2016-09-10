@@ -1,0 +1,6 @@
+:func:`nltk.jaccard_distance`
+=============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: jaccard_distance

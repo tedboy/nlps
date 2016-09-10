@@ -1,0 +1,30 @@
+:class:`nltk.ProxyHandler`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: ProxyHandler
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProxyHandler.__init__
+   ~ProxyHandler.add_parent
+   ~ProxyHandler.close
+   ~ProxyHandler.proxy_open
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ProxyHandler.handler_order
+

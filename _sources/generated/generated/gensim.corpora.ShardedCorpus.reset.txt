@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.reset
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.reset

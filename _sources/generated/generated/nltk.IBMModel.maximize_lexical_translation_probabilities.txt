@@ -1,0 +1,6 @@
+nltk.IBMModel.maximize_lexical_translation_probabilities
+========================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel.maximize_lexical_translation_probabilities

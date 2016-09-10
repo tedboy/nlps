@@ -1,0 +1,6 @@
+nltk.Tree.node
+==============
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Tree.node

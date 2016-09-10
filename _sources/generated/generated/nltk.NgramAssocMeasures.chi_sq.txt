@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.chi_sq
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.chi_sq

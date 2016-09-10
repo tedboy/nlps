@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.score_ngrams
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.score_ngrams

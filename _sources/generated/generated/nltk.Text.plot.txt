@@ -1,0 +1,6 @@
+nltk.Text.plot
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.plot

@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.skip_headers
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.skip_headers

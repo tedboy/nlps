@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.treepositions
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.treepositions

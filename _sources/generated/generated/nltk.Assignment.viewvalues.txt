@@ -1,0 +1,6 @@
+nltk.Assignment.viewvalues
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.viewvalues

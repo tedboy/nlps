@@ -1,0 +1,6 @@
+nltk.Trie.update
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.update

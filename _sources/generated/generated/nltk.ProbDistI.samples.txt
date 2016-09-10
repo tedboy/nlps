@@ -1,0 +1,6 @@
+nltk.ProbDistI.samples
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.samples

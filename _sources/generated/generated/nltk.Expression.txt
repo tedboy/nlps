@@ -1,0 +1,36 @@
+:class:`nltk.Expression`
+========================
+.. currentmodule:: nltk
+.. autoclass:: Expression
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Expression.applyto
+   ~Expression.constants
+   ~Expression.equiv
+   ~Expression.findtype
+   ~Expression.free
+   ~Expression.fromstring
+   ~Expression.make_VariableExpression
+   ~Expression.negate
+   ~Expression.normalize
+   ~Expression.predicates
+   ~Expression.replace
+   ~Expression.simplify
+   ~Expression.substitute_bindings
+   ~Expression.typecheck
+   ~Expression.unicode_repr
+   ~Expression.variables
+   ~Expression.visit
+   ~Expression.visit_structured
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.sort
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.sort

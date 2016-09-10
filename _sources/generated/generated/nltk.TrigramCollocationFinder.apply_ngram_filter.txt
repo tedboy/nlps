@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.apply_ngram_filter
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.apply_ngram_filter

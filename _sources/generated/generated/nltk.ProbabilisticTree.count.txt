@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.count
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.count

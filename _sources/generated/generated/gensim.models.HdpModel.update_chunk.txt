@@ -1,0 +1,6 @@
+gensim.models.HdpModel.update_chunk
+===================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.update_chunk

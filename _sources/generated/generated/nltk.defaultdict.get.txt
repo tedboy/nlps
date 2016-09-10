@@ -1,0 +1,6 @@
+nltk.defaultdict.get
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.get

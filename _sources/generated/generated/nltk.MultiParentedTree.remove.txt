@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.remove
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.remove

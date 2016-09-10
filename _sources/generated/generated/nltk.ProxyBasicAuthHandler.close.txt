@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.close
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyBasicAuthHandler.close

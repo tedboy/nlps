@@ -1,0 +1,30 @@
+:class:`nltk.LancasterStemmer`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: LancasterStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LancasterStemmer.__init__
+   ~LancasterStemmer.parseRules
+   ~LancasterStemmer.stem
+   ~LancasterStemmer.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~LancasterStemmer.rule_tuple
+

@@ -1,0 +1,6 @@
+:func:`nltk.conflicts`
+======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: conflicts

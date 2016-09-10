@@ -1,0 +1,6 @@
+nltk.FreqDist.most_common
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.most_common

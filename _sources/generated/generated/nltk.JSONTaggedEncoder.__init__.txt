@@ -1,0 +1,6 @@
+nltk.JSONTaggedEncoder.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: JSONTaggedEncoder.__init__

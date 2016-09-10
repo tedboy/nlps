@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.copy
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.copy

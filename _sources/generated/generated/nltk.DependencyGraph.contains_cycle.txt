@@ -1,0 +1,6 @@
+nltk.DependencyGraph.contains_cycle
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.contains_cycle

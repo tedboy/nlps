@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.generate
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.generate

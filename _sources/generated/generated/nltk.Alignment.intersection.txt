@@ -1,0 +1,6 @@
+nltk.Alignment.intersection
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.intersection

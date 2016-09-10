@@ -1,0 +1,6 @@
+nltk.ImmutableTree.remove
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.remove

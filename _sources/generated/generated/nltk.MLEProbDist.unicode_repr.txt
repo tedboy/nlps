@@ -1,0 +1,6 @@
+nltk.MLEProbDist.unicode_repr
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.unicode_repr

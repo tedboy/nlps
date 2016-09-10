@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.pred
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ApplicationExpression.pred

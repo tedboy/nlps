@@ -1,0 +1,6 @@
+gensim.similarities.WmdSimilarity.save
+======================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: WmdSimilarity.save

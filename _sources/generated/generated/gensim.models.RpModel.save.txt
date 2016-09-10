@@ -1,0 +1,6 @@
+gensim.models.RpModel.save
+==========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: RpModel.save

@@ -1,0 +1,6 @@
+gensim.models.LdaModel.log_perplexity
+=====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.log_perplexity

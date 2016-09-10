@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.bound
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.bound

@@ -1,0 +1,6 @@
+:func:`nltk.flatten`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: flatten

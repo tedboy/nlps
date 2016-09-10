@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.goal
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.goal

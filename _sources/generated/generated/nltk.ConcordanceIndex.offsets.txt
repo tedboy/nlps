@@ -1,0 +1,6 @@
+nltk.ConcordanceIndex.offsets
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConcordanceIndex.offsets

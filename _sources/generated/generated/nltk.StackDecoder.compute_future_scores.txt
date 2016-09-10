@@ -1,0 +1,6 @@
+nltk.StackDecoder.compute_future_scores
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.compute_future_scores

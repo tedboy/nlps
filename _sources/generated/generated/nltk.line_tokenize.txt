@@ -1,0 +1,6 @@
+:func:`nltk.line_tokenize`
+==========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: line_tokenize

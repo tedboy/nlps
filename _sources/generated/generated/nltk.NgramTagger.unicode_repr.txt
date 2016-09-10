@@ -1,0 +1,6 @@
+nltk.NgramTagger.unicode_repr
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramTagger.unicode_repr

@@ -1,0 +1,6 @@
+gensim.models.LdaModel.get_topic_terms
+======================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.get_topic_terms

@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.docbyoffset
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.docbyoffset

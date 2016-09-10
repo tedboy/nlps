@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.prob
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.prob

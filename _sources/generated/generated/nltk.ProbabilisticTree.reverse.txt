@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.reverse
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.reverse

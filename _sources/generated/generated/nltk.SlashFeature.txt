@@ -1,0 +1,32 @@
+:class:`nltk.SlashFeature`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: SlashFeature
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SlashFeature.__init__
+   ~SlashFeature.read_value
+   ~SlashFeature.unicode_repr
+   ~SlashFeature.unify_base_values
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SlashFeature.default
+   ~SlashFeature.display
+   ~SlashFeature.name
+

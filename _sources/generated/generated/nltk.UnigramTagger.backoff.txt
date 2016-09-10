@@ -1,0 +1,6 @@
+nltk.UnigramTagger.backoff
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: UnigramTagger.backoff

@@ -1,0 +1,6 @@
+nltk.IBMModel4.best_model2_alignment
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel4.best_model2_alignment

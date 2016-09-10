@@ -1,0 +1,39 @@
+:class:`nltk.FeatStructReader`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: FeatStructReader
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatStructReader.__init__
+   ~FeatStructReader.fromstring
+   ~FeatStructReader.read_app_value
+   ~FeatStructReader.read_fstruct_value
+   ~FeatStructReader.read_int_value
+   ~FeatStructReader.read_logic_value
+   ~FeatStructReader.read_partial
+   ~FeatStructReader.read_set_value
+   ~FeatStructReader.read_str_value
+   ~FeatStructReader.read_sym_value
+   ~FeatStructReader.read_tuple_value
+   ~FeatStructReader.read_value
+   ~FeatStructReader.read_var_value
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~FeatStructReader.VALUE_HANDLERS
+

@@ -1,0 +1,6 @@
+nltk.Variable.unicode_repr
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Variable.unicode_repr

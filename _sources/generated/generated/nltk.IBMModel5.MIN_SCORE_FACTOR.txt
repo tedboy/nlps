@@ -1,0 +1,6 @@
+nltk.IBMModel5.MIN_SCORE_FACTOR
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: IBMModel5.MIN_SCORE_FACTOR

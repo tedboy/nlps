@@ -1,0 +1,27 @@
+:class:`nltk.RegexpChunkParser`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: RegexpChunkParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RegexpChunkParser.__init__
+   ~RegexpChunkParser.evaluate
+   ~RegexpChunkParser.grammar
+   ~RegexpChunkParser.parse
+   ~RegexpChunkParser.parse_all
+   ~RegexpChunkParser.parse_one
+   ~RegexpChunkParser.parse_sents
+   ~RegexpChunkParser.rules
+   ~RegexpChunkParser.unicode_repr
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.copy
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.copy

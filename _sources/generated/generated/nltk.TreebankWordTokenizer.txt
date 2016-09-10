@@ -1,0 +1,36 @@
+:class:`nltk.TreebankWordTokenizer`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: TreebankWordTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TreebankWordTokenizer.span_tokenize
+   ~TreebankWordTokenizer.span_tokenize_sents
+   ~TreebankWordTokenizer.tokenize
+   ~TreebankWordTokenizer.tokenize_sents
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~TreebankWordTokenizer.CONTRACTIONS2
+   ~TreebankWordTokenizer.CONTRACTIONS3
+   ~TreebankWordTokenizer.CONTRACTIONS4
+   ~TreebankWordTokenizer.ENDING_QUOTES
+   ~TreebankWordTokenizer.PARENS_BRACKETS
+   ~TreebankWordTokenizer.PUNCTUATION
+   ~TreebankWordTokenizer.STARTING_QUOTES
+

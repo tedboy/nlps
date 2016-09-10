@@ -1,0 +1,6 @@
+nltk.TextCat.guess_language
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCat.guess_language

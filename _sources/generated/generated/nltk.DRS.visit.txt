@@ -1,0 +1,6 @@
+nltk.DRS.visit
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.visit

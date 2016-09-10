@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.labels
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.labels

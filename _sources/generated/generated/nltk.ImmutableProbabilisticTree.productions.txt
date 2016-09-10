@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.productions
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.productions

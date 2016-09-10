@@ -1,0 +1,6 @@
+nltk.FeatList.rename_variables
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.rename_variables

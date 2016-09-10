@@ -1,0 +1,6 @@
+:func:`nltk.pk`
+===============
+
+.. currentmodule:: nltk
+
+.. autofunction:: pk

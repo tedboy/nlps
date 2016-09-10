@@ -1,0 +1,6 @@
+nltk.Senna.__init__
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Senna.__init__

@@ -1,0 +1,6 @@
+nltk.MWETokenizer.tokenize_sents
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MWETokenizer.tokenize_sents

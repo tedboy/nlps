@@ -1,0 +1,35 @@
+:class:`nltk.LaplaceProbDist`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: LaplaceProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LaplaceProbDist.__init__
+   ~LaplaceProbDist.discount
+   ~LaplaceProbDist.freqdist
+   ~LaplaceProbDist.generate
+   ~LaplaceProbDist.logprob
+   ~LaplaceProbDist.max
+   ~LaplaceProbDist.prob
+   ~LaplaceProbDist.samples
+   ~LaplaceProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~LaplaceProbDist.SUM_TO_ONE
+

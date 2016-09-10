@@ -1,0 +1,6 @@
+nltk.SequentialBackoffTagger.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SequentialBackoffTagger.__init__

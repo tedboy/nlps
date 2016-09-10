@@ -1,0 +1,6 @@
+:func:`gensim.summarization.keywords`
+=====================================
+
+.. currentmodule:: gensim.summarization
+
+.. autofunction:: keywords

@@ -1,0 +1,6 @@
+nltk.ELEProbDist.samples
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.samples

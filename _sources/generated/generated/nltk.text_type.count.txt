@@ -1,0 +1,6 @@
+nltk.text_type.count
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.count

@@ -1,0 +1,6 @@
+nltk.LazySubsequence.MIN_SIZE
+=============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: LazySubsequence.MIN_SIZE

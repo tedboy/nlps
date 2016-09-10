@@ -1,0 +1,6 @@
+nltk.TrigramTagger.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramTagger.__init__

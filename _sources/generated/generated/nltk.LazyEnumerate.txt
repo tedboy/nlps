@@ -1,0 +1,23 @@
+:class:`nltk.LazyEnumerate`
+===========================
+.. currentmodule:: nltk
+.. autoclass:: LazyEnumerate
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LazyEnumerate.__init__
+   ~LazyEnumerate.count
+   ~LazyEnumerate.index
+   ~LazyEnumerate.iterate_from
+   ~LazyEnumerate.unicode_repr
+
+
+
+
+

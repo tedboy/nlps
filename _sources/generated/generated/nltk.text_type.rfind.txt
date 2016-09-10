@@ -1,0 +1,6 @@
+nltk.text_type.rfind
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.rfind

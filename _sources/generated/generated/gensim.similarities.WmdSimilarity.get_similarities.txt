@@ -1,0 +1,6 @@
+gensim.similarities.WmdSimilarity.get_similarities
+==================================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: WmdSimilarity.get_similarities

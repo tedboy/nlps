@@ -1,0 +1,6 @@
+nltk.FeatDict.clear
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.clear

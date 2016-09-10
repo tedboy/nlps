@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.intersect_word2vec_format
+================================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.intersect_word2vec_format

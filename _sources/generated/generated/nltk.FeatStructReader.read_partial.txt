@@ -1,0 +1,6 @@
+nltk.FeatStructReader.read_partial
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.read_partial

@@ -1,0 +1,6 @@
+gensim.corpora.WikiCorpus.save
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: WikiCorpus.save

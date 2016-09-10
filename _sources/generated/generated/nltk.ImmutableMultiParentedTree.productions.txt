@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.productions
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.productions

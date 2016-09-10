@@ -1,0 +1,6 @@
+nltk.DRS.fromstring
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.fromstring

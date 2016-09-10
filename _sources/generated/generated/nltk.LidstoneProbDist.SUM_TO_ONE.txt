@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.SUM_TO_ONE
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: LidstoneProbDist.SUM_TO_ONE

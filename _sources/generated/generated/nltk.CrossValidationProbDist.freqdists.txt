@@ -1,0 +1,6 @@
+nltk.CrossValidationProbDist.freqdists
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CrossValidationProbDist.freqdists

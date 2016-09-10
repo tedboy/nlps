@@ -1,0 +1,6 @@
+nltk.MutableProbDist.__init__
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MutableProbDist.__init__

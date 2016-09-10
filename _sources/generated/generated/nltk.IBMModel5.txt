@@ -1,0 +1,43 @@
+:class:`nltk.IBMModel5`
+=======================
+.. currentmodule:: nltk
+.. autoclass:: IBMModel5
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~IBMModel5.__init__
+   ~IBMModel5.best_model2_alignment
+   ~IBMModel5.hillclimb
+   ~IBMModel5.init_vocab
+   ~IBMModel5.maximize_fertility_probabilities
+   ~IBMModel5.maximize_lexical_translation_probabilities
+   ~IBMModel5.maximize_null_generation_probabilities
+   ~IBMModel5.maximize_vacancy_probabilities
+   ~IBMModel5.neighboring
+   ~IBMModel5.prob_of_alignments
+   ~IBMModel5.prob_t_a_given_s
+   ~IBMModel5.prune
+   ~IBMModel5.reset_probabilities
+   ~IBMModel5.sample
+   ~IBMModel5.set_uniform_probabilities
+   ~IBMModel5.train
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~IBMModel5.MIN_PROB
+   ~IBMModel5.MIN_SCORE_FACTOR
+

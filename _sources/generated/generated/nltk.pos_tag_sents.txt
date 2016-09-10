@@ -1,0 +1,6 @@
+:func:`nltk.pos_tag_sents`
+==========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: pos_tag_sents

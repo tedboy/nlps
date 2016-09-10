@@ -1,0 +1,6 @@
+:func:`gensim.parsing.preprocess_documents`
+===========================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: preprocess_documents

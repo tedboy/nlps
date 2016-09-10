@@ -1,0 +1,24 @@
+:class:`nltk.ChunkParserI`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: ChunkParserI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ChunkParserI.evaluate
+   ~ChunkParserI.grammar
+   ~ChunkParserI.parse
+   ~ChunkParserI.parse_all
+   ~ChunkParserI.parse_one
+   ~ChunkParserI.parse_sents
+
+
+
+
+

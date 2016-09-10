@@ -1,0 +1,6 @@
+nltk.FreqDist.popitem
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.popitem

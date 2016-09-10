@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.chi_sq
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.chi_sq

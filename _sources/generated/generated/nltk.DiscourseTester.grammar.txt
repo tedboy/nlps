@@ -1,0 +1,6 @@
+nltk.DiscourseTester.grammar
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.grammar

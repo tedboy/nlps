@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.max
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.max

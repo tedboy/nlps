@@ -1,0 +1,6 @@
+nltk.DiscourseTester.multiply
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.multiply

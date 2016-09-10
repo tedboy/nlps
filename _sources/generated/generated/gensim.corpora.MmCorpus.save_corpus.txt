@@ -1,0 +1,6 @@
+gensim.corpora.MmCorpus.save_corpus
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MmCorpus.save_corpus

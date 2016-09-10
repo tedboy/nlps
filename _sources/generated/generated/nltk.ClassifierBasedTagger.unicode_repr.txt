@@ -1,0 +1,6 @@
+nltk.ClassifierBasedTagger.unicode_repr
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ClassifierBasedTagger.unicode_repr

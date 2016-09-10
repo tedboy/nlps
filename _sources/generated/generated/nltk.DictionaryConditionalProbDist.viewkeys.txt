@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.viewkeys
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.viewkeys

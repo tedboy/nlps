@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.unicode_repr

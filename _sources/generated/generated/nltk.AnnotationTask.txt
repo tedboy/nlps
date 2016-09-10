@@ -1,0 +1,47 @@
+:class:`nltk.AnnotationTask`
+============================
+.. currentmodule:: nltk
+.. autoclass:: AnnotationTask
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~AnnotationTask.Ae_kappa
+   ~AnnotationTask.Ao
+   ~AnnotationTask.Do_Kw
+   ~AnnotationTask.Do_Kw_pairwise
+   ~AnnotationTask.Do_alpha
+   ~AnnotationTask.N
+   ~AnnotationTask.Nck
+   ~AnnotationTask.Nik
+   ~AnnotationTask.Nk
+   ~AnnotationTask.S
+   ~AnnotationTask.__init__
+   ~AnnotationTask.agr
+   ~AnnotationTask.alpha
+   ~AnnotationTask.avg_Ao
+   ~AnnotationTask.kappa
+   ~AnnotationTask.kappa_pairwise
+   ~AnnotationTask.load_array
+   ~AnnotationTask.multi_kappa
+   ~AnnotationTask.pi
+   ~AnnotationTask.weighted_kappa
+   ~AnnotationTask.weighted_kappa_pairwise
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~AnnotationTask.unicode_repr
+

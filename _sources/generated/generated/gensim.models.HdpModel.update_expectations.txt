@@ -1,0 +1,6 @@
+gensim.models.HdpModel.update_expectations
+==========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.update_expectations

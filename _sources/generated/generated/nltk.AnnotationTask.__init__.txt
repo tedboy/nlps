@@ -1,0 +1,6 @@
+nltk.AnnotationTask.__init__
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.__init__

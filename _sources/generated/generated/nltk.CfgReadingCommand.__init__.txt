@@ -1,0 +1,6 @@
+nltk.CfgReadingCommand.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: CfgReadingCommand.__init__

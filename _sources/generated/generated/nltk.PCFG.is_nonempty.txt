@@ -1,0 +1,6 @@
+nltk.PCFG.is_nonempty
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.is_nonempty

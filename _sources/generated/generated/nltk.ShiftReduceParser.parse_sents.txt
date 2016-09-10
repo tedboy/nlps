@@ -1,0 +1,6 @@
+nltk.ShiftReduceParser.parse_sents
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ShiftReduceParser.parse_sents

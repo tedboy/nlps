@@ -1,0 +1,6 @@
+nltk.CFG.is_binarised
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.is_binarised

@@ -1,0 +1,21 @@
+:class:`nltk.PhraseTable`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: PhraseTable
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PhraseTable.__init__
+   ~PhraseTable.add
+   ~PhraseTable.translations_for
+
+
+
+
+

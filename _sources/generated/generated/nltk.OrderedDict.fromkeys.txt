@@ -1,0 +1,6 @@
+nltk.OrderedDict.fromkeys
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.fromkeys

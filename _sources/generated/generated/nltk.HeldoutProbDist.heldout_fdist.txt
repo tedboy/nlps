@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.heldout_fdist
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.heldout_fdist

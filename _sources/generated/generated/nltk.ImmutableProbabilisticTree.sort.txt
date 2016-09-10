@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.sort
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.sort

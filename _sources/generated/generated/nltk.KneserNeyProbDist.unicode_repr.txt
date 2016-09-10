@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.unicode_repr
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: KneserNeyProbDist.unicode_repr

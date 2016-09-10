@@ -1,0 +1,6 @@
+nltk.NaiveBayesDependencyScorer.__init__
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NaiveBayesDependencyScorer.__init__

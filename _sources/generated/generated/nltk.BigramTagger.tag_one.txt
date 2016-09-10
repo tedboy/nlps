@@ -1,0 +1,6 @@
+nltk.BigramTagger.tag_one
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramTagger.tag_one

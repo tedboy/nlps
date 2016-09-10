@@ -1,0 +1,6 @@
+nltk.JSONTaggedEncoder.iterencode
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: JSONTaggedEncoder.iterencode

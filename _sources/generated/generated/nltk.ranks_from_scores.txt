@@ -1,0 +1,6 @@
+:func:`nltk.ranks_from_scores`
+==============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ranks_from_scores

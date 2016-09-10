@@ -1,0 +1,6 @@
+:func:`nltk.recall`
+===================
+
+.. currentmodule:: nltk
+
+.. autofunction:: recall

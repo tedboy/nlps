@@ -1,0 +1,6 @@
+nltk.SlashFeature.unicode_repr
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: SlashFeature.unicode_repr

@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.best_stump
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.best_stump

@@ -1,0 +1,6 @@
+nltk.Production.__init__
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Production.__init__

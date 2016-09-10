@@ -1,0 +1,6 @@
+nltk.Trie.LEAF
+==============
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Trie.LEAF

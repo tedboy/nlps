@@ -1,0 +1,6 @@
+nltk.LazyMap.iterate_from
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyMap.iterate_from

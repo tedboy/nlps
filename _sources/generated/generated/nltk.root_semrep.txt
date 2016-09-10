@@ -1,0 +1,6 @@
+:func:`nltk.root_semrep`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: root_semrep

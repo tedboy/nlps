@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTagger.reset_cache
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTagger.reset_cache

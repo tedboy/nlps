@@ -1,0 +1,6 @@
+nltk.Feature.default
+====================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Feature.default

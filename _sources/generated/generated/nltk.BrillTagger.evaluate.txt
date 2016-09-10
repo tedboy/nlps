@@ -1,0 +1,6 @@
+nltk.BrillTagger.evaluate
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.evaluate

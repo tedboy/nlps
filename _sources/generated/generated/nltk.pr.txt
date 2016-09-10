@@ -1,0 +1,6 @@
+:func:`nltk.pr`
+===============
+
+.. currentmodule:: nltk
+
+.. autofunction:: pr

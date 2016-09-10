@@ -1,0 +1,6 @@
+nltk.UniformProbDist.samples
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.samples

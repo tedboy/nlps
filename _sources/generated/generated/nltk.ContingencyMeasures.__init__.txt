@@ -1,0 +1,6 @@
+nltk.ContingencyMeasures.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContingencyMeasures.__init__

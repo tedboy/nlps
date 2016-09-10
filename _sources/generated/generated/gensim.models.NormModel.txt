@@ -1,0 +1,23 @@
+:class:`gensim.models.NormModel`
+================================
+.. currentmodule:: gensim.models
+.. autoclass:: NormModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NormModel.__init__
+   ~NormModel.calc_norm
+   ~NormModel.load
+   ~NormModel.normalize
+   ~NormModel.save
+
+
+
+
+

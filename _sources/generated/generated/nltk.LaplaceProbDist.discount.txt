@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.discount
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.discount

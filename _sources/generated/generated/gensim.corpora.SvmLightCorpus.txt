@@ -1,0 +1,26 @@
+:class:`gensim.corpora.SvmLightCorpus`
+======================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: SvmLightCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SvmLightCorpus.__init__
+   ~SvmLightCorpus.doc2line
+   ~SvmLightCorpus.docbyoffset
+   ~SvmLightCorpus.line2doc
+   ~SvmLightCorpus.load
+   ~SvmLightCorpus.save
+   ~SvmLightCorpus.save_corpus
+   ~SvmLightCorpus.serialize
+
+
+
+
+

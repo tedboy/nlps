@@ -1,0 +1,6 @@
+nltk.Alignment.union
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.union

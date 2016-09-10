@@ -1,0 +1,6 @@
+nltk.OrderedDict.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.__init__

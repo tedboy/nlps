@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.leaf_treeposition
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.leaf_treeposition

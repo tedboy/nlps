@@ -1,0 +1,6 @@
+nltk.AnnotationTask.unicode_repr
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AnnotationTask.unicode_repr

@@ -1,0 +1,6 @@
+nltk.ConditionalExponentialClassifier.train
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalExponentialClassifier.train

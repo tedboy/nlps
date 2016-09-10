@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.values
+================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.values

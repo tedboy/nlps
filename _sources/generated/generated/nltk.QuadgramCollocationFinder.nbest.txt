@@ -1,0 +1,6 @@
+nltk.QuadgramCollocationFinder.nbest
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: QuadgramCollocationFinder.nbest

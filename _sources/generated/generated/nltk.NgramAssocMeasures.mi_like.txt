@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.mi_like
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.mi_like

@@ -1,0 +1,6 @@
+gensim.models.RpModel.initialize
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: RpModel.initialize

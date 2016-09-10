@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.left_siblings
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.left_siblings

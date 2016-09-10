@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.likelihood_ratio
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.likelihood_ratio

@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.__init__
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.__init__

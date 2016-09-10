@@ -1,0 +1,23 @@
+:class:`nltk.ContextIndex`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: ContextIndex
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ContextIndex.__init__
+   ~ContextIndex.common_contexts
+   ~ContextIndex.similar_words
+   ~ContextIndex.tokens
+   ~ContextIndex.word_similarity_dict
+
+
+
+
+

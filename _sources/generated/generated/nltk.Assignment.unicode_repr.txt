@@ -1,0 +1,6 @@
+nltk.Assignment.unicode_repr
+============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Assignment.unicode_repr

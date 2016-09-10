@@ -1,0 +1,6 @@
+nltk.BllipParser.parse_sents
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BllipParser.parse_sents

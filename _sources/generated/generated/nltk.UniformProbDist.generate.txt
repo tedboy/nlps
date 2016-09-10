@@ -1,0 +1,6 @@
+nltk.UniformProbDist.generate
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.generate

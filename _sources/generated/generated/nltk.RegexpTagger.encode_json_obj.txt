@@ -1,0 +1,6 @@
+nltk.RegexpTagger.encode_json_obj
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpTagger.encode_json_obj

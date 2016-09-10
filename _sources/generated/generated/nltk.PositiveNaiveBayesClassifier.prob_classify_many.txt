@@ -1,0 +1,6 @@
+nltk.PositiveNaiveBayesClassifier.prob_classify_many
+====================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PositiveNaiveBayesClassifier.prob_classify_many

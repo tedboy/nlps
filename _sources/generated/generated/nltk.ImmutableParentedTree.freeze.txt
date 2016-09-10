@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.freeze
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.freeze

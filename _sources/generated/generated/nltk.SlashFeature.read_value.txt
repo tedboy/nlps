@@ -1,0 +1,6 @@
+nltk.SlashFeature.read_value
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: SlashFeature.read_value

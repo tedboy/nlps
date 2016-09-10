@@ -1,0 +1,6 @@
+nltk.TextCollection.__init__
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.__init__

@@ -1,0 +1,6 @@
+gensim.corpora.MmCorpus.load
+============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MmCorpus.load

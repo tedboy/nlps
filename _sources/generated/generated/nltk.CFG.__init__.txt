@@ -1,0 +1,6 @@
+nltk.CFG.__init__
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.__init__

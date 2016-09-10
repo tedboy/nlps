@@ -1,0 +1,6 @@
+nltk.WekaClassifier.classify
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: WekaClassifier.classify

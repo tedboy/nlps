@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.scale_vocab
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.scale_vocab

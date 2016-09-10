@@ -1,0 +1,6 @@
+nltk.ContextIndex.common_contexts
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextIndex.common_contexts

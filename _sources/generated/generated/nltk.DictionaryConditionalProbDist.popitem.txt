@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.popitem
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.popitem

@@ -1,0 +1,6 @@
+nltk.OrderedDict.copy
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.copy

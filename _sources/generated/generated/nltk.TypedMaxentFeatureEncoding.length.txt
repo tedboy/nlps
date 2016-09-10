@@ -1,0 +1,6 @@
+nltk.TypedMaxentFeatureEncoding.length
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TypedMaxentFeatureEncoding.length

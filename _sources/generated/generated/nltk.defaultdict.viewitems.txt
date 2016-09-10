@@ -1,0 +1,6 @@
+nltk.defaultdict.viewitems
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.viewitems

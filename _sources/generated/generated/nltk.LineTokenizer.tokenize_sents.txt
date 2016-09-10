@@ -1,0 +1,6 @@
+nltk.LineTokenizer.tokenize_sents
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LineTokenizer.tokenize_sents

@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.discount
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.discount

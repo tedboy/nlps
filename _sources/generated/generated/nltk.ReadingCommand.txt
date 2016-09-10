@@ -1,0 +1,22 @@
+:class:`nltk.ReadingCommand`
+============================
+.. currentmodule:: nltk
+.. autoclass:: ReadingCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ReadingCommand.combine_readings
+   ~ReadingCommand.parse_to_readings
+   ~ReadingCommand.process_thread
+   ~ReadingCommand.to_fol
+
+
+
+
+

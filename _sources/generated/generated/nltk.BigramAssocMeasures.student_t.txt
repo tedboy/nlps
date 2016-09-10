@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.student_t
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.student_t

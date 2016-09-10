@@ -1,0 +1,40 @@
+:class:`gensim.models.LdaMulticore`
+===================================
+.. currentmodule:: gensim.models
+.. autoclass:: LdaMulticore
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LdaMulticore.__init__
+   ~LdaMulticore.bound
+   ~LdaMulticore.clear
+   ~LdaMulticore.do_estep
+   ~LdaMulticore.do_mstep
+   ~LdaMulticore.get_document_topics
+   ~LdaMulticore.get_term_topics
+   ~LdaMulticore.get_topic_terms
+   ~LdaMulticore.inference
+   ~LdaMulticore.init_dir_prior
+   ~LdaMulticore.load
+   ~LdaMulticore.log_perplexity
+   ~LdaMulticore.print_topic
+   ~LdaMulticore.print_topics
+   ~LdaMulticore.save
+   ~LdaMulticore.show_topic
+   ~LdaMulticore.show_topics
+   ~LdaMulticore.sync_state
+   ~LdaMulticore.top_topics
+   ~LdaMulticore.update
+   ~LdaMulticore.update_alpha
+   ~LdaMulticore.update_eta
+
+
+
+
+

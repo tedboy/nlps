@@ -1,0 +1,6 @@
+nltk.DRS.unicode_repr
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.unicode_repr

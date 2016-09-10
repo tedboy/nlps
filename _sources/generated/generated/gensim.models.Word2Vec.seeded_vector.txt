@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.seeded_vector
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.seeded_vector

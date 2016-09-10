@@ -1,0 +1,6 @@
+nltk.PunktSentenceTokenizer.__init__
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PunktSentenceTokenizer.__init__

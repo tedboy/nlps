@@ -1,0 +1,66 @@
+:class:`nltk.ImmutableParentedTree`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: ImmutableParentedTree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ImmutableParentedTree.__init__
+   ~ImmutableParentedTree.append
+   ~ImmutableParentedTree.chomsky_normal_form
+   ~ImmutableParentedTree.collapse_unary
+   ~ImmutableParentedTree.convert
+   ~ImmutableParentedTree.copy
+   ~ImmutableParentedTree.count
+   ~ImmutableParentedTree.draw
+   ~ImmutableParentedTree.extend
+   ~ImmutableParentedTree.flatten
+   ~ImmutableParentedTree.freeze
+   ~ImmutableParentedTree.fromstring
+   ~ImmutableParentedTree.height
+   ~ImmutableParentedTree.index
+   ~ImmutableParentedTree.insert
+   ~ImmutableParentedTree.label
+   ~ImmutableParentedTree.leaf_treeposition
+   ~ImmutableParentedTree.leaves
+   ~ImmutableParentedTree.left_sibling
+   ~ImmutableParentedTree.parent
+   ~ImmutableParentedTree.parent_index
+   ~ImmutableParentedTree.pformat
+   ~ImmutableParentedTree.pformat_latex_qtree
+   ~ImmutableParentedTree.pop
+   ~ImmutableParentedTree.pos
+   ~ImmutableParentedTree.pprint
+   ~ImmutableParentedTree.pretty_print
+   ~ImmutableParentedTree.productions
+   ~ImmutableParentedTree.remove
+   ~ImmutableParentedTree.reverse
+   ~ImmutableParentedTree.right_sibling
+   ~ImmutableParentedTree.root
+   ~ImmutableParentedTree.set_label
+   ~ImmutableParentedTree.sort
+   ~ImmutableParentedTree.subtrees
+   ~ImmutableParentedTree.treeposition
+   ~ImmutableParentedTree.treeposition_spanning_leaves
+   ~ImmutableParentedTree.treepositions
+   ~ImmutableParentedTree.un_chomsky_normal_form
+   ~ImmutableParentedTree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ImmutableParentedTree.node
+

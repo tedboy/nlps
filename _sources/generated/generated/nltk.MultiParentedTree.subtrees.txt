@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.subtrees
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.subtrees

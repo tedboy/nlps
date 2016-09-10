@@ -1,0 +1,25 @@
+:class:`nltk.FeatureChartParser`
+================================
+.. currentmodule:: nltk
+.. autoclass:: FeatureChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatureChartParser.__init__
+   ~FeatureChartParser.chart_parse
+   ~FeatureChartParser.grammar
+   ~FeatureChartParser.parse
+   ~FeatureChartParser.parse_all
+   ~FeatureChartParser.parse_one
+   ~FeatureChartParser.parse_sents
+
+
+
+
+

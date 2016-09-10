@@ -1,0 +1,59 @@
+:class:`gensim.models.Doc2Vec`
+==============================
+.. currentmodule:: gensim.models
+.. autoclass:: Doc2Vec
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Doc2Vec.__init__
+   ~Doc2Vec.accuracy
+   ~Doc2Vec.build_vocab
+   ~Doc2Vec.clear_sims
+   ~Doc2Vec.create_binary_tree
+   ~Doc2Vec.doesnt_match
+   ~Doc2Vec.estimate_memory
+   ~Doc2Vec.finalize_vocab
+   ~Doc2Vec.infer_vector
+   ~Doc2Vec.init_sims
+   ~Doc2Vec.intersect_word2vec_format
+   ~Doc2Vec.load
+   ~Doc2Vec.load_word2vec_format
+   ~Doc2Vec.log_accuracy
+   ~Doc2Vec.make_cum_table
+   ~Doc2Vec.most_similar
+   ~Doc2Vec.most_similar_cosmul
+   ~Doc2Vec.n_similarity
+   ~Doc2Vec.reset_from
+   ~Doc2Vec.reset_weights
+   ~Doc2Vec.save
+   ~Doc2Vec.save_word2vec_format
+   ~Doc2Vec.scale_vocab
+   ~Doc2Vec.scan_vocab
+   ~Doc2Vec.score
+   ~Doc2Vec.seeded_vector
+   ~Doc2Vec.similar_by_vector
+   ~Doc2Vec.similar_by_word
+   ~Doc2Vec.similarity
+   ~Doc2Vec.sort_vocab
+   ~Doc2Vec.train
+   ~Doc2Vec.wmdistance
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Doc2Vec.dbow
+   ~Doc2Vec.dm
+

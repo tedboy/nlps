@@ -1,0 +1,6 @@
+nltk.FStructure.pop
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.pop

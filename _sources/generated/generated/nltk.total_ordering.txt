@@ -1,0 +1,6 @@
+:func:`nltk.total_ordering`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: total_ordering

@@ -1,0 +1,6 @@
+nltk.JSONTaggedDecoder.decode_obj
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: JSONTaggedDecoder.decode_obj

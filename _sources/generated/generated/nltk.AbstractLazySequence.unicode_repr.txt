@@ -1,0 +1,6 @@
+nltk.AbstractLazySequence.unicode_repr
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: AbstractLazySequence.unicode_repr

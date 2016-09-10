@@ -1,0 +1,6 @@
+nltk.Nonterminal.unicode_repr
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Nonterminal.unicode_repr

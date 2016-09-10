@@ -1,0 +1,6 @@
+gensim.models.HdpModel.optimal_ordering
+=======================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.optimal_ordering

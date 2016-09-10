@@ -1,0 +1,6 @@
+gensim.models.LdaModel.update_eta
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.update_eta

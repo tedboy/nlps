@@ -1,0 +1,6 @@
+nltk.text_type.index
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.index

@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: KneserNeyProbDist.__init__

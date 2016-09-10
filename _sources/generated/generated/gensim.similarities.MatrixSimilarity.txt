@@ -1,0 +1,22 @@
+:class:`gensim.similarities.MatrixSimilarity`
+=============================================
+.. currentmodule:: gensim.similarities
+.. autoclass:: MatrixSimilarity
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MatrixSimilarity.__init__
+   ~MatrixSimilarity.get_similarities
+   ~MatrixSimilarity.load
+   ~MatrixSimilarity.save
+
+
+
+
+

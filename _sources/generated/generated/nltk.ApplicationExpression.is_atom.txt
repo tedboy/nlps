@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.is_atom
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.is_atom

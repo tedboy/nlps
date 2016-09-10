@@ -1,0 +1,6 @@
+nltk.deque.append
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.append

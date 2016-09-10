@@ -1,0 +1,23 @@
+:class:`nltk.TextTilingTokenizer`
+=================================
+.. currentmodule:: nltk
+.. autoclass:: TextTilingTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TextTilingTokenizer.__init__
+   ~TextTilingTokenizer.span_tokenize
+   ~TextTilingTokenizer.span_tokenize_sents
+   ~TextTilingTokenizer.tokenize
+   ~TextTilingTokenizer.tokenize_sents
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.NaiveBayesClassifier.prob_classify
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NaiveBayesClassifier.prob_classify

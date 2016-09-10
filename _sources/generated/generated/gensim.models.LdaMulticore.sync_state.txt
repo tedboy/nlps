@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.sync_state
+=====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.sync_state

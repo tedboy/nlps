@@ -1,0 +1,6 @@
+nltk.MaltParser.parse_tagged_sents
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaltParser.parse_tagged_sents

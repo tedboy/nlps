@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.prob
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.prob

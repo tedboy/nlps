@@ -1,0 +1,6 @@
+gensim.similarities.WmdSimilarity.__init__
+==========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: WmdSimilarity.__init__

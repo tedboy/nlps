@@ -1,0 +1,6 @@
+nltk.Prover9.prover9_input
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9.prover9_input

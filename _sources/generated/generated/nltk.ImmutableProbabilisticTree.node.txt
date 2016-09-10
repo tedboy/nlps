@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.node
+====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ImmutableProbabilisticTree.node

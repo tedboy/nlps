@@ -1,0 +1,6 @@
+nltk.RSLPStemmer.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RSLPStemmer.__init__

@@ -1,0 +1,6 @@
+nltk.UniformProbDist.discount
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.discount

@@ -1,0 +1,6 @@
+nltk.RSLPStemmer.apply_rule
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RSLPStemmer.apply_rule

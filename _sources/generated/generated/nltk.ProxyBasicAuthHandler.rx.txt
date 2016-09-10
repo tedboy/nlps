@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.rx
+=============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProxyBasicAuthHandler.rx

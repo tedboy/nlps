@@ -1,0 +1,6 @@
+nltk.Index.update
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.update

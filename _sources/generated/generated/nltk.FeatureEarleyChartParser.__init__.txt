@@ -1,0 +1,6 @@
+nltk.FeatureEarleyChartParser.__init__
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatureEarleyChartParser.__init__

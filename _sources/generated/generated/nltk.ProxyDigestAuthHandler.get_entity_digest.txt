@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.get_entity_digest
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.get_entity_digest

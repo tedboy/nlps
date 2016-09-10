@@ -1,0 +1,6 @@
+nltk.ConditionalExponentialClassifier.weights
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalExponentialClassifier.weights

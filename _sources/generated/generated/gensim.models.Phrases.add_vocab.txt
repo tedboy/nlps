@@ -1,0 +1,6 @@
+gensim.models.Phrases.add_vocab
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.add_vocab

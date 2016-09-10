@@ -1,0 +1,6 @@
+nltk.DrtExpression.is_pronoun_function
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.is_pronoun_function

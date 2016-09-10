@@ -1,0 +1,6 @@
+nltk.PhraseTable.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: PhraseTable.__init__

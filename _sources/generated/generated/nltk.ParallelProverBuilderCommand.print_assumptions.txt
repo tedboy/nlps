@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilderCommand.print_assumptions
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilderCommand.print_assumptions

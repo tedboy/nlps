@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.insert
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.insert

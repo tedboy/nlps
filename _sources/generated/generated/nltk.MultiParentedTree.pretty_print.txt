@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.pretty_print
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.pretty_print

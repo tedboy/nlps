@@ -1,0 +1,6 @@
+nltk.TestGrammar.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TestGrammar.__init__

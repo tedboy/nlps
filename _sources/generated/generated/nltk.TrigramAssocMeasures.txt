@@ -1,0 +1,26 @@
+:class:`nltk.TrigramAssocMeasures`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: TrigramAssocMeasures
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TrigramAssocMeasures.chi_sq
+   ~TrigramAssocMeasures.jaccard
+   ~TrigramAssocMeasures.likelihood_ratio
+   ~TrigramAssocMeasures.mi_like
+   ~TrigramAssocMeasures.pmi
+   ~TrigramAssocMeasures.poisson_stirling
+   ~TrigramAssocMeasures.raw_freq
+   ~TrigramAssocMeasures.student_t
+
+
+
+
+

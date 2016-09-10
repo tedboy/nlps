@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.get
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.get

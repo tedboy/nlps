@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilderCommand.get_prover
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilderCommand.get_prover

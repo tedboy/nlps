@@ -1,0 +1,6 @@
+gensim.corpora.IndexedCorpus.save
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: IndexedCorpus.save

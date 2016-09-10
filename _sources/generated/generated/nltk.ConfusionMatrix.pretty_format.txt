@@ -1,0 +1,6 @@
+nltk.ConfusionMatrix.pretty_format
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConfusionMatrix.pretty_format

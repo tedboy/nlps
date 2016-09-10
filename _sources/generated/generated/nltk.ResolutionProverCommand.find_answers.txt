@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.find_answers
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.find_answers

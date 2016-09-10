@@ -1,0 +1,27 @@
+:class:`nltk.PositiveNaiveBayesClassifier`
+==========================================
+.. currentmodule:: nltk
+.. autoclass:: PositiveNaiveBayesClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PositiveNaiveBayesClassifier.__init__
+   ~PositiveNaiveBayesClassifier.classify
+   ~PositiveNaiveBayesClassifier.classify_many
+   ~PositiveNaiveBayesClassifier.labels
+   ~PositiveNaiveBayesClassifier.most_informative_features
+   ~PositiveNaiveBayesClassifier.prob_classify
+   ~PositiveNaiveBayesClassifier.prob_classify_many
+   ~PositiveNaiveBayesClassifier.show_most_informative_features
+   ~PositiveNaiveBayesClassifier.train
+
+
+
+
+

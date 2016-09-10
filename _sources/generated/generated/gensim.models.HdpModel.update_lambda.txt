@@ -1,0 +1,6 @@
+gensim.models.HdpModel.update_lambda
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.update_lambda

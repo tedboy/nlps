@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.clear
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.clear

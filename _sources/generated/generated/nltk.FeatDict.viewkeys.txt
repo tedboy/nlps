@@ -1,0 +1,6 @@
+nltk.FeatDict.viewkeys
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.viewkeys

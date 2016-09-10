@@ -1,0 +1,23 @@
+:class:`nltk.Mace`
+==================
+.. currentmodule:: nltk
+.. autoclass:: Mace
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Mace.__init__
+   ~Mace.binary_locations
+   ~Mace.build_model
+   ~Mace.config_prover9
+   ~Mace.prover9_input
+
+
+
+
+

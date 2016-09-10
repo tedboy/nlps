@@ -1,0 +1,6 @@
+nltk.Trie.viewvalues
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.viewvalues

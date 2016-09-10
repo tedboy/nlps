@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.smoothedNr
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.smoothedNr

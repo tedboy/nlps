@@ -1,0 +1,6 @@
+gensim.models.LsiModel.save
+===========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.save

@@ -1,0 +1,6 @@
+nltk.IBMModel3.maximize_distortion_probabilities
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel3.maximize_distortion_probabilities

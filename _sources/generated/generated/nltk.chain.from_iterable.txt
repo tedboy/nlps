@@ -1,0 +1,6 @@
+nltk.chain.from_iterable
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: chain.from_iterable

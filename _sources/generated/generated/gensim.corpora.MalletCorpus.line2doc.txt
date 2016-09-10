@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.line2doc
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.line2doc

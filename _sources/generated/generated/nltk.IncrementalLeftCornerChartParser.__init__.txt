@@ -1,0 +1,6 @@
+nltk.IncrementalLeftCornerChartParser.__init__
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IncrementalLeftCornerChartParser.__init__

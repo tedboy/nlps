@@ -1,0 +1,6 @@
+nltk.OrderedDict.update
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.update

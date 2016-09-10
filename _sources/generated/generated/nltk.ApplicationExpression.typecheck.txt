@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.typecheck
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.typecheck

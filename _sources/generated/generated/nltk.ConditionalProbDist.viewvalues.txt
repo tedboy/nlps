@@ -1,0 +1,6 @@
+nltk.ConditionalProbDist.viewvalues
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDist.viewvalues

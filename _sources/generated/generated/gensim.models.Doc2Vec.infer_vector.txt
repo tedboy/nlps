@@ -1,0 +1,6 @@
+gensim.models.Doc2Vec.infer_vector
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Doc2Vec.infer_vector

@@ -1,0 +1,6 @@
+nltk.StackDecoder.translate
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.translate

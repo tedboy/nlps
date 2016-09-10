@@ -1,0 +1,6 @@
+nltk.MaceCommand.goal
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaceCommand.goal

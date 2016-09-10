@@ -1,0 +1,6 @@
+nltk.FeatList.insert
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.insert

@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.viewkeys
+======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.viewkeys

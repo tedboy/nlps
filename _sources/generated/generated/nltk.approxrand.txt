@@ -1,0 +1,6 @@
+:func:`nltk.approxrand`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: approxrand

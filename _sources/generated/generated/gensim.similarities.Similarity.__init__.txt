@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.__init__
+=======================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.__init__

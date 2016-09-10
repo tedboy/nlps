@@ -1,0 +1,6 @@
+:func:`nltk.memoize`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: memoize

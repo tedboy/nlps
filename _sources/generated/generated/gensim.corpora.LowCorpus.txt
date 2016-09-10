@@ -1,0 +1,33 @@
+:class:`gensim.corpora.LowCorpus`
+=================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: LowCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LowCorpus.__init__
+   ~LowCorpus.docbyoffset
+   ~LowCorpus.line2doc
+   ~LowCorpus.load
+   ~LowCorpus.save
+   ~LowCorpus.save_corpus
+   ~LowCorpus.serialize
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~LowCorpus.id2word
+

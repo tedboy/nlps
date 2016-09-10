@@ -1,0 +1,6 @@
+gensim.models.LdaModel.do_estep
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.do_estep

@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.pseudocode
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.pseudocode

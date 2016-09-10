@@ -1,0 +1,6 @@
+nltk.DRS.variables
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.variables

@@ -1,0 +1,6 @@
+nltk.CrossValidationProbDist.max
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CrossValidationProbDist.max

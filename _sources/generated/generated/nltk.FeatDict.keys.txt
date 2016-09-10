@@ -1,0 +1,6 @@
+nltk.FeatDict.keys
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.keys

@@ -1,0 +1,6 @@
+:func:`nltk.rte_features`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: rte_features

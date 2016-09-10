@@ -1,0 +1,43 @@
+:class:`nltk.PCFG`
+==================
+.. currentmodule:: nltk
+.. autoclass:: PCFG
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PCFG.__init__
+   ~PCFG.check_coverage
+   ~PCFG.fromstring
+   ~PCFG.is_binarised
+   ~PCFG.is_chomsky_normal_form
+   ~PCFG.is_flexible_chomsky_normal_form
+   ~PCFG.is_leftcorner
+   ~PCFG.is_lexical
+   ~PCFG.is_nonempty
+   ~PCFG.is_nonlexical
+   ~PCFG.leftcorner_parents
+   ~PCFG.leftcorners
+   ~PCFG.max_len
+   ~PCFG.min_len
+   ~PCFG.productions
+   ~PCFG.start
+   ~PCFG.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~PCFG.EPSILON
+

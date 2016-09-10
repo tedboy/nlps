@@ -1,0 +1,29 @@
+:class:`nltk.ResolutionProverCommand`
+=====================================
+.. currentmodule:: nltk
+.. autoclass:: ResolutionProverCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ResolutionProverCommand.__init__
+   ~ResolutionProverCommand.add_assumptions
+   ~ResolutionProverCommand.assumptions
+   ~ResolutionProverCommand.decorate_proof
+   ~ResolutionProverCommand.find_answers
+   ~ResolutionProverCommand.get_prover
+   ~ResolutionProverCommand.goal
+   ~ResolutionProverCommand.print_assumptions
+   ~ResolutionProverCommand.proof
+   ~ResolutionProverCommand.prove
+   ~ResolutionProverCommand.retract_assumptions
+
+
+
+
+

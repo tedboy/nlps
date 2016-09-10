@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.max
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.max

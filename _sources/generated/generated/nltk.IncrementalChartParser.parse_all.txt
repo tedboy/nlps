@@ -1,0 +1,6 @@
+nltk.IncrementalChartParser.parse_all
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IncrementalChartParser.parse_all

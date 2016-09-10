@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.remove
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.remove

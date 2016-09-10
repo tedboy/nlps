@@ -1,0 +1,6 @@
+nltk.FeatStruct.unify
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.unify

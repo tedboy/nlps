@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.score_ngram
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.score_ngram

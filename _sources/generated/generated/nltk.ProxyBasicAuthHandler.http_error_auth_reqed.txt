@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.http_error_auth_reqed
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyBasicAuthHandler.http_error_auth_reqed

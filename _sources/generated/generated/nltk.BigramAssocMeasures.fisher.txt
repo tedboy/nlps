@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.fisher
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.fisher

@@ -1,0 +1,6 @@
+:func:`nltk.equality_preds`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: equality_preds

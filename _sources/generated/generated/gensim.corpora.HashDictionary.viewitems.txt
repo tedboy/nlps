@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.viewitems
+=======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.viewitems

@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.from_documents
+========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.from_documents

@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.get_authorization
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.get_authorization

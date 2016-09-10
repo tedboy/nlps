@@ -1,0 +1,6 @@
+nltk.UnsortedChartParser.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: UnsortedChartParser.__init__

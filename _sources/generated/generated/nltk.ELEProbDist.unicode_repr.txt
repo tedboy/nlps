@@ -1,0 +1,6 @@
+nltk.ELEProbDist.unicode_repr
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.unicode_repr

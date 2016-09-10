@@ -1,0 +1,6 @@
+gensim.models.Phrases.__init__
+==============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.__init__

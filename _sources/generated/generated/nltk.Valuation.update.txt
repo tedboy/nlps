@@ -1,0 +1,6 @@
+nltk.Valuation.update
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.update

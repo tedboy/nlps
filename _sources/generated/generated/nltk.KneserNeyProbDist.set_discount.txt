@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.set_discount
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: KneserNeyProbDist.set_discount

@@ -1,0 +1,6 @@
+nltk.LogicalExpressionException
+===============================
+
+.. currentmodule:: nltk
+
+.. autoexception:: LogicalExpressionException

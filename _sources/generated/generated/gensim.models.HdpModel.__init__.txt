@@ -1,0 +1,6 @@
+gensim.models.HdpModel.__init__
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.__init__

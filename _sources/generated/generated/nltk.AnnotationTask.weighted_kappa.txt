@@ -1,0 +1,6 @@
+nltk.AnnotationTask.weighted_kappa
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.weighted_kappa

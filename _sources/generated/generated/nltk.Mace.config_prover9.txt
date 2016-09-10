@@ -1,0 +1,6 @@
+nltk.Mace.config_prover9
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Mace.config_prover9

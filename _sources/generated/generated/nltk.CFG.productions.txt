@@ -1,0 +1,6 @@
+nltk.CFG.productions
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.productions

@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.prob
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LaplaceProbDist.prob

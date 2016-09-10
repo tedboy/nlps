@@ -1,0 +1,6 @@
+nltk.defaultdict.viewvalues
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.viewvalues

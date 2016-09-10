@@ -1,0 +1,6 @@
+nltk.ImmutableTree.pformat
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.pformat

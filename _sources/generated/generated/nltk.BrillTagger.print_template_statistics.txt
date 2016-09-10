@@ -1,0 +1,6 @@
+nltk.BrillTagger.print_template_statistics
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.print_template_statistics

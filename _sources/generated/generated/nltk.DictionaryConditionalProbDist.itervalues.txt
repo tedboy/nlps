@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.itervalues
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.itervalues

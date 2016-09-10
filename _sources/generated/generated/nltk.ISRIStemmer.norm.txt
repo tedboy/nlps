@@ -1,0 +1,6 @@
+nltk.ISRIStemmer.norm
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ISRIStemmer.norm

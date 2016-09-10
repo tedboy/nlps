@@ -1,0 +1,6 @@
+nltk.ProxyHandler.add_parent
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyHandler.add_parent

@@ -1,0 +1,6 @@
+gensim.models.LogEntropyModel.save
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LogEntropyModel.save

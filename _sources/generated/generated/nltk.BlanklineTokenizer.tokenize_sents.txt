@@ -1,0 +1,6 @@
+nltk.BlanklineTokenizer.tokenize_sents
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BlanklineTokenizer.tokenize_sents

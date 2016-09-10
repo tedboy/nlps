@@ -1,0 +1,6 @@
+nltk.IncrementalBottomUpChartParser.parse
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IncrementalBottomUpChartParser.parse

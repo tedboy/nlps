@@ -1,0 +1,6 @@
+nltk.TrigramTagger.context
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramTagger.context

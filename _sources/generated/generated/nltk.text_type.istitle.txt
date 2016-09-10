@@ -1,0 +1,6 @@
+nltk.text_type.istitle
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.istitle

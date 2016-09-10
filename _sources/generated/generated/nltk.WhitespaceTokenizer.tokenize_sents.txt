@@ -1,0 +1,6 @@
+nltk.WhitespaceTokenizer.tokenize_sents
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WhitespaceTokenizer.tokenize_sents

@@ -1,0 +1,6 @@
+nltk.Tree.append
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.append

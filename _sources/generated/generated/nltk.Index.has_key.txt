@@ -1,0 +1,6 @@
+nltk.Index.has_key
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.has_key

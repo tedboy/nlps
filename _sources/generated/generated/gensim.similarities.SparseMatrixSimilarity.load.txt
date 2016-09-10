@@ -1,0 +1,6 @@
+gensim.similarities.SparseMatrixSimilarity.load
+===============================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: SparseMatrixSimilarity.load

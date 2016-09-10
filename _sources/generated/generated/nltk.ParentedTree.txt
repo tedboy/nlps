@@ -1,0 +1,66 @@
+:class:`nltk.ParentedTree`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: ParentedTree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ParentedTree.__init__
+   ~ParentedTree.append
+   ~ParentedTree.chomsky_normal_form
+   ~ParentedTree.collapse_unary
+   ~ParentedTree.convert
+   ~ParentedTree.copy
+   ~ParentedTree.count
+   ~ParentedTree.draw
+   ~ParentedTree.extend
+   ~ParentedTree.flatten
+   ~ParentedTree.freeze
+   ~ParentedTree.fromstring
+   ~ParentedTree.height
+   ~ParentedTree.index
+   ~ParentedTree.insert
+   ~ParentedTree.label
+   ~ParentedTree.leaf_treeposition
+   ~ParentedTree.leaves
+   ~ParentedTree.left_sibling
+   ~ParentedTree.parent
+   ~ParentedTree.parent_index
+   ~ParentedTree.pformat
+   ~ParentedTree.pformat_latex_qtree
+   ~ParentedTree.pop
+   ~ParentedTree.pos
+   ~ParentedTree.pprint
+   ~ParentedTree.pretty_print
+   ~ParentedTree.productions
+   ~ParentedTree.remove
+   ~ParentedTree.reverse
+   ~ParentedTree.right_sibling
+   ~ParentedTree.root
+   ~ParentedTree.set_label
+   ~ParentedTree.sort
+   ~ParentedTree.subtrees
+   ~ParentedTree.treeposition
+   ~ParentedTree.treeposition_spanning_leaves
+   ~ParentedTree.treepositions
+   ~ParentedTree.un_chomsky_normal_form
+   ~ParentedTree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ParentedTree.node
+

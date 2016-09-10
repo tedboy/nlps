@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.nbest
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.nbest

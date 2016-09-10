@@ -1,0 +1,6 @@
+:func:`nltk.bracket_parse`
+==========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: bracket_parse

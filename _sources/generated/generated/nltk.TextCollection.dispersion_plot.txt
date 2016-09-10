@@ -1,0 +1,6 @@
+nltk.TextCollection.dispersion_plot
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.dispersion_plot

@@ -1,0 +1,6 @@
+nltk.AnnotationTask.kappa
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.kappa

@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.viewvalues
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.viewvalues

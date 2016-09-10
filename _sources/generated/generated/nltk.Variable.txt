@@ -1,0 +1,21 @@
+:class:`nltk.Variable`
+======================
+.. currentmodule:: nltk
+.. autoclass:: Variable
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Variable.__init__
+   ~Variable.substitute_bindings
+   ~Variable.unicode_repr
+
+
+
+
+

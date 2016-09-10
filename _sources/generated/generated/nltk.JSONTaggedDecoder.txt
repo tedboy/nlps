@@ -1,0 +1,22 @@
+:class:`nltk.JSONTaggedDecoder`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: JSONTaggedDecoder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~JSONTaggedDecoder.__init__
+   ~JSONTaggedDecoder.decode
+   ~JSONTaggedDecoder.decode_obj
+   ~JSONTaggedDecoder.raw_decode
+
+
+
+
+

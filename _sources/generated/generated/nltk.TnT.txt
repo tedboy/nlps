@@ -1,0 +1,24 @@
+:class:`nltk.TnT`
+=================
+.. currentmodule:: nltk
+.. autoclass:: TnT
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TnT.__init__
+   ~TnT.evaluate
+   ~TnT.tag
+   ~TnT.tag_sents
+   ~TnT.tagdata
+   ~TnT.train
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.IBMModel5.sample
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel5.sample

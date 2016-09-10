@@ -1,0 +1,6 @@
+nltk.FeatList.reverse
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.reverse

@@ -1,0 +1,6 @@
+:func:`nltk.python_2_unicode_compatible`
+========================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: python_2_unicode_compatible

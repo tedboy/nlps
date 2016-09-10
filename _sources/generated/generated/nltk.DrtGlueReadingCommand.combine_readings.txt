@@ -1,0 +1,6 @@
+nltk.DrtGlueReadingCommand.combine_readings
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtGlueReadingCommand.combine_readings

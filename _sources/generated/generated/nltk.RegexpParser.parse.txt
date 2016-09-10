@@ -1,0 +1,6 @@
+nltk.RegexpParser.parse
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpParser.parse

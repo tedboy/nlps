@@ -1,0 +1,6 @@
+nltk.TrigramTagger.size
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramTagger.size

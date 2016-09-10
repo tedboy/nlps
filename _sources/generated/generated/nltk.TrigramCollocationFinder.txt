@@ -1,0 +1,37 @@
+:class:`nltk.TrigramCollocationFinder`
+======================================
+.. currentmodule:: nltk
+.. autoclass:: TrigramCollocationFinder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TrigramCollocationFinder.__init__
+   ~TrigramCollocationFinder.above_score
+   ~TrigramCollocationFinder.apply_freq_filter
+   ~TrigramCollocationFinder.apply_ngram_filter
+   ~TrigramCollocationFinder.apply_word_filter
+   ~TrigramCollocationFinder.bigram_finder
+   ~TrigramCollocationFinder.from_documents
+   ~TrigramCollocationFinder.from_words
+   ~TrigramCollocationFinder.nbest
+   ~TrigramCollocationFinder.score_ngram
+   ~TrigramCollocationFinder.score_ngrams
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~TrigramCollocationFinder.default_ws
+

@@ -1,0 +1,6 @@
+nltk.ChunkScore.recall
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChunkScore.recall

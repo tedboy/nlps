@@ -1,0 +1,6 @@
+nltk.text_type.isalnum
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.isalnum

@@ -1,0 +1,6 @@
+gensim.parsing.PorterStemmer.stem_sentence
+==========================================
+
+.. currentmodule:: gensim.parsing
+
+.. automethod:: PorterStemmer.stem_sentence

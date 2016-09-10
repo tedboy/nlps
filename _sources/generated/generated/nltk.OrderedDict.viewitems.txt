@@ -1,0 +1,6 @@
+nltk.OrderedDict.viewitems
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.viewitems

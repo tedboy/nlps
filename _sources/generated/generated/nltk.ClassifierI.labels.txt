@@ -1,0 +1,6 @@
+nltk.ClassifierI.labels
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ClassifierI.labels

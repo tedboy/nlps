@@ -1,0 +1,6 @@
+nltk.MaxentClassifier.prob_classify_many
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaxentClassifier.prob_classify_many

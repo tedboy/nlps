@@ -1,0 +1,6 @@
+nltk.MLEProbDist.max
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.max

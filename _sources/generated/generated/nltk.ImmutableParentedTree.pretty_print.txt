@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.pretty_print
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.pretty_print

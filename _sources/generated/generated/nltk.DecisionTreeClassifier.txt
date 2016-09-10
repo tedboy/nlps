@@ -1,0 +1,42 @@
+:class:`nltk.DecisionTreeClassifier`
+====================================
+.. currentmodule:: nltk
+.. autoclass:: DecisionTreeClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DecisionTreeClassifier.__init__
+   ~DecisionTreeClassifier.best_binary_stump
+   ~DecisionTreeClassifier.best_stump
+   ~DecisionTreeClassifier.binary_stump
+   ~DecisionTreeClassifier.classify
+   ~DecisionTreeClassifier.classify_many
+   ~DecisionTreeClassifier.error
+   ~DecisionTreeClassifier.labels
+   ~DecisionTreeClassifier.leaf
+   ~DecisionTreeClassifier.pretty_format
+   ~DecisionTreeClassifier.prob_classify
+   ~DecisionTreeClassifier.prob_classify_many
+   ~DecisionTreeClassifier.pseudocode
+   ~DecisionTreeClassifier.refine
+   ~DecisionTreeClassifier.stump
+   ~DecisionTreeClassifier.train
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~DecisionTreeClassifier.unicode_repr
+

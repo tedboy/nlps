@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.discount
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WittenBellProbDist.discount

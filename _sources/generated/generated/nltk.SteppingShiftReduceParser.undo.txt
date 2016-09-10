@@ -1,0 +1,6 @@
+nltk.SteppingShiftReduceParser.undo
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SteppingShiftReduceParser.undo

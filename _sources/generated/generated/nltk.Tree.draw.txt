@@ -1,0 +1,6 @@
+nltk.Tree.draw
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.draw

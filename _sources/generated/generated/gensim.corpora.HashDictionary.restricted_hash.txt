@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.restricted_hash
+=============================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.restricted_hash

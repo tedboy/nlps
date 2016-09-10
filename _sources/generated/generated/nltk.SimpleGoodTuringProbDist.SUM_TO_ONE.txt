@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.SUM_TO_ONE
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SimpleGoodTuringProbDist.SUM_TO_ONE

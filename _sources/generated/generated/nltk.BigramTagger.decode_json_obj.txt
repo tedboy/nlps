@@ -1,0 +1,6 @@
+nltk.BigramTagger.decode_json_obj
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramTagger.decode_json_obj

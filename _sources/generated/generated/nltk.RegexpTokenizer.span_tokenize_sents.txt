@@ -1,0 +1,6 @@
+nltk.RegexpTokenizer.span_tokenize_sents
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpTokenizer.span_tokenize_sents

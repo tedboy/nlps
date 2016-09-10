@@ -1,0 +1,6 @@
+nltk.ISRIStemmer.suf1
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ISRIStemmer.suf1

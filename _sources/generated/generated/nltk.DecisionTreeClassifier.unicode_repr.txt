@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.unicode_repr
+========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: DecisionTreeClassifier.unicode_repr

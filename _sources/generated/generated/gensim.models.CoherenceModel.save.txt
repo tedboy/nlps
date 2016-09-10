@@ -1,0 +1,6 @@
+gensim.models.CoherenceModel.save
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: CoherenceModel.save

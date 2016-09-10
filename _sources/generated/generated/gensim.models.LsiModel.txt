@@ -1,0 +1,27 @@
+:class:`gensim.models.LsiModel`
+===============================
+.. currentmodule:: gensim.models
+.. autoclass:: LsiModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LsiModel.__init__
+   ~LsiModel.add_documents
+   ~LsiModel.load
+   ~LsiModel.print_debug
+   ~LsiModel.print_topic
+   ~LsiModel.print_topics
+   ~LsiModel.save
+   ~LsiModel.show_topic
+   ~LsiModel.show_topics
+
+
+
+
+

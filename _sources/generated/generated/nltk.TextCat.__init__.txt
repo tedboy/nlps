@@ -1,0 +1,6 @@
+nltk.TextCat.__init__
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCat.__init__

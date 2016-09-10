@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.filter_extremes
+=============================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.filter_extremes

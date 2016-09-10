@@ -1,0 +1,6 @@
+nltk.BigramTagger.context
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramTagger.context

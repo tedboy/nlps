@@ -1,0 +1,6 @@
+nltk.Tree.fromstring
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.fromstring

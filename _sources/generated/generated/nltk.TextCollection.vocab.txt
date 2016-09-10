@@ -1,0 +1,6 @@
+nltk.TextCollection.vocab
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.vocab

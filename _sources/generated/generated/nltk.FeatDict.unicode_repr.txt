@@ -1,0 +1,6 @@
+nltk.FeatDict.unicode_repr
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.unicode_repr

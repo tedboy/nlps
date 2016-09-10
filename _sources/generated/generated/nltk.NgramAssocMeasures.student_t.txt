@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.student_t
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.student_t

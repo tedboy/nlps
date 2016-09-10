@@ -1,0 +1,6 @@
+nltk.Text.concordance
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.concordance

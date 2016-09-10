@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.constants
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.constants

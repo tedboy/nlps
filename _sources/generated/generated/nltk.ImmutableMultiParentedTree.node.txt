@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.node
+====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ImmutableMultiParentedTree.node

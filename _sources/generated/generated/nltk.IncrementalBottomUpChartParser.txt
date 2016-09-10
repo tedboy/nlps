@@ -1,0 +1,25 @@
+:class:`nltk.IncrementalBottomUpChartParser`
+============================================
+.. currentmodule:: nltk
+.. autoclass:: IncrementalBottomUpChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~IncrementalBottomUpChartParser.__init__
+   ~IncrementalBottomUpChartParser.chart_parse
+   ~IncrementalBottomUpChartParser.grammar
+   ~IncrementalBottomUpChartParser.parse
+   ~IncrementalBottomUpChartParser.parse_all
+   ~IncrementalBottomUpChartParser.parse_one
+   ~IncrementalBottomUpChartParser.parse_sents
+
+
+
+
+

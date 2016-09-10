@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.get
+=============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.get

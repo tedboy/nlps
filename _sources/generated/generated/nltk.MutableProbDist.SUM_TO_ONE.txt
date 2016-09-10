@@ -1,0 +1,6 @@
+nltk.MutableProbDist.SUM_TO_ONE
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: MutableProbDist.SUM_TO_ONE

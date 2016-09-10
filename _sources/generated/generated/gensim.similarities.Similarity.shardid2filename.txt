@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.shardid2filename
+===============================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.shardid2filename

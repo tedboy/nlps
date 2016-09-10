@@ -1,0 +1,6 @@
+nltk.FeatStructReader.fromstring
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.fromstring

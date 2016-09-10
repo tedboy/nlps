@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.above_score
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.above_score

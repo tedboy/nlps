@@ -1,0 +1,6 @@
+nltk.FeatList.pop
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.pop

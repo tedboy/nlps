@@ -1,0 +1,6 @@
+nltk.MaceCommand.add_assumptions
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MaceCommand.add_assumptions

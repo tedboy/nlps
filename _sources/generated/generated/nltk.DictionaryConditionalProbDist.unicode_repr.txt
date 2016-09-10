@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.unicode_repr
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.unicode_repr

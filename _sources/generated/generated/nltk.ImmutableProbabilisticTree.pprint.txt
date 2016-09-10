@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.pprint
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.pprint

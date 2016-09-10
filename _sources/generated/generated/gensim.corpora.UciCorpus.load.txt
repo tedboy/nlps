@@ -1,0 +1,6 @@
+gensim.corpora.UciCorpus.load
+=============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: UciCorpus.load

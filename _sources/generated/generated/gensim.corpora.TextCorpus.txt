@@ -1,0 +1,24 @@
+:class:`gensim.corpora.TextCorpus`
+==================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: TextCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TextCorpus.__init__
+   ~TextCorpus.get_texts
+   ~TextCorpus.getstream
+   ~TextCorpus.load
+   ~TextCorpus.save
+   ~TextCorpus.save_corpus
+
+
+
+
+

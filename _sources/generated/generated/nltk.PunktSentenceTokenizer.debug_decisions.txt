@@ -1,0 +1,6 @@
+nltk.PunktSentenceTokenizer.debug_decisions
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PunktSentenceTokenizer.debug_decisions

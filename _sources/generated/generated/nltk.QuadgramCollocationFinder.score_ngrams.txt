@@ -1,0 +1,6 @@
+nltk.QuadgramCollocationFinder.score_ngrams
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: QuadgramCollocationFinder.score_ngrams

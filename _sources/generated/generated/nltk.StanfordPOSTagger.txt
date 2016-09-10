@@ -1,0 +1,23 @@
+:class:`nltk.StanfordPOSTagger`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: StanfordPOSTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StanfordPOSTagger.__init__
+   ~StanfordPOSTagger.evaluate
+   ~StanfordPOSTagger.parse_output
+   ~StanfordPOSTagger.tag
+   ~StanfordPOSTagger.tag_sents
+
+
+
+
+

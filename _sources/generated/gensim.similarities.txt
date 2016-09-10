@@ -1,0 +1,39 @@
+:mod:`gensim.similarities`
+==========================
+
+.. automodule:: gensim.similarities
+
+   
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      MatrixSimilarity
+      Similarity
+      SparseMatrixSimilarity
+      WmdSimilarity
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.similarities.MatrixSimilarity
+       generated/gensim.similarities.Similarity
+       generated/gensim.similarities.SparseMatrixSimilarity
+       generated/gensim.similarities.WmdSimilarity
+
+   
+   
+
+   
+   
+   

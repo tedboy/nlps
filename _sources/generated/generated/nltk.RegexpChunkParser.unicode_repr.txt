@@ -1,0 +1,6 @@
+nltk.RegexpChunkParser.unicode_repr
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpChunkParser.unicode_repr

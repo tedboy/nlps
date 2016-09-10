@@ -1,0 +1,6 @@
+:func:`nltk.read_grammar`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: read_grammar

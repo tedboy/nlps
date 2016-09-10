@@ -1,0 +1,6 @@
+nltk.HunposTagger.__init__
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: HunposTagger.__init__

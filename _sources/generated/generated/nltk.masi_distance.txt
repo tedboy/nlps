@@ -1,0 +1,6 @@
+:func:`nltk.masi_distance`
+==========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: masi_distance

@@ -1,0 +1,6 @@
+gensim.models.HdpModel.show_topics
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.show_topics

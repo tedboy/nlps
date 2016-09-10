@@ -1,0 +1,6 @@
+nltk.AffixTagger.choose_tag
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AffixTagger.choose_tag

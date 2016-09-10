@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.normalize
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.normalize

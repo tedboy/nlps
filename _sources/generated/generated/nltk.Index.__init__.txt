@@ -1,0 +1,6 @@
+nltk.Index.__init__
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.__init__

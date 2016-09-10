@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.train
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.train

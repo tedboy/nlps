@@ -1,0 +1,22 @@
+:class:`nltk.DependencyGrammar`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: DependencyGrammar
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DependencyGrammar.__init__
+   ~DependencyGrammar.contains
+   ~DependencyGrammar.fromstring
+   ~DependencyGrammar.unicode_repr
+
+
+
+
+

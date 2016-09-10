@@ -1,0 +1,6 @@
+nltk.QuadgramCollocationFinder.default_ws
+=========================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: QuadgramCollocationFinder.default_ws

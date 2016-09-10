@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.prob
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.prob

@@ -1,0 +1,27 @@
+:class:`nltk.NaiveBayesClassifier`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: NaiveBayesClassifier
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NaiveBayesClassifier.__init__
+   ~NaiveBayesClassifier.classify
+   ~NaiveBayesClassifier.classify_many
+   ~NaiveBayesClassifier.labels
+   ~NaiveBayesClassifier.most_informative_features
+   ~NaiveBayesClassifier.prob_classify
+   ~NaiveBayesClassifier.prob_classify_many
+   ~NaiveBayesClassifier.show_most_informative_features
+   ~NaiveBayesClassifier.train
+
+
+
+
+

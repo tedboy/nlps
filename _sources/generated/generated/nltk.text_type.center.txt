@@ -1,0 +1,6 @@
+nltk.text_type.center
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.center

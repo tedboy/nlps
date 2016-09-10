@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.poisson_stirling
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.poisson_stirling

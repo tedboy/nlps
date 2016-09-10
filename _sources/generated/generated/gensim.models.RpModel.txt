@@ -1,0 +1,22 @@
+:class:`gensim.models.RpModel`
+==============================
+.. currentmodule:: gensim.models
+.. autoclass:: RpModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RpModel.__init__
+   ~RpModel.initialize
+   ~RpModel.load
+   ~RpModel.save
+
+
+
+
+

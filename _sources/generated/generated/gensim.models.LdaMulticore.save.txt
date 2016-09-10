@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.save
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.save

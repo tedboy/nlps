@@ -1,0 +1,6 @@
+nltk.Valuation.get
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Valuation.get

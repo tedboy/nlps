@@ -1,0 +1,6 @@
+nltk.SennaNERTagger.unicode_repr
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SennaNERTagger.unicode_repr

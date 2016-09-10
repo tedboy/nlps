@@ -1,0 +1,6 @@
+nltk.MLEProbDist.freqdist
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.freqdist

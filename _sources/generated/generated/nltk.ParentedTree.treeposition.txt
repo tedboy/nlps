@@ -1,0 +1,6 @@
+nltk.ParentedTree.treeposition
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.treeposition

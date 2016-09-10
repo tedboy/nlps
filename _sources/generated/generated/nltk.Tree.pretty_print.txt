@@ -1,0 +1,6 @@
+nltk.Tree.pretty_print
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.pretty_print

@@ -1,0 +1,6 @@
+nltk.MLEProbDist.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MLEProbDist.__init__

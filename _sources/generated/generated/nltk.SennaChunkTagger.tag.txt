@@ -1,0 +1,6 @@
+nltk.SennaChunkTagger.tag
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: SennaChunkTagger.tag

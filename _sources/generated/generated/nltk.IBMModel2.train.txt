@@ -1,0 +1,6 @@
+nltk.IBMModel2.train
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel2.train

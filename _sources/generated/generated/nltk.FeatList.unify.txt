@@ -1,0 +1,6 @@
+nltk.FeatList.unify
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.unify

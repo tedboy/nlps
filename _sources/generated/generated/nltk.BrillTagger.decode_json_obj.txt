@@ -1,0 +1,6 @@
+nltk.BrillTagger.decode_json_obj
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTagger.decode_json_obj

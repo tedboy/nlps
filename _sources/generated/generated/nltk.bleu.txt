@@ -1,0 +1,6 @@
+:func:`nltk.bleu`
+=================
+
+.. currentmodule:: nltk
+
+.. autofunction:: bleu

@@ -1,0 +1,6 @@
+nltk.FeatStruct.remove_variables
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.remove_variables

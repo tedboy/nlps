@@ -1,0 +1,6 @@
+gensim.corpora.ShardedCorpus.init_by_clone
+==========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: ShardedCorpus.init_by_clone

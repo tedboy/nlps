@@ -1,0 +1,6 @@
+nltk.ProbDistI.logprob
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.logprob

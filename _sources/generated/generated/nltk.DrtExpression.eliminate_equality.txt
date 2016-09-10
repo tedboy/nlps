@@ -1,0 +1,6 @@
+nltk.DrtExpression.eliminate_equality
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.eliminate_equality

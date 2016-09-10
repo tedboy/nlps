@@ -1,0 +1,6 @@
+nltk.RegexpChunkParser.rules
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpChunkParser.rules

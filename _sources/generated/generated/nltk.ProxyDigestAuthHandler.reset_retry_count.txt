@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.reset_retry_count
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.reset_retry_count

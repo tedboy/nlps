@@ -1,0 +1,38 @@
+:class:`nltk.AffixTagger`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: AffixTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~AffixTagger.__init__
+   ~AffixTagger.choose_tag
+   ~AffixTagger.context
+   ~AffixTagger.decode_json_obj
+   ~AffixTagger.encode_json_obj
+   ~AffixTagger.evaluate
+   ~AffixTagger.size
+   ~AffixTagger.tag
+   ~AffixTagger.tag_one
+   ~AffixTagger.tag_sents
+   ~AffixTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~AffixTagger.backoff
+   ~AffixTagger.json_tag
+

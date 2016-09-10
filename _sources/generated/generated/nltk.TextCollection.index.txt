@@ -1,0 +1,6 @@
+nltk.TextCollection.index
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.index

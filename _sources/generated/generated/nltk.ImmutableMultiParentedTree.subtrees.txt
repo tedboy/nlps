@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.subtrees
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.subtrees

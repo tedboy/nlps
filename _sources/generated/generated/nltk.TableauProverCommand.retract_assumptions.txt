@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.retract_assumptions
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.retract_assumptions

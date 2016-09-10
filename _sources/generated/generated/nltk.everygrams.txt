@@ -1,0 +1,6 @@
+:func:`nltk.everygrams`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: everygrams

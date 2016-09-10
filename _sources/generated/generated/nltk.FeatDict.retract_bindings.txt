@@ -1,0 +1,6 @@
+nltk.FeatDict.retract_bindings
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.retract_bindings

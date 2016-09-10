@@ -1,0 +1,6 @@
+nltk.ParserI.parse_all
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParserI.parse_all

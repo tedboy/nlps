@@ -1,0 +1,6 @@
+nltk.TabTokenizer.tokenize
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TabTokenizer.tokenize

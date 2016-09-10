@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.error
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.error

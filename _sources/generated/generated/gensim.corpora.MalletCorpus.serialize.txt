@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.serialize
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.serialize

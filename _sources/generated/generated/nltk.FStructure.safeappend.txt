@@ -1,0 +1,6 @@
+nltk.FStructure.safeappend
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.safeappend

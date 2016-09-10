@@ -1,0 +1,6 @@
+nltk.HunposTagger.tag_sents
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: HunposTagger.tag_sents

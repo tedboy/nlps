@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.unicode_repr
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.unicode_repr

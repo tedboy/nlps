@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.assumptions
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.assumptions

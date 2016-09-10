@@ -1,0 +1,6 @@
+nltk.ChunkParserI.evaluate
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChunkParserI.evaluate

@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.SUM_TO_ONE
+==================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: WittenBellProbDist.SUM_TO_ONE

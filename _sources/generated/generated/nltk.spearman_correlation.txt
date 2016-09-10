@@ -1,0 +1,6 @@
+:func:`nltk.spearman_correlation`
+=================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: spearman_correlation

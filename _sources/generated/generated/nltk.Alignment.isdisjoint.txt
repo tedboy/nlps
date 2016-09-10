@@ -1,0 +1,6 @@
+nltk.Alignment.isdisjoint
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.isdisjoint

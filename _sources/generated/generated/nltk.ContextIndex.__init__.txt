@@ -1,0 +1,6 @@
+nltk.ContextIndex.__init__
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextIndex.__init__

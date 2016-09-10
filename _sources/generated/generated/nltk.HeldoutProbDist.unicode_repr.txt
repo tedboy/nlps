@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.unicode_repr

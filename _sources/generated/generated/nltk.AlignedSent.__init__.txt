@@ -1,0 +1,6 @@
+nltk.AlignedSent.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: AlignedSent.__init__

@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.__init__
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.__init__

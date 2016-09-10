@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.vector_by_id
+===========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.vector_by_id

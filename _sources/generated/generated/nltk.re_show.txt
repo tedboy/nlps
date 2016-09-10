@@ -1,0 +1,6 @@
+:func:`nltk.re_show`
+====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: re_show

@@ -1,0 +1,6 @@
+nltk.AnnotationTask.multi_kappa
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: AnnotationTask.multi_kappa

@@ -1,0 +1,6 @@
+nltk.ProbabilisticDependencyGrammar.contains
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticDependencyGrammar.contains

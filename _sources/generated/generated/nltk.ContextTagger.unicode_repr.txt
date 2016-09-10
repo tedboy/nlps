@@ -1,0 +1,6 @@
+nltk.ContextTagger.unicode_repr
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextTagger.unicode_repr

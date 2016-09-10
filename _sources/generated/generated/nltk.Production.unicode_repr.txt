@@ -1,0 +1,6 @@
+nltk.Production.unicode_repr
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Production.unicode_repr

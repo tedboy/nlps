@@ -1,0 +1,6 @@
+nltk.WordPunctTokenizer.span_tokenize
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WordPunctTokenizer.span_tokenize

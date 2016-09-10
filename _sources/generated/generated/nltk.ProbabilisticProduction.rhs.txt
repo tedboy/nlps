@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.rhs
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.rhs

@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.fromstring
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.fromstring

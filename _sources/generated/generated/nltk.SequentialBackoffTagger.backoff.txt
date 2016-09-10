@@ -1,0 +1,6 @@
+nltk.SequentialBackoffTagger.backoff
+====================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SequentialBackoffTagger.backoff

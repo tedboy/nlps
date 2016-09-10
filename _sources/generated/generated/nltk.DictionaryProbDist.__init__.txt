@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.__init__
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.__init__

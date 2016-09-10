@@ -1,0 +1,6 @@
+nltk.Production.is_nonlexical
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Production.is_nonlexical

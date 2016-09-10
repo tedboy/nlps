@@ -1,0 +1,6 @@
+nltk.ProbDistI.max
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.max

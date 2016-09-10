@@ -1,0 +1,6 @@
+nltk.TextCollection.findall
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.findall

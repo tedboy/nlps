@@ -1,0 +1,6 @@
+nltk.LazyEnumerate.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyEnumerate.__init__

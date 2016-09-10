@@ -1,0 +1,6 @@
+:func:`gensim.parsing.strip_non_alphanum`
+=========================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: strip_non_alphanum

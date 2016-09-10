@@ -1,0 +1,6 @@
+nltk.Text.similar
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.similar

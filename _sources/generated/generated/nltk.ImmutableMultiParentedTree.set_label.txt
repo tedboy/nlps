@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.set_label
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.set_label

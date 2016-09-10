@@ -1,0 +1,6 @@
+nltk.Mace.binary_locations
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Mace.binary_locations

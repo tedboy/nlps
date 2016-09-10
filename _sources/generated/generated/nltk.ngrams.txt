@@ -1,0 +1,6 @@
+:func:`nltk.ngrams`
+===================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ngrams

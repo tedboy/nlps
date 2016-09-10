@@ -1,0 +1,6 @@
+nltk.Alignment.copy
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.copy

@@ -1,0 +1,6 @@
+nltk.SlashFeature.name
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: SlashFeature.name

@@ -1,0 +1,6 @@
+nltk.Prover9Command.add_assumptions
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9Command.add_assumptions

@@ -1,0 +1,6 @@
+:func:`nltk.print_string`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: print_string

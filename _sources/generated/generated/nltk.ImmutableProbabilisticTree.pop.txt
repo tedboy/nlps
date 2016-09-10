@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.pop
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.pop

@@ -1,0 +1,31 @@
+:class:`nltk.ParallelProverBuilderCommand`
+==========================================
+.. currentmodule:: nltk
+.. autoclass:: ParallelProverBuilderCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ParallelProverBuilderCommand.__init__
+   ~ParallelProverBuilderCommand.add_assumptions
+   ~ParallelProverBuilderCommand.assumptions
+   ~ParallelProverBuilderCommand.build_model
+   ~ParallelProverBuilderCommand.decorate_proof
+   ~ParallelProverBuilderCommand.get_model_builder
+   ~ParallelProverBuilderCommand.get_prover
+   ~ParallelProverBuilderCommand.goal
+   ~ParallelProverBuilderCommand.model
+   ~ParallelProverBuilderCommand.print_assumptions
+   ~ParallelProverBuilderCommand.proof
+   ~ParallelProverBuilderCommand.prove
+   ~ParallelProverBuilderCommand.retract_assumptions
+
+
+
+
+

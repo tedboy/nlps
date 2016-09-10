@@ -1,0 +1,6 @@
+:func:`nltk.getproxies`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: getproxies

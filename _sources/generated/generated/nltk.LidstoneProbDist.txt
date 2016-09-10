@@ -1,0 +1,35 @@
+:class:`nltk.LidstoneProbDist`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: LidstoneProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LidstoneProbDist.__init__
+   ~LidstoneProbDist.discount
+   ~LidstoneProbDist.freqdist
+   ~LidstoneProbDist.generate
+   ~LidstoneProbDist.logprob
+   ~LidstoneProbDist.max
+   ~LidstoneProbDist.prob
+   ~LidstoneProbDist.samples
+   ~LidstoneProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~LidstoneProbDist.SUM_TO_ONE
+

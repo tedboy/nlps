@@ -1,0 +1,6 @@
+nltk.Boxer.interpret_sents
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Boxer.interpret_sents

@@ -1,0 +1,6 @@
+gensim.models.VocabTransform.save
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: VocabTransform.save

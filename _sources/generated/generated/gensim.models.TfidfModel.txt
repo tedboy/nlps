@@ -1,0 +1,22 @@
+:class:`gensim.models.TfidfModel`
+=================================
+.. currentmodule:: gensim.models
+.. autoclass:: TfidfModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TfidfModel.__init__
+   ~TfidfModel.initialize
+   ~TfidfModel.load
+   ~TfidfModel.save
+
+
+
+
+

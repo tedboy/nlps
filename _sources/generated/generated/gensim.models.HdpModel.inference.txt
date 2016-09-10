@@ -1,0 +1,6 @@
+gensim.models.HdpModel.inference
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.inference

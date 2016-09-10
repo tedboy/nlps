@@ -1,0 +1,6 @@
+nltk.CFG.min_len
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.min_len

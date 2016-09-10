@@ -1,0 +1,6 @@
+nltk.Index.items
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.items

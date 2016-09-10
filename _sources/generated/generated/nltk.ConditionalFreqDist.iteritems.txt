@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.iteritems
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.iteritems

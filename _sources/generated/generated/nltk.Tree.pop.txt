@@ -1,0 +1,6 @@
+nltk.Tree.pop
+=============
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.pop

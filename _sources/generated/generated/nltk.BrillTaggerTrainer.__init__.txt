@@ -1,0 +1,6 @@
+nltk.BrillTaggerTrainer.__init__
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BrillTaggerTrainer.__init__

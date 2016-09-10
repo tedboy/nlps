@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.__init__
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyBasicAuthHandler.__init__

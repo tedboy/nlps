@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.subtrees
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.subtrees

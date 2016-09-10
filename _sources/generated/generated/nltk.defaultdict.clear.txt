@@ -1,0 +1,6 @@
+nltk.defaultdict.clear
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.clear

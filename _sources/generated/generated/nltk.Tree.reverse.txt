@@ -1,0 +1,6 @@
+nltk.Tree.reverse
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.reverse

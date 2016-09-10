@@ -1,0 +1,6 @@
+nltk.DecisionTreeClassifier.best_binary_stump
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DecisionTreeClassifier.best_binary_stump

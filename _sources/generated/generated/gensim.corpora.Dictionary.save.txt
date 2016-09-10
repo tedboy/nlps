@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.save
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.save

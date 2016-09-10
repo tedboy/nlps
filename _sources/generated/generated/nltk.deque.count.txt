@@ -1,0 +1,6 @@
+nltk.deque.count
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.count

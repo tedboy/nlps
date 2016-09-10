@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.setdefault
+=============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.setdefault

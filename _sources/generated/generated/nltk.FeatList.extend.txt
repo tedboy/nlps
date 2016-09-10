@@ -1,0 +1,6 @@
+nltk.FeatList.extend
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.extend

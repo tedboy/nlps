@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.id2word
+================================
+
+.. currentmodule:: gensim.corpora
+
+.. autoattribute:: LowCorpus.id2word

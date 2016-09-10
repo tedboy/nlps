@@ -1,0 +1,6 @@
+nltk.RangeFeature.name
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: RangeFeature.name

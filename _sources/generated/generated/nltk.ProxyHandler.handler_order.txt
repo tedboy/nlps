@@ -1,0 +1,6 @@
+nltk.ProxyHandler.handler_order
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProxyHandler.handler_order

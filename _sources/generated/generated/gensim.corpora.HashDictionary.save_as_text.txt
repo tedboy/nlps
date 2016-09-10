@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.save_as_text
+==========================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.save_as_text

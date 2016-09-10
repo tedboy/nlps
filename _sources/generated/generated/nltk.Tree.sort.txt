@@ -1,0 +1,6 @@
+nltk.Tree.sort
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.sort

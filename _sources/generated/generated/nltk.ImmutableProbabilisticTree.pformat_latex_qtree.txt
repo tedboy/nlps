@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.pformat_latex_qtree
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.pformat_latex_qtree

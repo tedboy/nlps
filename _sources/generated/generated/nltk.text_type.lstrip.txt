@@ -1,0 +1,6 @@
+nltk.text_type.lstrip
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.lstrip

@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.decorate_proof
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.decorate_proof

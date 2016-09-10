@@ -1,0 +1,6 @@
+nltk.UniformProbDist.max
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.max

@@ -1,0 +1,6 @@
+nltk.IBMModel.MIN_PROB
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: IBMModel.MIN_PROB

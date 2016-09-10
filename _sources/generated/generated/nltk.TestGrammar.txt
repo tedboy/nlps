@@ -1,0 +1,20 @@
+:class:`nltk.TestGrammar`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: TestGrammar
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TestGrammar.__init__
+   ~TestGrammar.run
+
+
+
+
+

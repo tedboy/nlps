@@ -1,0 +1,6 @@
+nltk.TreebankWordTokenizer.span_tokenize_sents
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TreebankWordTokenizer.span_tokenize_sents

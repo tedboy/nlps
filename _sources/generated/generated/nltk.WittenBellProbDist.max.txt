@@ -1,0 +1,6 @@
+nltk.WittenBellProbDist.max
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: WittenBellProbDist.max

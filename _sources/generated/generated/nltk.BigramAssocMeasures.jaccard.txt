@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.jaccard
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.jaccard

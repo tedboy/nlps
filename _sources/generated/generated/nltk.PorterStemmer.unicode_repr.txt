@@ -1,0 +1,6 @@
+nltk.PorterStemmer.unicode_repr
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: PorterStemmer.unicode_repr

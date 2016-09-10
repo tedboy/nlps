@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.remove
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.remove

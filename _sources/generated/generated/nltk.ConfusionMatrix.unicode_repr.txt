@@ -1,0 +1,6 @@
+nltk.ConfusionMatrix.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConfusionMatrix.unicode_repr

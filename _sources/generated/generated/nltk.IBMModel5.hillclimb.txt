@@ -1,0 +1,6 @@
+nltk.IBMModel5.hillclimb
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel5.hillclimb

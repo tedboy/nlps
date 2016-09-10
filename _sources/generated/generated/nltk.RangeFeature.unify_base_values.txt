@@ -1,0 +1,6 @@
+nltk.RangeFeature.unify_base_values
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: RangeFeature.unify_base_values

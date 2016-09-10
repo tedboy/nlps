@@ -1,0 +1,6 @@
+nltk.FreqDist.tabulate
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.tabulate

@@ -1,0 +1,6 @@
+nltk.FeatureEarleyChartParser.grammar
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatureEarleyChartParser.grammar

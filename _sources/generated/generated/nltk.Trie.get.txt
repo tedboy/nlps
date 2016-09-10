@@ -1,0 +1,6 @@
+nltk.Trie.get
+=============
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.get

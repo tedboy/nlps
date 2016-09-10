@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.set_prob
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.set_prob

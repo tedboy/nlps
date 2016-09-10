@@ -1,0 +1,23 @@
+:class:`nltk.MultiClassifierI`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: MultiClassifierI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MultiClassifierI.classify
+   ~MultiClassifierI.classify_many
+   ~MultiClassifierI.labels
+   ~MultiClassifierI.prob_classify
+   ~MultiClassifierI.prob_classify_many
+
+
+
+
+

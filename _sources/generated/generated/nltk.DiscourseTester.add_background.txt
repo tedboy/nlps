@@ -1,0 +1,6 @@
+nltk.DiscourseTester.add_background
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.add_background

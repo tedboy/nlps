@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.pos
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.pos

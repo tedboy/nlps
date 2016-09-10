@@ -1,0 +1,6 @@
+nltk.TopDownChartParser.parse_all
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TopDownChartParser.parse_all

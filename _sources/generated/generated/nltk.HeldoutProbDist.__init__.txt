@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.__init__
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: HeldoutProbDist.__init__

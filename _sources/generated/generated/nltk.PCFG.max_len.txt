@@ -1,0 +1,6 @@
+nltk.PCFG.max_len
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.max_len

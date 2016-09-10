@@ -1,0 +1,6 @@
+nltk.ReadingCommand.combine_readings
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ReadingCommand.combine_readings

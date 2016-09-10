@@ -1,0 +1,35 @@
+:class:`nltk.ClassifierBasedTagger`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: ClassifierBasedTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ClassifierBasedTagger.__init__
+   ~ClassifierBasedTagger.choose_tag
+   ~ClassifierBasedTagger.classifier
+   ~ClassifierBasedTagger.evaluate
+   ~ClassifierBasedTagger.feature_detector
+   ~ClassifierBasedTagger.tag
+   ~ClassifierBasedTagger.tag_one
+   ~ClassifierBasedTagger.tag_sents
+   ~ClassifierBasedTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ClassifierBasedTagger.backoff
+

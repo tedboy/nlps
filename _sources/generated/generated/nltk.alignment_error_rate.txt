@@ -1,0 +1,6 @@
+:func:`nltk.alignment_error_rate`
+=================================
+
+.. currentmodule:: nltk
+
+.. autofunction:: alignment_error_rate

@@ -1,0 +1,6 @@
+:func:`nltk.sinica_parse`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: sinica_parse

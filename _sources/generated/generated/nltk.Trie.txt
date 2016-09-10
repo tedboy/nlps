@@ -1,0 +1,48 @@
+:class:`nltk.Trie`
+==================
+.. currentmodule:: nltk
+.. autoclass:: Trie
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Trie.__init__
+   ~Trie.as_dict
+   ~Trie.clear
+   ~Trie.copy
+   ~Trie.fromkeys
+   ~Trie.get
+   ~Trie.has_key
+   ~Trie.insert
+   ~Trie.items
+   ~Trie.iteritems
+   ~Trie.iterkeys
+   ~Trie.itervalues
+   ~Trie.keys
+   ~Trie.pop
+   ~Trie.popitem
+   ~Trie.setdefault
+   ~Trie.update
+   ~Trie.values
+   ~Trie.viewitems
+   ~Trie.viewkeys
+   ~Trie.viewvalues
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Trie.LEAF
+   ~Trie.default_factory
+

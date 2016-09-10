@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.compactify
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.compactify

@@ -1,0 +1,6 @@
+nltk.DependencyGraph.load
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.load

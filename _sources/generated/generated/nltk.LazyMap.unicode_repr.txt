@@ -1,0 +1,6 @@
+nltk.LazyMap.unicode_repr
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyMap.unicode_repr

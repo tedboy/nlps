@@ -1,0 +1,6 @@
+nltk.text_type.lower
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.lower

@@ -1,0 +1,35 @@
+:class:`nltk.SteppingShiftReduceParser`
+=======================================
+.. currentmodule:: nltk
+.. autoclass:: SteppingShiftReduceParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SteppingShiftReduceParser.__init__
+   ~SteppingShiftReduceParser.grammar
+   ~SteppingShiftReduceParser.initialize
+   ~SteppingShiftReduceParser.parse
+   ~SteppingShiftReduceParser.parse_all
+   ~SteppingShiftReduceParser.parse_one
+   ~SteppingShiftReduceParser.parse_sents
+   ~SteppingShiftReduceParser.parses
+   ~SteppingShiftReduceParser.reduce
+   ~SteppingShiftReduceParser.reducible_productions
+   ~SteppingShiftReduceParser.remaining_text
+   ~SteppingShiftReduceParser.set_grammar
+   ~SteppingShiftReduceParser.shift
+   ~SteppingShiftReduceParser.stack
+   ~SteppingShiftReduceParser.step
+   ~SteppingShiftReduceParser.trace
+   ~SteppingShiftReduceParser.undo
+
+
+
+
+

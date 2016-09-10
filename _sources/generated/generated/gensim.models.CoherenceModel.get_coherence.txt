@@ -1,0 +1,6 @@
+gensim.models.CoherenceModel.get_coherence
+==========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: CoherenceModel.get_coherence

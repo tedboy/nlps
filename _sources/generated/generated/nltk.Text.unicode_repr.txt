@@ -1,0 +1,6 @@
+nltk.Text.unicode_repr
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.unicode_repr

@@ -1,0 +1,6 @@
+nltk.MaxentClassifier.ALGORITHMS
+================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: MaxentClassifier.ALGORITHMS

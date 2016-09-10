@@ -1,0 +1,22 @@
+:class:`gensim.models.LogEntropyModel`
+======================================
+.. currentmodule:: gensim.models
+.. autoclass:: LogEntropyModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LogEntropyModel.__init__
+   ~LogEntropyModel.initialize
+   ~LogEntropyModel.load
+   ~LogEntropyModel.save
+
+
+
+
+

@@ -1,0 +1,21 @@
+:class:`gensim.models.VocabTransform`
+=====================================
+.. currentmodule:: gensim.models
+.. autoclass:: VocabTransform
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~VocabTransform.__init__
+   ~VocabTransform.load
+   ~VocabTransform.save
+
+
+
+
+

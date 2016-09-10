@@ -1,0 +1,6 @@
+nltk.TokenSearcher.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TokenSearcher.__init__

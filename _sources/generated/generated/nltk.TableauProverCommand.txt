@@ -1,0 +1,28 @@
+:class:`nltk.TableauProverCommand`
+==================================
+.. currentmodule:: nltk
+.. autoclass:: TableauProverCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TableauProverCommand.__init__
+   ~TableauProverCommand.add_assumptions
+   ~TableauProverCommand.assumptions
+   ~TableauProverCommand.decorate_proof
+   ~TableauProverCommand.get_prover
+   ~TableauProverCommand.goal
+   ~TableauProverCommand.print_assumptions
+   ~TableauProverCommand.proof
+   ~TableauProverCommand.prove
+   ~TableauProverCommand.retract_assumptions
+
+
+
+
+

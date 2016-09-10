@@ -1,0 +1,6 @@
+:func:`nltk.guess_encoding`
+===========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: guess_encoding

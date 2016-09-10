@@ -1,0 +1,6 @@
+nltk.DefaultTagger.backoff
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: DefaultTagger.backoff

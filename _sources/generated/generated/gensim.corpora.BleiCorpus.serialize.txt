@@ -1,0 +1,6 @@
+gensim.corpora.BleiCorpus.serialize
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: BleiCorpus.serialize

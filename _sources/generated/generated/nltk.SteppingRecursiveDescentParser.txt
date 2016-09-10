@@ -1,0 +1,39 @@
+:class:`nltk.SteppingRecursiveDescentParser`
+============================================
+.. currentmodule:: nltk
+.. autoclass:: SteppingRecursiveDescentParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SteppingRecursiveDescentParser.__init__
+   ~SteppingRecursiveDescentParser.backtrack
+   ~SteppingRecursiveDescentParser.currently_complete
+   ~SteppingRecursiveDescentParser.expand
+   ~SteppingRecursiveDescentParser.expandable_productions
+   ~SteppingRecursiveDescentParser.frontier
+   ~SteppingRecursiveDescentParser.grammar
+   ~SteppingRecursiveDescentParser.initialize
+   ~SteppingRecursiveDescentParser.match
+   ~SteppingRecursiveDescentParser.parse
+   ~SteppingRecursiveDescentParser.parse_all
+   ~SteppingRecursiveDescentParser.parse_one
+   ~SteppingRecursiveDescentParser.parse_sents
+   ~SteppingRecursiveDescentParser.parses
+   ~SteppingRecursiveDescentParser.remaining_text
+   ~SteppingRecursiveDescentParser.set_grammar
+   ~SteppingRecursiveDescentParser.step
+   ~SteppingRecursiveDescentParser.trace
+   ~SteppingRecursiveDescentParser.tree
+   ~SteppingRecursiveDescentParser.untried_expandable_productions
+   ~SteppingRecursiveDescentParser.untried_match
+
+
+
+
+

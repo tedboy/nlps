@@ -1,0 +1,6 @@
+nltk.FreqDist.keys
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.keys

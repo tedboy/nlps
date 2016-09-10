@@ -1,0 +1,6 @@
+nltk.FreqDist.unicode_repr
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.unicode_repr

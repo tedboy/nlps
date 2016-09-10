@@ -1,0 +1,6 @@
+nltk.Assignment.setdefault
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.setdefault

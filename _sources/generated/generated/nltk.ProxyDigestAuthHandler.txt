@@ -1,0 +1,38 @@
+:class:`nltk.ProxyDigestAuthHandler`
+====================================
+.. currentmodule:: nltk
+.. autoclass:: ProxyDigestAuthHandler
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProxyDigestAuthHandler.__init__
+   ~ProxyDigestAuthHandler.add_parent
+   ~ProxyDigestAuthHandler.close
+   ~ProxyDigestAuthHandler.get_algorithm_impls
+   ~ProxyDigestAuthHandler.get_authorization
+   ~ProxyDigestAuthHandler.get_cnonce
+   ~ProxyDigestAuthHandler.get_entity_digest
+   ~ProxyDigestAuthHandler.http_error_407
+   ~ProxyDigestAuthHandler.http_error_auth_reqed
+   ~ProxyDigestAuthHandler.reset_retry_count
+   ~ProxyDigestAuthHandler.retry_http_digest_auth
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ProxyDigestAuthHandler.auth_header
+   ~ProxyDigestAuthHandler.handler_order
+

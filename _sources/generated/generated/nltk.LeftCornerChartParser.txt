@@ -1,0 +1,25 @@
+:class:`nltk.LeftCornerChartParser`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: LeftCornerChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LeftCornerChartParser.__init__
+   ~LeftCornerChartParser.chart_parse
+   ~LeftCornerChartParser.grammar
+   ~LeftCornerChartParser.parse
+   ~LeftCornerChartParser.parse_all
+   ~LeftCornerChartParser.parse_one
+   ~LeftCornerChartParser.parse_sents
+
+
+
+
+

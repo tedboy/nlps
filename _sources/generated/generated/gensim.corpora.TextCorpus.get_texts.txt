@@ -1,0 +1,6 @@
+gensim.corpora.TextCorpus.get_texts
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: TextCorpus.get_texts

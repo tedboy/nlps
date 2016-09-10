@@ -1,0 +1,6 @@
+nltk.Mace.__init__
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Mace.__init__

@@ -1,0 +1,6 @@
+nltk.LazyEnumerate.iterate_from
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyEnumerate.iterate_from

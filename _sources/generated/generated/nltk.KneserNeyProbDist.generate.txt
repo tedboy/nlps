@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.generate
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: KneserNeyProbDist.generate

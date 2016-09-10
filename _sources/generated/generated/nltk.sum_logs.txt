@@ -1,0 +1,6 @@
+:func:`nltk.sum_logs`
+=====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: sum_logs

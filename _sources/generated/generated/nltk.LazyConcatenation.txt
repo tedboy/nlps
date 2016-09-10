@@ -1,0 +1,23 @@
+:class:`nltk.LazyConcatenation`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: LazyConcatenation
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LazyConcatenation.__init__
+   ~LazyConcatenation.count
+   ~LazyConcatenation.index
+   ~LazyConcatenation.iterate_from
+   ~LazyConcatenation.unicode_repr
+
+
+
+
+

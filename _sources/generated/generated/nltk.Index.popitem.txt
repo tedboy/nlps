@@ -1,0 +1,6 @@
+nltk.Index.popitem
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.popitem

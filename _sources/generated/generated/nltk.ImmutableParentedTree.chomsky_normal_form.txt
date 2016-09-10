@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.chomsky_normal_form
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.chomsky_normal_form

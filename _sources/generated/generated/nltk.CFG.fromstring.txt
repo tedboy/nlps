@@ -1,0 +1,6 @@
+nltk.CFG.fromstring
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.fromstring

@@ -1,0 +1,6 @@
+nltk.ConfusionMatrix.__init__
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConfusionMatrix.__init__

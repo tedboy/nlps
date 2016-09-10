@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.__init__
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.__init__

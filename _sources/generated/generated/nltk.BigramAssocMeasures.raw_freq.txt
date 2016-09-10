@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.raw_freq
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.raw_freq

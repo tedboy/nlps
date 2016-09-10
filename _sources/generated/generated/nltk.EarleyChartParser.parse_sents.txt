@@ -1,0 +1,6 @@
+nltk.EarleyChartParser.parse_sents
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: EarleyChartParser.parse_sents

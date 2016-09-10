@@ -1,0 +1,6 @@
+gensim.similarities.MatrixSimilarity.__init__
+=============================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: MatrixSimilarity.__init__

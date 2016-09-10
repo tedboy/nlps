@@ -1,0 +1,6 @@
+nltk.ParentedTree.node
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ParentedTree.node

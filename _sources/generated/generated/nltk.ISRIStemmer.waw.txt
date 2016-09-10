@@ -1,0 +1,6 @@
+nltk.ISRIStemmer.waw
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ISRIStemmer.waw

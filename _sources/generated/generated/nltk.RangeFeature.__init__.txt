@@ -1,0 +1,6 @@
+nltk.RangeFeature.__init__
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RangeFeature.__init__

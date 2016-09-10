@@ -1,0 +1,21 @@
+:class:`nltk.Nonterminal`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: Nonterminal
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Nonterminal.__init__
+   ~Nonterminal.symbol
+   ~Nonterminal.unicode_repr
+
+
+
+
+

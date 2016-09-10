@@ -1,0 +1,78 @@
+:mod:`gensim.parsing`
+=====================
+
+.. automodule:: gensim.parsing
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      preprocess_documents
+      preprocess_string
+      read_file
+      read_files
+      remove_stopwords
+      split_alphanum
+      stem
+      stem_text
+      strip_multiple_whitespaces
+      strip_non_alphanum
+      strip_numeric
+      strip_punctuation
+      strip_punctuation2
+      strip_short
+      strip_tags
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.parsing.preprocess_documents
+       generated/gensim.parsing.preprocess_string
+       generated/gensim.parsing.read_file
+       generated/gensim.parsing.read_files
+       generated/gensim.parsing.remove_stopwords
+       generated/gensim.parsing.split_alphanum
+       generated/gensim.parsing.stem
+       generated/gensim.parsing.stem_text
+       generated/gensim.parsing.strip_multiple_whitespaces
+       generated/gensim.parsing.strip_non_alphanum
+       generated/gensim.parsing.strip_numeric
+       generated/gensim.parsing.strip_punctuation
+       generated/gensim.parsing.strip_punctuation2
+       generated/gensim.parsing.strip_short
+       generated/gensim.parsing.strip_tags
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      PorterStemmer
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/gensim.parsing.PorterStemmer
+
+   
+   
+
+   
+   
+   

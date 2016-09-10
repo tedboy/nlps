@@ -1,0 +1,6 @@
+nltk.ProxyBasicAuthHandler.retry_http_basic_auth
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyBasicAuthHandler.retry_http_basic_auth

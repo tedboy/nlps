@@ -1,0 +1,6 @@
+:func:`nltk.tagstr2tree`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: tagstr2tree

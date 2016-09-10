@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.from_documents
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.from_documents

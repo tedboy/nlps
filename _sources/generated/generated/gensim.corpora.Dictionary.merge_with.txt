@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.merge_with
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.merge_with

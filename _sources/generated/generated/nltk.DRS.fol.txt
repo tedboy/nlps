@@ -1,0 +1,6 @@
+nltk.DRS.fol
+============
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.fol

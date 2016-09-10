@@ -1,0 +1,6 @@
+nltk.FreqDist.__init__
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.__init__

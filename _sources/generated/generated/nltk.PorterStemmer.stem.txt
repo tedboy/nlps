@@ -1,0 +1,6 @@
+nltk.PorterStemmer.stem
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: PorterStemmer.stem

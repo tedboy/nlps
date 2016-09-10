@@ -1,0 +1,6 @@
+nltk.MaceCommand.valuation
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: MaceCommand.valuation

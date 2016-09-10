@@ -1,0 +1,6 @@
+nltk.TokenSearcher.findall
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TokenSearcher.findall

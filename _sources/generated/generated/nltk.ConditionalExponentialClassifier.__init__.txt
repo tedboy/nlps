@@ -1,0 +1,6 @@
+nltk.ConditionalExponentialClassifier.__init__
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalExponentialClassifier.__init__

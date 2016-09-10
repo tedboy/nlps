@@ -1,0 +1,6 @@
+gensim.models.NormModel.normalize
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: NormModel.normalize

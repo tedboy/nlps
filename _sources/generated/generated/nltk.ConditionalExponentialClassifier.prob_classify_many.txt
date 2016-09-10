@@ -1,0 +1,6 @@
+nltk.ConditionalExponentialClassifier.prob_classify_many
+========================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalExponentialClassifier.prob_classify_many

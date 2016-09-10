@@ -1,0 +1,6 @@
+nltk.FeatDict.popitem
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatDict.popitem

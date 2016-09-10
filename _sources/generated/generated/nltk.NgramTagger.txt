@@ -1,0 +1,38 @@
+:class:`nltk.NgramTagger`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: NgramTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NgramTagger.__init__
+   ~NgramTagger.choose_tag
+   ~NgramTagger.context
+   ~NgramTagger.decode_json_obj
+   ~NgramTagger.encode_json_obj
+   ~NgramTagger.evaluate
+   ~NgramTagger.size
+   ~NgramTagger.tag
+   ~NgramTagger.tag_one
+   ~NgramTagger.tag_sents
+   ~NgramTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~NgramTagger.backoff
+   ~NgramTagger.json_tag
+

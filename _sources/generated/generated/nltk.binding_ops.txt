@@ -1,0 +1,6 @@
+:func:`nltk.binding_ops`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: binding_ops

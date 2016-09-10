@@ -1,0 +1,6 @@
+nltk.LazyZip.count
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyZip.count

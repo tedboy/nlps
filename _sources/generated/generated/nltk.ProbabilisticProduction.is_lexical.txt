@@ -1,0 +1,6 @@
+nltk.ProbabilisticProduction.is_lexical
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticProduction.is_lexical

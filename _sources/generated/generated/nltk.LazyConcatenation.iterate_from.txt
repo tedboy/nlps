@@ -1,0 +1,6 @@
+nltk.LazyConcatenation.iterate_from
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyConcatenation.iterate_from

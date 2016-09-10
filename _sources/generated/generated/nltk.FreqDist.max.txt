@@ -1,0 +1,6 @@
+nltk.FreqDist.max
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.max

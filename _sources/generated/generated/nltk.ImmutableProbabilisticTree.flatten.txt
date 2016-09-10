@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.flatten
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.flatten

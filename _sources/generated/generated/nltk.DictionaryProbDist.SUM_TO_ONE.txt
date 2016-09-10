@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.SUM_TO_ONE
+==================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: DictionaryProbDist.SUM_TO_ONE

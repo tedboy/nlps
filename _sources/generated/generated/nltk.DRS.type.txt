@@ -1,0 +1,6 @@
+nltk.DRS.type
+=============
+
+.. currentmodule:: nltk
+
+.. autoattribute:: DRS.type

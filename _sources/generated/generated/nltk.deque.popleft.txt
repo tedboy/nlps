@@ -1,0 +1,6 @@
+nltk.deque.popleft
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.popleft

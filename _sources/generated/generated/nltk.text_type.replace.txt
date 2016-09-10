@@ -1,0 +1,6 @@
+nltk.text_type.replace
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.replace

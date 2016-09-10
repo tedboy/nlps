@@ -1,0 +1,6 @@
+nltk.ImmutableTree.pformat_latex_qtree
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.pformat_latex_qtree

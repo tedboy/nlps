@@ -1,0 +1,6 @@
+nltk.ParentedTree.count
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.count

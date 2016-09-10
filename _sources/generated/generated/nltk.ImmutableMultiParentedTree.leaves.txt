@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.leaves
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.leaves

@@ -1,0 +1,6 @@
+nltk.OrderedDict.itervalues
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.itervalues

@@ -1,0 +1,6 @@
+nltk.Trie.insert
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.insert

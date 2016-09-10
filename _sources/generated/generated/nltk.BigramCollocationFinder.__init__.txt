@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.__init__
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.__init__

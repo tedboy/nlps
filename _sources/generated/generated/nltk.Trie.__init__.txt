@@ -1,0 +1,6 @@
+nltk.Trie.__init__
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.__init__

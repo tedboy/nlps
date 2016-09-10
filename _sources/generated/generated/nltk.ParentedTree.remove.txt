@@ -1,0 +1,6 @@
+nltk.ParentedTree.remove
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.remove

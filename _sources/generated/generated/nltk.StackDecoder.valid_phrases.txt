@@ -1,0 +1,6 @@
+nltk.StackDecoder.valid_phrases
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.valid_phrases

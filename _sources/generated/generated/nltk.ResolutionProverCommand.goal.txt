@@ -1,0 +1,6 @@
+nltk.ResolutionProverCommand.goal
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ResolutionProverCommand.goal

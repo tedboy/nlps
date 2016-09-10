@@ -1,0 +1,6 @@
+nltk.Paice.update
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: Paice.update

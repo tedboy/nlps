@@ -1,0 +1,6 @@
+nltk.chain.next
+===============
+
+.. currentmodule:: nltk
+
+.. autoattribute:: chain.next

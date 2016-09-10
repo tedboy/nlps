@@ -1,0 +1,6 @@
+nltk.SennaChunkTagger.executable
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SennaChunkTagger.executable

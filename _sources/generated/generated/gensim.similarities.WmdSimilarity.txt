@@ -1,0 +1,22 @@
+:class:`gensim.similarities.WmdSimilarity`
+==========================================
+.. currentmodule:: gensim.similarities
+.. autoclass:: WmdSimilarity
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WmdSimilarity.__init__
+   ~WmdSimilarity.get_similarities
+   ~WmdSimilarity.load
+   ~WmdSimilarity.save
+
+
+
+
+

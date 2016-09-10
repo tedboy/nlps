@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.leaf_treeposition
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.leaf_treeposition

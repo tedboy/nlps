@@ -1,0 +1,27 @@
+:class:`nltk.chain`
+===================
+.. currentmodule:: nltk
+.. autoclass:: chain
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~chain.from_iterable
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~chain.next
+

@@ -1,0 +1,6 @@
+gensim.corpora.MalletCorpus.save_corpus
+=======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MalletCorpus.save_corpus

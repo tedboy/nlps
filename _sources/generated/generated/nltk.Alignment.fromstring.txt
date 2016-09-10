@@ -1,0 +1,6 @@
+nltk.Alignment.fromstring
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.fromstring

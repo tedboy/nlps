@@ -1,0 +1,35 @@
+:class:`nltk.MaceCommand`
+=========================
+.. currentmodule:: nltk
+.. autoclass:: MaceCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MaceCommand.__init__
+   ~MaceCommand.add_assumptions
+   ~MaceCommand.assumptions
+   ~MaceCommand.build_model
+   ~MaceCommand.get_model_builder
+   ~MaceCommand.goal
+   ~MaceCommand.model
+   ~MaceCommand.print_assumptions
+   ~MaceCommand.retract_assumptions
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~MaceCommand.valuation
+

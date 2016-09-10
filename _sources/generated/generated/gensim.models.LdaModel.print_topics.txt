@@ -1,0 +1,6 @@
+gensim.models.LdaModel.print_topics
+===================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.print_topics

@@ -1,0 +1,6 @@
+nltk.AbstractLazySequence.index
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: AbstractLazySequence.index

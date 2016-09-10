@@ -1,0 +1,6 @@
+nltk.DRS.substitute_bindings
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.substitute_bindings

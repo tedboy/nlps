@@ -1,0 +1,24 @@
+:class:`nltk.RegexpTokenizer`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: RegexpTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RegexpTokenizer.__init__
+   ~RegexpTokenizer.span_tokenize
+   ~RegexpTokenizer.span_tokenize_sents
+   ~RegexpTokenizer.tokenize
+   ~RegexpTokenizer.tokenize_sents
+   ~RegexpTokenizer.unicode_repr
+
+
+
+
+

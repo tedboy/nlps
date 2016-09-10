@@ -1,0 +1,6 @@
+nltk.AlignedSent.unicode_repr
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: AlignedSent.unicode_repr

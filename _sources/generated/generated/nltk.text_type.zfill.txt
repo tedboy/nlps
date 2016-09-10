@@ -1,0 +1,6 @@
+nltk.text_type.zfill
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.zfill

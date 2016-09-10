@@ -1,0 +1,6 @@
+nltk.FeatStructReader.__init__
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.__init__

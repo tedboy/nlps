@@ -1,0 +1,6 @@
+nltk.ParallelProverBuilderCommand.decorate_proof
+================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParallelProverBuilderCommand.decorate_proof

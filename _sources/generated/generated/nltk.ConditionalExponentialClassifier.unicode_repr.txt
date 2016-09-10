@@ -1,0 +1,6 @@
+nltk.ConditionalExponentialClassifier.unicode_repr
+==================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalExponentialClassifier.unicode_repr

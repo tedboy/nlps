@@ -1,0 +1,6 @@
+nltk.FStructure.copy
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.copy

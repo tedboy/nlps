@@ -1,0 +1,6 @@
+nltk.deque.maxlen
+=================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: deque.maxlen

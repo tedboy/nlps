@@ -1,0 +1,6 @@
+nltk.LazyZip.unicode_repr
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyZip.unicode_repr

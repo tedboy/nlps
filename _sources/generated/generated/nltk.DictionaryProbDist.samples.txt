@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.samples
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.samples

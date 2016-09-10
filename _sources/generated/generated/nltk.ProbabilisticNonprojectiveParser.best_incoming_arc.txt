@@ -1,0 +1,6 @@
+nltk.ProbabilisticNonprojectiveParser.best_incoming_arc
+=======================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticNonprojectiveParser.best_incoming_arc

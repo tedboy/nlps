@@ -1,0 +1,6 @@
+nltk.ImmutableTree.productions
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.productions

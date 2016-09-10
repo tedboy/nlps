@@ -1,0 +1,6 @@
+nltk.DiscourseTester.add_sentence
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.add_sentence

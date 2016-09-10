@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.unicode_repr
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.unicode_repr

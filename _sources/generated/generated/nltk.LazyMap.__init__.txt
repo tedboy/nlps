@@ -1,0 +1,6 @@
+nltk.LazyMap.__init__
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyMap.__init__

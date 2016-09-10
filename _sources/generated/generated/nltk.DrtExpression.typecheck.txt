@@ -1,0 +1,6 @@
+nltk.DrtExpression.typecheck
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtExpression.typecheck

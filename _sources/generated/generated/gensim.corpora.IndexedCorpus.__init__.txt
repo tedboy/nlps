@@ -1,0 +1,6 @@
+gensim.corpora.IndexedCorpus.__init__
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: IndexedCorpus.__init__

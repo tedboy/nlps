@@ -1,0 +1,6 @@
+nltk.PositiveNaiveBayesClassifier.most_informative_features
+===========================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PositiveNaiveBayesClassifier.most_informative_features

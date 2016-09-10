@@ -1,0 +1,6 @@
+nltk.ReadingCommand.process_thread
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ReadingCommand.process_thread

@@ -1,0 +1,6 @@
+nltk.LidstoneProbDist.max
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: LidstoneProbDist.max

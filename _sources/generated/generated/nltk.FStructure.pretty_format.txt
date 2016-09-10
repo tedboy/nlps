@@ -1,0 +1,6 @@
+nltk.FStructure.pretty_format
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.pretty_format

@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.unicode_repr
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.unicode_repr

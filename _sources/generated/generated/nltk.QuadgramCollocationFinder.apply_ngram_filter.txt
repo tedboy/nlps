@@ -1,0 +1,6 @@
+nltk.QuadgramCollocationFinder.apply_ngram_filter
+=================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: QuadgramCollocationFinder.apply_ngram_filter

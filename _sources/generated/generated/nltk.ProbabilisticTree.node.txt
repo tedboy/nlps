@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.node
+===========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: ProbabilisticTree.node

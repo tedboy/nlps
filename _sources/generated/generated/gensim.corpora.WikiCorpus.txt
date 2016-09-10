@@ -1,0 +1,24 @@
+:class:`gensim.corpora.WikiCorpus`
+==================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: WikiCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WikiCorpus.__init__
+   ~WikiCorpus.get_texts
+   ~WikiCorpus.getstream
+   ~WikiCorpus.load
+   ~WikiCorpus.save
+   ~WikiCorpus.save_corpus
+
+
+
+
+

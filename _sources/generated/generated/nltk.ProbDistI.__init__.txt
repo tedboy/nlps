@@ -1,0 +1,6 @@
+nltk.ProbDistI.__init__
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.__init__

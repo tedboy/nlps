@@ -1,0 +1,6 @@
+nltk.Index.pop
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.pop

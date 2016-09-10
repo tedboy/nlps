@@ -1,0 +1,6 @@
+nltk.DependencyGraph.to_conll
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.to_conll

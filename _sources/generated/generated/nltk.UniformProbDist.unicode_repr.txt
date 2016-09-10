@@ -1,0 +1,6 @@
+nltk.UniformProbDist.unicode_repr
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.unicode_repr

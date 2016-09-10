@@ -1,0 +1,6 @@
+nltk.DrtGlueReadingCommand.to_fol
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtGlueReadingCommand.to_fol

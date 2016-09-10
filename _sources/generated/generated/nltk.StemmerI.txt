@@ -1,0 +1,19 @@
+:class:`nltk.StemmerI`
+======================
+.. currentmodule:: nltk
+.. autoclass:: StemmerI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StemmerI.stem
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.HeldoutProbDist.SUM_TO_ONE
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: HeldoutProbDist.SUM_TO_ONE

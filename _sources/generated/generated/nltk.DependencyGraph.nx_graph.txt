@@ -1,0 +1,6 @@
+nltk.DependencyGraph.nx_graph
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.nx_graph

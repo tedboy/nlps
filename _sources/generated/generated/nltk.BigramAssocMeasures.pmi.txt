@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.pmi
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.pmi

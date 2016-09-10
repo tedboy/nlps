@@ -1,0 +1,6 @@
+nltk.KneserNeyProbDist.max
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: KneserNeyProbDist.max

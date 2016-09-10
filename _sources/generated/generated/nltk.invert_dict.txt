@@ -1,0 +1,6 @@
+:func:`nltk.invert_dict`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: invert_dict

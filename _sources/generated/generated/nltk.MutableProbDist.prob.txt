@@ -1,0 +1,6 @@
+nltk.MutableProbDist.prob
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: MutableProbDist.prob

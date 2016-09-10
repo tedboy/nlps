@@ -1,0 +1,6 @@
+nltk.InsideChartParser.sort_queue
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: InsideChartParser.sort_queue

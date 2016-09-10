@@ -1,0 +1,6 @@
+:func:`nltk.trigrams`
+=====================
+
+.. currentmodule:: nltk
+
+.. autofunction:: trigrams

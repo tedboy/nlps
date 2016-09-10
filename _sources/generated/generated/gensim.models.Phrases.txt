@@ -1,0 +1,24 @@
+:class:`gensim.models.Phrases`
+==============================
+.. currentmodule:: gensim.models
+.. autoclass:: Phrases
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Phrases.__init__
+   ~Phrases.add_vocab
+   ~Phrases.export_phrases
+   ~Phrases.learn_vocab
+   ~Phrases.load
+   ~Phrases.save
+
+
+
+
+

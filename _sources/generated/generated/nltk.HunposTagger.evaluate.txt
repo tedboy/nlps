@@ -1,0 +1,6 @@
+nltk.HunposTagger.evaluate
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: HunposTagger.evaluate

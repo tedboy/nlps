@@ -1,0 +1,6 @@
+nltk.DRS.applyto
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.applyto

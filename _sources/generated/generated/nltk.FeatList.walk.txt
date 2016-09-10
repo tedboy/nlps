@@ -1,0 +1,6 @@
+nltk.FeatList.walk
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatList.walk

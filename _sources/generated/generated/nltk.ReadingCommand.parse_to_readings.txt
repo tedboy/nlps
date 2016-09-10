@@ -1,0 +1,6 @@
+nltk.ReadingCommand.parse_to_readings
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ReadingCommand.parse_to_readings

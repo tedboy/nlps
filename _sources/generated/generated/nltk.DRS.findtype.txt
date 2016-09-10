@@ -1,0 +1,6 @@
+nltk.DRS.findtype
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.findtype

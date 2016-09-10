@@ -1,0 +1,6 @@
+nltk.AlignedSent.invert
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: AlignedSent.invert

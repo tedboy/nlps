@@ -1,0 +1,6 @@
+nltk.DependencyGraph.contains_address
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.contains_address

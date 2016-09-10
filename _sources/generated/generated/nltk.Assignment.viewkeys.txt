@@ -1,0 +1,6 @@
+nltk.Assignment.viewkeys
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.viewkeys

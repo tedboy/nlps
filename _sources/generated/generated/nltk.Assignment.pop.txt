@@ -1,0 +1,6 @@
+nltk.Assignment.pop
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.pop

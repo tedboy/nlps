@@ -1,0 +1,6 @@
+nltk.MWETokenizer.span_tokenize
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MWETokenizer.span_tokenize

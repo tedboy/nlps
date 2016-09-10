@@ -1,0 +1,6 @@
+nltk.RandomChartParser.grammar
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RandomChartParser.grammar

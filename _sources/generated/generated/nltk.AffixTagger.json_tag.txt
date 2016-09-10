@@ -1,0 +1,6 @@
+nltk.AffixTagger.json_tag
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AffixTagger.json_tag

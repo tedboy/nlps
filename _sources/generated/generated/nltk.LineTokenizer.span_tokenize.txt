@@ -1,0 +1,6 @@
+nltk.LineTokenizer.span_tokenize
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LineTokenizer.span_tokenize

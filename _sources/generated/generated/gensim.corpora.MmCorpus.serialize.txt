@@ -1,0 +1,6 @@
+gensim.corpora.MmCorpus.serialize
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MmCorpus.serialize

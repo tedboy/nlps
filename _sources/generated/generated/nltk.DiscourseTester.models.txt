@@ -1,0 +1,6 @@
+nltk.DiscourseTester.models
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.models

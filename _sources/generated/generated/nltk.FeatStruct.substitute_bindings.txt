@@ -1,0 +1,6 @@
+nltk.FeatStruct.substitute_bindings
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.substitute_bindings

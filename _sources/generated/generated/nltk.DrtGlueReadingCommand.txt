@@ -1,0 +1,23 @@
+:class:`nltk.DrtGlueReadingCommand`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: DrtGlueReadingCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DrtGlueReadingCommand.__init__
+   ~DrtGlueReadingCommand.combine_readings
+   ~DrtGlueReadingCommand.parse_to_readings
+   ~DrtGlueReadingCommand.process_thread
+   ~DrtGlueReadingCommand.to_fol
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.height
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.height

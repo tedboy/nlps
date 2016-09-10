@@ -1,0 +1,23 @@
+:class:`nltk.ConcordanceIndex`
+==============================
+.. currentmodule:: nltk
+.. autoclass:: ConcordanceIndex
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ConcordanceIndex.__init__
+   ~ConcordanceIndex.offsets
+   ~ConcordanceIndex.print_concordance
+   ~ConcordanceIndex.tokens
+   ~ConcordanceIndex.unicode_repr
+
+
+
+
+

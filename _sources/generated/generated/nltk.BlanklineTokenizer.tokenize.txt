@@ -1,0 +1,6 @@
+nltk.BlanklineTokenizer.tokenize
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BlanklineTokenizer.tokenize

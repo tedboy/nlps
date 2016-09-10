@@ -1,0 +1,6 @@
+gensim.corpora.WikiCorpus.getstream
+===================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: WikiCorpus.getstream

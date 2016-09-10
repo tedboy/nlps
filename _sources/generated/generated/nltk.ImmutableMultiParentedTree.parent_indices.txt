@@ -1,0 +1,6 @@
+nltk.ImmutableMultiParentedTree.parent_indices
+==============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableMultiParentedTree.parent_indices

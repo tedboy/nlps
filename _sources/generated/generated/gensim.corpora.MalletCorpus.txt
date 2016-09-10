@@ -1,0 +1,33 @@
+:class:`gensim.corpora.MalletCorpus`
+====================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: MalletCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MalletCorpus.__init__
+   ~MalletCorpus.docbyoffset
+   ~MalletCorpus.line2doc
+   ~MalletCorpus.load
+   ~MalletCorpus.save
+   ~MalletCorpus.save_corpus
+   ~MalletCorpus.serialize
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~MalletCorpus.id2word
+

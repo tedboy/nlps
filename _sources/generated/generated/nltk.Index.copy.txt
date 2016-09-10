@@ -1,0 +1,6 @@
+nltk.Index.copy
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.copy

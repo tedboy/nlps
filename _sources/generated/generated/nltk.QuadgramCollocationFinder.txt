@@ -1,0 +1,36 @@
+:class:`nltk.QuadgramCollocationFinder`
+=======================================
+.. currentmodule:: nltk
+.. autoclass:: QuadgramCollocationFinder
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~QuadgramCollocationFinder.__init__
+   ~QuadgramCollocationFinder.above_score
+   ~QuadgramCollocationFinder.apply_freq_filter
+   ~QuadgramCollocationFinder.apply_ngram_filter
+   ~QuadgramCollocationFinder.apply_word_filter
+   ~QuadgramCollocationFinder.from_documents
+   ~QuadgramCollocationFinder.from_words
+   ~QuadgramCollocationFinder.nbest
+   ~QuadgramCollocationFinder.score_ngram
+   ~QuadgramCollocationFinder.score_ngrams
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~QuadgramCollocationFinder.default_ws
+

@@ -1,0 +1,22 @@
+:class:`gensim.parsing.PorterStemmer`
+=====================================
+.. currentmodule:: gensim.parsing
+.. autoclass:: PorterStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PorterStemmer.__init__
+   ~PorterStemmer.stem
+   ~PorterStemmer.stem_documents
+   ~PorterStemmer.stem_sentence
+
+
+
+
+

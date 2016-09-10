@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.serialize
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.serialize

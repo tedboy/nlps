@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.print_assumptions
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.print_assumptions

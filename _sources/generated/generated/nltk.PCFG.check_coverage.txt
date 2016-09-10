@@ -1,0 +1,6 @@
+nltk.PCFG.check_coverage
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.check_coverage

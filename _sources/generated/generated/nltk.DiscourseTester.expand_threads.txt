@@ -1,0 +1,6 @@
+nltk.DiscourseTester.expand_threads
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DiscourseTester.expand_threads

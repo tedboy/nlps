@@ -1,0 +1,6 @@
+nltk.FreqDist.subtract
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.subtract

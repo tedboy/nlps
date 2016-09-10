@@ -1,0 +1,6 @@
+nltk.IBMModel.prob_of_alignments
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel.prob_of_alignments

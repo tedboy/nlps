@@ -1,0 +1,6 @@
+nltk.PunktSentenceTokenizer.text_contains_sentbreak
+===================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PunktSentenceTokenizer.text_contains_sentbreak

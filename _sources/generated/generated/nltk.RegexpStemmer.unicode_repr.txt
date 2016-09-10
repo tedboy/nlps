@@ -1,0 +1,6 @@
+nltk.RegexpStemmer.unicode_repr
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpStemmer.unicode_repr

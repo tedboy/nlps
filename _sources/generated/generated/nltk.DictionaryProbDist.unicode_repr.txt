@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.unicode_repr
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.unicode_repr

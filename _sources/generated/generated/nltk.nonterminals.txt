@@ -1,0 +1,6 @@
+:func:`nltk.nonterminals`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: nonterminals

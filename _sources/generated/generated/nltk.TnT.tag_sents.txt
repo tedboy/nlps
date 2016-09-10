@@ -1,0 +1,6 @@
+nltk.TnT.tag_sents
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: TnT.tag_sents

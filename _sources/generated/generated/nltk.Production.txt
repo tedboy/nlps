@@ -1,0 +1,24 @@
+:class:`nltk.Production`
+========================
+.. currentmodule:: nltk
+.. autoclass:: Production
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Production.__init__
+   ~Production.is_lexical
+   ~Production.is_nonlexical
+   ~Production.lhs
+   ~Production.rhs
+   ~Production.unicode_repr
+
+
+
+
+

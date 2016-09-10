@@ -1,0 +1,34 @@
+:class:`nltk.TextCollection`
+============================
+.. currentmodule:: nltk
+.. autoclass:: TextCollection
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TextCollection.__init__
+   ~TextCollection.collocations
+   ~TextCollection.common_contexts
+   ~TextCollection.concordance
+   ~TextCollection.count
+   ~TextCollection.dispersion_plot
+   ~TextCollection.findall
+   ~TextCollection.idf
+   ~TextCollection.index
+   ~TextCollection.plot
+   ~TextCollection.readability
+   ~TextCollection.similar
+   ~TextCollection.tf
+   ~TextCollection.tf_idf
+   ~TextCollection.unicode_repr
+   ~TextCollection.vocab
+
+
+
+
+

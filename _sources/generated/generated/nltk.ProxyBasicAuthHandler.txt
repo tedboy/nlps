@@ -1,0 +1,34 @@
+:class:`nltk.ProxyBasicAuthHandler`
+===================================
+.. currentmodule:: nltk
+.. autoclass:: ProxyBasicAuthHandler
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProxyBasicAuthHandler.__init__
+   ~ProxyBasicAuthHandler.add_parent
+   ~ProxyBasicAuthHandler.close
+   ~ProxyBasicAuthHandler.http_error_407
+   ~ProxyBasicAuthHandler.http_error_auth_reqed
+   ~ProxyBasicAuthHandler.retry_http_basic_auth
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ProxyBasicAuthHandler.auth_header
+   ~ProxyBasicAuthHandler.handler_order
+   ~ProxyBasicAuthHandler.rx
+

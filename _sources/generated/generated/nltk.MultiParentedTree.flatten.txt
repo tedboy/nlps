@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.flatten
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.flatten

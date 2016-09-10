@@ -1,0 +1,6 @@
+:func:`nltk.register_tag`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: register_tag

@@ -1,0 +1,6 @@
+nltk.CfgReadingCommand.combine_readings
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CfgReadingCommand.combine_readings

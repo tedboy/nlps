@@ -1,0 +1,6 @@
+nltk.DependencyGraph.tree
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.tree

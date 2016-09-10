@@ -1,0 +1,6 @@
+nltk.LaplaceProbDist.SUM_TO_ONE
+===============================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: LaplaceProbDist.SUM_TO_ONE

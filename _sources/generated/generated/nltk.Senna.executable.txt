@@ -1,0 +1,6 @@
+nltk.Senna.executable
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Senna.executable

@@ -1,0 +1,6 @@
+nltk.ISRIStemmer.pro_w54
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ISRIStemmer.pro_w54

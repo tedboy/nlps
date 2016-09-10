@@ -1,0 +1,6 @@
+nltk.MultiClassifierI.classify_many
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiClassifierI.classify_many

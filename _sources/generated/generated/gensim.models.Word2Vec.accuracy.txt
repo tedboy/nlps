@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.accuracy
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.accuracy

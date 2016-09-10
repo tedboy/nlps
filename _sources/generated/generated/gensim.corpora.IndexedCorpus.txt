@@ -1,0 +1,23 @@
+:class:`gensim.corpora.IndexedCorpus`
+=====================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: IndexedCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~IndexedCorpus.__init__
+   ~IndexedCorpus.load
+   ~IndexedCorpus.save
+   ~IndexedCorpus.save_corpus
+   ~IndexedCorpus.serialize
+
+
+
+
+

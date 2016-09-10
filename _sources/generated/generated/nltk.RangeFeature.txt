@@ -1,0 +1,33 @@
+:class:`nltk.RangeFeature`
+==========================
+.. currentmodule:: nltk
+.. autoclass:: RangeFeature
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RangeFeature.__init__
+   ~RangeFeature.read_value
+   ~RangeFeature.unicode_repr
+   ~RangeFeature.unify_base_values
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~RangeFeature.RANGE_RE
+   ~RangeFeature.default
+   ~RangeFeature.display
+   ~RangeFeature.name
+

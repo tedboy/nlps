@@ -1,0 +1,52 @@
+:class:`nltk.FreqDist`
+======================
+.. currentmodule:: nltk
+.. autoclass:: FreqDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FreqDist.B
+   ~FreqDist.N
+   ~FreqDist.Nr
+   ~FreqDist.__init__
+   ~FreqDist.clear
+   ~FreqDist.copy
+   ~FreqDist.elements
+   ~FreqDist.freq
+   ~FreqDist.fromkeys
+   ~FreqDist.get
+   ~FreqDist.hapaxes
+   ~FreqDist.has_key
+   ~FreqDist.items
+   ~FreqDist.iteritems
+   ~FreqDist.iterkeys
+   ~FreqDist.itervalues
+   ~FreqDist.keys
+   ~FreqDist.max
+   ~FreqDist.most_common
+   ~FreqDist.pformat
+   ~FreqDist.plot
+   ~FreqDist.pop
+   ~FreqDist.popitem
+   ~FreqDist.pprint
+   ~FreqDist.r_Nr
+   ~FreqDist.setdefault
+   ~FreqDist.subtract
+   ~FreqDist.tabulate
+   ~FreqDist.unicode_repr
+   ~FreqDist.update
+   ~FreqDist.values
+   ~FreqDist.viewitems
+   ~FreqDist.viewkeys
+   ~FreqDist.viewvalues
+
+
+
+
+

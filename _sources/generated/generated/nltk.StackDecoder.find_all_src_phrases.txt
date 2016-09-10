@@ -1,0 +1,6 @@
+nltk.StackDecoder.find_all_src_phrases
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StackDecoder.find_all_src_phrases

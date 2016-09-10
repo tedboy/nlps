@@ -1,0 +1,6 @@
+nltk.FreqDist.hapaxes
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.hapaxes

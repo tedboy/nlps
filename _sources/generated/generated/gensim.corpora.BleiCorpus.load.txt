@@ -1,0 +1,6 @@
+gensim.corpora.BleiCorpus.load
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: BleiCorpus.load

@@ -1,0 +1,50 @@
+:class:`nltk.FeatDict`
+======================
+.. currentmodule:: nltk
+.. autoclass:: FeatDict
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatDict.__init__
+   ~FeatDict.clear
+   ~FeatDict.copy
+   ~FeatDict.cyclic
+   ~FeatDict.equal_values
+   ~FeatDict.freeze
+   ~FeatDict.fromkeys
+   ~FeatDict.frozen
+   ~FeatDict.get
+   ~FeatDict.has_key
+   ~FeatDict.items
+   ~FeatDict.iteritems
+   ~FeatDict.iterkeys
+   ~FeatDict.itervalues
+   ~FeatDict.keys
+   ~FeatDict.pop
+   ~FeatDict.popitem
+   ~FeatDict.remove_variables
+   ~FeatDict.rename_variables
+   ~FeatDict.retract_bindings
+   ~FeatDict.setdefault
+   ~FeatDict.substitute_bindings
+   ~FeatDict.subsumes
+   ~FeatDict.unicode_repr
+   ~FeatDict.unify
+   ~FeatDict.update
+   ~FeatDict.values
+   ~FeatDict.variables
+   ~FeatDict.viewitems
+   ~FeatDict.viewkeys
+   ~FeatDict.viewvalues
+   ~FeatDict.walk
+
+
+
+
+

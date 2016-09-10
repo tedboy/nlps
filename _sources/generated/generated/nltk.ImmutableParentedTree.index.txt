@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.index
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.index

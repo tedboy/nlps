@@ -1,0 +1,6 @@
+:func:`nltk.custom_distance`
+============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: custom_distance

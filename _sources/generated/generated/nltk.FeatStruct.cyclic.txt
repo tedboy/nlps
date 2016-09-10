@@ -1,0 +1,6 @@
+nltk.FeatStruct.cyclic
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStruct.cyclic

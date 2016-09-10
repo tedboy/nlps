@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.copy
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.copy

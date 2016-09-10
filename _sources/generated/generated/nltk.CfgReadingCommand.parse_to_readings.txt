@@ -1,0 +1,6 @@
+nltk.CfgReadingCommand.parse_to_readings
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: CfgReadingCommand.parse_to_readings

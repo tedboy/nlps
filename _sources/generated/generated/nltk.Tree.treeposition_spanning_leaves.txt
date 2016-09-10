@@ -1,0 +1,6 @@
+nltk.Tree.treeposition_spanning_leaves
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.treeposition_spanning_leaves

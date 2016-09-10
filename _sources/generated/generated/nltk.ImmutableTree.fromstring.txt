@@ -1,0 +1,6 @@
+nltk.ImmutableTree.fromstring
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.fromstring

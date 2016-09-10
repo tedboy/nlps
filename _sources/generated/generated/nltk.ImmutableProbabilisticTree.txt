@@ -1,0 +1,64 @@
+:class:`nltk.ImmutableProbabilisticTree`
+========================================
+.. currentmodule:: nltk
+.. autoclass:: ImmutableProbabilisticTree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ImmutableProbabilisticTree.__init__
+   ~ImmutableProbabilisticTree.append
+   ~ImmutableProbabilisticTree.chomsky_normal_form
+   ~ImmutableProbabilisticTree.collapse_unary
+   ~ImmutableProbabilisticTree.convert
+   ~ImmutableProbabilisticTree.copy
+   ~ImmutableProbabilisticTree.count
+   ~ImmutableProbabilisticTree.draw
+   ~ImmutableProbabilisticTree.extend
+   ~ImmutableProbabilisticTree.flatten
+   ~ImmutableProbabilisticTree.freeze
+   ~ImmutableProbabilisticTree.fromstring
+   ~ImmutableProbabilisticTree.height
+   ~ImmutableProbabilisticTree.index
+   ~ImmutableProbabilisticTree.insert
+   ~ImmutableProbabilisticTree.label
+   ~ImmutableProbabilisticTree.leaf_treeposition
+   ~ImmutableProbabilisticTree.leaves
+   ~ImmutableProbabilisticTree.logprob
+   ~ImmutableProbabilisticTree.pformat
+   ~ImmutableProbabilisticTree.pformat_latex_qtree
+   ~ImmutableProbabilisticTree.pop
+   ~ImmutableProbabilisticTree.pos
+   ~ImmutableProbabilisticTree.pprint
+   ~ImmutableProbabilisticTree.pretty_print
+   ~ImmutableProbabilisticTree.prob
+   ~ImmutableProbabilisticTree.productions
+   ~ImmutableProbabilisticTree.remove
+   ~ImmutableProbabilisticTree.reverse
+   ~ImmutableProbabilisticTree.set_label
+   ~ImmutableProbabilisticTree.set_logprob
+   ~ImmutableProbabilisticTree.set_prob
+   ~ImmutableProbabilisticTree.sort
+   ~ImmutableProbabilisticTree.subtrees
+   ~ImmutableProbabilisticTree.treeposition_spanning_leaves
+   ~ImmutableProbabilisticTree.treepositions
+   ~ImmutableProbabilisticTree.un_chomsky_normal_form
+   ~ImmutableProbabilisticTree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ImmutableProbabilisticTree.node
+

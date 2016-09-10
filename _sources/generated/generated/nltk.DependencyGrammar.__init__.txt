@@ -1,0 +1,6 @@
+nltk.DependencyGrammar.__init__
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGrammar.__init__

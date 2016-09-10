@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.doc2bow
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.doc2bow

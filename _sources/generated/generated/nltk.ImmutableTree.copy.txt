@@ -1,0 +1,6 @@
+nltk.ImmutableTree.copy
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.copy

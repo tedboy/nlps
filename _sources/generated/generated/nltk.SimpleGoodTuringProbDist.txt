@@ -1,0 +1,38 @@
+:class:`nltk.SimpleGoodTuringProbDist`
+======================================
+.. currentmodule:: nltk
+.. autoclass:: SimpleGoodTuringProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SimpleGoodTuringProbDist.__init__
+   ~SimpleGoodTuringProbDist.check
+   ~SimpleGoodTuringProbDist.discount
+   ~SimpleGoodTuringProbDist.find_best_fit
+   ~SimpleGoodTuringProbDist.freqdist
+   ~SimpleGoodTuringProbDist.generate
+   ~SimpleGoodTuringProbDist.logprob
+   ~SimpleGoodTuringProbDist.max
+   ~SimpleGoodTuringProbDist.prob
+   ~SimpleGoodTuringProbDist.samples
+   ~SimpleGoodTuringProbDist.smoothedNr
+   ~SimpleGoodTuringProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SimpleGoodTuringProbDist.SUM_TO_ONE
+

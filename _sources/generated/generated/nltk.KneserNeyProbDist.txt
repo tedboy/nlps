@@ -1,0 +1,35 @@
+:class:`nltk.KneserNeyProbDist`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: KneserNeyProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~KneserNeyProbDist.__init__
+   ~KneserNeyProbDist.discount
+   ~KneserNeyProbDist.generate
+   ~KneserNeyProbDist.logprob
+   ~KneserNeyProbDist.max
+   ~KneserNeyProbDist.prob
+   ~KneserNeyProbDist.samples
+   ~KneserNeyProbDist.set_discount
+   ~KneserNeyProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~KneserNeyProbDist.SUM_TO_ONE
+

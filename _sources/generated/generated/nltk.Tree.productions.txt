@@ -1,0 +1,6 @@
+nltk.Tree.productions
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.productions

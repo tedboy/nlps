@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.__init__
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.__init__

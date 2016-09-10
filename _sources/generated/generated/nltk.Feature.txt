@@ -1,0 +1,32 @@
+:class:`nltk.Feature`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: Feature
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Feature.__init__
+   ~Feature.read_value
+   ~Feature.unicode_repr
+   ~Feature.unify_base_values
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Feature.default
+   ~Feature.display
+   ~Feature.name
+

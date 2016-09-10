@@ -1,0 +1,6 @@
+:func:`nltk.ribes`
+==================
+
+.. currentmodule:: nltk
+
+.. autofunction:: ribes

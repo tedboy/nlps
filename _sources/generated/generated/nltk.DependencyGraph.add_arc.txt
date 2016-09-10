@@ -1,0 +1,6 @@
+nltk.DependencyGraph.add_arc
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.add_arc

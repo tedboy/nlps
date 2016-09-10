@@ -1,0 +1,6 @@
+nltk.PCFG.EPSILON
+=================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: PCFG.EPSILON

@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.__init__
+==================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.__init__

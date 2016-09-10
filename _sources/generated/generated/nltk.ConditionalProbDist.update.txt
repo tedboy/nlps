@@ -1,0 +1,6 @@
+nltk.ConditionalProbDist.update
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDist.update

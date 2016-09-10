@@ -1,0 +1,6 @@
+gensim.models.Phrases.load
+==========================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Phrases.load

@@ -1,0 +1,6 @@
+nltk.ContextTagger.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ContextTagger.__init__

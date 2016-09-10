@@ -1,0 +1,6 @@
+gensim.corpora.Dictionary.add_documents
+=======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: Dictionary.add_documents

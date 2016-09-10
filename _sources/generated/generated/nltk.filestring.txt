@@ -1,0 +1,6 @@
+:func:`nltk.filestring`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: filestring

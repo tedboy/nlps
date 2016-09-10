@@ -1,0 +1,6 @@
+nltk.ParentedTree.append
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.append

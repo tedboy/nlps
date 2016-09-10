@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.label
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.label

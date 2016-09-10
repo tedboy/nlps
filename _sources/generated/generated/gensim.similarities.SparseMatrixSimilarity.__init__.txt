@@ -1,0 +1,6 @@
+gensim.similarities.SparseMatrixSimilarity.__init__
+===================================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: SparseMatrixSimilarity.__init__

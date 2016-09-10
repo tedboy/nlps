@@ -1,0 +1,6 @@
+nltk.ApplicationExpression.make_VariableExpression
+==================================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ApplicationExpression.make_VariableExpression

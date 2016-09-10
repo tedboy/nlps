@@ -1,0 +1,6 @@
+:func:`nltk.clean_html`
+=======================
+
+.. currentmodule:: nltk
+
+.. autofunction:: clean_html

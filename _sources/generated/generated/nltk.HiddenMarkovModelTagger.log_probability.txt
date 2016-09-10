@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTagger.log_probability
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTagger.log_probability

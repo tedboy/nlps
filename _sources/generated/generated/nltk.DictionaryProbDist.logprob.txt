@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.logprob
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.logprob

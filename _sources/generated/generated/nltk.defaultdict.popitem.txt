@@ -1,0 +1,6 @@
+nltk.defaultdict.popitem
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.popitem

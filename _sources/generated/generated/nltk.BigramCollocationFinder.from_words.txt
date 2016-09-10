@@ -1,0 +1,6 @@
+nltk.BigramCollocationFinder.from_words
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramCollocationFinder.from_words

@@ -1,0 +1,36 @@
+:class:`nltk.HeldoutProbDist`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: HeldoutProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HeldoutProbDist.__init__
+   ~HeldoutProbDist.base_fdist
+   ~HeldoutProbDist.discount
+   ~HeldoutProbDist.generate
+   ~HeldoutProbDist.heldout_fdist
+   ~HeldoutProbDist.logprob
+   ~HeldoutProbDist.max
+   ~HeldoutProbDist.prob
+   ~HeldoutProbDist.samples
+   ~HeldoutProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~HeldoutProbDist.SUM_TO_ONE
+

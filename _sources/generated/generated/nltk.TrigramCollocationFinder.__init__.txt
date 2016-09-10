@@ -1,0 +1,6 @@
+nltk.TrigramCollocationFinder.__init__
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramCollocationFinder.__init__

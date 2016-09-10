@@ -1,0 +1,6 @@
+nltk.Mace.prover9_input
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Mace.prover9_input

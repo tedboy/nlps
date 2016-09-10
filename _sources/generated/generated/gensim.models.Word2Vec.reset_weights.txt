@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.reset_weights
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.reset_weights

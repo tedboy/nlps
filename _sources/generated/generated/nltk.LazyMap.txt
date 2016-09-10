@@ -1,0 +1,23 @@
+:class:`nltk.LazyMap`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: LazyMap
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LazyMap.__init__
+   ~LazyMap.count
+   ~LazyMap.index
+   ~LazyMap.iterate_from
+   ~LazyMap.unicode_repr
+
+
+
+
+

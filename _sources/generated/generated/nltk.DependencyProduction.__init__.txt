@@ -1,0 +1,6 @@
+nltk.DependencyProduction.__init__
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyProduction.__init__

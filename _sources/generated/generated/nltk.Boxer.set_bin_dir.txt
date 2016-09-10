@@ -1,0 +1,6 @@
+nltk.Boxer.set_bin_dir
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Boxer.set_bin_dir

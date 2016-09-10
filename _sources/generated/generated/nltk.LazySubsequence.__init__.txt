@@ -1,0 +1,6 @@
+nltk.LazySubsequence.__init__
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazySubsequence.__init__

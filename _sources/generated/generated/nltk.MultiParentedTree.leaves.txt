@@ -1,0 +1,6 @@
+nltk.MultiParentedTree.leaves
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: MultiParentedTree.leaves

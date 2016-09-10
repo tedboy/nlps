@@ -1,0 +1,6 @@
+nltk.Feature.unify_base_values
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Feature.unify_base_values

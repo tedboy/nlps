@@ -1,0 +1,6 @@
+nltk.WekaClassifier.parse_weka_distribution
+===========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: WekaClassifier.parse_weka_distribution

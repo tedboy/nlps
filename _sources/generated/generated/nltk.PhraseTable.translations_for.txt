@@ -1,0 +1,6 @@
+nltk.PhraseTable.translations_for
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: PhraseTable.translations_for

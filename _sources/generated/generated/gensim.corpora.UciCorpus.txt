@@ -1,0 +1,26 @@
+:class:`gensim.corpora.UciCorpus`
+=================================
+.. currentmodule:: gensim.corpora
+.. autoclass:: UciCorpus
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~UciCorpus.__init__
+   ~UciCorpus.create_dictionary
+   ~UciCorpus.docbyoffset
+   ~UciCorpus.load
+   ~UciCorpus.save
+   ~UciCorpus.save_corpus
+   ~UciCorpus.serialize
+   ~UciCorpus.skip_headers
+
+
+
+
+

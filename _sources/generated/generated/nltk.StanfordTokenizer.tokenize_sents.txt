@@ -1,0 +1,6 @@
+nltk.StanfordTokenizer.tokenize_sents
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: StanfordTokenizer.tokenize_sents

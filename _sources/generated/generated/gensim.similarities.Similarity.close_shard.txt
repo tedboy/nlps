@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.close_shard
+==========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.close_shard

@@ -1,0 +1,6 @@
+nltk.HiddenMarkovModelTagger.entropy
+====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: HiddenMarkovModelTagger.entropy

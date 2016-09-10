@@ -1,0 +1,6 @@
+nltk.Expression.unicode_repr
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: Expression.unicode_repr

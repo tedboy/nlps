@@ -1,0 +1,6 @@
+nltk.ProxyHandler.__init__
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyHandler.__init__

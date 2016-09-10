@@ -1,0 +1,6 @@
+nltk.deque.reverse
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.reverse

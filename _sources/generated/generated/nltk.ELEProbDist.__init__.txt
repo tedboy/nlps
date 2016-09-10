@@ -1,0 +1,6 @@
+nltk.ELEProbDist.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ELEProbDist.__init__

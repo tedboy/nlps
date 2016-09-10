@@ -1,0 +1,23 @@
+:class:`nltk.CfgReadingCommand`
+===============================
+.. currentmodule:: nltk
+.. autoclass:: CfgReadingCommand
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CfgReadingCommand.__init__
+   ~CfgReadingCommand.combine_readings
+   ~CfgReadingCommand.parse_to_readings
+   ~CfgReadingCommand.process_thread
+   ~CfgReadingCommand.to_fol
+
+
+
+
+

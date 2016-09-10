@@ -1,0 +1,6 @@
+nltk.Tree.unicode_repr
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.unicode_repr

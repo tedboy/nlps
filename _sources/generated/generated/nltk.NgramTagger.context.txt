@@ -1,0 +1,6 @@
+nltk.NgramTagger.context
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramTagger.context

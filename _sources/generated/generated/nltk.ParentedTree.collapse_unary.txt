@@ -1,0 +1,6 @@
+nltk.ParentedTree.collapse_unary
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.collapse_unary

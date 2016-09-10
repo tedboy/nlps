@@ -1,0 +1,6 @@
+nltk.text_type.endswith
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.endswith

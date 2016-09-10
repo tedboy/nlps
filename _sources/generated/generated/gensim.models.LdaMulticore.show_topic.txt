@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.show_topic
+=====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.show_topic

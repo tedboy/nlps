@@ -1,0 +1,6 @@
+nltk.DictionaryProbDist.generate
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryProbDist.generate

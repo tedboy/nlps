@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.check_moved
+==========================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.check_moved

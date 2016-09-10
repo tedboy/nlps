@@ -1,0 +1,35 @@
+:class:`nltk.CrossValidationProbDist`
+=====================================
+.. currentmodule:: nltk
+.. autoclass:: CrossValidationProbDist
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CrossValidationProbDist.__init__
+   ~CrossValidationProbDist.discount
+   ~CrossValidationProbDist.freqdists
+   ~CrossValidationProbDist.generate
+   ~CrossValidationProbDist.logprob
+   ~CrossValidationProbDist.max
+   ~CrossValidationProbDist.prob
+   ~CrossValidationProbDist.samples
+   ~CrossValidationProbDist.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~CrossValidationProbDist.SUM_TO_ONE
+

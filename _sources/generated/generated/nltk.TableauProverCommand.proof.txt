@@ -1,0 +1,6 @@
+nltk.TableauProverCommand.proof
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: TableauProverCommand.proof

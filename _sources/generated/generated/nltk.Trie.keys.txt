@@ -1,0 +1,6 @@
+nltk.Trie.keys
+==============
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.keys

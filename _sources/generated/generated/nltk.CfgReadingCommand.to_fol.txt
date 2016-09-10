@@ -1,0 +1,6 @@
+nltk.CfgReadingCommand.to_fol
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: CfgReadingCommand.to_fol

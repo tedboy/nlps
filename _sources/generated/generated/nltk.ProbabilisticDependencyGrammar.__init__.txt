@@ -1,0 +1,6 @@
+nltk.ProbabilisticDependencyGrammar.__init__
+============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticDependencyGrammar.__init__

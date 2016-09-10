@@ -1,0 +1,6 @@
+:func:`nltk.choose`
+===================
+
+.. currentmodule:: nltk
+
+.. autofunction:: choose

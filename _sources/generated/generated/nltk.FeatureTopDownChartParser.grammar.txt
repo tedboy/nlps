@@ -1,0 +1,6 @@
+nltk.FeatureTopDownChartParser.grammar
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatureTopDownChartParser.grammar

@@ -1,0 +1,6 @@
+nltk.ChunkScore.score
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChunkScore.score

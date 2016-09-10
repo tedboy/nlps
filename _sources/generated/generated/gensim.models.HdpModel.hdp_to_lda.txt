@@ -1,0 +1,6 @@
+gensim.models.HdpModel.hdp_to_lda
+=================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: HdpModel.hdp_to_lda

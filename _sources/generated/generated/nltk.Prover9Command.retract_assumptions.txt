@@ -1,0 +1,6 @@
+nltk.Prover9Command.retract_assumptions
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9Command.retract_assumptions

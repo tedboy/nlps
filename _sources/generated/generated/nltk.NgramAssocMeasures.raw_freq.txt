@@ -1,0 +1,6 @@
+nltk.NgramAssocMeasures.raw_freq
+================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NgramAssocMeasures.raw_freq

@@ -1,0 +1,6 @@
+nltk.NaiveBayesDependencyScorer.train
+=====================================
+
+.. currentmodule:: nltk
+
+.. automethod:: NaiveBayesDependencyScorer.train

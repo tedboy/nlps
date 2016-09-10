@@ -1,0 +1,6 @@
+nltk.ImmutableTree.un_chomsky_normal_form
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableTree.un_chomsky_normal_form

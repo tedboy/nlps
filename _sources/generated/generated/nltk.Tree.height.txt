@@ -1,0 +1,6 @@
+nltk.Tree.height
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.height

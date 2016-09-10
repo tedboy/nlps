@@ -1,0 +1,22 @@
+:class:`nltk.ConfusionMatrix`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: ConfusionMatrix
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ConfusionMatrix.__init__
+   ~ConfusionMatrix.key
+   ~ConfusionMatrix.pretty_format
+   ~ConfusionMatrix.unicode_repr
+
+
+
+
+

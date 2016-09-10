@@ -1,0 +1,6 @@
+nltk.Trie.setdefault
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.setdefault

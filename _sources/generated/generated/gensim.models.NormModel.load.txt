@@ -1,0 +1,6 @@
+gensim.models.NormModel.load
+============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: NormModel.load

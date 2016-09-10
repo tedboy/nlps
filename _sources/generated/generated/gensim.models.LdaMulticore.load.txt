@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.load
+===============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.load

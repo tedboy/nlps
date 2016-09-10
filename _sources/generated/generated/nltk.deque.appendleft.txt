@@ -1,0 +1,6 @@
+nltk.deque.appendleft
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.appendleft

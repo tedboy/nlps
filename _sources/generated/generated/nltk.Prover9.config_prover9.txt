@@ -1,0 +1,6 @@
+nltk.Prover9.config_prover9
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Prover9.config_prover9

@@ -1,0 +1,6 @@
+nltk.BllipParser.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: BllipParser.__init__

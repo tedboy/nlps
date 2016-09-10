@@ -1,0 +1,6 @@
+nltk.DependencyGraph.left_children
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.left_children

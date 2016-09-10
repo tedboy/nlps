@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.setdefault
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.setdefault

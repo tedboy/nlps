@@ -1,0 +1,6 @@
+nltk.IBMModel2.maximize_alignment_probabilities
+===============================================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel2.maximize_alignment_probabilities

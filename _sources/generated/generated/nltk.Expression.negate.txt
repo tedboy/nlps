@@ -1,0 +1,6 @@
+nltk.Expression.negate
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: Expression.negate

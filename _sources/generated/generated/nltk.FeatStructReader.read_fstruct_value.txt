@@ -1,0 +1,6 @@
+nltk.FeatStructReader.read_fstruct_value
+========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: FeatStructReader.read_fstruct_value

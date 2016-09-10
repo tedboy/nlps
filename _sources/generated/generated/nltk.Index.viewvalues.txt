@@ -1,0 +1,6 @@
+nltk.Index.viewvalues
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.viewvalues

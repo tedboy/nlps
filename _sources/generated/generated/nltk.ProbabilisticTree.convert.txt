@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.convert
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.convert

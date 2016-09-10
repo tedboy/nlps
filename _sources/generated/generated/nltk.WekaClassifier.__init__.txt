@@ -1,0 +1,6 @@
+nltk.WekaClassifier.__init__
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: WekaClassifier.__init__

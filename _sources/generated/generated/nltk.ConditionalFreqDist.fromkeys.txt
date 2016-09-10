@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.fromkeys
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.fromkeys

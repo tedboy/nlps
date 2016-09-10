@@ -1,0 +1,6 @@
+nltk.DependencyGraph.remove_by_address
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.remove_by_address

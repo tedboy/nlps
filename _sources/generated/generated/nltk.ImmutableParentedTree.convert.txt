@@ -1,0 +1,6 @@
+nltk.ImmutableParentedTree.convert
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableParentedTree.convert

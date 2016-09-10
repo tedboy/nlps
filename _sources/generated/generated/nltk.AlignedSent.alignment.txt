@@ -1,0 +1,6 @@
+nltk.AlignedSent.alignment
+==========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AlignedSent.alignment

@@ -1,0 +1,6 @@
+nltk.Tree.index
+===============
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.index

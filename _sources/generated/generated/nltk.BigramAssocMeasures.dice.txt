@@ -1,0 +1,6 @@
+nltk.BigramAssocMeasures.dice
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: BigramAssocMeasures.dice

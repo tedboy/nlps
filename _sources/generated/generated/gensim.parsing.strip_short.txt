@@ -1,0 +1,6 @@
+:func:`gensim.parsing.strip_short`
+==================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: strip_short

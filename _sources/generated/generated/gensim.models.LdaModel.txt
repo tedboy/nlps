@@ -1,0 +1,40 @@
+:class:`gensim.models.LdaModel`
+===============================
+.. currentmodule:: gensim.models
+.. autoclass:: LdaModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LdaModel.__init__
+   ~LdaModel.bound
+   ~LdaModel.clear
+   ~LdaModel.do_estep
+   ~LdaModel.do_mstep
+   ~LdaModel.get_document_topics
+   ~LdaModel.get_term_topics
+   ~LdaModel.get_topic_terms
+   ~LdaModel.inference
+   ~LdaModel.init_dir_prior
+   ~LdaModel.load
+   ~LdaModel.log_perplexity
+   ~LdaModel.print_topic
+   ~LdaModel.print_topics
+   ~LdaModel.save
+   ~LdaModel.show_topic
+   ~LdaModel.show_topics
+   ~LdaModel.sync_state
+   ~LdaModel.top_topics
+   ~LdaModel.update
+   ~LdaModel.update_alpha
+   ~LdaModel.update_eta
+
+
+
+
+

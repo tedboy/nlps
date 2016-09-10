@@ -1,0 +1,6 @@
+:func:`nltk.regexp_tokenize`
+============================
+
+.. currentmodule:: nltk
+
+.. autofunction:: regexp_tokenize

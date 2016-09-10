@@ -1,0 +1,6 @@
+nltk.LazyConcatenation.unicode_repr
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyConcatenation.unicode_repr

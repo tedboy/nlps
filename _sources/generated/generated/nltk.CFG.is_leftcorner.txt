@@ -1,0 +1,6 @@
+nltk.CFG.is_leftcorner
+======================
+
+.. currentmodule:: nltk
+
+.. automethod:: CFG.is_leftcorner

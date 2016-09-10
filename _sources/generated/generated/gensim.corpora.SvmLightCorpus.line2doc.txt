@@ -1,0 +1,6 @@
+gensim.corpora.SvmLightCorpus.line2doc
+======================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: SvmLightCorpus.line2doc

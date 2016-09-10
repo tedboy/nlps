@@ -1,0 +1,6 @@
+nltk.Index.setdefault
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Index.setdefault

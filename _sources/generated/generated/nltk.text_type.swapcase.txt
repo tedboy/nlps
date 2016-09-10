@@ -1,0 +1,6 @@
+nltk.text_type.swapcase
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: text_type.swapcase

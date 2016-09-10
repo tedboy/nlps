@@ -1,0 +1,6 @@
+nltk.DrtGlueReadingCommand.process_thread
+=========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DrtGlueReadingCommand.process_thread

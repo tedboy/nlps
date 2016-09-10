@@ -1,0 +1,6 @@
+nltk.OrderedDict.has_key
+========================
+
+.. currentmodule:: nltk
+
+.. automethod:: OrderedDict.has_key

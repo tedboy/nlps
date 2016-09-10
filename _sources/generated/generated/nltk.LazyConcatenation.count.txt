@@ -1,0 +1,6 @@
+nltk.LazyConcatenation.count
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: LazyConcatenation.count

@@ -1,0 +1,6 @@
+nltk.DRS.visit_structured
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DRS.visit_structured

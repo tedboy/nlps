@@ -1,0 +1,6 @@
+gensim.corpora.LowCorpus.save_corpus
+====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: LowCorpus.save_corpus

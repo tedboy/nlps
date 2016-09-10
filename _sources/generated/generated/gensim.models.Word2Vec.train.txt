@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.train
+============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.train

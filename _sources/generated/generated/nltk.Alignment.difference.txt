@@ -1,0 +1,6 @@
+nltk.Alignment.difference
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Alignment.difference

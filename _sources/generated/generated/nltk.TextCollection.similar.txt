@@ -1,0 +1,6 @@
+nltk.TextCollection.similar
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCollection.similar

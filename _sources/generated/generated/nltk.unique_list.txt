@@ -1,0 +1,6 @@
+:func:`nltk.unique_list`
+========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: unique_list

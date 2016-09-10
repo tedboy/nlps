@@ -1,0 +1,30 @@
+:class:`nltk.Alignment`
+=======================
+.. currentmodule:: nltk
+.. autoclass:: Alignment
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Alignment.copy
+   ~Alignment.difference
+   ~Alignment.fromstring
+   ~Alignment.intersection
+   ~Alignment.invert
+   ~Alignment.isdisjoint
+   ~Alignment.issubset
+   ~Alignment.issuperset
+   ~Alignment.range
+   ~Alignment.symmetric_difference
+   ~Alignment.unicode_repr
+   ~Alignment.union
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.insert
+=============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.insert

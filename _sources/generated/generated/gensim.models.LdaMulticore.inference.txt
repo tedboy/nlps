@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.inference
+====================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.inference

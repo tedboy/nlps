@@ -1,0 +1,6 @@
+nltk.Nonterminal.__init__
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: Nonterminal.__init__

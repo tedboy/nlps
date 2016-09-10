@@ -1,0 +1,6 @@
+nltk.PCFG.min_len
+=================
+
+.. currentmodule:: nltk
+
+.. automethod:: PCFG.min_len

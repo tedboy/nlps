@@ -1,0 +1,6 @@
+nltk.TextCat.profile
+====================
+
+.. currentmodule:: nltk
+
+.. automethod:: TextCat.profile

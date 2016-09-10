@@ -1,0 +1,6 @@
+nltk.Trie.default_factory
+=========================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Trie.default_factory

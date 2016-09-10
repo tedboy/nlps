@@ -1,0 +1,6 @@
+gensim.corpora.IndexedCorpus.load
+=================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: IndexedCorpus.load

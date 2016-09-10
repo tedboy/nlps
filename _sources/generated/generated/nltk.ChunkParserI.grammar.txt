@@ -1,0 +1,6 @@
+nltk.ChunkParserI.grammar
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: ChunkParserI.grammar

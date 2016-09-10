@@ -1,0 +1,6 @@
+:func:`nltk.pprint`
+===================
+
+.. currentmodule:: nltk
+
+.. autofunction:: pprint

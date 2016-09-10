@@ -1,0 +1,6 @@
+nltk.SimpleGoodTuringProbDist.unicode_repr
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SimpleGoodTuringProbDist.unicode_repr

@@ -1,0 +1,6 @@
+gensim.models.LdaMulticore.init_dir_prior
+=========================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaMulticore.init_dir_prior

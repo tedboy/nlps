@@ -1,0 +1,6 @@
+:func:`nltk.unify`
+==================
+
+.. currentmodule:: nltk
+
+.. autofunction:: unify

@@ -1,0 +1,6 @@
+gensim.models.LdaModel.inference
+================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LdaModel.inference

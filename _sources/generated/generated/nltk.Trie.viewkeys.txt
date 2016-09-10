@@ -1,0 +1,6 @@
+nltk.Trie.viewkeys
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.viewkeys

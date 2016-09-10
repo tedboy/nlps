@@ -1,0 +1,6 @@
+nltk.TrigramAssocMeasures.jaccard
+=================================
+
+.. currentmodule:: nltk
+
+.. automethod:: TrigramAssocMeasures.jaccard

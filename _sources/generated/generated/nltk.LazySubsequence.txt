@@ -1,0 +1,31 @@
+:class:`nltk.LazySubsequence`
+=============================
+.. currentmodule:: nltk
+.. autoclass:: LazySubsequence
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LazySubsequence.__init__
+   ~LazySubsequence.count
+   ~LazySubsequence.index
+   ~LazySubsequence.iterate_from
+   ~LazySubsequence.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~LazySubsequence.MIN_SIZE
+

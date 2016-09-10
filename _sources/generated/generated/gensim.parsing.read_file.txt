@@ -1,0 +1,6 @@
+:func:`gensim.parsing.read_file`
+================================
+
+.. currentmodule:: gensim.parsing
+
+.. autofunction:: read_file

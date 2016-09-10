@@ -1,0 +1,6 @@
+nltk.IBMModel3.init_vocab
+=========================
+
+.. currentmodule:: nltk
+
+.. automethod:: IBMModel3.init_vocab

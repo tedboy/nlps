@@ -1,0 +1,6 @@
+nltk.ProbDistI.prob
+===================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbDistI.prob

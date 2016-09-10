@@ -1,0 +1,22 @@
+:class:`gensim.models.CoherenceModel`
+=====================================
+.. currentmodule:: gensim.models
+.. autoclass:: CoherenceModel
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~CoherenceModel.__init__
+   ~CoherenceModel.get_coherence
+   ~CoherenceModel.load
+   ~CoherenceModel.save
+
+
+
+
+

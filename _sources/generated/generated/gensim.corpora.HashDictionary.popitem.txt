@@ -1,0 +1,6 @@
+gensim.corpora.HashDictionary.popitem
+=====================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: HashDictionary.popitem

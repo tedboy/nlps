@@ -1,0 +1,6 @@
+nltk.CRFTagger.tag
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: CRFTagger.tag

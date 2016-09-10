@@ -1,0 +1,6 @@
+gensim.corpora.MmCorpus.__init__
+================================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: MmCorpus.__init__

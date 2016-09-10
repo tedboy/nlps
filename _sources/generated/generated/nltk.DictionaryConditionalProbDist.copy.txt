@@ -1,0 +1,6 @@
+nltk.DictionaryConditionalProbDist.copy
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: DictionaryConditionalProbDist.copy

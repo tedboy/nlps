@@ -1,0 +1,6 @@
+nltk.defaultdict.itervalues
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: defaultdict.itervalues

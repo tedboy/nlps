@@ -1,0 +1,6 @@
+nltk.Valuation.domain
+=====================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: Valuation.domain

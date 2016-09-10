@@ -1,0 +1,6 @@
+nltk.ConcordanceIndex.print_concordance
+=======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConcordanceIndex.print_concordance

@@ -1,0 +1,21 @@
+:class:`nltk.TaggerI`
+=====================
+.. currentmodule:: nltk
+.. autoclass:: TaggerI
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TaggerI.evaluate
+   ~TaggerI.tag
+   ~TaggerI.tag_sents
+
+
+
+
+

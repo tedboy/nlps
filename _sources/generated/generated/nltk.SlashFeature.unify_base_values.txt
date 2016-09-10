@@ -1,0 +1,6 @@
+nltk.SlashFeature.unify_base_values
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: SlashFeature.unify_base_values

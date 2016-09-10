@@ -1,0 +1,6 @@
+nltk.CrossValidationProbDist.SUM_TO_ONE
+=======================================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: CrossValidationProbDist.SUM_TO_ONE

@@ -1,0 +1,6 @@
+nltk.ConditionalFreqDist.get
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalFreqDist.get

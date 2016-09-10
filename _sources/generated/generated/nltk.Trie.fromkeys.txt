@@ -1,0 +1,6 @@
+nltk.Trie.fromkeys
+==================
+
+.. currentmodule:: nltk
+
+.. automethod:: Trie.fromkeys

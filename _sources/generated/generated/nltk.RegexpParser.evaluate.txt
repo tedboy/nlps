@@ -1,0 +1,6 @@
+nltk.RegexpParser.evaluate
+==========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpParser.evaluate

@@ -1,0 +1,6 @@
+gensim.models.Word2Vec.score
+============================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: Word2Vec.score

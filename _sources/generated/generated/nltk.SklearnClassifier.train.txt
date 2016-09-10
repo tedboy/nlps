@@ -1,0 +1,6 @@
+nltk.SklearnClassifier.train
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: SklearnClassifier.train

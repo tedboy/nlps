@@ -1,0 +1,6 @@
+gensim.similarities.Similarity.load
+===================================
+
+.. currentmodule:: gensim.similarities
+
+.. automethod:: Similarity.load

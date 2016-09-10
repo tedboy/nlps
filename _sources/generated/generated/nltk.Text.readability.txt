@@ -1,0 +1,6 @@
+nltk.Text.readability
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Text.readability

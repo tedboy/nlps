@@ -1,0 +1,6 @@
+gensim.corpora.TextCorpus.save
+==============================
+
+.. currentmodule:: gensim.corpora
+
+.. automethod:: TextCorpus.save

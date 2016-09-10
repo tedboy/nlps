@@ -1,0 +1,6 @@
+nltk.AlignedSent.words
+======================
+
+.. currentmodule:: nltk
+
+.. autoattribute:: AlignedSent.words

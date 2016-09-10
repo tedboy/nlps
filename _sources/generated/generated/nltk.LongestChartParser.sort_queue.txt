@@ -1,0 +1,6 @@
+nltk.LongestChartParser.sort_queue
+==================================
+
+.. currentmodule:: nltk
+
+.. automethod:: LongestChartParser.sort_queue

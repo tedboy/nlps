@@ -1,0 +1,6 @@
+nltk.DependencyGraph.to_dot
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DependencyGraph.to_dot

@@ -1,0 +1,6 @@
+nltk.FStructure.has_key
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FStructure.has_key

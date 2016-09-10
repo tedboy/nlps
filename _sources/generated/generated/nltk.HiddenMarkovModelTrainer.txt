@@ -1,0 +1,22 @@
+:class:`nltk.HiddenMarkovModelTrainer`
+======================================
+.. currentmodule:: nltk
+.. autoclass:: HiddenMarkovModelTrainer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HiddenMarkovModelTrainer.__init__
+   ~HiddenMarkovModelTrainer.train
+   ~HiddenMarkovModelTrainer.train_supervised
+   ~HiddenMarkovModelTrainer.train_unsupervised
+
+
+
+
+

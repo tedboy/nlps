@@ -1,0 +1,6 @@
+nltk.FreqDist.viewitems
+=======================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.viewitems

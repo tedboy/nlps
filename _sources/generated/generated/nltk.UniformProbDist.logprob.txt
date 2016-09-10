@@ -1,0 +1,6 @@
+nltk.UniformProbDist.logprob
+============================
+
+.. currentmodule:: nltk
+
+.. automethod:: UniformProbDist.logprob

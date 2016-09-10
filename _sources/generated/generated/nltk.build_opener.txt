@@ -1,0 +1,6 @@
+:func:`nltk.build_opener`
+=========================
+
+.. currentmodule:: nltk
+
+.. autofunction:: build_opener

@@ -1,0 +1,6 @@
+nltk.Assignment.clear
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: Assignment.clear

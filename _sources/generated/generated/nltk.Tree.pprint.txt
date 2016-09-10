@@ -1,0 +1,6 @@
+nltk.Tree.pprint
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: Tree.pprint

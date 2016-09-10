@@ -1,0 +1,6 @@
+nltk.ParentedTree.pos
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: ParentedTree.pos

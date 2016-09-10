@@ -1,0 +1,6 @@
+nltk.ProxyDigestAuthHandler.http_error_407
+==========================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProxyDigestAuthHandler.http_error_407

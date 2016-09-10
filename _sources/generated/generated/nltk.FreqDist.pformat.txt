@@ -1,0 +1,6 @@
+nltk.FreqDist.pformat
+=====================
+
+.. currentmodule:: nltk
+
+.. automethod:: FreqDist.pformat

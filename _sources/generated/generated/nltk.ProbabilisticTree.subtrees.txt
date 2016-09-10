@@ -1,0 +1,6 @@
+nltk.ProbabilisticTree.subtrees
+===============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ProbabilisticTree.subtrees

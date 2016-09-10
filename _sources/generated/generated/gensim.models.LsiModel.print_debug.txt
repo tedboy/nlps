@@ -1,0 +1,6 @@
+gensim.models.LsiModel.print_debug
+==================================
+
+.. currentmodule:: gensim.models
+
+.. automethod:: LsiModel.print_debug

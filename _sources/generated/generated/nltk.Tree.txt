@@ -1,0 +1,60 @@
+:class:`nltk.Tree`
+==================
+.. currentmodule:: nltk
+.. autoclass:: Tree
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Tree.__init__
+   ~Tree.append
+   ~Tree.chomsky_normal_form
+   ~Tree.collapse_unary
+   ~Tree.convert
+   ~Tree.copy
+   ~Tree.count
+   ~Tree.draw
+   ~Tree.extend
+   ~Tree.flatten
+   ~Tree.freeze
+   ~Tree.fromstring
+   ~Tree.height
+   ~Tree.index
+   ~Tree.insert
+   ~Tree.label
+   ~Tree.leaf_treeposition
+   ~Tree.leaves
+   ~Tree.pformat
+   ~Tree.pformat_latex_qtree
+   ~Tree.pop
+   ~Tree.pos
+   ~Tree.pprint
+   ~Tree.pretty_print
+   ~Tree.productions
+   ~Tree.remove
+   ~Tree.reverse
+   ~Tree.set_label
+   ~Tree.sort
+   ~Tree.subtrees
+   ~Tree.treeposition_spanning_leaves
+   ~Tree.treepositions
+   ~Tree.un_chomsky_normal_form
+   ~Tree.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Tree.node
+

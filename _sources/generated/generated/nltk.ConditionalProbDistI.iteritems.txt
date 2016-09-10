@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.iteritems
+===================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.iteritems

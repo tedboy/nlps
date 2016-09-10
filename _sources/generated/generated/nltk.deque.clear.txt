@@ -1,0 +1,6 @@
+nltk.deque.clear
+================
+
+.. currentmodule:: nltk
+
+.. automethod:: deque.clear

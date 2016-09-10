@@ -1,0 +1,6 @@
+nltk.RegexpTagger.tag_sents
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: RegexpTagger.tag_sents

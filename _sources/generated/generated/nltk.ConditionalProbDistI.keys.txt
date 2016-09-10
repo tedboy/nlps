@@ -1,0 +1,6 @@
+nltk.ConditionalProbDistI.keys
+==============================
+
+.. currentmodule:: nltk
+
+.. automethod:: ConditionalProbDistI.keys

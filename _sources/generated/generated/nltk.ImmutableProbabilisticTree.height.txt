@@ -1,0 +1,6 @@
+nltk.ImmutableProbabilisticTree.height
+======================================
+
+.. currentmodule:: nltk
+
+.. automethod:: ImmutableProbabilisticTree.height

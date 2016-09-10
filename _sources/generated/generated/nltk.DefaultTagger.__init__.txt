@@ -1,0 +1,6 @@
+nltk.DefaultTagger.__init__
+===========================
+
+.. currentmodule:: nltk
+
+.. automethod:: DefaultTagger.__init__
