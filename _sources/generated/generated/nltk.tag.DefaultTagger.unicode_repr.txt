@@ -1,0 +1,6 @@
+nltk.tag.DefaultTagger.unicode_repr
+===================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: DefaultTagger.unicode_repr

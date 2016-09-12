@@ -1,0 +1,26 @@
+:class:`nltk.parse.BllipParser`
+===============================
+.. currentmodule:: nltk.parse
+.. autoclass:: BllipParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BllipParser.__init__
+   ~BllipParser.from_unified_model_dir
+   ~BllipParser.grammar
+   ~BllipParser.parse
+   ~BllipParser.parse_all
+   ~BllipParser.parse_one
+   ~BllipParser.parse_sents
+   ~BllipParser.tagged_parse
+
+
+
+
+

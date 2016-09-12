@@ -1,0 +1,6 @@
+nltk.parse.TestGrammar.run
+==========================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: TestGrammar.run

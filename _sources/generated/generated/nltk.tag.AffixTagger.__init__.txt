@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.__init__
+=============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.__init__

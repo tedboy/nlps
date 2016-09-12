@@ -1,0 +1,6 @@
+nltk.tag.PerceptronTagger.unicode_repr
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: PerceptronTagger.unicode_repr

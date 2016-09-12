@@ -1,0 +1,6 @@
+nltk.sem.Assignment.copy
+========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.copy

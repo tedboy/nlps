@@ -1,0 +1,6 @@
+nltk.parse.UnsortedChartParser.sort_queue
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: UnsortedChartParser.sort_queue

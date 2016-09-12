@@ -1,0 +1,6 @@
+nltk.tokenize.SExprTokenizer.__init__
+=====================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: SExprTokenizer.__init__

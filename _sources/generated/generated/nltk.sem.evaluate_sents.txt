@@ -1,0 +1,6 @@
+:func:`nltk.sem.evaluate_sents`
+===============================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: evaluate_sents

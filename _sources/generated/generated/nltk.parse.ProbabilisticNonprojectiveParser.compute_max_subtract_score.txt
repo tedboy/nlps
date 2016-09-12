@@ -1,0 +1,6 @@
+nltk.parse.ProbabilisticNonprojectiveParser.compute_max_subtract_score
+======================================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProbabilisticNonprojectiveParser.compute_max_subtract_score

@@ -1,0 +1,6 @@
+nltk.sem.Valuation.copy
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.copy

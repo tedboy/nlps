@@ -1,0 +1,6 @@
+nltk.sem.DRS.normalize
+======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.normalize

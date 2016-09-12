@@ -1,0 +1,6 @@
+nltk.parse.SteppingRecursiveDescentParser.step
+==============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingRecursiveDescentParser.step

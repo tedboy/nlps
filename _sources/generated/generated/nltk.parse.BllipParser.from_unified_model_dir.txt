@@ -1,0 +1,6 @@
+nltk.parse.BllipParser.from_unified_model_dir
+=============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: BllipParser.from_unified_model_dir

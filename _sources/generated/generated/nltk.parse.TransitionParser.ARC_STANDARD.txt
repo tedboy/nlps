@@ -1,0 +1,6 @@
+nltk.parse.TransitionParser.ARC_STANDARD
+========================================
+
+.. currentmodule:: nltk.parse
+
+.. autoattribute:: TransitionParser.ARC_STANDARD

@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.tree
+===============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.tree

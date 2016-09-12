@@ -1,0 +1,6 @@
+nltk.tokenize.TextTilingTokenizer.span_tokenize
+===============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: TextTilingTokenizer.span_tokenize

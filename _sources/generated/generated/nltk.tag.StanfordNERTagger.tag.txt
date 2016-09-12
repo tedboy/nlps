@@ -1,0 +1,6 @@
+nltk.tag.StanfordNERTagger.tag
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: StanfordNERTagger.tag

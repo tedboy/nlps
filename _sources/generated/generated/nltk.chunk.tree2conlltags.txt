@@ -1,0 +1,6 @@
+:func:`nltk.chunk.tree2conlltags`
+=================================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: tree2conlltags

@@ -1,0 +1,6 @@
+nltk.stem.RegexpStemmer.__init__
+================================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: RegexpStemmer.__init__

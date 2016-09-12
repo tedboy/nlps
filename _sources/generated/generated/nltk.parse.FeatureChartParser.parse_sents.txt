@@ -1,0 +1,6 @@
+nltk.parse.FeatureChartParser.parse_sents
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: FeatureChartParser.parse_sents

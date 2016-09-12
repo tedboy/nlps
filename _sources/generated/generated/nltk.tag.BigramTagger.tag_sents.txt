@@ -1,0 +1,6 @@
+nltk.tag.BigramTagger.tag_sents
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: BigramTagger.tag_sents

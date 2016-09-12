@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.get_refs
+===============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.get_refs

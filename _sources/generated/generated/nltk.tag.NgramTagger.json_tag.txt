@@ -1,0 +1,6 @@
+nltk.tag.NgramTagger.json_tag
+=============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: NgramTagger.json_tag

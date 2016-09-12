@@ -1,0 +1,6 @@
+nltk.stem.LancasterStemmer.unicode_repr
+=======================================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: LancasterStemmer.unicode_repr

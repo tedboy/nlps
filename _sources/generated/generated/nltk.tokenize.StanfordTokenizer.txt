@@ -1,0 +1,23 @@
+:class:`nltk.tokenize.StanfordTokenizer`
+========================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: StanfordTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StanfordTokenizer.__init__
+   ~StanfordTokenizer.span_tokenize
+   ~StanfordTokenizer.span_tokenize_sents
+   ~StanfordTokenizer.tokenize
+   ~StanfordTokenizer.tokenize_sents
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.sem.FStructure.setdefault
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.setdefault

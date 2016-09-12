@@ -1,0 +1,6 @@
+nltk.parse.RandomChartParser.trace
+==================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: RandomChartParser.trace

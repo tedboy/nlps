@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.load
+===============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.load

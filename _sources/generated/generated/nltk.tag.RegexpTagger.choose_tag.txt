@@ -1,0 +1,6 @@
+nltk.tag.RegexpTagger.choose_tag
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: RegexpTagger.choose_tag

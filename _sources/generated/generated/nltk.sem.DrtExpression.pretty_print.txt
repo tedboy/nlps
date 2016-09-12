@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.pretty_print
+===================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.pretty_print

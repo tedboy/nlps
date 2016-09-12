@@ -1,0 +1,35 @@
+:class:`nltk.tag.PerceptronTagger`
+==================================
+.. currentmodule:: nltk.tag
+.. autoclass:: PerceptronTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PerceptronTagger.__init__
+   ~PerceptronTagger.evaluate
+   ~PerceptronTagger.load
+   ~PerceptronTagger.normalize
+   ~PerceptronTagger.tag
+   ~PerceptronTagger.tag_sents
+   ~PerceptronTagger.train
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~PerceptronTagger.END
+   ~PerceptronTagger.START
+   ~PerceptronTagger.unicode_repr
+

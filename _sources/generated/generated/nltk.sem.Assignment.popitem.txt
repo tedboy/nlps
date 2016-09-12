@@ -1,0 +1,6 @@
+nltk.sem.Assignment.popitem
+===========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.popitem

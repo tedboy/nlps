@@ -1,0 +1,21 @@
+:class:`nltk.stem.RegexpStemmer`
+================================
+.. currentmodule:: nltk.stem
+.. autoclass:: RegexpStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RegexpStemmer.__init__
+   ~RegexpStemmer.stem
+   ~RegexpStemmer.unicode_repr
+
+
+
+
+

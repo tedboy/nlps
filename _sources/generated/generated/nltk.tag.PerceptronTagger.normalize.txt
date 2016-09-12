@@ -1,0 +1,6 @@
+nltk.tag.PerceptronTagger.normalize
+===================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: PerceptronTagger.normalize

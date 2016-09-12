@@ -1,0 +1,26 @@
+:class:`nltk.parse.BottomUpProbabilisticChartParser`
+====================================================
+.. currentmodule:: nltk.parse
+.. autoclass:: BottomUpProbabilisticChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BottomUpProbabilisticChartParser.__init__
+   ~BottomUpProbabilisticChartParser.grammar
+   ~BottomUpProbabilisticChartParser.parse
+   ~BottomUpProbabilisticChartParser.parse_all
+   ~BottomUpProbabilisticChartParser.parse_one
+   ~BottomUpProbabilisticChartParser.parse_sents
+   ~BottomUpProbabilisticChartParser.sort_queue
+   ~BottomUpProbabilisticChartParser.trace
+
+
+
+
+

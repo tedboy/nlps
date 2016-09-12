@@ -1,0 +1,6 @@
+:func:`nltk.tokenize.sent_tokenize`
+===================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autofunction:: sent_tokenize

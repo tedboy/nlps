@@ -1,0 +1,6 @@
+nltk.chunk.ChunkScore.precision
+===============================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: ChunkScore.precision

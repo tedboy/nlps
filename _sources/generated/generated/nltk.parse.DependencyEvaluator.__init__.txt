@@ -1,0 +1,6 @@
+nltk.parse.DependencyEvaluator.__init__
+=======================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyEvaluator.__init__

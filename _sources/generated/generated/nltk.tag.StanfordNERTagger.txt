@@ -1,0 +1,23 @@
+:class:`nltk.tag.StanfordNERTagger`
+===================================
+.. currentmodule:: nltk.tag
+.. autoclass:: StanfordNERTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StanfordNERTagger.__init__
+   ~StanfordNERTagger.evaluate
+   ~StanfordNERTagger.parse_output
+   ~StanfordNERTagger.tag
+   ~StanfordNERTagger.tag_sents
+
+
+
+
+

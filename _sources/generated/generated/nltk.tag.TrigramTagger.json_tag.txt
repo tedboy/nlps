@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.json_tag
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: TrigramTagger.json_tag

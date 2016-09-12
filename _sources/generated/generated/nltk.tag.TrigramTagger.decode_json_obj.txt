@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.decode_json_obj
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TrigramTagger.decode_json_obj

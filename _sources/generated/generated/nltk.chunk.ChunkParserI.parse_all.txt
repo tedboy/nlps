@@ -1,0 +1,6 @@
+nltk.chunk.ChunkParserI.parse_all
+=================================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: ChunkParserI.parse_all

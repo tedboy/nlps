@@ -1,0 +1,6 @@
+nltk.sem.Assignment.keys
+========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.keys

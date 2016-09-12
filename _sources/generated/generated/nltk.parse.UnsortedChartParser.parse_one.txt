@@ -1,0 +1,6 @@
+nltk.parse.UnsortedChartParser.parse_one
+========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: UnsortedChartParser.parse_one

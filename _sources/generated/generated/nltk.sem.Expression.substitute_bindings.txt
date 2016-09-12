@@ -1,0 +1,6 @@
+nltk.sem.Expression.substitute_bindings
+=======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.substitute_bindings

@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.context
+============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.context

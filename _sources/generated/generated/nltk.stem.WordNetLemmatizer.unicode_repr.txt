@@ -1,0 +1,6 @@
+nltk.stem.WordNetLemmatizer.unicode_repr
+========================================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: WordNetLemmatizer.unicode_repr

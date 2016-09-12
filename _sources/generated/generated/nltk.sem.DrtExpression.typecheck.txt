@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.typecheck
+================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.typecheck

@@ -1,0 +1,38 @@
+:class:`nltk.tag.UnigramTagger`
+===============================
+.. currentmodule:: nltk.tag
+.. autoclass:: UnigramTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~UnigramTagger.__init__
+   ~UnigramTagger.choose_tag
+   ~UnigramTagger.context
+   ~UnigramTagger.decode_json_obj
+   ~UnigramTagger.encode_json_obj
+   ~UnigramTagger.evaluate
+   ~UnigramTagger.size
+   ~UnigramTagger.tag
+   ~UnigramTagger.tag_one
+   ~UnigramTagger.tag_sents
+   ~UnigramTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~UnigramTagger.backoff
+   ~UnigramTagger.json_tag
+

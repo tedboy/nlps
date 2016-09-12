@@ -1,0 +1,6 @@
+nltk.sem.DRS.make_EqualityExpression
+====================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.make_EqualityExpression

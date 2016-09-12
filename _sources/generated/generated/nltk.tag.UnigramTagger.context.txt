@@ -1,0 +1,6 @@
+nltk.tag.UnigramTagger.context
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: UnigramTagger.context

@@ -1,0 +1,24 @@
+:class:`nltk.tokenize.BlanklineTokenizer`
+=========================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: BlanklineTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BlanklineTokenizer.__init__
+   ~BlanklineTokenizer.span_tokenize
+   ~BlanklineTokenizer.span_tokenize_sents
+   ~BlanklineTokenizer.tokenize
+   ~BlanklineTokenizer.tokenize_sents
+   ~BlanklineTokenizer.unicode_repr
+
+
+
+
+

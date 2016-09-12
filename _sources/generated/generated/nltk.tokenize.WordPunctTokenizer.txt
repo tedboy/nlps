@@ -1,0 +1,24 @@
+:class:`nltk.tokenize.WordPunctTokenizer`
+=========================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: WordPunctTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WordPunctTokenizer.__init__
+   ~WordPunctTokenizer.span_tokenize
+   ~WordPunctTokenizer.span_tokenize_sents
+   ~WordPunctTokenizer.tokenize
+   ~WordPunctTokenizer.tokenize_sents
+   ~WordPunctTokenizer.unicode_repr
+
+
+
+
+

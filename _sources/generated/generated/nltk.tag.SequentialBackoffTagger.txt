@@ -1,0 +1,32 @@
+:class:`nltk.tag.SequentialBackoffTagger`
+=========================================
+.. currentmodule:: nltk.tag
+.. autoclass:: SequentialBackoffTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SequentialBackoffTagger.__init__
+   ~SequentialBackoffTagger.choose_tag
+   ~SequentialBackoffTagger.evaluate
+   ~SequentialBackoffTagger.tag
+   ~SequentialBackoffTagger.tag_one
+   ~SequentialBackoffTagger.tag_sents
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SequentialBackoffTagger.backoff
+

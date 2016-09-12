@@ -1,0 +1,6 @@
+nltk.tokenize.LineTokenizer.tokenize
+====================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: LineTokenizer.tokenize

@@ -1,0 +1,6 @@
+nltk.tag.StanfordPOSTagger.evaluate
+===================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: StanfordPOSTagger.evaluate

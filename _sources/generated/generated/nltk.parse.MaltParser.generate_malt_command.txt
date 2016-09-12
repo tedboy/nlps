@@ -1,0 +1,6 @@
+nltk.parse.MaltParser.generate_malt_command
+===========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: MaltParser.generate_malt_command

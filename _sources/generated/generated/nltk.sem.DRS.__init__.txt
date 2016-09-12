@@ -1,0 +1,6 @@
+nltk.sem.DRS.__init__
+=====================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.__init__

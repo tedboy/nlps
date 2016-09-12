@@ -1,0 +1,6 @@
+nltk.tag.SennaTagger.__init__
+=============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaTagger.__init__

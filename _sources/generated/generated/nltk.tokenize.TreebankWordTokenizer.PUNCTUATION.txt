@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.PUNCTUATION
+===============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: TreebankWordTokenizer.PUNCTUATION

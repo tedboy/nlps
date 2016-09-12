@@ -1,0 +1,6 @@
+:func:`nltk.sem.arity`
+======================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: arity

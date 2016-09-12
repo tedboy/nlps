@@ -1,0 +1,24 @@
+:class:`nltk.tokenize.WhitespaceTokenizer`
+==========================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: WhitespaceTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WhitespaceTokenizer.__init__
+   ~WhitespaceTokenizer.span_tokenize
+   ~WhitespaceTokenizer.span_tokenize_sents
+   ~WhitespaceTokenizer.tokenize
+   ~WhitespaceTokenizer.tokenize_sents
+   ~WhitespaceTokenizer.unicode_repr
+
+
+
+
+

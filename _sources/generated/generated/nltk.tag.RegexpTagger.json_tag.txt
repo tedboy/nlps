@@ -1,0 +1,6 @@
+nltk.tag.RegexpTagger.json_tag
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: RegexpTagger.json_tag

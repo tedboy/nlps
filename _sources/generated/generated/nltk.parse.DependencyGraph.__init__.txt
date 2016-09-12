@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.__init__
+===================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.__init__

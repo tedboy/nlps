@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.remove_by_address
+============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.remove_by_address

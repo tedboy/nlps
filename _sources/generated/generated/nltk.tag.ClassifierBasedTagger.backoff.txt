@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.backoff
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: ClassifierBasedTagger.backoff

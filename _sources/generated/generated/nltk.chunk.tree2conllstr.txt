@@ -1,0 +1,6 @@
+:func:`nltk.chunk.tree2conllstr`
+================================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: tree2conllstr

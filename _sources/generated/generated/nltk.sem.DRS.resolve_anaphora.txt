@@ -1,0 +1,6 @@
+nltk.sem.DRS.resolve_anaphora
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.resolve_anaphora

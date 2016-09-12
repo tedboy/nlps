@@ -1,0 +1,6 @@
+:func:`nltk.sem.boolean_ops`
+============================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: boolean_ops

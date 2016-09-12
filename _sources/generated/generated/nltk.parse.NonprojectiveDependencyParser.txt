@@ -1,0 +1,20 @@
+:class:`nltk.parse.NonprojectiveDependencyParser`
+=================================================
+.. currentmodule:: nltk.parse
+.. autoclass:: NonprojectiveDependencyParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NonprojectiveDependencyParser.__init__
+   ~NonprojectiveDependencyParser.parse
+
+
+
+
+

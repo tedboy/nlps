@@ -1,0 +1,28 @@
+:class:`nltk.parse.MaltParser`
+==============================
+.. currentmodule:: nltk.parse
+.. autoclass:: MaltParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MaltParser.__init__
+   ~MaltParser.generate_malt_command
+   ~MaltParser.grammar
+   ~MaltParser.parse
+   ~MaltParser.parse_all
+   ~MaltParser.parse_one
+   ~MaltParser.parse_sents
+   ~MaltParser.parse_tagged_sents
+   ~MaltParser.train
+   ~MaltParser.train_from_file
+
+
+
+
+

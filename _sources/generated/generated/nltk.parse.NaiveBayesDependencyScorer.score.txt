@@ -1,0 +1,6 @@
+nltk.parse.NaiveBayesDependencyScorer.score
+===========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: NaiveBayesDependencyScorer.score

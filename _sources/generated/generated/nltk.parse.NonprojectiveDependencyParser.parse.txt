@@ -1,0 +1,6 @@
+nltk.parse.NonprojectiveDependencyParser.parse
+==============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: NonprojectiveDependencyParser.parse

@@ -1,0 +1,6 @@
+:func:`nltk.tag.map_tag`
+========================
+
+.. currentmodule:: nltk.tag
+
+.. autofunction:: map_tag

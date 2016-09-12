@@ -1,0 +1,6 @@
+nltk.parse.ProjectiveDependencyParser.__init__
+==============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProjectiveDependencyParser.__init__

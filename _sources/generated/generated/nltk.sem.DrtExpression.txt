@@ -1,0 +1,39 @@
+:class:`nltk.sem.DrtExpression`
+===============================
+.. currentmodule:: nltk.sem
+.. autoclass:: DrtExpression
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DrtExpression.applyto
+   ~DrtExpression.draw
+   ~DrtExpression.eliminate_equality
+   ~DrtExpression.equiv
+   ~DrtExpression.fromstring
+   ~DrtExpression.get_refs
+   ~DrtExpression.is_pronoun_function
+   ~DrtExpression.make_EqualityExpression
+   ~DrtExpression.make_VariableExpression
+   ~DrtExpression.pretty_format
+   ~DrtExpression.pretty_print
+   ~DrtExpression.resolve_anaphora
+   ~DrtExpression.typecheck
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~DrtExpression.type
+

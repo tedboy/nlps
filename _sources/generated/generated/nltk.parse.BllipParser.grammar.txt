@@ -1,0 +1,6 @@
+nltk.parse.BllipParser.grammar
+==============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: BllipParser.grammar

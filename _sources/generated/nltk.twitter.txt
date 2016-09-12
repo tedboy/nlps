@@ -1,0 +1,33 @@
+:mod:`nltk.twitter`
+===================
+
+.. automodule:: nltk.twitter
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      json2csv
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.twitter.json2csv
+      
+   
+   
+
+   
+   
+   
+
+   
+   
+   

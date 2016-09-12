@@ -1,0 +1,6 @@
+nltk.tag.TaggerI.tag
+====================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TaggerI.tag

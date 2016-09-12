@@ -1,0 +1,35 @@
+:class:`nltk.tag.ClassifierBasedPOSTagger`
+==========================================
+.. currentmodule:: nltk.tag
+.. autoclass:: ClassifierBasedPOSTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ClassifierBasedPOSTagger.__init__
+   ~ClassifierBasedPOSTagger.choose_tag
+   ~ClassifierBasedPOSTagger.classifier
+   ~ClassifierBasedPOSTagger.evaluate
+   ~ClassifierBasedPOSTagger.feature_detector
+   ~ClassifierBasedPOSTagger.tag
+   ~ClassifierBasedPOSTagger.tag_one
+   ~ClassifierBasedPOSTagger.tag_sents
+   ~ClassifierBasedPOSTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ClassifierBasedPOSTagger.backoff
+

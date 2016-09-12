@@ -1,0 +1,6 @@
+nltk.stem.SnowballStemmer.stem
+==============================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: SnowballStemmer.stem

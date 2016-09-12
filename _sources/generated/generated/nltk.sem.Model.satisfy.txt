@@ -1,0 +1,6 @@
+nltk.sem.Model.satisfy
+======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Model.satisfy

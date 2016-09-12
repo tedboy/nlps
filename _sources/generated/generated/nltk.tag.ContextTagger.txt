@@ -1,0 +1,35 @@
+:class:`nltk.tag.ContextTagger`
+===============================
+.. currentmodule:: nltk.tag
+.. autoclass:: ContextTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ContextTagger.__init__
+   ~ContextTagger.choose_tag
+   ~ContextTagger.context
+   ~ContextTagger.evaluate
+   ~ContextTagger.size
+   ~ContextTagger.tag
+   ~ContextTagger.tag_one
+   ~ContextTagger.tag_sents
+   ~ContextTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ContextTagger.backoff
+

@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.CONTRACTIONS3
+=================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: TreebankWordTokenizer.CONTRACTIONS3

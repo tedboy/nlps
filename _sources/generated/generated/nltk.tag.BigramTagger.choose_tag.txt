@@ -1,0 +1,6 @@
+nltk.tag.BigramTagger.choose_tag
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: BigramTagger.choose_tag

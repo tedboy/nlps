@@ -1,0 +1,6 @@
+nltk.stem.ISRIStemmer.end_w5
+============================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: ISRIStemmer.end_w5

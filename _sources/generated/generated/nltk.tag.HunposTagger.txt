@@ -1,0 +1,23 @@
+:class:`nltk.tag.HunposTagger`
+==============================
+.. currentmodule:: nltk.tag
+.. autoclass:: HunposTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HunposTagger.__init__
+   ~HunposTagger.close
+   ~HunposTagger.evaluate
+   ~HunposTagger.tag
+   ~HunposTagger.tag_sents
+
+
+
+
+

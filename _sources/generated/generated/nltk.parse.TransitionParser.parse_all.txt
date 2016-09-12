@@ -1,0 +1,6 @@
+nltk.parse.TransitionParser.parse_all
+=====================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: TransitionParser.parse_all

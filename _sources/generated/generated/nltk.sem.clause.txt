@@ -1,0 +1,6 @@
+:func:`nltk.sem.clause`
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: clause

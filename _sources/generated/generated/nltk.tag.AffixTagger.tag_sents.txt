@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.tag_sents
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.tag_sents

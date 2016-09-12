@@ -1,0 +1,6 @@
+nltk.sem.Valuation.pop
+======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.pop

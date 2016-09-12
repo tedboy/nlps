@@ -1,0 +1,38 @@
+:class:`nltk.tag.TrigramTagger`
+===============================
+.. currentmodule:: nltk.tag
+.. autoclass:: TrigramTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TrigramTagger.__init__
+   ~TrigramTagger.choose_tag
+   ~TrigramTagger.context
+   ~TrigramTagger.decode_json_obj
+   ~TrigramTagger.encode_json_obj
+   ~TrigramTagger.evaluate
+   ~TrigramTagger.size
+   ~TrigramTagger.tag
+   ~TrigramTagger.tag_one
+   ~TrigramTagger.tag_sents
+   ~TrigramTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~TrigramTagger.backoff
+   ~TrigramTagger.json_tag
+

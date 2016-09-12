@@ -1,0 +1,6 @@
+nltk.parse.LeftCornerChartParser.parse_sents
+============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: LeftCornerChartParser.parse_sents

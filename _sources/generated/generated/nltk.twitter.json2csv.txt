@@ -1,0 +1,6 @@
+:func:`nltk.twitter.json2csv`
+=============================
+
+.. currentmodule:: nltk.twitter
+
+.. autofunction:: json2csv

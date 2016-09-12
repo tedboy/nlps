@@ -1,0 +1,6 @@
+nltk.sem.Valuation.symbols
+==========================
+
+.. currentmodule:: nltk.sem
+
+.. autoattribute:: Valuation.symbols

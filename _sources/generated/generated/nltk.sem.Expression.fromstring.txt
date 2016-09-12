@@ -1,0 +1,6 @@
+nltk.sem.Expression.fromstring
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.fromstring

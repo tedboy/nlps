@@ -1,0 +1,47 @@
+:mod:`nltk.stem`
+================
+
+.. automodule:: nltk.stem
+
+   
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      ISRIStemmer
+      LancasterStemmer
+      PorterStemmer
+      RSLPStemmer
+      RegexpStemmer
+      SnowballStemmer
+      StemmerI
+      WordNetLemmatizer
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.stem.ISRIStemmer
+       generated/nltk.stem.LancasterStemmer
+       generated/nltk.stem.PorterStemmer
+       generated/nltk.stem.RSLPStemmer
+       generated/nltk.stem.RegexpStemmer
+       generated/nltk.stem.SnowballStemmer
+       generated/nltk.stem.StemmerI
+       generated/nltk.stem.WordNetLemmatizer
+
+   
+   
+
+   
+   
+   

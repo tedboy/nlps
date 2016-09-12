@@ -1,0 +1,6 @@
+nltk.tag.UnigramTagger.tag
+==========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: UnigramTagger.tag

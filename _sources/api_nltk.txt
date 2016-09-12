@@ -1,0 +1,33 @@
+API --- ``nltk``
+================
+.. toctree::
+    :maxdepth: 1
+
+    generated/nltk
+    generated/nltk.classify
+    generated/nltk.cluster    
+    generated/nltk.chunk
+    generated/nltk.corpus
+    generated/nltk.parse
+    generated/nltk.sem
+    generated/nltk.stem
+    generated/nltk.tag
+    generated/nltk.tokenize
+    generated/nltk.twitter
+
+
+.. autosummary::
+   :toctree:generated/
+   :template:module_custom.rst
+
+    nltk
+    nltk.classify
+    nltk.cluster    
+    nltk.chunk
+    nltk.corpus
+    nltk.parse
+    nltk.sem
+    nltk.stem
+    nltk.tag
+    nltk.tokenize
+    nltk.twitter

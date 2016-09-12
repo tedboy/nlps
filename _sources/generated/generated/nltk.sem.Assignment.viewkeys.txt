@@ -1,0 +1,6 @@
+nltk.sem.Assignment.viewkeys
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.viewkeys

@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.eliminate_equality
+=========================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.eliminate_equality

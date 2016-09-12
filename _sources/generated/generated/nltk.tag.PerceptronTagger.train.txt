@@ -1,0 +1,6 @@
+nltk.tag.PerceptronTagger.train
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: PerceptronTagger.train

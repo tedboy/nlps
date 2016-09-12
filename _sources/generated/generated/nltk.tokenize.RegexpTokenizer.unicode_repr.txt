@@ -1,0 +1,6 @@
+nltk.tokenize.RegexpTokenizer.unicode_repr
+==========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: RegexpTokenizer.unicode_repr

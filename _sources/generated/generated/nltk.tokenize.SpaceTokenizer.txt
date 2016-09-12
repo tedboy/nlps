@@ -1,0 +1,22 @@
+:class:`nltk.tokenize.SpaceTokenizer`
+=====================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: SpaceTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SpaceTokenizer.span_tokenize
+   ~SpaceTokenizer.span_tokenize_sents
+   ~SpaceTokenizer.tokenize
+   ~SpaceTokenizer.tokenize_sents
+
+
+
+
+

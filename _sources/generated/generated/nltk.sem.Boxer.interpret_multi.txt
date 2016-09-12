@@ -1,0 +1,6 @@
+nltk.sem.Boxer.interpret_multi
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Boxer.interpret_multi

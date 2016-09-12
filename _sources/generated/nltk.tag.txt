@@ -1,0 +1,114 @@
+:mod:`nltk.tag`
+===============
+
+.. automodule:: nltk.tag
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      load
+      map_tag
+      pos_tag
+      pos_tag_sents
+      str2tuple
+      tagset_mapping
+      tuple2str
+      untag
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.tag.load
+       generated/nltk.tag.map_tag
+       generated/nltk.tag.pos_tag
+       generated/nltk.tag.pos_tag_sents
+       generated/nltk.tag.str2tuple
+       generated/nltk.tag.tagset_mapping
+       generated/nltk.tag.tuple2str
+       generated/nltk.tag.untag
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      AffixTagger
+      BigramTagger
+      BrillTagger
+      BrillTaggerTrainer
+      CRFTagger
+      ClassifierBasedPOSTagger
+      ClassifierBasedTagger
+      ContextTagger
+      DefaultTagger
+      HiddenMarkovModelTagger
+      HiddenMarkovModelTrainer
+      HunposTagger
+      NgramTagger
+      PerceptronTagger
+      RegexpTagger
+      SennaChunkTagger
+      SennaNERTagger
+      SennaTagger
+      SequentialBackoffTagger
+      StanfordNERTagger
+      StanfordPOSTagger
+      StanfordTagger
+      TaggerI
+      TnT
+      TrigramTagger
+      UnigramTagger
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.tag.AffixTagger
+       generated/nltk.tag.BigramTagger
+       generated/nltk.tag.BrillTagger
+       generated/nltk.tag.BrillTaggerTrainer
+       generated/nltk.tag.CRFTagger
+       generated/nltk.tag.ClassifierBasedPOSTagger
+       generated/nltk.tag.ClassifierBasedTagger
+       generated/nltk.tag.ContextTagger
+       generated/nltk.tag.DefaultTagger
+       generated/nltk.tag.HiddenMarkovModelTagger
+       generated/nltk.tag.HiddenMarkovModelTrainer
+       generated/nltk.tag.HunposTagger
+       generated/nltk.tag.NgramTagger
+       generated/nltk.tag.PerceptronTagger
+       generated/nltk.tag.RegexpTagger
+       generated/nltk.tag.SennaChunkTagger
+       generated/nltk.tag.SennaNERTagger
+       generated/nltk.tag.SennaTagger
+       generated/nltk.tag.SequentialBackoffTagger
+       generated/nltk.tag.StanfordNERTagger
+       generated/nltk.tag.StanfordPOSTagger
+       generated/nltk.tag.StanfordTagger
+       generated/nltk.tag.TaggerI
+       generated/nltk.tag.TnT
+       generated/nltk.tag.TrigramTagger
+       generated/nltk.tag.UnigramTagger
+
+   
+   
+
+   
+   
+   

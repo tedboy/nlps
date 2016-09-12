@@ -1,0 +1,20 @@
+:class:`nltk.parse.DependencyEvaluator`
+=======================================
+.. currentmodule:: nltk.parse
+.. autoclass:: DependencyEvaluator
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DependencyEvaluator.__init__
+   ~DependencyEvaluator.eval
+
+
+
+
+

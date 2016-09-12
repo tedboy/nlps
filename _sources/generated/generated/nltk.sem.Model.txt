@@ -1,0 +1,24 @@
+:class:`nltk.sem.Model`
+=======================
+.. currentmodule:: nltk.sem
+.. autoclass:: Model
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Model.__init__
+   ~Model.evaluate
+   ~Model.i
+   ~Model.satisfiers
+   ~Model.satisfy
+   ~Model.unicode_repr
+
+
+
+
+

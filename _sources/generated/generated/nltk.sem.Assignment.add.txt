@@ -1,0 +1,6 @@
+nltk.sem.Assignment.add
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.add

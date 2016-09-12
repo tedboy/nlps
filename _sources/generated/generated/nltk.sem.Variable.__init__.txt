@@ -1,0 +1,6 @@
+nltk.sem.Variable.__init__
+==========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Variable.__init__

@@ -1,0 +1,6 @@
+nltk.tokenize.WordPunctTokenizer.__init__
+=========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: WordPunctTokenizer.__init__

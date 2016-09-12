@@ -1,0 +1,6 @@
+nltk.sem.ApplicationExpression.__init__
+=======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: ApplicationExpression.__init__

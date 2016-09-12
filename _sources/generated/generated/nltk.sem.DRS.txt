@@ -1,0 +1,54 @@
+:class:`nltk.sem.DRS`
+=====================
+.. currentmodule:: nltk.sem
+.. autoclass:: DRS
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DRS.__init__
+   ~DRS.applyto
+   ~DRS.constants
+   ~DRS.draw
+   ~DRS.eliminate_equality
+   ~DRS.equiv
+   ~DRS.findtype
+   ~DRS.fol
+   ~DRS.free
+   ~DRS.fromstring
+   ~DRS.get_refs
+   ~DRS.is_pronoun_function
+   ~DRS.make_EqualityExpression
+   ~DRS.make_VariableExpression
+   ~DRS.negate
+   ~DRS.normalize
+   ~DRS.predicates
+   ~DRS.pretty_format
+   ~DRS.pretty_print
+   ~DRS.replace
+   ~DRS.resolve_anaphora
+   ~DRS.simplify
+   ~DRS.substitute_bindings
+   ~DRS.typecheck
+   ~DRS.unicode_repr
+   ~DRS.variables
+   ~DRS.visit
+   ~DRS.visit_structured
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~DRS.type
+

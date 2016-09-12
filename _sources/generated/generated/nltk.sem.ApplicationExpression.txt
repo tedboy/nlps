@@ -1,0 +1,49 @@
+:class:`nltk.sem.ApplicationExpression`
+=======================================
+.. currentmodule:: nltk.sem
+.. autoclass:: ApplicationExpression
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ApplicationExpression.__init__
+   ~ApplicationExpression.applyto
+   ~ApplicationExpression.constants
+   ~ApplicationExpression.equiv
+   ~ApplicationExpression.findtype
+   ~ApplicationExpression.free
+   ~ApplicationExpression.fromstring
+   ~ApplicationExpression.is_atom
+   ~ApplicationExpression.make_VariableExpression
+   ~ApplicationExpression.negate
+   ~ApplicationExpression.normalize
+   ~ApplicationExpression.predicates
+   ~ApplicationExpression.replace
+   ~ApplicationExpression.simplify
+   ~ApplicationExpression.substitute_bindings
+   ~ApplicationExpression.typecheck
+   ~ApplicationExpression.uncurry
+   ~ApplicationExpression.unicode_repr
+   ~ApplicationExpression.variables
+   ~ApplicationExpression.visit
+   ~ApplicationExpression.visit_structured
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~ApplicationExpression.args
+   ~ApplicationExpression.pred
+   ~ApplicationExpression.type
+

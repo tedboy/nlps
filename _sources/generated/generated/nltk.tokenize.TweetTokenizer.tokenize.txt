@@ -1,0 +1,6 @@
+nltk.tokenize.TweetTokenizer.tokenize
+=====================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: TweetTokenizer.tokenize

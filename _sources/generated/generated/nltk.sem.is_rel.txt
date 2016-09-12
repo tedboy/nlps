@@ -1,0 +1,6 @@
+:func:`nltk.sem.is_rel`
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: is_rel

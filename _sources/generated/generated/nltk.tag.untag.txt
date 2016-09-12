@@ -1,0 +1,6 @@
+:func:`nltk.tag.untag`
+======================
+
+.. currentmodule:: nltk.tag
+
+.. autofunction:: untag

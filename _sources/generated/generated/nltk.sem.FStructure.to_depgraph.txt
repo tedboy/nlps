@@ -1,0 +1,6 @@
+nltk.sem.FStructure.to_depgraph
+===============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.to_depgraph

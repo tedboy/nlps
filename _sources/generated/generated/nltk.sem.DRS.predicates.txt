@@ -1,0 +1,6 @@
+nltk.sem.DRS.predicates
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.predicates

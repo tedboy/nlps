@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.size
+=========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.size

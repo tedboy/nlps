@@ -1,0 +1,26 @@
+:class:`nltk.parse.RandomChartParser`
+=====================================
+.. currentmodule:: nltk.parse
+.. autoclass:: RandomChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RandomChartParser.__init__
+   ~RandomChartParser.grammar
+   ~RandomChartParser.parse
+   ~RandomChartParser.parse_all
+   ~RandomChartParser.parse_one
+   ~RandomChartParser.parse_sents
+   ~RandomChartParser.sort_queue
+   ~RandomChartParser.trace
+
+
+
+
+

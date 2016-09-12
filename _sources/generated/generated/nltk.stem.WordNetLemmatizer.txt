@@ -1,0 +1,21 @@
+:class:`nltk.stem.WordNetLemmatizer`
+====================================
+.. currentmodule:: nltk.stem
+.. autoclass:: WordNetLemmatizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~WordNetLemmatizer.__init__
+   ~WordNetLemmatizer.lemmatize
+   ~WordNetLemmatizer.unicode_repr
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.tokenize.RegexpTokenizer.__init__
+======================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: RegexpTokenizer.__init__

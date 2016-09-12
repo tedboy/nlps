@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.STARTING_QUOTES
+===================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: TreebankWordTokenizer.STARTING_QUOTES

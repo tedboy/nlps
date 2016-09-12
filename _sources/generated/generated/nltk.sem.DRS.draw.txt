@@ -1,0 +1,6 @@
+nltk.sem.DRS.draw
+=================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.draw

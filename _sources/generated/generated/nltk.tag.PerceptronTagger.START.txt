@@ -1,0 +1,6 @@
+nltk.tag.PerceptronTagger.START
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: PerceptronTagger.START

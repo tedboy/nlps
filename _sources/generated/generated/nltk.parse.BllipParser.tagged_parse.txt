@@ -1,0 +1,6 @@
+nltk.parse.BllipParser.tagged_parse
+===================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: BllipParser.tagged_parse

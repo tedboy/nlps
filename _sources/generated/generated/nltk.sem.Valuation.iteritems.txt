@@ -1,0 +1,6 @@
+nltk.sem.Valuation.iteritems
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.iteritems

@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.evaluate
+=======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedTagger.evaluate

@@ -1,0 +1,6 @@
+nltk.parse.SteppingChartParser.set_grammar
+==========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingChartParser.set_grammar

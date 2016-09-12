@@ -1,0 +1,21 @@
+:class:`nltk.parse.NaiveBayesDependencyScorer`
+==============================================
+.. currentmodule:: nltk.parse
+.. autoclass:: NaiveBayesDependencyScorer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~NaiveBayesDependencyScorer.__init__
+   ~NaiveBayesDependencyScorer.score
+   ~NaiveBayesDependencyScorer.train
+
+
+
+
+

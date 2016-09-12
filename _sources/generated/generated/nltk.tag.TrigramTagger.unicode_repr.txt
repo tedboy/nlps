@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.unicode_repr
+===================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TrigramTagger.unicode_repr

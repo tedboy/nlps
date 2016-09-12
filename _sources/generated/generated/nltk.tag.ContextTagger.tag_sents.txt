@@ -1,0 +1,6 @@
+nltk.tag.ContextTagger.tag_sents
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ContextTagger.tag_sents

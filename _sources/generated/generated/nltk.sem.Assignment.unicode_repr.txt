@@ -1,0 +1,6 @@
+nltk.sem.Assignment.unicode_repr
+================================
+
+.. currentmodule:: nltk.sem
+
+.. autoattribute:: Assignment.unicode_repr

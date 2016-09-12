@@ -1,0 +1,6 @@
+nltk.parse.ProbabilisticNonprojectiveParser.train
+=================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProbabilisticNonprojectiveParser.train

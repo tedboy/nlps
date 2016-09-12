@@ -1,0 +1,6 @@
+nltk.tag.TnT.evaluate
+=====================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TnT.evaluate

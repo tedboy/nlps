@@ -1,0 +1,6 @@
+nltk.parse.SteppingRecursiveDescentParser.frontier
+==================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingRecursiveDescentParser.frontier

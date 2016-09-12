@@ -1,0 +1,25 @@
+:class:`nltk.parse.ShiftReduceParser`
+=====================================
+.. currentmodule:: nltk.parse
+.. autoclass:: ShiftReduceParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ShiftReduceParser.__init__
+   ~ShiftReduceParser.grammar
+   ~ShiftReduceParser.parse
+   ~ShiftReduceParser.parse_all
+   ~ShiftReduceParser.parse_one
+   ~ShiftReduceParser.parse_sents
+   ~ShiftReduceParser.trace
+
+
+
+
+

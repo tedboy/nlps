@@ -1,0 +1,6 @@
+nltk.parse.ProbabilisticNonprojectiveParser.compute_original_indexes
+====================================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProbabilisticNonprojectiveParser.compute_original_indexes

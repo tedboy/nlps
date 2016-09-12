@@ -1,0 +1,6 @@
+nltk.tag.DefaultTagger.encode_json_obj
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: DefaultTagger.encode_json_obj

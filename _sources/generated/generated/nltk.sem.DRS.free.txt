@@ -1,0 +1,6 @@
+nltk.sem.DRS.free
+=================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.free

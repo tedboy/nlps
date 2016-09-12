@@ -1,0 +1,6 @@
+nltk.tokenize.PunktSentenceTokenizer.sentences_from_text_legacy
+===============================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: PunktSentenceTokenizer.sentences_from_text_legacy

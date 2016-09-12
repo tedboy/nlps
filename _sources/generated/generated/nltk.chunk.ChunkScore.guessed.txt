@@ -1,0 +1,6 @@
+nltk.chunk.ChunkScore.guessed
+=============================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: ChunkScore.guessed

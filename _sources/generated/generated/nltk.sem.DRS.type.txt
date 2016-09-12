@@ -1,0 +1,6 @@
+nltk.sem.DRS.type
+=================
+
+.. currentmodule:: nltk.sem
+
+.. autoattribute:: DRS.type

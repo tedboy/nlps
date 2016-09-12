@@ -1,0 +1,6 @@
+:func:`nltk.sem.parse_sents`
+============================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: parse_sents

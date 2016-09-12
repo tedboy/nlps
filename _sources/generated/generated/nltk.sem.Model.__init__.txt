@@ -1,0 +1,6 @@
+nltk.sem.Model.__init__
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Model.__init__

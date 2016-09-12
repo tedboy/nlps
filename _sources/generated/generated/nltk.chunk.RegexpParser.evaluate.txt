@@ -1,0 +1,6 @@
+nltk.chunk.RegexpParser.evaluate
+================================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: RegexpParser.evaluate

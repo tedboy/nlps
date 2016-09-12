@@ -1,0 +1,90 @@
+:mod:`nltk.tokenize`
+====================
+
+.. automodule:: nltk.tokenize
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      casual_tokenize
+      line_tokenize
+      load
+      regexp_span_tokenize
+      regexp_tokenize
+      sent_tokenize
+      string_span_tokenize
+      word_tokenize
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.tokenize.casual_tokenize
+       generated/nltk.tokenize.line_tokenize
+       generated/nltk.tokenize.load
+       generated/nltk.tokenize.regexp_span_tokenize
+       generated/nltk.tokenize.regexp_tokenize
+       generated/nltk.tokenize.sent_tokenize
+       generated/nltk.tokenize.string_span_tokenize
+       generated/nltk.tokenize.word_tokenize
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      BlanklineTokenizer
+      LineTokenizer
+      MWETokenizer
+      PunktSentenceTokenizer
+      RegexpTokenizer
+      SExprTokenizer
+      SpaceTokenizer
+      StanfordTokenizer
+      TabTokenizer
+      TextTilingTokenizer
+      TreebankWordTokenizer
+      TweetTokenizer
+      WhitespaceTokenizer
+      WordPunctTokenizer
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.tokenize.BlanklineTokenizer
+       generated/nltk.tokenize.LineTokenizer
+       generated/nltk.tokenize.MWETokenizer
+       generated/nltk.tokenize.PunktSentenceTokenizer
+       generated/nltk.tokenize.RegexpTokenizer
+       generated/nltk.tokenize.SExprTokenizer
+       generated/nltk.tokenize.SpaceTokenizer
+       generated/nltk.tokenize.StanfordTokenizer
+       generated/nltk.tokenize.TabTokenizer
+       generated/nltk.tokenize.TextTilingTokenizer
+       generated/nltk.tokenize.TreebankWordTokenizer
+       generated/nltk.tokenize.TweetTokenizer
+       generated/nltk.tokenize.WhitespaceTokenizer
+       generated/nltk.tokenize.WordPunctTokenizer
+
+   
+   
+
+   
+   
+   

@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.span_tokenize
+=================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: TreebankWordTokenizer.span_tokenize

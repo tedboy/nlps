@@ -1,0 +1,6 @@
+nltk.sem.Assignment.__init__
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.__init__

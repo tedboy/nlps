@@ -1,0 +1,6 @@
+nltk.tag.BrillTagger.tag
+========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: BrillTagger.tag

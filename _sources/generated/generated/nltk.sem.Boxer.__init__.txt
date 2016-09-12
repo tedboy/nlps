@@ -1,0 +1,6 @@
+nltk.sem.Boxer.__init__
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Boxer.__init__

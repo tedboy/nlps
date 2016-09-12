@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.tag_sents
+========================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedTagger.tag_sents

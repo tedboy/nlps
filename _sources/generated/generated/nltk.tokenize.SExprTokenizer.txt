@@ -1,0 +1,23 @@
+:class:`nltk.tokenize.SExprTokenizer`
+=====================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: SExprTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SExprTokenizer.__init__
+   ~SExprTokenizer.span_tokenize
+   ~SExprTokenizer.span_tokenize_sents
+   ~SExprTokenizer.tokenize
+   ~SExprTokenizer.tokenize_sents
+
+
+
+
+

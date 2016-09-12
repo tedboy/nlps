@@ -1,0 +1,6 @@
+nltk.parse.ProjectiveDependencyParser.concatenate
+=================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProjectiveDependencyParser.concatenate

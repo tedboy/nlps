@@ -1,0 +1,6 @@
+nltk.tag.NgramTagger.choose_tag
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: NgramTagger.choose_tag

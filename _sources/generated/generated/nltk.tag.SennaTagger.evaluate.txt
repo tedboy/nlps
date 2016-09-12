@@ -1,0 +1,6 @@
+nltk.tag.SennaTagger.evaluate
+=============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaTagger.evaluate

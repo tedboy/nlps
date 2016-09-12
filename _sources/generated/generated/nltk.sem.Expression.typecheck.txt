@@ -1,0 +1,6 @@
+nltk.sem.Expression.typecheck
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.typecheck

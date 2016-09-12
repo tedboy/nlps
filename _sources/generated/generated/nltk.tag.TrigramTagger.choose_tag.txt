@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.choose_tag
+=================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TrigramTagger.choose_tag

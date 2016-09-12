@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.connect_graph
+========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.connect_graph

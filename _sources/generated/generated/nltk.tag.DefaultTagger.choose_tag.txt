@@ -1,0 +1,6 @@
+nltk.tag.DefaultTagger.choose_tag
+=================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: DefaultTagger.choose_tag

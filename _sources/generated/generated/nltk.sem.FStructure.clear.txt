@@ -1,0 +1,6 @@
+nltk.sem.FStructure.clear
+=========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.clear

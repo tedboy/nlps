@@ -1,0 +1,28 @@
+:class:`nltk.chunk.ChunkScore`
+==============================
+.. currentmodule:: nltk.chunk
+.. autoclass:: ChunkScore
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ChunkScore.__init__
+   ~ChunkScore.accuracy
+   ~ChunkScore.correct
+   ~ChunkScore.f_measure
+   ~ChunkScore.guessed
+   ~ChunkScore.incorrect
+   ~ChunkScore.missed
+   ~ChunkScore.precision
+   ~ChunkScore.recall
+   ~ChunkScore.score
+
+
+
+
+

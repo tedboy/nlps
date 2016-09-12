@@ -1,0 +1,6 @@
+nltk.tag.UnigramTagger.tag_sents
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: UnigramTagger.tag_sents

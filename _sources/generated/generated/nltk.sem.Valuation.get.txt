@@ -1,0 +1,6 @@
+nltk.sem.Valuation.get
+======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.get

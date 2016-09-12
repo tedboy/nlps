@@ -1,0 +1,33 @@
+:class:`nltk.tag.HiddenMarkovModelTagger`
+=========================================
+.. currentmodule:: nltk.tag
+.. autoclass:: HiddenMarkovModelTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~HiddenMarkovModelTagger.__init__
+   ~HiddenMarkovModelTagger.best_path
+   ~HiddenMarkovModelTagger.best_path_simple
+   ~HiddenMarkovModelTagger.entropy
+   ~HiddenMarkovModelTagger.evaluate
+   ~HiddenMarkovModelTagger.log_probability
+   ~HiddenMarkovModelTagger.point_entropy
+   ~HiddenMarkovModelTagger.probability
+   ~HiddenMarkovModelTagger.random_sample
+   ~HiddenMarkovModelTagger.reset_cache
+   ~HiddenMarkovModelTagger.tag
+   ~HiddenMarkovModelTagger.tag_sents
+   ~HiddenMarkovModelTagger.test
+   ~HiddenMarkovModelTagger.train
+   ~HiddenMarkovModelTagger.unicode_repr
+
+
+
+
+

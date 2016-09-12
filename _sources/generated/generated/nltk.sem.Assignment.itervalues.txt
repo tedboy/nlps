@@ -1,0 +1,6 @@
+nltk.sem.Assignment.itervalues
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.itervalues

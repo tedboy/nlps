@@ -1,0 +1,6 @@
+:func:`nltk.chunk.accuracy`
+===========================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: accuracy

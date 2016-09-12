@@ -1,0 +1,25 @@
+:class:`nltk.parse.FeatureIncrementalChartParser`
+=================================================
+.. currentmodule:: nltk.parse
+.. autoclass:: FeatureIncrementalChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FeatureIncrementalChartParser.__init__
+   ~FeatureIncrementalChartParser.chart_parse
+   ~FeatureIncrementalChartParser.grammar
+   ~FeatureIncrementalChartParser.parse
+   ~FeatureIncrementalChartParser.parse_all
+   ~FeatureIncrementalChartParser.parse_one
+   ~FeatureIncrementalChartParser.parse_sents
+
+
+
+
+

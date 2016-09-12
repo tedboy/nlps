@@ -1,0 +1,136 @@
+:mod:`nltk.parse`
+=================
+
+.. automodule:: nltk.parse
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      extract_test_sentences
+      load_parser
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.parse.extract_test_sentences
+       generated/nltk.parse.load_parser
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      BllipParser
+      BottomUpChartParser
+      BottomUpLeftCornerChartParser
+      BottomUpProbabilisticChartParser
+      ChartParser
+      DependencyEvaluator
+      DependencyGraph
+      EarleyChartParser
+      FeatureBottomUpChartParser
+      FeatureBottomUpLeftCornerChartParser
+      FeatureChartParser
+      FeatureEarleyChartParser
+      FeatureIncrementalBottomUpChartParser
+      FeatureIncrementalBottomUpLeftCornerChartParser
+      FeatureIncrementalChartParser
+      FeatureIncrementalTopDownChartParser
+      FeatureTopDownChartParser
+      IncrementalBottomUpChartParser
+      IncrementalBottomUpLeftCornerChartParser
+      IncrementalChartParser
+      IncrementalLeftCornerChartParser
+      IncrementalTopDownChartParser
+      InsideChartParser
+      LeftCornerChartParser
+      LongestChartParser
+      MaltParser
+      NaiveBayesDependencyScorer
+      NonprojectiveDependencyParser
+      ParserI
+      ProbabilisticNonprojectiveParser
+      ProbabilisticProjectiveDependencyParser
+      ProjectiveDependencyParser
+      RandomChartParser
+      RecursiveDescentParser
+      ShiftReduceParser
+      SteppingChartParser
+      SteppingRecursiveDescentParser
+      SteppingShiftReduceParser
+      TestGrammar
+      TopDownChartParser
+      TransitionParser
+      UnsortedChartParser
+      ViterbiParser
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.parse.BllipParser
+       generated/nltk.parse.BottomUpChartParser
+       generated/nltk.parse.BottomUpLeftCornerChartParser
+       generated/nltk.parse.BottomUpProbabilisticChartParser
+       generated/nltk.parse.ChartParser
+       generated/nltk.parse.DependencyEvaluator
+       generated/nltk.parse.DependencyGraph
+       generated/nltk.parse.EarleyChartParser
+       generated/nltk.parse.FeatureBottomUpChartParser
+       generated/nltk.parse.FeatureBottomUpLeftCornerChartParser
+       generated/nltk.parse.FeatureChartParser
+       generated/nltk.parse.FeatureEarleyChartParser
+       generated/nltk.parse.FeatureIncrementalBottomUpChartParser
+       generated/nltk.parse.FeatureIncrementalBottomUpLeftCornerChartParser
+       generated/nltk.parse.FeatureIncrementalChartParser
+       generated/nltk.parse.FeatureIncrementalTopDownChartParser
+       generated/nltk.parse.FeatureTopDownChartParser
+       generated/nltk.parse.IncrementalBottomUpChartParser
+       generated/nltk.parse.IncrementalBottomUpLeftCornerChartParser
+       generated/nltk.parse.IncrementalChartParser
+       generated/nltk.parse.IncrementalLeftCornerChartParser
+       generated/nltk.parse.IncrementalTopDownChartParser
+       generated/nltk.parse.InsideChartParser
+       generated/nltk.parse.LeftCornerChartParser
+       generated/nltk.parse.LongestChartParser
+       generated/nltk.parse.MaltParser
+       generated/nltk.parse.NaiveBayesDependencyScorer
+       generated/nltk.parse.NonprojectiveDependencyParser
+       generated/nltk.parse.ParserI
+       generated/nltk.parse.ProbabilisticNonprojectiveParser
+       generated/nltk.parse.ProbabilisticProjectiveDependencyParser
+       generated/nltk.parse.ProjectiveDependencyParser
+       generated/nltk.parse.RandomChartParser
+       generated/nltk.parse.RecursiveDescentParser
+       generated/nltk.parse.ShiftReduceParser
+       generated/nltk.parse.SteppingChartParser
+       generated/nltk.parse.SteppingRecursiveDescentParser
+       generated/nltk.parse.SteppingShiftReduceParser
+       generated/nltk.parse.TestGrammar
+       generated/nltk.parse.TopDownChartParser
+       generated/nltk.parse.TransitionParser
+       generated/nltk.parse.UnsortedChartParser
+       generated/nltk.parse.ViterbiParser
+
+   
+   
+
+   
+   
+   

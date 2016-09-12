@@ -1,0 +1,6 @@
+nltk.tokenize.MWETokenizer.__init__
+===================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: MWETokenizer.__init__

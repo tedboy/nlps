@@ -1,0 +1,24 @@
+:class:`nltk.tokenize.MWETokenizer`
+===================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: MWETokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~MWETokenizer.__init__
+   ~MWETokenizer.add_mwe
+   ~MWETokenizer.span_tokenize
+   ~MWETokenizer.span_tokenize_sents
+   ~MWETokenizer.tokenize
+   ~MWETokenizer.tokenize_sents
+
+
+
+
+

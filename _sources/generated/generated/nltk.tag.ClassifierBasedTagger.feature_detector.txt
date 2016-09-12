@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.feature_detector
+===============================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedTagger.feature_detector

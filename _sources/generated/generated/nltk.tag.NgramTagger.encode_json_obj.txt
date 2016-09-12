@@ -1,0 +1,6 @@
+nltk.tag.NgramTagger.encode_json_obj
+====================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: NgramTagger.encode_json_obj

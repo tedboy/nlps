@@ -1,0 +1,23 @@
+:class:`nltk.parse.ProbabilisticProjectiveDependencyParser`
+===========================================================
+.. currentmodule:: nltk.parse
+.. autoclass:: ProbabilisticProjectiveDependencyParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProbabilisticProjectiveDependencyParser.__init__
+   ~ProbabilisticProjectiveDependencyParser.compute_prob
+   ~ProbabilisticProjectiveDependencyParser.concatenate
+   ~ProbabilisticProjectiveDependencyParser.parse
+   ~ProbabilisticProjectiveDependencyParser.train
+
+
+
+
+

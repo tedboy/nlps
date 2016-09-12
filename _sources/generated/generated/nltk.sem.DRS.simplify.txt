@@ -1,0 +1,6 @@
+nltk.sem.DRS.simplify
+=====================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.simplify

@@ -1,0 +1,48 @@
+:class:`nltk.sem.Valuation`
+===========================
+.. currentmodule:: nltk.sem
+.. autoclass:: Valuation
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~Valuation.__init__
+   ~Valuation.clear
+   ~Valuation.copy
+   ~Valuation.fromkeys
+   ~Valuation.fromstring
+   ~Valuation.get
+   ~Valuation.has_key
+   ~Valuation.items
+   ~Valuation.iteritems
+   ~Valuation.iterkeys
+   ~Valuation.itervalues
+   ~Valuation.keys
+   ~Valuation.pop
+   ~Valuation.popitem
+   ~Valuation.setdefault
+   ~Valuation.update
+   ~Valuation.values
+   ~Valuation.viewitems
+   ~Valuation.viewkeys
+   ~Valuation.viewvalues
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~Valuation.domain
+   ~Valuation.symbols
+   ~Valuation.unicode_repr
+

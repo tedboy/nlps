@@ -1,0 +1,6 @@
+nltk.parse.FeatureTopDownChartParser.__init__
+=============================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: FeatureTopDownChartParser.__init__

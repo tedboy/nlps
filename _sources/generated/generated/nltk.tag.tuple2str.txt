@@ -1,0 +1,6 @@
+:func:`nltk.tag.tuple2str`
+==========================
+
+.. currentmodule:: nltk.tag
+
+.. autofunction:: tuple2str

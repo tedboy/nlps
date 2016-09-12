@@ -1,0 +1,6 @@
+nltk.tag.SequentialBackoffTagger.evaluate
+=========================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SequentialBackoffTagger.evaluate

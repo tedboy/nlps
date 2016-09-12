@@ -1,0 +1,6 @@
+nltk.chunk.ChunkScore.missed
+============================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: ChunkScore.missed

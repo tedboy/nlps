@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.type
+===========================
+
+.. currentmodule:: nltk.sem
+
+.. autoattribute:: DrtExpression.type

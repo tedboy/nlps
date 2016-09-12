@@ -1,0 +1,6 @@
+nltk.sem.Valuation.setdefault
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.setdefault

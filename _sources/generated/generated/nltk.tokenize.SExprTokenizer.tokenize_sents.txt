@@ -1,0 +1,6 @@
+nltk.tokenize.SExprTokenizer.tokenize_sents
+===========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: SExprTokenizer.tokenize_sents

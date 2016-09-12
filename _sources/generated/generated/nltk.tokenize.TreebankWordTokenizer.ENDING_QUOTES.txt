@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.ENDING_QUOTES
+=================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: TreebankWordTokenizer.ENDING_QUOTES

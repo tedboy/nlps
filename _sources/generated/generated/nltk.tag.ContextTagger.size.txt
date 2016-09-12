@@ -1,0 +1,6 @@
+nltk.tag.ContextTagger.size
+===========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ContextTagger.size

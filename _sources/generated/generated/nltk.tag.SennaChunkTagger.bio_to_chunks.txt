@@ -1,0 +1,6 @@
+nltk.tag.SennaChunkTagger.bio_to_chunks
+=======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaChunkTagger.bio_to_chunks

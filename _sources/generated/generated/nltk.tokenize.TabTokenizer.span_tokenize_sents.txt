@@ -1,0 +1,6 @@
+nltk.tokenize.TabTokenizer.span_tokenize_sents
+==============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: TabTokenizer.span_tokenize_sents

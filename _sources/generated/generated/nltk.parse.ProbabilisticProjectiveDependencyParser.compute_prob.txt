@@ -1,0 +1,6 @@
+nltk.parse.ProbabilisticProjectiveDependencyParser.compute_prob
+===============================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProbabilisticProjectiveDependencyParser.compute_prob

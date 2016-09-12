@@ -1,0 +1,6 @@
+nltk.sem.Expression.constants
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.constants

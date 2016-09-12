@@ -1,0 +1,6 @@
+nltk.parse.MaltParser.__init__
+==============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: MaltParser.__init__

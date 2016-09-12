@@ -1,0 +1,6 @@
+nltk.tag.DefaultTagger.evaluate
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: DefaultTagger.evaluate

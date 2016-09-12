@@ -1,0 +1,6 @@
+nltk.tag.StanfordNERTagger.evaluate
+===================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: StanfordNERTagger.evaluate

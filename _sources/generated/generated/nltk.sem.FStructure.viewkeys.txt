@@ -1,0 +1,6 @@
+nltk.sem.FStructure.viewkeys
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.viewkeys

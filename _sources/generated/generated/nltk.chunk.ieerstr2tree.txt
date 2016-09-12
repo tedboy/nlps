@@ -1,0 +1,6 @@
+:func:`nltk.chunk.ieerstr2tree`
+===============================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: ieerstr2tree

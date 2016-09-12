@@ -1,0 +1,6 @@
+nltk.sem.FStructure.pretty_format
+=================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.pretty_format

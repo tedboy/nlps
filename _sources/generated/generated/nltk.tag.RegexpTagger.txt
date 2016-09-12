@@ -1,0 +1,36 @@
+:class:`nltk.tag.RegexpTagger`
+==============================
+.. currentmodule:: nltk.tag
+.. autoclass:: RegexpTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RegexpTagger.__init__
+   ~RegexpTagger.choose_tag
+   ~RegexpTagger.decode_json_obj
+   ~RegexpTagger.encode_json_obj
+   ~RegexpTagger.evaluate
+   ~RegexpTagger.tag
+   ~RegexpTagger.tag_one
+   ~RegexpTagger.tag_sents
+   ~RegexpTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~RegexpTagger.backoff
+   ~RegexpTagger.json_tag
+

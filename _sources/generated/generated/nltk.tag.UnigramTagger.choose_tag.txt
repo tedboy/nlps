@@ -1,0 +1,6 @@
+nltk.tag.UnigramTagger.choose_tag
+=================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: UnigramTagger.choose_tag

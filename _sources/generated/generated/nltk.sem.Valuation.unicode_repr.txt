@@ -1,0 +1,6 @@
+nltk.sem.Valuation.unicode_repr
+===============================
+
+.. currentmodule:: nltk.sem
+
+.. autoattribute:: Valuation.unicode_repr

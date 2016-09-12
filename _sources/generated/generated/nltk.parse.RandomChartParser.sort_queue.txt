@@ -1,0 +1,6 @@
+nltk.parse.RandomChartParser.sort_queue
+=======================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: RandomChartParser.sort_queue

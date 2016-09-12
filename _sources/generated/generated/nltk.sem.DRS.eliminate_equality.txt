@@ -1,0 +1,6 @@
+nltk.sem.DRS.eliminate_equality
+===============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.eliminate_equality

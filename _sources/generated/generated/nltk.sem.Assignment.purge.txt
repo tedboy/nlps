@@ -1,0 +1,6 @@
+nltk.sem.Assignment.purge
+=========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.purge

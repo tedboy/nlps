@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.get_by_address
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.get_by_address

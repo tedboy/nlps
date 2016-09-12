@@ -1,0 +1,6 @@
+nltk.tag.SennaTagger.executable
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaTagger.executable

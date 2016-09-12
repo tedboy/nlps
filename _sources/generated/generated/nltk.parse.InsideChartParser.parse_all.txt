@@ -1,0 +1,6 @@
+nltk.parse.InsideChartParser.parse_all
+======================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: InsideChartParser.parse_all

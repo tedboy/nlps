@@ -1,0 +1,22 @@
+:class:`nltk.stem.PorterStemmer`
+================================
+.. currentmodule:: nltk.stem
+.. autoclass:: PorterStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~PorterStemmer.__init__
+   ~PorterStemmer.stem
+   ~PorterStemmer.stem_word
+   ~PorterStemmer.unicode_repr
+
+
+
+
+

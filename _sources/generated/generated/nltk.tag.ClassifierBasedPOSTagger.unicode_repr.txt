@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedPOSTagger.unicode_repr
+==============================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedPOSTagger.unicode_repr

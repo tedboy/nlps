@@ -1,0 +1,6 @@
+nltk.sem.Assignment.clear
+=========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.clear

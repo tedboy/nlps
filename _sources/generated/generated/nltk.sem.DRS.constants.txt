@@ -1,0 +1,6 @@
+nltk.sem.DRS.constants
+======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.constants

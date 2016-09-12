@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.tag_sents
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TrigramTagger.tag_sents

@@ -1,0 +1,6 @@
+nltk.tag.RegexpTagger.__init__
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: RegexpTagger.__init__

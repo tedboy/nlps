@@ -1,0 +1,6 @@
+nltk.parse.FeatureIncrementalTopDownChartParser.parse
+=====================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: FeatureIncrementalTopDownChartParser.parse

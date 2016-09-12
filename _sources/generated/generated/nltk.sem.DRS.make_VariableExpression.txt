@@ -1,0 +1,6 @@
+nltk.sem.DRS.make_VariableExpression
+====================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.make_VariableExpression

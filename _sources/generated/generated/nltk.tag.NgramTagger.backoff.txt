@@ -1,0 +1,6 @@
+nltk.tag.NgramTagger.backoff
+============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: NgramTagger.backoff

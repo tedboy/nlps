@@ -1,0 +1,6 @@
+nltk.sem.DRS.negate
+===================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.negate

@@ -1,0 +1,6 @@
+nltk.tokenize.WhitespaceTokenizer.unicode_repr
+==============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: WhitespaceTokenizer.unicode_repr

@@ -1,0 +1,6 @@
+nltk.tokenize.WordPunctTokenizer.unicode_repr
+=============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: WordPunctTokenizer.unicode_repr

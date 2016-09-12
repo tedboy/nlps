@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.choose_tag
+=========================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedTagger.choose_tag

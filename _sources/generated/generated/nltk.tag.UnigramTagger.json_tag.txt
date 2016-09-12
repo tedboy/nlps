@@ -1,0 +1,6 @@
+nltk.tag.UnigramTagger.json_tag
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: UnigramTagger.json_tag

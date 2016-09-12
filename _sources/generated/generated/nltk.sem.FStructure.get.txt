@@ -1,0 +1,6 @@
+nltk.sem.FStructure.get
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.get

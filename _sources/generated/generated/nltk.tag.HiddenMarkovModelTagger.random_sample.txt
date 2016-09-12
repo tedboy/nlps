@@ -1,0 +1,6 @@
+nltk.tag.HiddenMarkovModelTagger.random_sample
+==============================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: HiddenMarkovModelTagger.random_sample

@@ -1,0 +1,6 @@
+nltk.tokenize.WordPunctTokenizer.tokenize_sents
+===============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: WordPunctTokenizer.tokenize_sents

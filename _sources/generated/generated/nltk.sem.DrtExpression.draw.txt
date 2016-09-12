@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.draw
+===========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.draw

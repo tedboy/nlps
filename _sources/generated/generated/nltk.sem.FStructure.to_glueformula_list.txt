@@ -1,0 +1,6 @@
+nltk.sem.FStructure.to_glueformula_list
+=======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.to_glueformula_list

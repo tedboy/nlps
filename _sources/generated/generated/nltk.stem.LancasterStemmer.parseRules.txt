@@ -1,0 +1,6 @@
+nltk.stem.LancasterStemmer.parseRules
+=====================================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: LancasterStemmer.parseRules

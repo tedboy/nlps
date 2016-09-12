@@ -1,0 +1,6 @@
+:func:`nltk.tag.tagset_mapping`
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. autofunction:: tagset_mapping

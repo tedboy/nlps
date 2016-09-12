@@ -1,0 +1,36 @@
+:class:`nltk.tag.DefaultTagger`
+===============================
+.. currentmodule:: nltk.tag
+.. autoclass:: DefaultTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~DefaultTagger.__init__
+   ~DefaultTagger.choose_tag
+   ~DefaultTagger.decode_json_obj
+   ~DefaultTagger.encode_json_obj
+   ~DefaultTagger.evaluate
+   ~DefaultTagger.tag
+   ~DefaultTagger.tag_one
+   ~DefaultTagger.tag_sents
+   ~DefaultTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~DefaultTagger.backoff
+   ~DefaultTagger.json_tag
+

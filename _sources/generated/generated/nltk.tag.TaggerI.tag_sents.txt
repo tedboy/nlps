@@ -1,0 +1,6 @@
+nltk.tag.TaggerI.tag_sents
+==========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TaggerI.tag_sents

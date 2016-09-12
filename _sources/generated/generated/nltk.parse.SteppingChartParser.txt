@@ -1,0 +1,34 @@
+:class:`nltk.parse.SteppingChartParser`
+=======================================
+.. currentmodule:: nltk.parse
+.. autoclass:: SteppingChartParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SteppingChartParser.__init__
+   ~SteppingChartParser.chart
+   ~SteppingChartParser.chart_parse
+   ~SteppingChartParser.current_chartrule
+   ~SteppingChartParser.grammar
+   ~SteppingChartParser.initialize
+   ~SteppingChartParser.parse
+   ~SteppingChartParser.parse_all
+   ~SteppingChartParser.parse_one
+   ~SteppingChartParser.parse_sents
+   ~SteppingChartParser.parses
+   ~SteppingChartParser.set_chart
+   ~SteppingChartParser.set_grammar
+   ~SteppingChartParser.set_strategy
+   ~SteppingChartParser.step
+   ~SteppingChartParser.strategy
+
+
+
+
+

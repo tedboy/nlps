@@ -1,0 +1,6 @@
+nltk.sem.ApplicationExpression.visit
+====================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: ApplicationExpression.visit

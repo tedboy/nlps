@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.encode_json_obj
+====================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.encode_json_obj

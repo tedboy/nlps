@@ -1,0 +1,6 @@
+:func:`nltk.chunk.load`
+=======================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: load

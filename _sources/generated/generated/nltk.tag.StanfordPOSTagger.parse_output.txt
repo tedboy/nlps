@@ -1,0 +1,6 @@
+nltk.tag.StanfordPOSTagger.parse_output
+=======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: StanfordPOSTagger.parse_output

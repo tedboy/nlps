@@ -1,0 +1,6 @@
+nltk.stem.SnowballStemmer.languages
+===================================
+
+.. currentmodule:: nltk.stem
+
+.. autoattribute:: SnowballStemmer.languages

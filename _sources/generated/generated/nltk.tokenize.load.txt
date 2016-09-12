@@ -1,0 +1,6 @@
+:func:`nltk.tokenize.load`
+==========================
+
+.. currentmodule:: nltk.tokenize
+
+.. autofunction:: load

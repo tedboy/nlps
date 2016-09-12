@@ -1,0 +1,6 @@
+nltk.tokenize.PunktSentenceTokenizer.train
+==========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: PunktSentenceTokenizer.train

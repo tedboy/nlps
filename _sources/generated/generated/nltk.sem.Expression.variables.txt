@@ -1,0 +1,6 @@
+nltk.sem.Expression.variables
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.variables

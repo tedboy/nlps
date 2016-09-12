@@ -1,0 +1,6 @@
+nltk.tokenize.SpaceTokenizer.span_tokenize
+==========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: SpaceTokenizer.span_tokenize

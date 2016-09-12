@@ -1,0 +1,25 @@
+:class:`nltk.parse.RecursiveDescentParser`
+==========================================
+.. currentmodule:: nltk.parse
+.. autoclass:: RecursiveDescentParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~RecursiveDescentParser.__init__
+   ~RecursiveDescentParser.grammar
+   ~RecursiveDescentParser.parse
+   ~RecursiveDescentParser.parse_all
+   ~RecursiveDescentParser.parse_one
+   ~RecursiveDescentParser.parse_sents
+   ~RecursiveDescentParser.trace
+
+
+
+
+

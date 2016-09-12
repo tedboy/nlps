@@ -1,0 +1,6 @@
+nltk.sem.Variable.unicode_repr
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Variable.unicode_repr

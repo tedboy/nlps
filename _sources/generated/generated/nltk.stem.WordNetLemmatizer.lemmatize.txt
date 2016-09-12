@@ -1,0 +1,6 @@
+nltk.stem.WordNetLemmatizer.lemmatize
+=====================================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: WordNetLemmatizer.lemmatize

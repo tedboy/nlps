@@ -1,0 +1,6 @@
+:func:`nltk.tag.load`
+=====================
+
+.. currentmodule:: nltk.tag
+
+.. autofunction:: load

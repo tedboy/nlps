@@ -1,0 +1,6 @@
+nltk.tag.RegexpTagger.unicode_repr
+==================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: RegexpTagger.unicode_repr

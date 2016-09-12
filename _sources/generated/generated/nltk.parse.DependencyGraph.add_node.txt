@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.add_node
+===================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.add_node

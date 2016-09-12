@@ -1,0 +1,6 @@
+nltk.tokenize.PunktSentenceTokenizer.PUNCTUATION
+================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: PunktSentenceTokenizer.PUNCTUATION

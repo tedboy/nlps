@@ -1,0 +1,33 @@
+:class:`nltk.tag.SennaChunkTagger`
+==================================
+.. currentmodule:: nltk.tag
+.. autoclass:: SennaChunkTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SennaChunkTagger.__init__
+   ~SennaChunkTagger.bio_to_chunks
+   ~SennaChunkTagger.evaluate
+   ~SennaChunkTagger.executable
+   ~SennaChunkTagger.tag
+   ~SennaChunkTagger.tag_sents
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SennaChunkTagger.SUPPORTED_OPERATIONS
+   ~SennaChunkTagger.unicode_repr
+

@@ -1,0 +1,6 @@
+nltk.sem.ApplicationExpression.applyto
+======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: ApplicationExpression.applyto

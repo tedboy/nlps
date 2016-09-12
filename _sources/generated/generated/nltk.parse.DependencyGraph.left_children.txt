@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.left_children
+========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.left_children

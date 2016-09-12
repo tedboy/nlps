@@ -1,0 +1,6 @@
+nltk.tag.TrigramTagger.evaluate
+===============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TrigramTagger.evaluate

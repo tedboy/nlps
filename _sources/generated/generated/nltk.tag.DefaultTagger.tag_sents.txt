@@ -1,0 +1,6 @@
+nltk.tag.DefaultTagger.tag_sents
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: DefaultTagger.tag_sents

@@ -1,0 +1,6 @@
+nltk.tokenize.TreebankWordTokenizer.PARENS_BRACKETS
+===================================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autoattribute:: TreebankWordTokenizer.PARENS_BRACKETS

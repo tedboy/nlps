@@ -1,0 +1,6 @@
+nltk.parse.SteppingShiftReduceParser.shift
+==========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingShiftReduceParser.shift

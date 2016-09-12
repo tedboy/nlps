@@ -1,0 +1,6 @@
+nltk.tag.NgramTagger.size
+=========================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: NgramTagger.size

@@ -1,0 +1,6 @@
+nltk.sem.FStructure.unicode_repr
+================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.unicode_repr

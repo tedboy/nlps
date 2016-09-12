@@ -1,0 +1,6 @@
+nltk.tag.HiddenMarkovModelTrainer.train_supervised
+==================================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: HiddenMarkovModelTrainer.train_supervised

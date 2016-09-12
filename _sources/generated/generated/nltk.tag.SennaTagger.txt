@@ -1,0 +1,32 @@
+:class:`nltk.tag.SennaTagger`
+=============================
+.. currentmodule:: nltk.tag
+.. autoclass:: SennaTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SennaTagger.__init__
+   ~SennaTagger.evaluate
+   ~SennaTagger.executable
+   ~SennaTagger.tag
+   ~SennaTagger.tag_sents
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SennaTagger.SUPPORTED_OPERATIONS
+   ~SennaTagger.unicode_repr
+

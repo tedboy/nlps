@@ -1,0 +1,6 @@
+nltk.tag.ContextTagger.tag_one
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ContextTagger.tag_one

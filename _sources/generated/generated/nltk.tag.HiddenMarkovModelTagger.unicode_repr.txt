@@ -1,0 +1,6 @@
+nltk.tag.HiddenMarkovModelTagger.unicode_repr
+=============================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: HiddenMarkovModelTagger.unicode_repr

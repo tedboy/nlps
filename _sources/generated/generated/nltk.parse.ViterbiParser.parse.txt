@@ -1,0 +1,6 @@
+nltk.parse.ViterbiParser.parse
+==============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ViterbiParser.parse

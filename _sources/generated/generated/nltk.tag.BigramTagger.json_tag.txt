@@ -1,0 +1,6 @@
+nltk.tag.BigramTagger.json_tag
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: BigramTagger.json_tag

@@ -1,0 +1,6 @@
+nltk.stem.StemmerI.stem
+=======================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: StemmerI.stem

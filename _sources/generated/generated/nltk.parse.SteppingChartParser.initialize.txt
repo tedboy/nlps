@@ -1,0 +1,6 @@
+nltk.parse.SteppingChartParser.initialize
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingChartParser.initialize

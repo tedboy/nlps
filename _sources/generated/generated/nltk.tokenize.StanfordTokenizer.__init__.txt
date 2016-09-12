@@ -1,0 +1,6 @@
+nltk.tokenize.StanfordTokenizer.__init__
+========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: StanfordTokenizer.__init__

@@ -1,0 +1,6 @@
+nltk.sem.Valuation.clear
+========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.clear

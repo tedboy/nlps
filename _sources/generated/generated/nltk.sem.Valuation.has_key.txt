@@ -1,0 +1,6 @@
+nltk.sem.Valuation.has_key
+==========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.has_key

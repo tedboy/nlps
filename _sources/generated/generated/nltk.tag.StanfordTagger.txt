@@ -1,0 +1,23 @@
+:class:`nltk.tag.StanfordTagger`
+================================
+.. currentmodule:: nltk.tag
+.. autoclass:: StanfordTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~StanfordTagger.__init__
+   ~StanfordTagger.evaluate
+   ~StanfordTagger.parse_output
+   ~StanfordTagger.tag
+   ~StanfordTagger.tag_sents
+
+
+
+
+

@@ -1,0 +1,6 @@
+nltk.sem.ApplicationExpression.replace
+======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: ApplicationExpression.replace

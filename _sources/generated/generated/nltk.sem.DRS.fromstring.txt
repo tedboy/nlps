@@ -1,0 +1,6 @@
+nltk.sem.DRS.fromstring
+=======================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.fromstring

@@ -1,0 +1,6 @@
+nltk.sem.FStructure.fromkeys
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.fromkeys

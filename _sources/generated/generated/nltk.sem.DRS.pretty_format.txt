@@ -1,0 +1,6 @@
+nltk.sem.DRS.pretty_format
+==========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DRS.pretty_format

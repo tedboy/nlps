@@ -1,0 +1,6 @@
+nltk.parse.TransitionParser.ARC_EAGER
+=====================================
+
+.. currentmodule:: nltk.parse
+
+.. autoattribute:: TransitionParser.ARC_EAGER

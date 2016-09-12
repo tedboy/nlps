@@ -1,0 +1,6 @@
+nltk.tag.SennaNERTagger.executable
+==================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaNERTagger.executable

@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.resolve_anaphora
+=======================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.resolve_anaphora

@@ -1,0 +1,107 @@
+:mod:`nltk.sem`
+===============
+
+.. automodule:: nltk.sem
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      arity
+      binding_ops
+      boolean_ops
+      clause
+      equality_preds
+      evaluate_sents
+      extract_rels
+      interpret_sents
+      is_rel
+      parse_sents
+      read_logic
+      read_valuation
+      root_semrep
+      rtuple
+      set2rel
+      skolemize
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.sem.arity
+       generated/nltk.sem.binding_ops
+       generated/nltk.sem.boolean_ops
+       generated/nltk.sem.clause
+       generated/nltk.sem.equality_preds
+       generated/nltk.sem.evaluate_sents
+       generated/nltk.sem.extract_rels
+       generated/nltk.sem.interpret_sents
+       generated/nltk.sem.is_rel
+       generated/nltk.sem.parse_sents
+       generated/nltk.sem.read_logic
+       generated/nltk.sem.read_valuation
+       generated/nltk.sem.root_semrep
+       generated/nltk.sem.rtuple
+       generated/nltk.sem.set2rel
+       generated/nltk.sem.skolemize
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      ApplicationExpression
+      Assignment
+      Boxer
+      DRS
+      DrtExpression
+      Expression
+      FStructure
+      Model
+      Valuation
+      Variable
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.sem.ApplicationExpression
+       generated/nltk.sem.Assignment
+       generated/nltk.sem.Boxer
+       generated/nltk.sem.DRS
+       generated/nltk.sem.DrtExpression
+       generated/nltk.sem.Expression
+       generated/nltk.sem.FStructure
+       generated/nltk.sem.Model
+       generated/nltk.sem.Valuation
+       generated/nltk.sem.Variable
+
+   
+   
+
+   
+   
+   Exceptions
+   ----------
+   .. autosummary::
+      :toctree:
+
+   
+      LogicalExpressionException
+      Undefined
+   
+   

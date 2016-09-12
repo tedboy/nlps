@@ -1,0 +1,6 @@
+nltk.sem.ApplicationExpression.free
+===================================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: ApplicationExpression.free

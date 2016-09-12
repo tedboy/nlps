@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.triples
+==================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.triples

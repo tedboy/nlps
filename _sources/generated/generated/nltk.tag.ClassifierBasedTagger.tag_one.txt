@@ -1,0 +1,6 @@
+nltk.tag.ClassifierBasedTagger.tag_one
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: ClassifierBasedTagger.tag_one

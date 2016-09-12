@@ -1,0 +1,6 @@
+nltk.parse.LongestChartParser.grammar
+=====================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: LongestChartParser.grammar

@@ -1,0 +1,6 @@
+:func:`nltk.tokenize.string_span_tokenize`
+==========================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autofunction:: string_span_tokenize

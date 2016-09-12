@@ -1,0 +1,6 @@
+nltk.parse.FeatureChartParser.parse
+===================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: FeatureChartParser.parse

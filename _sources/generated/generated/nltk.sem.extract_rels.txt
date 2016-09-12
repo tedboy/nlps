@@ -1,0 +1,6 @@
+:func:`nltk.sem.extract_rels`
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: extract_rels

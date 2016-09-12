@@ -1,0 +1,23 @@
+:class:`nltk.tokenize.LineTokenizer`
+====================================
+.. currentmodule:: nltk.tokenize
+.. autoclass:: LineTokenizer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~LineTokenizer.__init__
+   ~LineTokenizer.span_tokenize
+   ~LineTokenizer.span_tokenize_sents
+   ~LineTokenizer.tokenize
+   ~LineTokenizer.tokenize_sents
+
+
+
+
+

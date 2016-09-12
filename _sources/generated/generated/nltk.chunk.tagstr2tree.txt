@@ -1,0 +1,6 @@
+:func:`nltk.chunk.tagstr2tree`
+==============================
+
+.. currentmodule:: nltk.chunk
+
+.. autofunction:: tagstr2tree

@@ -1,0 +1,6 @@
+nltk.tag.TnT.tagdata
+====================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: TnT.tagdata

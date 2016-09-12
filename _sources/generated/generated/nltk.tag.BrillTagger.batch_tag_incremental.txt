@@ -1,0 +1,6 @@
+nltk.tag.BrillTagger.batch_tag_incremental
+==========================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: BrillTagger.batch_tag_incremental

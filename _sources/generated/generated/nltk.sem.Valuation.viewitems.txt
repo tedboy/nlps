@@ -1,0 +1,6 @@
+nltk.sem.Valuation.viewitems
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Valuation.viewitems

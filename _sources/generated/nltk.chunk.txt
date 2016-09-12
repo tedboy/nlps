@@ -1,0 +1,74 @@
+:mod:`nltk.chunk`
+=================
+
+.. automodule:: nltk.chunk
+
+   
+   
+   Functions
+   ---------
+   .. autosummary::
+      :toctree:generated/
+      :template:func_custom.rst
+
+   
+      accuracy
+      conllstr2tree
+      conlltags2tree
+      ieerstr2tree
+      load
+      ne_chunk
+      ne_chunk_sents
+      tagstr2tree
+      tree2conllstr
+      tree2conlltags
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.chunk.accuracy
+       generated/nltk.chunk.conllstr2tree
+       generated/nltk.chunk.conlltags2tree
+       generated/nltk.chunk.ieerstr2tree
+       generated/nltk.chunk.load
+       generated/nltk.chunk.ne_chunk
+       generated/nltk.chunk.ne_chunk_sents
+       generated/nltk.chunk.tagstr2tree
+       generated/nltk.chunk.tree2conllstr
+       generated/nltk.chunk.tree2conlltags
+      
+   
+   
+
+   
+   
+   Classes
+   -------
+   .. autosummary::
+      :toctree:generated/
+      :template:class_custom.rst
+
+   
+      ChunkParserI
+      ChunkScore
+      RegexpChunkParser
+      RegexpParser
+
+   .. toctree::
+       :maxdepth: 1
+       :hidden:
+
+   
+       generated/nltk.chunk.ChunkParserI
+       generated/nltk.chunk.ChunkScore
+       generated/nltk.chunk.RegexpChunkParser
+       generated/nltk.chunk.RegexpParser
+
+   
+   
+
+   
+   
+   

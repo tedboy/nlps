@@ -1,0 +1,6 @@
+:func:`nltk.sem.interpret_sents`
+================================
+
+.. currentmodule:: nltk.sem
+
+.. autofunction:: interpret_sents

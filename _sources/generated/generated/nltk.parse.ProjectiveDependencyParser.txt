@@ -1,0 +1,21 @@
+:class:`nltk.parse.ProjectiveDependencyParser`
+==============================================
+.. currentmodule:: nltk.parse
+.. autoclass:: ProjectiveDependencyParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~ProjectiveDependencyParser.__init__
+   ~ProjectiveDependencyParser.concatenate
+   ~ProjectiveDependencyParser.parse
+
+
+
+
+

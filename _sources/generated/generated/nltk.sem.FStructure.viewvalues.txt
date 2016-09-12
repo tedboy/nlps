@@ -1,0 +1,6 @@
+nltk.sem.FStructure.viewvalues
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.viewvalues

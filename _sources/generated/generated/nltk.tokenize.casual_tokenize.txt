@@ -1,0 +1,6 @@
+:func:`nltk.tokenize.casual_tokenize`
+=====================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autofunction:: casual_tokenize

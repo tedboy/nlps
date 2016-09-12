@@ -1,0 +1,6 @@
+nltk.tag.PerceptronTagger.evaluate
+==================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: PerceptronTagger.evaluate

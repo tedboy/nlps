@@ -1,0 +1,6 @@
+:func:`nltk.parse.extract_test_sentences`
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. autofunction:: extract_test_sentences

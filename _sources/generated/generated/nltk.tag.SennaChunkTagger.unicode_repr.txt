@@ -1,0 +1,6 @@
+nltk.tag.SennaChunkTagger.unicode_repr
+======================================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: SennaChunkTagger.unicode_repr

@@ -1,0 +1,42 @@
+:class:`nltk.sem.FStructure`
+============================
+.. currentmodule:: nltk.sem
+.. autoclass:: FStructure
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~FStructure.clear
+   ~FStructure.copy
+   ~FStructure.fromkeys
+   ~FStructure.get
+   ~FStructure.has_key
+   ~FStructure.items
+   ~FStructure.iteritems
+   ~FStructure.iterkeys
+   ~FStructure.itervalues
+   ~FStructure.keys
+   ~FStructure.pop
+   ~FStructure.popitem
+   ~FStructure.pretty_format
+   ~FStructure.read_depgraph
+   ~FStructure.safeappend
+   ~FStructure.setdefault
+   ~FStructure.to_depgraph
+   ~FStructure.to_glueformula_list
+   ~FStructure.unicode_repr
+   ~FStructure.update
+   ~FStructure.values
+   ~FStructure.viewitems
+   ~FStructure.viewkeys
+   ~FStructure.viewvalues
+
+
+
+
+

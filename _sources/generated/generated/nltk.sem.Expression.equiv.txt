@@ -1,0 +1,6 @@
+nltk.sem.Expression.equiv
+=========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.equiv

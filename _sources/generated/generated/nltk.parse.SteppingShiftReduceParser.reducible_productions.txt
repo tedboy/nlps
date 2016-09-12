@@ -1,0 +1,6 @@
+nltk.parse.SteppingShiftReduceParser.reducible_productions
+==========================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: SteppingShiftReduceParser.reducible_productions

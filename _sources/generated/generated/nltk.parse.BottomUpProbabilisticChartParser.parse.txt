@@ -1,0 +1,6 @@
+nltk.parse.BottomUpProbabilisticChartParser.parse
+=================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: BottomUpProbabilisticChartParser.parse

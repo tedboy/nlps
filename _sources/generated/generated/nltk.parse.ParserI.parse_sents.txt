@@ -1,0 +1,6 @@
+nltk.parse.ParserI.parse_sents
+==============================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ParserI.parse_sents

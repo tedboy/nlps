@@ -1,0 +1,6 @@
+nltk.parse.DependencyGraph.get_cycle_path
+=========================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: DependencyGraph.get_cycle_path

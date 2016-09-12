@@ -1,0 +1,6 @@
+nltk.tokenize.BlanklineTokenizer.unicode_repr
+=============================================
+
+.. currentmodule:: nltk.tokenize
+
+.. automethod:: BlanklineTokenizer.unicode_repr

@@ -1,0 +1,6 @@
+nltk.stem.RSLPStemmer.read_rule
+===============================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: RSLPStemmer.read_rule

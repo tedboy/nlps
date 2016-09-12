@@ -1,0 +1,28 @@
+:class:`nltk.stem.SnowballStemmer`
+==================================
+.. currentmodule:: nltk.stem
+.. autoclass:: SnowballStemmer
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~SnowballStemmer.__init__
+   ~SnowballStemmer.stem
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~SnowballStemmer.languages
+

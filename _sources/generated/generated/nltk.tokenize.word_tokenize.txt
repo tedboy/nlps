@@ -1,0 +1,6 @@
+:func:`nltk.tokenize.word_tokenize`
+===================================
+
+.. currentmodule:: nltk.tokenize
+
+.. autofunction:: word_tokenize

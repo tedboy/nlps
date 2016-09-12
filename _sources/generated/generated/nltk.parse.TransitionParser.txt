@@ -1,0 +1,34 @@
+:class:`nltk.parse.TransitionParser`
+====================================
+.. currentmodule:: nltk.parse
+.. autoclass:: TransitionParser
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~TransitionParser.__init__
+   ~TransitionParser.grammar
+   ~TransitionParser.parse
+   ~TransitionParser.parse_all
+   ~TransitionParser.parse_one
+   ~TransitionParser.parse_sents
+   ~TransitionParser.train
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~TransitionParser.ARC_EAGER
+   ~TransitionParser.ARC_STANDARD
+

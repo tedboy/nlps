@@ -1,0 +1,6 @@
+nltk.tag.StanfordTagger.parse_output
+====================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: StanfordTagger.parse_output

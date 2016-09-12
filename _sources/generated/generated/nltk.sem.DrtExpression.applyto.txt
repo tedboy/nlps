@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.applyto
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.applyto

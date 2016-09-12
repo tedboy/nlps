@@ -1,0 +1,6 @@
+nltk.chunk.RegexpParser.grammar
+===============================
+
+.. currentmodule:: nltk.chunk
+
+.. automethod:: RegexpParser.grammar

@@ -1,0 +1,38 @@
+:class:`nltk.tag.BigramTagger`
+==============================
+.. currentmodule:: nltk.tag
+.. autoclass:: BigramTagger
+   :undoc-members:
+
+
+Methods
+-------
+.. autosummary::
+   :toctree:
+
+
+   ~BigramTagger.__init__
+   ~BigramTagger.choose_tag
+   ~BigramTagger.context
+   ~BigramTagger.decode_json_obj
+   ~BigramTagger.encode_json_obj
+   ~BigramTagger.evaluate
+   ~BigramTagger.size
+   ~BigramTagger.tag
+   ~BigramTagger.tag_one
+   ~BigramTagger.tag_sents
+   ~BigramTagger.unicode_repr
+
+
+
+
+
+Attributes
+----------
+.. autosummary::
+  :toctree:
+
+
+   ~BigramTagger.backoff
+   ~BigramTagger.json_tag
+

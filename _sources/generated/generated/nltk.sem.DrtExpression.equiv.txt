@@ -1,0 +1,6 @@
+nltk.sem.DrtExpression.equiv
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: DrtExpression.equiv

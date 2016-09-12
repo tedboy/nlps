@@ -1,0 +1,6 @@
+nltk.parse.ProbabilisticNonprojectiveParser.collapse_nodes
+==========================================================
+
+.. currentmodule:: nltk.parse
+
+.. automethod:: ProbabilisticNonprojectiveParser.collapse_nodes

@@ -1,0 +1,6 @@
+nltk.sem.Expression.normalize
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.normalize

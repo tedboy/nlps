@@ -1,0 +1,6 @@
+nltk.tag.SennaNERTagger.evaluate
+================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaNERTagger.evaluate

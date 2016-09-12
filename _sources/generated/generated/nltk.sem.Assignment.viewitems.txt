@@ -1,0 +1,6 @@
+nltk.sem.Assignment.viewitems
+=============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Assignment.viewitems

@@ -1,0 +1,6 @@
+nltk.sem.Model.i
+================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Model.i

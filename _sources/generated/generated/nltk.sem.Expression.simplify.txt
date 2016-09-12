@@ -1,0 +1,6 @@
+nltk.sem.Expression.simplify
+============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.simplify

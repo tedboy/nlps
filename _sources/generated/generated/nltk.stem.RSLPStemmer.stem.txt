@@ -1,0 +1,6 @@
+nltk.stem.RSLPStemmer.stem
+==========================
+
+.. currentmodule:: nltk.stem
+
+.. automethod:: RSLPStemmer.stem

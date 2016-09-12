@@ -1,0 +1,6 @@
+nltk.sem.Expression.predicates
+==============================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: Expression.predicates

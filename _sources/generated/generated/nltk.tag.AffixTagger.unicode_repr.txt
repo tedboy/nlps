@@ -1,0 +1,6 @@
+nltk.tag.AffixTagger.unicode_repr
+=================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: AffixTagger.unicode_repr

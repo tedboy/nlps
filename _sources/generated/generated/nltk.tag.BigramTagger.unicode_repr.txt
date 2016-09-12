@@ -1,0 +1,6 @@
+nltk.tag.BigramTagger.unicode_repr
+==================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: BigramTagger.unicode_repr

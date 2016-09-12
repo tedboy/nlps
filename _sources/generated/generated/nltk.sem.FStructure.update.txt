@@ -1,0 +1,6 @@
+nltk.sem.FStructure.update
+==========================
+
+.. currentmodule:: nltk.sem
+
+.. automethod:: FStructure.update

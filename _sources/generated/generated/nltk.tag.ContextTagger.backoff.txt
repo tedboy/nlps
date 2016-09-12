@@ -1,0 +1,6 @@
+nltk.tag.ContextTagger.backoff
+==============================
+
+.. currentmodule:: nltk.tag
+
+.. autoattribute:: ContextTagger.backoff

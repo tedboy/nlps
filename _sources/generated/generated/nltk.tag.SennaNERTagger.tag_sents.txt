@@ -1,0 +1,6 @@
+nltk.tag.SennaNERTagger.tag_sents
+=================================
+
+.. currentmodule:: nltk.tag
+
+.. automethod:: SennaNERTagger.tag_sents
